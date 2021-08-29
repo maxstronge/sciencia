@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "a98d554006554e5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "db40400bc0c1cc7d",
+        "type": "leaf",
+        "dimension": 43.24324324324324,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
+            "mode": "source"
+          }
+        },
+        "group": "c5584d1d0eafe100"
+      },
+      {
+        "id": "c2b739202b21f64e",
+        "type": "leaf",
+        "dimension": 56.75675675675676,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
+            "mode": "preview"
+          }
+        },
+        "group": "c5584d1d0eafe100"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8061e04aba1f234c",
+    "type": "split",
+    "children": [
+      {
+        "id": "39bfc459900e04ba",
+        "type": "tabs",
+        "dimension": 70.88353413654619,
+        "children": [
+          {
+            "id": "ee6d2bdc75e3edee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ddfe78ddb15101f0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#inertia_tensor",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "65b0c1c933f7decf",
+        "type": "tabs",
+        "dimension": 29.116465863453815,
+        "children": [
+          {
+            "id": "4ddee9e36834d202",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3f4997e087c80ebf",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 443
+  },
+  "right": {
+    "id": "d096a09190251c2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4166eb14b8d8d9d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47784f8ba03a045b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "49824d4eb0f4a056",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "7bda5265672c15a3",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "db40400bc0c1cc7d",
+  "lastOpenFiles": [
+    "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Special Theory of Relativity/_The Special Theory of Relativity.md",
+    "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/_Vector Spaces.md",
+    "Notes/Mathematics/Linear Algebra Index.md",
+    "Notes/Mathematics/Mathematics Index.md",
+    "Notes/Mathematics/Calculus Index.md",
+    "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/Untitled.md",
+    "Notes/Mathematics/Study/Zill's Advanced Engineering Mathematics/Ordinary Differential Equations/Introduction to Differential Equations/1.1 - Definitions and Terminology.md",
+    "Notes/Mathematics/Study/Zill's Advanced Engineering Mathematics/Ordinary Differential Equations/Introduction to Differential Equations/_Introduction to Differential Equations.md",
+    "Notes/Mathematics/Study/Zill's Advanced Engineering Mathematics/Ordinary Differential Equations/_Ordinary Differential Equations.md"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism and Thermal Physics/Thermal\"",
+      "color": {
+        "a": 1,
+        "rgb": 11337728
+      }
+    },
+    {
+      "query": "path:\"Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism and Thermal Physics/EM\"",
+      "color": {
+        "a": 1,
+        "rgb": 16768256
+      }
+    },
+    {
+      "query": "path:\"Notes/Physics/Courses/PHYS343 - Classical Mechanics II\"",
+      "color": {
+        "a": 1,
+        "rgb": 83137
+      }
+    },
+    {
+      "query": "path:\"Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics\"",
+      "color": {
+        "a": 1,
+        "rgb": 13107414
+      }
+    },
+    {
+      "query": "path:Notes/Mathematics",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -1.4,
+  "nodeSizeMultiplier": 1.69145299145299,
+  "lineSizeMultiplier": 0.476923076923077,
+  "collapse-forces": false,
+  "centerStrength": 0.307692307692308,
+  "repelStrength": 15.8974358974359,
+  "linkStrength": 0.581196581196581,
+  "linkDistance": 359,
+  "scale": 0.02152871844243035,
+  "close": true
+}
