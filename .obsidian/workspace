@@ -4,30 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "db40400bc0c1cc7d",
+        "id": "c2b739202b21f64e",
         "type": "leaf",
-        "dimension": 43.24324324324324,
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
             "mode": "source"
-          }
+          },
+          "pinned": true
         },
-        "group": "c5584d1d0eafe100"
+        "group": "f9c9d48c0dff715b"
       },
       {
-        "id": "c2b739202b21f64e",
+        "id": "f156b6b8f246d8a8",
         "type": "leaf",
-        "dimension": 56.75675675675676,
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
             "mode": "preview"
-          }
+          },
+          "pinned": true
         },
-        "group": "c5584d1d0eafe100"
+        "group": "f9c9d48c0dff715b"
       }
     ],
     "direction": "vertical"
@@ -145,9 +147,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "db40400bc0c1cc7d",
+  "active": "c2b739202b21f64e",
   "lastOpenFiles": [
     "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
+    "Pasted image 20210830100228.png",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Special Theory of Relativity/_The Special Theory of Relativity.md",
     "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/_Vector Spaces.md",
     "Notes/Mathematics/Linear Algebra Index.md",
@@ -155,7 +158,6 @@
     "Notes/Mathematics/Calculus Index.md",
     "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/Untitled.md",
     "Notes/Mathematics/Study/Zill's Advanced Engineering Mathematics/Ordinary Differential Equations/Introduction to Differential Equations/1.1 - Definitions and Terminology.md",
-    "Notes/Mathematics/Study/Zill's Advanced Engineering Mathematics/Ordinary Differential Equations/Introduction to Differential Equations/_Introduction to Differential Equations.md",
-    "Notes/Mathematics/Study/Zill's Advanced Engineering Mathematics/Ordinary Differential Equations/_Ordinary Differential Equations.md"
+    "Notes/Mathematics/Study/Zill's Advanced Engineering Mathematics/Ordinary Differential Equations/Introduction to Differential Equations/_Introduction to Differential Equations.md"
   ]
 }
