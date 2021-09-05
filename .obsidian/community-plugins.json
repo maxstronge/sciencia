@@ -2,7 +2,7 @@
   "obsidian-autocomplete-plugin",
   "juggl",
   "obsidian-markdown-formatting-assistant-plugin",
-  "obsidian-git",
   "obsidian-latex",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-git"
 ]
