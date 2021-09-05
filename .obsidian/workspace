@@ -4,24 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "0b3899fa5a441652",
+        "id": "8803d7c862186f98",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/5.5 - The Quantum Mechanical Simple Harmonic Oscillator.md",
+            "file": "Notes/Mathematics/Linear Algebra Index.md",
             "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "35abc9e6cab33f8a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "conflict-files-obsidian-git.md",
-            "mode": "source"
           }
         }
       }
@@ -107,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Notes/Mathematics/Linear Algebra Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,12 +111,28 @@
             "id": "49824d4eb0f4a056",
             "type": "leaf",
             "state": {
-              "type": "juggl_nodes",
+              "type": "empty",
               "state": {}
             }
           },
           {
             "id": "7bda5265672c15a3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "21487db72b35ca3a",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "6cd68a13072efcfa",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -141,17 +146,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "35abc9e6cab33f8a",
+  "active": "8803d7c862186f98",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/5.5 - The Quantum Mechanical Simple Harmonic Oscillator.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/_The Schrödinger Equation.md",
-    "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
-    "Excalidraw/Drawing 2021-09-01 23.51.29.excalidraw.md",
-    "README.md",
-    "Pasted image 20210830100228.png",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Special Theory of Relativity/_The Special Theory of Relativity.md",
+    "Notes/Mathematics/Linear Algebra Index.md",
+    "Notes/Mathematics/Mathematics Index.md",
+    "Notes/Physics/Thermal Physics Index.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Null Space, Subspaces/Untitled.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Untitled.md",
+    "Notes/Physics/Electromagnetism Index.md",
+    "Notes/Physics/Astrophysics Index.md",
     "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/_Vector Spaces.md",
-    "Notes/Mathematics/Linear Algebra Index.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Null Space, Subspaces/Image Space and Nullspace 1.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Null Space, Subspaces/Span 1.md"
   ]
 }

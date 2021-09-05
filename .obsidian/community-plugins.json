@@ -1,16 +1,9 @@
 [
+  "obsidian-git",
   "obsidian-autocomplete-plugin",
+  "obsidian-discordrpc",
+  "obsidian-latex",
   "juggl",
   "obsidian-markdown-formatting-assistant-plugin",
-<<<<<<< HEAD
-  "obsidian-git",
-  "obsidian-latex",
-  "obsidian-discordrpc",
-  "obsidian-pandoc",
-  "obsidian-excalidraw-plugin"
-=======
-  "obsidian-latex",
-  "obsidian-excalidraw-plugin",
-  "obsidian-git"
->>>>>>> 84f09ec8594d9c55a7c19a381a84215de943e1f3
+  "obsidian-pandoc"
 ]
