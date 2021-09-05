@@ -14,22 +14,7 @@
             "mode": "source"
           },
           "pinned": true
-        },
-        "group": "f9c9d48c0dff715b"
-      },
-      {
-        "id": "f156b6b8f246d8a8",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
-            "mode": "preview"
-          },
-          "pinned": true
-        },
-        "group": "f9c9d48c0dff715b"
+        }
       }
     ],
     "direction": "vertical"
@@ -41,7 +26,7 @@
       {
         "id": "39bfc459900e04ba",
         "type": "tabs",
-        "dimension": 70.88353413654619,
+        "dimension": 51.47347740667977,
         "children": [
           {
             "id": "ee6d2bdc75e3edee",
@@ -71,7 +56,7 @@
       {
         "id": "65b0c1c933f7decf",
         "type": "tabs",
-        "dimension": 29.116465863453815,
+        "dimension": 48.52652259332024,
         "children": [
           {
             "id": "4ddee9e36834d202",
@@ -97,18 +82,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 443
+    "width": 203.00338745117188
   },
   "right": {
     "id": "d096a09190251c2a",
     "type": "split",
     "children": [
       {
-        "id": "d4166eb14b8d8d9d",
+        "id": "92185b8f7f4de7ec",
         "type": "tabs",
         "children": [
           {
-            "id": "47784f8ba03a045b",
+            "id": "7349e90356c27826",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -125,7 +110,7 @@
             }
           },
           {
-            "id": "49824d4eb0f4a056",
+            "id": "0b36bea45a499601",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -133,7 +118,7 @@
             }
           },
           {
-            "id": "7bda5265672c15a3",
+            "id": "586cf486254cadbd",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
