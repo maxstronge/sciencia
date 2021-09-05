@@ -8,51 +8,51 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:\"Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism and Thermal Physics/Thermal\"",
-      "color": {
-        "a": 1,
-        "rgb": 11337728
-      }
-    },
-    {
-      "query": "path:\"Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism and Thermal Physics/EM\"",
-      "color": {
-        "a": 1,
-        "rgb": 16768256
-      }
-    },
-    {
       "query": "path:\"Notes/Physics/Courses/PHYS343 - Classical Mechanics II\"",
       "color": {
         "a": 1,
-        "rgb": 83137
+        "rgb": 2531807
+      }
+    },
+    {
+      "query": "path:\"Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics\"",
+      "color": {
+        "a": 1,
+        "rgb": 7346050
+      }
+    },
+    {
+      "query": "path:\"Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism and Thermal Physics\"",
+      "color": {
+        "a": 1,
+        "rgb": 15130679
       }
     },
     {
       "query": "path:\"Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics\"",
       "color": {
         "a": 1,
-        "rgb": 13107414
+        "rgb": 9641759
       }
     },
     {
-      "query": "path:Notes/Mathematics",
+      "query": "path:",
       "color": {
         "a": 1,
-        "rgb": 16777215
+        "rgb": 5431473
       }
     }
   ],
-  "collapse-display": true,
-  "showArrow": false,
-  "textFadeMultiplier": -1.4,
-  "nodeSizeMultiplier": 1.69145299145299,
-  "lineSizeMultiplier": 0.476923076923077,
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 1,
+  "nodeSizeMultiplier": 1.61333960625362,
+  "lineSizeMultiplier": 0.977786624203822,
   "collapse-forces": false,
-  "centerStrength": 0.188034188034188,
-  "repelStrength": 12.6495726495727,
-  "linkStrength": 0.675213675213675,
-  "linkDistance": 251,
-  "scale": 0.02152871844243035,
+  "centerStrength": 0.355167921250724,
+  "repelStrength": 13.310654313839,
+  "linkStrength": 0.447814128546613,
+  "linkDistance": 500,
+  "scale": 0.04397092312335191,
   "close": true
 }
