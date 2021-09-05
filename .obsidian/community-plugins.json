@@ -3,5 +3,8 @@
   "juggl",
   "obsidian-markdown-formatting-assistant-plugin",
   "obsidian-git",
-  "obsidian-latex"
+  "obsidian-latex",
+  "obsidian-discordrpc",
+  "obsidian-pandoc",
+  "obsidian-excalidraw-plugin"
 ]

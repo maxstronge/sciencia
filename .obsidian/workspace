@@ -4,32 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c2b739202b21f64e",
+        "id": "0b3899fa5a441652",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
-            "mode": "source"
-          },
-          "pinned": true
-        },
-        "group": "f9c9d48c0dff715b"
-      },
-      {
-        "id": "f156b6b8f246d8a8",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
+            "file": "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/5.5 - The Quantum Mechanical Simple Harmonic Oscillator.md",
             "mode": "preview"
-          },
-          "pinned": true
-        },
-        "group": "f9c9d48c0dff715b"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -57,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#inertia_tensor",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 443
+    "width": 577
   },
   "right": {
     "id": "d096a09190251c2a",
@@ -113,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
+                "file": "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/5.5 - The Quantum Mechanical Simple Harmonic Oscillator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,17 +130,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c2b739202b21f64e",
+  "active": "0b3899fa5a441652",
   "lastOpenFiles": [
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/5.5 - The Quantum Mechanical Simple Harmonic Oscillator.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/_The Schrödinger Equation.md",
     "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
+    "Excalidraw/Drawing 2021-09-01 23.51.29.excalidraw.md",
+    "README.md",
     "Pasted image 20210830100228.png",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Special Theory of Relativity/_The Special Theory of Relativity.md",
     "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/_Vector Spaces.md",
     "Notes/Mathematics/Linear Algebra Index.md",
-    "Notes/Mathematics/Mathematics Index.md",
-    "Notes/Mathematics/Calculus Index.md",
-    "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/Untitled.md",
-    "Notes/Mathematics/Study/Zill's Advanced Engineering Mathematics/Ordinary Differential Equations/Introduction to Differential Equations/1.1 - Definitions and Terminology.md",
-    "Notes/Mathematics/Study/Zill's Advanced Engineering Mathematics/Ordinary Differential Equations/Introduction to Differential Equations/_Introduction to Differential Equations.md"
+    "Notes/Mathematics/Mathematics Index.md"
   ]
 }
