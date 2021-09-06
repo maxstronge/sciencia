@@ -4,16 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "c2b739202b21f64e",
+        "id": "cb016ad1a56a586c",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
+            "file": "Notes/Mathematics/Calculus Index.md",
             "mode": "source"
-          },
-          "pinned": true
+          }
         }
       }
     ],
@@ -26,7 +24,7 @@
       {
         "id": "39bfc459900e04ba",
         "type": "tabs",
-        "dimension": 51.47347740667977,
+        "dimension": 60.70726915520628,
         "children": [
           {
             "id": "ee6d2bdc75e3edee",
@@ -56,7 +54,7 @@
       {
         "id": "65b0c1c933f7decf",
         "type": "tabs",
-        "dimension": 48.526522593320244,
+        "dimension": 39.29273084479371,
         "children": [
           {
             "id": "4ddee9e36834d202",
@@ -82,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.00338745117188
+    "width": 340.0033874511719
   },
   "right": {
     "id": "d096a09190251c2a",
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
+                "file": "Notes/Mathematics/Calculus Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,15 +130,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c2b739202b21f64e",
+  "active": "cb016ad1a56a586c",
   "lastOpenFiles": [
+    "Notes/Mathematics/Calculus Index.md",
+    "Notes/Mathematics/Linear Algebra Index.md",
     "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
     "Pasted image 20210830100228.png",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Special Theory of Relativity/_The Special Theory of Relativity.md",
     "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/_Vector Spaces.md",
-    "Notes/Mathematics/Linear Algebra Index.md",
     "Notes/Mathematics/Mathematics Index.md",
-    "Notes/Mathematics/Calculus Index.md",
     "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/Untitled.md",
     "Notes/Mathematics/Study/Zill's Advanced Engineering Mathematics/Ordinary Differential Equations/Introduction to Differential Equations/1.1 - Definitions and Terminology.md",
     "Notes/Mathematics/Study/Zill's Advanced Engineering Mathematics/Ordinary Differential Equations/Introduction to Differential Equations/_Introduction to Differential Equations.md"
