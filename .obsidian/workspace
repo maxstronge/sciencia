@@ -13,6 +13,14 @@
             "mode": "source"
           }
         }
+      },
+      {
+        "id": "8a43365eb801730e",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -96,7 +104,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Calculus Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,8 +137,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cb016ad1a56a586c",
+  "active": "8a43365eb801730e",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Notes/Mathematics/Calculus Index.md",
     "Notes/Mathematics/Linear Algebra Index.md",
     "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
@@ -140,7 +148,6 @@
     "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/_Vector Spaces.md",
     "Notes/Mathematics/Mathematics Index.md",
     "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/Untitled.md",
-    "Notes/Mathematics/Study/Zill's Advanced Engineering Mathematics/Ordinary Differential Equations/Introduction to Differential Equations/1.1 - Definitions and Terminology.md",
-    "Notes/Mathematics/Study/Zill's Advanced Engineering Mathematics/Ordinary Differential Equations/Introduction to Differential Equations/_Introduction to Differential Equations.md"
+    "Notes/Mathematics/Study/Zill's Advanced Engineering Mathematics/Ordinary Differential Equations/Introduction to Differential Equations/1.1 - Definitions and Terminology.md"
   ]
 }

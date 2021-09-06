@@ -1,8 +1,9 @@
 [
+  "obsidian-git",
   "obsidian-autocomplete-plugin",
+  "obsidian-discordrpc",
+  "obsidian-latex",
   "juggl",
   "obsidian-markdown-formatting-assistant-plugin",
-  "obsidian-latex",
-  "obsidian-excalidraw-plugin",
-  "obsidian-git"
+  "obsidian-pandoc"
 ]
