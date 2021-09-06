@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Linear Algebra Index.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
             "mode": "preview"
           }
         }
@@ -24,7 +24,7 @@
       {
         "id": "39bfc459900e04ba",
         "type": "tabs",
-        "dimension": 70.88353413654619,
+        "dimension": 68.07228915662651,
         "children": [
           {
             "id": "ee6d2bdc75e3edee",
@@ -54,7 +54,7 @@
       {
         "id": "65b0c1c933f7decf",
         "type": "tabs",
-        "dimension": 29.116465863453815,
+        "dimension": 31.92771084337349,
         "children": [
           {
             "id": "4ddee9e36834d202",
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 577
+    "width": 620
   },
   "right": {
     "id": "d096a09190251c2a",
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Linear Algebra Index.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,6 +148,8 @@
   },
   "active": "8803d7c862186f98",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/_SPAN, IMAGE SPACE, NULLSPACE, SUBSPACES.md",
     "Notes/Mathematics/Linear Algebra Index.md",
     "Notes/Mathematics/Mathematics Index.md",
     "Notes/Physics/Thermal Physics Index.md",
@@ -155,8 +157,6 @@
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Untitled.md",
     "Notes/Physics/Electromagnetism Index.md",
     "Notes/Physics/Astrophysics Index.md",
-    "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/_Vector Spaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Null Space, Subspaces/Image Space and Nullspace 1.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Null Space, Subspaces/Span 1.md"
+    "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/_Vector Spaces.md"
   ]
 }
