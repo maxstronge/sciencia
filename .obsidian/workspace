@@ -4,15 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "8803d7c862186f98",
+        "id": "4cfbbbbc3ab6c77e",
         "type": "leaf",
+        "dimension": 39.57055214723926,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
+            "mode": "source"
+          }
+        },
+        "group": "d8ece42dca2061e3"
+      },
+      {
+        "id": "ea3e36ff920906cc",
+        "type": "leaf",
+        "dimension": 60.42944785276073,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "d8ece42dca2061e3"
       }
     ],
     "direction": "vertical"
@@ -24,7 +39,7 @@
       {
         "id": "39bfc459900e04ba",
         "type": "tabs",
-        "dimension": 68.07228915662651,
+        "dimension": 60.70726915520629,
         "children": [
           {
             "id": "ee6d2bdc75e3edee",
@@ -40,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#inertia_tensor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,7 +69,7 @@
       {
         "id": "65b0c1c933f7decf",
         "type": "tabs",
-        "dimension": 31.92771084337349,
+        "dimension": 39.29273084479371,
         "children": [
           {
             "id": "4ddee9e36834d202",
@@ -80,23 +95,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 620
+    "width": 231.00338745117188
   },
   "right": {
     "id": "d096a09190251c2a",
     "type": "split",
     "children": [
       {
-        "id": "d4166eb14b8d8d9d",
+        "id": "92185b8f7f4de7ec",
         "type": "tabs",
         "children": [
           {
-            "id": "47784f8ba03a045b",
+            "id": "7349e90356c27826",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,23 +123,7 @@
             }
           },
           {
-            "id": "49824d4eb0f4a056",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "7bda5265672c15a3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "21487db72b35ca3a",
+            "id": "0b36bea45a499601",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -132,7 +131,7 @@
             }
           },
           {
-            "id": "6cd68a13072efcfa",
+            "id": "586cf486254cadbd",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -146,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8803d7c862186f98",
+  "active": "4cfbbbbc3ab6c77e",
   "lastOpenFiles": [
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/_SPAN, IMAGE SPACE, NULLSPACE, SUBSPACES.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
+    "Notes/Mathematics/Calculus Index.md",
+    "conflict-files-obsidian-git.md",
     "Notes/Mathematics/Linear Algebra Index.md",
-    "Notes/Mathematics/Mathematics Index.md",
-    "Notes/Physics/Thermal Physics Index.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Null Space, Subspaces/Untitled.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Untitled.md",
-    "Notes/Physics/Electromagnetism Index.md",
-    "Notes/Physics/Astrophysics Index.md",
-    "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/_Vector Spaces.md"
+    "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/1.A - Real and Complex Numbers.md",
+    "Pasted image 20210830100228.png",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Special Theory of Relativity/_The Special Theory of Relativity.md",
+    "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/_Vector Spaces.md",
+    "Notes/Mathematics/Mathematics Index.md"
   ]
 }
