@@ -13,5 +13,11 @@
     "translational",
     "translationally"
   ],
-  "attachmentFolderPath": "Images"
+  "attachmentFolderPath": "Images",
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

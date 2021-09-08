@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "afd09274505c93df",
+        "id": "b1431c2673bebd62",
         "type": "leaf",
-        "dimension": 41.65517241379311,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
             "mode": "source"
           }
         },
-        "group": "6f28d2b33f3e6804"
+        "group": "581c4fa5107e2c47"
       },
       {
-        "id": "9b9efe9df9c9fbc5",
+        "id": "c1d1fc75d8fc0ab7",
         "type": "leaf",
-        "dimension": 58.34482758620689,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
             "mode": "preview"
           }
         },
-        "group": "6f28d2b33f3e6804"
+        "group": "581c4fa5107e2c47"
       }
     ],
     "direction": "vertical"
@@ -95,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.0033874511719
+    "width": 295.0033874511719,
+    "collapsed": true
   },
   "right": {
     "id": "d096a09190251c2a",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,25 +136,33 @@
               "type": "juggl_style",
               "state": {}
             }
+          },
+          {
+            "id": "cebbedbf602e57e5",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 290.1957702636719,
     "collapsed": true
   },
-  "active": "afd09274505c93df",
+  "active": "c1d1fc75d8fc0ab7",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Review of Important Matrix Properties.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Proof Assignment Week 1.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/_The Schrödinger Equation.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/Many-Electron Atoms/_Many-Electron Atoms.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/Intro Lecture.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/SPHERICAL ASTRONOMY/_Spherical Astronomy.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRO TO COURSE/Intro Lecture.md",
-    "conflict-files-obsidian-git.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRO TO COURSE/Intro to ASPH.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRO TO COURSE/Untitled.md",
-    "_INTRO TO COURSE AND PROOFS].md",
-    "Notes/Mathematics/Linear Algebra Index.md"
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRO TO COURSE/Intro Lecture.md"
   ]
 }
