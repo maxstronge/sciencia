@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
             "mode": "source"
           }
         }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,6 +148,8 @@
   },
   "active": "8803d7c862186f98",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Direct Proof and Examples.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/_SPAN, IMAGE SPACE, NULLSPACE, SUBSPACES.md",
     "Notes/Mathematics/Linear Algebra Index.md",
@@ -155,8 +157,6 @@
     "Notes/Physics/Thermal Physics Index.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Null Space, Subspaces/Untitled.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Untitled.md",
-    "Notes/Physics/Electromagnetism Index.md",
-    "Notes/Physics/Astrophysics Index.md",
-    "Notes/Mathematics/Study/Axler's Linear Algebra Done Right/Vector Spaces/_Vector Spaces.md"
+    "Notes/Physics/Electromagnetism Index.md"
   ]
 }
