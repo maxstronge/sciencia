@@ -16,3 +16,26 @@
 
 
 ***
+
+#### Lecture 1:
+
+MATH367 covers **multivariable** and **vector** calculus. 
+
+- Functions of several variables:
+	- $x,\,y$
+	- $x,\,y,\,z$
+	- $x,\,y,\,z,\,t$
+	- $(x_1,x_2,\dots,x_n)$
+
+
+- Spaces associated to functions: 
+
+$$\text{domain} \overset{f}\to \text{range} $$
+
+- zero-sets of functions:
+	- $\{ \vec{x}:f(\vec{x}) = 0\},\{ \vec{x}:f(\vec{x}) = c\}$, etc.
+	
+	
+
+- functions often defined by equations/zeros
+- Recap: this course is about **functions** and **spaces**
