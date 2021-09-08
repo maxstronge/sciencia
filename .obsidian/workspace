@@ -6,36 +6,24 @@
       {
         "id": "afd09274505c93df",
         "type": "leaf",
-        "dimension": 18.224932249322492,
+        "dimension": 41.65517241379311,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRO TO COURSE/Intro Lecture.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
             "mode": "source"
           }
         },
         "group": "6f28d2b33f3e6804"
       },
       {
-        "id": "46935fa0ce1b1e77",
-        "type": "leaf",
-        "dimension": 18.224932249322492,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "conflict-files-obsidian-git.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "9b9efe9df9c9fbc5",
         "type": "leaf",
-        "dimension": 63.55013550135501,
+        "dimension": 58.34482758620689,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRO TO COURSE/Intro Lecture.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
             "mode": "preview"
           }
         },
@@ -51,7 +39,7 @@
       {
         "id": "39bfc459900e04ba",
         "type": "tabs",
-        "dimension": 60.70726915520629,
+        "dimension": 60.70726915520628,
         "children": [
           {
             "id": "ee6d2bdc75e3edee",
@@ -107,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.0033874511719,
-    "collapsed": true
+    "width": 276.0033874511719
   },
   "right": {
     "id": "d096a09190251c2a",
@@ -124,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRO TO COURSE/Intro Lecture.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9b9efe9df9c9fbc5",
+  "active": "afd09274505c93df",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/Intro Lecture.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/SPHERICAL ASTRONOMY/_Spherical Astronomy.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRO TO COURSE/Intro Lecture.md",
     "conflict-files-obsidian-git.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRO TO COURSE/Intro to ASPH.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRO TO COURSE/Untitled.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/SPHERICAL ASTRONOMY/_Spherical Astronomy.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
     "_INTRO TO COURSE AND PROOFS].md",
-    "Notes/Mathematics/Linear Algebra Index.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Untitled.md",
-    "Notes/Physics/Astrophysics Index.md"
+    "Notes/Mathematics/Linear Algebra Index.md"
   ]
 }
