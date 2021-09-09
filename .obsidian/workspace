@@ -6,11 +6,11 @@
       {
         "id": "8803d7c862186f98",
         "type": "leaf",
-        "dimension": 49.51612903225807,
+        "dimension": 44.08284023668639,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/LINEAR ALGEBRA REVIEW/Systems of Linear Equations and Elementary Operations.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "31b636558ed497fc",
         "type": "leaf",
-        "dimension": 50.48387096774193,
+        "dimension": 55.917159763313606,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/LINEAR ALGEBRA REVIEW/Systems of Linear Equations and Elementary Operations.md",
             "mode": "preview"
           }
         },
@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 620
+    "width": 508
   },
   "right": {
     "id": "d096a09190251c2a",
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/LINEAR ALGEBRA REVIEW/Systems of Linear Equations and Elementary Operations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,6 +163,8 @@
   },
   "active": "8803d7c862186f98",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/LINEAR ALGEBRA REVIEW/Systems of Linear Equations and Elementary Operations.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/LINEAR ALGEBRA REVIEW/Untitled.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vectors and Geometry in 2 and 3 Dimensions/1.1 - Points.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vectors and Geometry in 2 and 3 Dimensions/_Vectors and Geometry in 2 and 3 Dimensions.md",
@@ -170,8 +172,6 @@
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Proof Assignment Week 1.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Direct Proof and Examples.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Review of Important Matrix Properties.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Untitled.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Untitled.md"
   ]
 }
