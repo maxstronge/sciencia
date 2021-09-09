@@ -43,4 +43,25 @@ The same applies to matrices - instead of operating on the different equations i
 2. Multiply a row by a nonzero number. 
 3. Add a multiple of one row to another.
 
+***
 
+## Gaussian Elimination: 
+
+Our goal in performing *ERO*s on matrices is to put them into a form that makes it trivial to determine a solution. The following definitions identify these forms.
+
+
+> #### **Row-Echelon Form**: 
+>A matrix is said to be in **row-echelon** form, and is called a row-echelon matrix, if it satisfies the following three conditions:
+>1. All **zero rows** are at the bottom.
+>2. The first nonzero entry from the left in each nonzero row is a **1**, called a **leading 1** for that row.
+>3. Each leading 1 is to the right of all leading 1s in the rows above it. 
+
+
+> #### **Reduced Row-Echelon Form**:
+> A row-echelon matrix is in **reduced row-echelon form** (RREF) if it satisfies the following additional condition:
+> - Each leading 1 is the *only* nonzero entry in its column. 
+ 
+
+ ![[Pasted image 20210909160151.png]]
+
+***
