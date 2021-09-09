@@ -4,30 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "b1431c2673bebd62",
+        "id": "8803d7c862186f98",
         "type": "leaf",
-        "dimension": 48.62385321100918,
+        "dimension": 49.51612903225807,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Class Notes.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
             "mode": "source"
           }
         },
-        "group": "581c4fa5107e2c47"
+        "group": "0a33c97a6cb61bc7"
       },
       {
-        "id": "c1d1fc75d8fc0ab7",
+        "id": "31b636558ed497fc",
         "type": "leaf",
-        "dimension": 51.37614678899083,
+        "dimension": 50.48387096774193,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Class Notes.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
             "mode": "preview"
           }
         },
-        "group": "581c4fa5107e2c47"
+        "group": "0a33c97a6cb61bc7"
       }
     ],
     "direction": "vertical"
@@ -39,7 +39,7 @@
       {
         "id": "39bfc459900e04ba",
         "type": "tabs",
-        "dimension": 60.51080550098232,
+        "dimension": 68.07228915662651,
         "children": [
           {
             "id": "ee6d2bdc75e3edee",
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#inertia_tensor",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       {
         "id": "65b0c1c933f7decf",
         "type": "tabs",
-        "dimension": 39.489194499017685,
+        "dimension": 31.92771084337349,
         "children": [
           {
             "id": "4ddee9e36834d202",
@@ -95,23 +95,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.0033874511719
+    "width": 620
   },
   "right": {
     "id": "d096a09190251c2a",
     "type": "split",
     "children": [
       {
-        "id": "92185b8f7f4de7ec",
+        "id": "d4166eb14b8d8d9d",
         "type": "tabs",
         "children": [
           {
-            "id": "7349e90356c27826",
+            "id": "47784f8ba03a045b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Class Notes.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,23 @@
             }
           },
           {
-            "id": "0b36bea45a499601",
+            "id": "49824d4eb0f4a056",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "7bda5265672c15a3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "21487db72b35ca3a",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -131,40 +147,31 @@
             }
           },
           {
-            "id": "586cf486254cadbd",
+            "id": "6cd68a13072efcfa",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
               "state": {}
             }
-          },
-          {
-            "id": "1332ff130439643f",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 290.1957702636719,
+    "width": 300,
     "collapsed": true
   },
-  "active": "b1431c2673bebd62",
+  "active": "8803d7c862186f98",
   "lastOpenFiles": [
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Class Notes.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Untitled.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Course Intro.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vectors and Geometry in 2 and 3 Dimensions/Untitled.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Untitled.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Review of Important Matrix Properties.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vectors and Geometry in 2 and 3 Dimensions/1.1 - Points.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vectors and Geometry in 2 and 3 Dimensions/_Vectors and Geometry in 2 and 3 Dimensions.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Course Intro.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Proof Assignment Week 1.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/_The Schrödinger Equation.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Direct Proof and Examples.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Review of Important Matrix Properties.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Untitled.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md"
   ]
 }
