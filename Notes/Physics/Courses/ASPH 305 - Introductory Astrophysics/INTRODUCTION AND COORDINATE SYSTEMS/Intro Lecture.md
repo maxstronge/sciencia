@@ -20,11 +20,13 @@
 
 ### Appendix:
 
-> Astronomical Units (AU) for solar system distances:
+> **Astronomical Units** (AU) for solar system distances:
 > - 1 **AU** = $1.496\times10^{11}\,m$
 
-> Parsecs for stellar/galactic/extragalactic distances:
+> **Parsecs** for stellar/galactic/extragalactic distances (*somewhat interchangeable with light-years, but parsecs are less arbitrary*):
 > - 1 *pc* =$3.086\times10^{16\,}m$. 
 
-> Masses in units of Solar Masses ($M_\Sun$):
-> - 
+> Masses in units of **Solar Masses ($M_\Sun$):**
+> - 1 $M_\Sun$ = mass of the sun = $1.99\times 10^{30}\,kg$.
+
+***
