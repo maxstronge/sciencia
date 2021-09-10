@@ -9,6 +9,7 @@
   "urlPrefix": "🌐",
   "showLinkBrackets": true,
   "allowCtrlClick": true,
+  "forceWrap": false,
   "pngExportScale": 1,
   "exportWithTheme": true,
   "exportWithBackground": true,
@@ -22,9 +23,5 @@
   "compatibilityMode": false,
   "loadCount": 1,
   "drawingOpenCount": 0,
-<<<<<<< HEAD
-  "library": "{\"type\":\"excalidrawlib\",\"version\":1,\"library\":[[{\"type\":\"line\",\"version\":143,\"versionNonce\":357439597,\"isDeleted\":false,\"id\":\"dO6JLE8MswLDtfk0noWia\",\"fillStyle\":\"hachure\",\"strokeWidth\":1,\"strokeStyle\":\"solid\",\"roughness\":1,\"opacity\":100,\"angle\":0,\"x\":78.57152027480305,\"y\":709.9251075167209,\"strokeColor\":\"#000000\",\"backgroundColor\":\"transparent\",\"width\":475.3934193593264,\"height\":4.975971543788887,\"seed\":1244955703,\"groupIds\":[\"_emEeWl81Fad_2hqX4irl\"],\"strokeSharpness\":\"round\",\"boundElementIds\":[],\"startBinding\":null,\"endBinding\":null,\"lastCommittedPoint\":null,\"startArrowhead\":null,\"endArrowhead\":null,\"points\":[[0,0],[475.3934193593264,4.975971543788887]]},{\"type\":\"line\",\"version\":297,\"versionNonce\":1083158755,\"isDeleted\":false,\"id\":\"n9G3G2WljRkTXLI-hhpKL\",\"fillStyle\":\"hachure\",\"strokeWidth\":1,\"strokeStyle\":\"solid\",\"roughness\":1,\"opacity\":100,\"angle\":0,\"x\":108.5,\"y\":239,\"strokeColor\":\"#000000\",\"backgroundColor\":\"transparent\",\"width\":0,\"height\":491,\"seed\":911832249,\"groupIds\":[\"FVEQ4AEIx158soQIosM4a\",\"_emEeWl81Fad_2hqX4irl\"],\"strokeSharpness\":\"round\",\"boundElementIds\":[],\"startBinding\":null,\"endBinding\":null,\"lastCommittedPoint\":null,\"startArrowhead\":null,\"endArrowhead\":null,\"points\":[[0,0],[0,491]]},{\"type\":\"text\",\"version\":201,\"versionNonce\":371884749,\"isDeleted\":false,\"id\":\"9pxRIRE6\",\"fillStyle\":\"hachure\",\"strokeWidth\":1,\"strokeStyle\":\"solid\",\"roughness\":1,\"opacity\":100,\"angle\":0,\"x\":102.5,\"y\":210,\"strokeColor\":\"#000000\",\"backgroundColor\":\"transparent\",\"width\":9,\"height\":25,\"seed\":1443579673,\"groupIds\":[\"FVEQ4AEIx158soQIosM4a\",\"_emEeWl81Fad_2hqX4irl\"],\"strokeSharpness\":\"sharp\",\"boundElementIds\":[],\"fontSize\":20,\"fontFamily\":1,\"text\":\"y\",\"baseline\":18,\"textAlign\":\"left\",\"verticalAlign\":\"top\"},{\"type\":\"text\",\"version\":200,\"versionNonce\":432905347,\"isDeleted\":false,\"id\":\"qU1feo8B\",\"fillStyle\":\"hachure\",\"strokeWidth\":1,\"strokeStyle\":\"solid\",\"roughness\":1,\"opacity\":100,\"angle\":0,\"x\":556.5,\"y\":700,\"strokeColor\":\"#000000\",\"backgroundColor\":\"transparent\",\"width\":11,\"height\":25,\"seed\":2136237113,\"groupIds\":[\"FVEQ4AEIx158soQIosM4a\",\"_emEeWl81Fad_2hqX4irl\"],\"strokeSharpness\":\"sharp\",\"boundElementIds\":[],\"fontSize\":20,\"fontFamily\":1,\"text\":\"x\",\"baseline\":18,\"textAlign\":\"left\",\"verticalAlign\":\"top\"}]]}"
-=======
   "library": "{\"type\":\"excalidrawlib\",\"version\":1,\"library\":[]}"
->>>>>>> 84f09ec8594d9c55a7c19a381a84215de943e1f3
 }

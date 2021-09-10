@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "b1431c2673bebd62",
+        "id": "b500e02234772253",
         "type": "leaf",
-        "dimension": 33.23139653414883,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Set Theory.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
             "mode": "source"
           }
         },
-        "group": "581c4fa5107e2c47"
+        "group": "b77d3f2fdda182ea"
       },
       {
-        "id": "c1d1fc75d8fc0ab7",
+        "id": "a864f8ca45322f01",
         "type": "leaf",
-        "dimension": 66.76860346585117,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Set Theory.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
             "mode": "preview"
           }
         },
-        "group": "581c4fa5107e2c47"
+        "group": "b77d3f2fdda182ea"
       }
     ],
     "direction": "vertical"
@@ -95,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.0033874511719,
+    "width": 272.0033874511719,
     "collapsed": true
   },
   "right": {
@@ -112,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Set Theory.md",
+                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,17 +153,17 @@
     "width": 290.1957702636719,
     "collapsed": true
   },
-  "active": "b1431c2673bebd62",
+  "active": "b500e02234772253",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Class Notes.md",
+    "Excalidraw/Drawing 2021-09-01 23.51.29.excalidraw.md",
+    "Untitled.md",
+    "Notes/CHEMISTRY/COURSES/Untitled.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Set Theory.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Direct Proof and Examples.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/COORDINATE SYSTEMS.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/Intro Lecture.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/1.3 - The Scale of the Universe.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/_Spherical Astronomy.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/Untitled.md"
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/COORDINATE SYSTEMS.md"
   ]
 }

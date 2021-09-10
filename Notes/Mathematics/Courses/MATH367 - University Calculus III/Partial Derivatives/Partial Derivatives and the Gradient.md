@@ -1,4 +1,4 @@
-# Derivatives:
+# Partial Derivatives and the Gradient:
 
 ***
 
