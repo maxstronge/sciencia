@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
+            "file": "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/4.6 - The Motion of a Wave Packet.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
+            "file": "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/4.6 - The Motion of a Wave Packet.md",
             "mode": "preview"
           }
         },
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
+                "file": "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/4.6 - The Motion of a Wave Packet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,17 +159,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fb26c3f17f76e1ee",
+  "active": "56892377eba35351",
   "lastOpenFiles": [
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Review of Important Matrix Properties.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Set Theory.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vectors and Geometry in 2 and 3 Dimensions/_Vectors and Geometry in 2 and 3 Dimensions.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vectors and Geometry in 2 and 3 Dimensions/1.1 - Points.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/LINEAR ALGEBRA REVIEW/Systems of Linear Equations and Elementary Operations.md",
-    "Excalidraw/Drawing 2021-09-01 23.51.29.excalidraw.md",
-    "Notes/Mathematics/Linear Algebra Index.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/LINEAR ALGEBRA REVIEW/Untitled.md"
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/4.6 - The Motion of a Wave Packet.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/4.5 - Wave Packets.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/4.4 - Heisenberg Uncertainty Relationships.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/4.3 - Uncertainty Relationships for Classical Waves.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/4.2 - Experimental Evidence for De Broglie Waves.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/_The Wavelike Properties of Particles.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/4.1 - De Broglie's Hypothesis.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/5.6 - Steps and Barriers.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/5.4 - Applications of the Schrödinger Equation.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/5.5 - The Quantum Mechanical Simple Harmonic Oscillator.md"
   ]
 }
