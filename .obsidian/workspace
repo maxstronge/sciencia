@@ -7,8 +7,11 @@
         "id": "f5260ae1e109a3bd",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/_The Schrödinger Equation.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -93,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/_The Schrödinger Equation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,15 +148,15 @@
   },
   "active": "f5260ae1e109a3bd",
   "lastOpenFiles": [
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/_The Schrödinger Equation.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/5.1 - The Behaviour of a Wave at a Boundary.md",
+    "Notes/Physics/Physics Index.md",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/4.6 - The Motion of a Wave Packet.md",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/4.5 - Wave Packets.md",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/4.4 - Heisenberg Uncertainty Relationships.md",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/4.3 - Uncertainty Relationships for Classical Waves.md",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/4.2 - Experimental Evidence for De Broglie Waves.md",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/_The Wavelike Properties of Particles.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/4.1 - De Broglie's Hypothesis.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/5.6 - Steps and Barriers.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/5.4 - Applications of the Schrödinger Equation.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/5.5 - The Quantum Mechanical Simple Harmonic Oscillator.md"
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Wave-Like Properties of Particles/4.1 - De Broglie's Hypothesis.md"
   ]
 }
