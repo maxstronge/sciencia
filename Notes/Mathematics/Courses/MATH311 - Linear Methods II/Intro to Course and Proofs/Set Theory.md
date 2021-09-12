@@ -31,4 +31,16 @@ We say that $\bf{A}$ is a **subset** of $\bf{B}$, denoted $\bf{A} \subseteq \bf{
 
 #### Set Operations:
 
-Let $\bf{A}$ and	
+Let $\bf{A}$ and	$\bf{B}$ be subsets of a set $\bf{U}$. 
+
+> 1. **Intersection** ($\bf{A} \cap \bf{B}$): $\bf{A} \cap \bf{B} = \{x \in \bf{U}:x \in \bf{A} \text{ and } x \in \bf{B} \}.$
+
+
+ 
+
+> 2. **Union** ($\bf{A} \cup \bf{B}$): $\{x \in \bf{U}:x \in \bf{A} \text{ or } x \in \bf{B} \}$.
+
+![[Pasted image 20210912150811.png]]
+
+***
+

@@ -1,5 +1,9 @@
 {
   "translucency": true,
   "cssTheme": "Hulk",
+<<<<<<< HEAD
   "baseFontSize": 14
+=======
+  "baseFontSize": 11
+>>>>>>> f38a95981f4699697b4765fc336833679bc19714
 }
