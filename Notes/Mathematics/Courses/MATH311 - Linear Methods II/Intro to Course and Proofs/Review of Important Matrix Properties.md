@@ -27,3 +27,22 @@
 ***
 
 ### Related Theorems and Definitions:
+
+ - If $\bf{A} = \bf{A}^T$, then $\bf{A}$ is called a **symmetric** matrix.
+
+- Let $\bf{A}$ be an $m\times n$ matrix. Then the following statements are equivalent:
+
+> 1. The system $\bf{A}\vec{x} = \vec{b}$ is consistent for every $\vec{b} \in \RR^m$ (*i.e.* has at least one solution $\vec{x}$ for every choice of $\vec{b}$.)
+> 2. rank$(\bf{A}) = m$.
+> 3. col$(\bf{A}) = R^m$.
+
+- Let $\bf{A}$ be an $n \times n$ matrix. Then the following statements are equivalent:
+
+> 1. $\bf{A}^{-1}$ exists.
+> 2. $\det(\bf{A}) \neq 0.$
+> 3. rank$(\bf{A}) = n.$
+> 4. The system $\bf{A}\vec{x} = \vec{b}$ is consistent for every $\vec{b} \in \RR^n$. 
+> 5. The system $\bf{A}\vec{x}=\vec{0}$ has only the trivial solution $\vec{x} = \vec{0}$.
+> 6. $\bf{A}$ can be transformed into the identity matrix $\bf{I}^n$ by performing elementary row operations. 
+
+***
