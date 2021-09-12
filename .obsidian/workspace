@@ -4,9 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "f5260ae1e109a3bd",
+        "id": "62e466aacb61a600",
         "type": "leaf",
-        "dimension": 46.523668639053255,
         "state": {
           "type": "markdown",
           "state": {
@@ -14,12 +13,11 @@
             "mode": "source"
           }
         },
-        "group": "7b35d23440ea6868"
+        "group": "bf49d7698181c9ac"
       },
       {
-        "id": "685349972fe44f5b",
+        "id": "ececa2053c82fa76",
         "type": "leaf",
-        "dimension": 53.47633136094675,
         "state": {
           "type": "markdown",
           "state": {
@@ -27,7 +25,7 @@
             "mode": "preview"
           }
         },
-        "group": "7b35d23440ea6868"
+        "group": "bf49d7698181c9ac"
       }
     ],
     "direction": "vertical"
@@ -161,17 +159,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f5260ae1e109a3bd",
+  "active": "ececa2053c82fa76",
   "lastOpenFiles": [
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
-    "Notes/Mathematics/Calculus Index.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Drawing 2021-09-10 14.42.55.excalidraw.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Drawing 2021-09-10 14.33.12.excalidraw.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Drawing 2021-09-10 14.19.49.excalidraw.md",
+    "conflict-files-obsidian-git.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vectors and Geometry in 2 and 3 Dimensions/_Vectors and Geometry in 2 and 3 Dimensions.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Course Intro.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vectors and Geometry in 2 and 3 Dimensions/1.1 - Points.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Set Theory.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Direct Proof and Examples.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/7.3 - The Hydrogen Atom Wave Functions.md"
+    "Notes/Mathematics/Calculus Index.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Course Intro.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vectors and Geometry in 2 and 3 Dimensions/1.1 - Points.md"
   ]
 }
