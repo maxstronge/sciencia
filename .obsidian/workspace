@@ -6,10 +6,11 @@
       {
         "id": "f5260ae1e109a3bd",
         "type": "leaf",
+        "dimension": 46.523668639053255,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Set Theory.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "685349972fe44f5b",
         "type": "leaf",
+        "dimension": 53.47633136094675,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Set Theory.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
             "mode": "preview"
           }
         },
@@ -109,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Set Theory.md",
+                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,15 +163,15 @@
   },
   "active": "f5260ae1e109a3bd",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
+    "Notes/Mathematics/Calculus Index.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vectors and Geometry in 2 and 3 Dimensions/_Vectors and Geometry in 2 and 3 Dimensions.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Course Intro.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vectors and Geometry in 2 and 3 Dimensions/1.1 - Points.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Set Theory.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Logical Operators.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Direct Proof and Examples.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/7.3 - The Hydrogen Atom Wave Functions.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/7.2 - Angular Momentum in the Hydrogen Atom.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/7.5 - Angular Probability Densities.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/7.6 - Intrinsic Spin.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/7.4 - Radial Probability Densities.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/Table of Hydrogen Atom Wave Functions.md"
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/7.3 - The Hydrogen Atom Wave Functions.md"
   ]
 }
