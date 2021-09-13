@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/_SPAN, IMAGE SPACE, NULLSPACE, SUBSPACES.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/_SPAN, IMAGE SPACE, NULLSPACE, SUBSPACES.md",
             "mode": "preview"
           }
         },
@@ -95,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.0033874511719,
-    "collapsed": true
+    "width": 278.0033874511719
   },
   "right": {
     "id": "d096a09190251c2a",
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/_SPAN, IMAGE SPACE, NULLSPACE, SUBSPACES.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,8 +161,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "869c7580f6c2187d",
+  "active": "cee336acb3798fa5",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/_SPAN, IMAGE SPACE, NULLSPACE, SUBSPACES.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/_Spherical Astronomy.md",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/7.3 - The Hydrogen Atom Wave Functions.md",
@@ -172,7 +172,6 @@
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/7.1 - A One-Dimensional Atom.md",
     "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md",
     "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/Untitled.md",
-    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/_Electronic Structure and Periodic Properties of Elements.md",
-    "Notes/Chemistry/Courses/Untitled.md"
+    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/_Electronic Structure and Periodic Properties of Elements.md"
   ]
 }
