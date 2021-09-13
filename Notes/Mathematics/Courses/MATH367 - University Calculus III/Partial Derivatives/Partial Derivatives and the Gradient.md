@@ -158,6 +158,25 @@ Partially differentiate both sides of $f=0$ with respect to *x*:
 ***
 
 
-### The Geometry of Partial Derivatives:
+### Higher Derivatives:
+
+Consider the function $f(x,y) = x e^{x \sin(y^2)}$. The two partial derivatives are:
+
+- $f_x = e^{x \\sin(y^2)}+xe^{x\sin(y^2)}\sin(y^2)$
+- $f_y = xe^{x\sin(y^2)}x\cos(y^2)2y$
+
+These partial derivatives can themselves be differentiated - for example...
+
+> $$(f_x)_x = f_{xx} = e^{x\sin(y^2)}\sin(y^2) + \sin(y^2) \left( e^{x\sin(y^2)} + xe^{x\sin(y^2)}\sin(y^2)\right).$$
+
+The same logic applies to $f_{yy}$. The two successive derivatives taken need not be with respect to the same variable: for example, $f_{xy}$ denotes the partial derivative of $f$ with respect to *x*, differentiated again with respect to *y*. These four derivatives ($f_{xx},\,f_{yy},\,f_{xy},\,f_{yx}$) are the four **second partial derivatives**.
 
 
+
+**Theorem**: if the second partial derivatives of $f(x_1,\dots,x_n)$ are continuous, then: 
+
+> #### $$f_{x_ix_j} = f_{x_jx_i}\,\,[\text{equality of mixed partial derivatives}]$$
+
+There are only very specific situations where this does not hold.
+
+***
