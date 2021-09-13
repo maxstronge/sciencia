@@ -180,3 +180,7 @@ The same logic applies to $f_{yy}$. The two successive derivatives taken need no
 There are only very specific situations where this does not hold.
 
 ***
+### The Multivariable Chain Rule:
+
+***
+
