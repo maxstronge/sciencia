@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "869c7580f6c2187d",
+        "id": "cee336acb3798fa5",
         "type": "leaf",
-        "dimension": 34.96432212028542,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/_SPAN, IMAGE SPACE, NULLSPACE, SUBSPACES.md",
+            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md",
             "mode": "source"
           }
         },
-        "group": "1721b5938528c9a6"
+        "group": "7985be6bed8e5689"
       },
       {
-        "id": "cee336acb3798fa5",
+        "id": "2762d38e1237bbe2",
         "type": "leaf",
-        "dimension": 65.03567787971458,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/_SPAN, IMAGE SPACE, NULLSPACE, SUBSPACES.md",
+            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md",
             "mode": "preview"
           }
         },
-        "group": "1721b5938528c9a6"
+        "group": "7985be6bed8e5689"
       }
     ],
     "direction": "vertical"
@@ -95,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.0033874511719
+    "width": 278.0033874511719,
+    "collapsed": true
   },
   "right": {
     "id": "d096a09190251c2a",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/_SPAN, IMAGE SPACE, NULLSPACE, SUBSPACES.md",
+                "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,15 +162,15 @@
   },
   "active": "cee336acb3798fa5",
   "lastOpenFiles": [
+    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md",
+    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/_Electronic Structure and Periodic Properties of Elements.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Image Space and Nullspace.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/_SPAN, IMAGE SPACE, NULLSPACE, SUBSPACES.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/_Spherical Astronomy.md",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/7.3 - The Hydrogen Atom Wave Functions.md",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/7.2 - Angular Momentum in the Hydrogen Atom.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/_The Hydrogen Atom in Wave Mechanics.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/7.1 - A One-Dimensional Atom.md",
-    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md",
-    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/Untitled.md",
-    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/_Electronic Structure and Periodic Properties of Elements.md"
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/_The Hydrogen Atom in Wave Mechanics.md"
   ]
 }
