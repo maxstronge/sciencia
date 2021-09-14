@@ -30,5 +30,13 @@ Also recall that, to specify a line, we need:
 - a directional vector. 
 
 
-We already have one point that is on both the *normal line* of interest and the *tangent plane* of interest - namely, $(x_0,y_0,z_0)$ . 
+We already have one point that is on both the *normal line* of interest and the *tangent plane* of interest - namely, $(x_0,y_0,z_0)$ . Furthermore, we can use any nonzero vector that is perpendicular to $S$ at $(x_0,y_0,z_0)$  as both the normal vector to our tangent plane and the direction vector to our normal line. 
+
+So our main task is first to determine a normal vector to the surface $S$ at $(x_0,y_0,z_0)$. Let us examine several different cases:
+
+
+*** 
+
+#### Surfaces of the Form $z=f(x,y)$:
+
 
