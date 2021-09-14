@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "cee336acb3798fa5",
+        "id": "135bb2e41af9d33e",
         "type": "leaf",
-        "dimension": 34.6585117227319,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
+            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md",
             "mode": "source"
           }
         },
-        "group": "7985be6bed8e5689"
+        "group": "17e1f359a3339fcf"
       },
       {
-        "id": "2762d38e1237bbe2",
+        "id": "4fcd21e0ac764c7c",
         "type": "leaf",
-        "dimension": 65.34148827726808,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
+            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md",
             "mode": "preview"
           }
         },
-        "group": "7985be6bed8e5689"
+        "group": "17e1f359a3339fcf"
       }
     ],
     "direction": "vertical"
@@ -39,7 +37,7 @@
       {
         "id": "39bfc459900e04ba",
         "type": "tabs",
-        "dimension": 61.315280464216634,
+        "dimension": 68.07228915662651,
         "children": [
           {
             "id": "ee6d2bdc75e3edee",
@@ -69,7 +67,7 @@
       {
         "id": "65b0c1c933f7decf",
         "type": "tabs",
-        "dimension": 38.684719535783366,
+        "dimension": 31.92771084337349,
         "children": [
           {
             "id": "4ddee9e36834d202",
@@ -95,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.0033874511719,
-    "collapsed": true
+    "width": 508
   },
   "right": {
     "id": "d096a09190251c2a",
@@ -112,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
+                "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,17 +159,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cee336acb3798fa5",
+  "active": "135bb2e41af9d33e",
   "lastOpenFiles": [
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Untitled.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
     "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md",
-    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/_Electronic Structure and Periodic Properties of Elements.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Image Space and Nullspace.md",
+    "Notes/Mathematics/Linear Algebra Index.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/_SPAN, IMAGE SPACE, NULLSPACE, SUBSPACES.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/_Spherical Astronomy.md"
+    "Notes/Mathematics/Calculus Index.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/LINEAR ALGEBRA REVIEW/Systems of Linear Equations and Elementary Operations.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Review of Important Matrix Properties.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Drawing 2021-09-10 14.42.55.excalidraw.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Drawing 2021-09-10 14.33.12.excalidraw.md"
   ]
 }
