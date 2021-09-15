@@ -39,4 +39,15 @@ So our main task is first to determine a normal vector to the surface $S$ at $(x
 
 #### Surfaces of the Form $z=f(x,y)$:
 
+We construct a vector perpendicular to the surface $z=f(x,y)$ at $(x_0,y_0,f(x_0,y_0))$ by first constructing two *tangent* vectors to the specified surface at the specified point, and taking the cross product of those two vectors. 
 
+
+
+***
+
+Recall: $y=f(\vec{x}), x\in \RR^n.$
+
+The tangent plane to $y=f(\vec{x})$ at $\vec{x} = \vec{a}$:
+
+
+> $$y = f(\vec{a})+\nabla f(\vec{a})\,\cdot \, (\vec{x}-\vec{a})  $$
