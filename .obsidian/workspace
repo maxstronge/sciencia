@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "01747de6ad120911",
+        "id": "b1eca66cb16e30af",
         "type": "leaf",
-        "dimension": 34.352701325178394,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Linear Approximations and Differentiability.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
             "mode": "source"
           }
         },
-        "group": "084ec53e28db5521"
+        "group": "b4cefd4349d52ca5"
       },
       {
-        "id": "344c30a5873fcba1",
+        "id": "2e37c8c913182bde",
         "type": "leaf",
-        "dimension": 65.64729867482161,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Linear Approximations and Differentiability.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
             "mode": "preview"
           }
         },
-        "group": "084ec53e28db5521"
+        "group": "b4cefd4349d52ca5"
       }
     ],
     "direction": "vertical"
@@ -95,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 179.00338745117188
+    "width": 508
   },
   "right": {
     "id": "d096a09190251c2a",
@@ -111,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Linear Approximations and Differentiability.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,17 +159,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "01747de6ad120911",
+  "active": "b1eca66cb16e30af",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Image Space and Nullspace.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Directional Derivatives.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Linear Approximations and Differentiability.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Untitled.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Span.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Image Space and Nullspace.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/_SPAN, IMAGE SPACE, NULLSPACE, SUBSPACES.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/LINEAR ALGEBRA REVIEW/Systems of Linear Equations and Elementary Operations.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/_Spherical Astronomy.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Set Theory.md",
+    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md"
   ]
 }
