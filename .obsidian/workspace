@@ -4,12 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "d3dab7220d54f9f6",
+        "id": "b2282ea0e96c5147",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Optical Telescopes.md",
+            "mode": "source"
+          }
+        },
+        "group": "7cbc0d966f8d8f5e"
+      },
+      {
+        "id": "675ab7e69946ccbb",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Optical Telescopes.md",
+            "mode": "preview"
+          }
+        },
+        "group": "7cbc0d966f8d8f5e"
       }
     ],
     "direction": "vertical"
@@ -77,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.0033874511719
+    "width": 298.0033874511719,
+    "collapsed": true
   },
   "right": {
     "id": "d096a09190251c2a",
@@ -93,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Optical Telescopes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,17 +160,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d3dab7220d54f9f6",
+  "active": "b2282ea0e96c5147",
   "lastOpenFiles": [
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Untitled.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/_Telescopes, Observations and Instruments.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Untitled 1.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Image Space and Nullspace.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
     "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/The Lagrangian Formalism/7.1 - Lagrange's Equations for Unconstrained Motion.md",
     "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/The Lagrangian Formalism/_The Lagrangian Formalism.md",
     "Notes/Mathematics/Linear Algebra Index.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/7.2 - Angular Momentum in the Hydrogen Atom.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/_The Hydrogen Atom in Wave Mechanics.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Linear Approximations and Differentiability.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Untitled.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Span.md"
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/7.2 - Angular Momentum in the Hydrogen Atom.md"
   ]
 }
