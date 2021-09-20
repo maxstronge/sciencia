@@ -6,6 +6,7 @@
       {
         "id": "b2282ea0e96c5147",
         "type": "leaf",
+        "dimension": 40.0611620795107,
         "state": {
           "type": "markdown",
           "state": {
@@ -18,6 +19,7 @@
       {
         "id": "675ab7e69946ccbb",
         "type": "leaf",
+        "dimension": 59.9388379204893,
         "state": {
           "type": "markdown",
           "state": {
@@ -162,6 +164,7 @@
   },
   "active": "b2282ea0e96c5147",
   "lastOpenFiles": [
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Optical Telescopes.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Untitled.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/_Telescopes, Observations and Instruments.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Untitled 1.md",
@@ -170,7 +173,6 @@
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
     "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/The Lagrangian Formalism/7.1 - Lagrange's Equations for Unconstrained Motion.md",
     "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/The Lagrangian Formalism/_The Lagrangian Formalism.md",
-    "Notes/Mathematics/Linear Algebra Index.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Hydrogen Atom in Wave Mechanics/7.2 - Angular Momentum in the Hydrogen Atom.md"
+    "Notes/Mathematics/Linear Algebra Index.md"
   ]
 }
