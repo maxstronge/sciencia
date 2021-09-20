@@ -4,30 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "b2282ea0e96c5147",
+        "id": "675ab7e69946ccbb",
         "type": "leaf",
-        "dimension": 40.0611620795107,
+        "dimension": 36.69724770642202,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Optical Telescopes.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Directional Derivatives.md",
             "mode": "source"
           }
         },
-        "group": "7cbc0d966f8d8f5e"
+        "group": "3c19304c5deb969a"
       },
       {
-        "id": "675ab7e69946ccbb",
+        "id": "5efa54abf2d214bd",
         "type": "leaf",
-        "dimension": 59.9388379204893,
+        "dimension": 63.30275229357798,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Optical Telescopes.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Directional Derivatives.md",
             "mode": "preview"
           }
         },
-        "group": "7cbc0d966f8d8f5e"
+        "group": "3c19304c5deb969a"
       }
     ],
     "direction": "vertical"
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Optical Telescopes.md",
+                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Directional Derivatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,17 +162,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b2282ea0e96c5147",
+  "active": "675ab7e69946ccbb",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Directional Derivatives.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Untitled.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Optical Telescopes.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Untitled.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/_Telescopes, Observations and Instruments.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Untitled 1.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Image Space and Nullspace.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
-    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/The Lagrangian Formalism/7.1 - Lagrange's Equations for Unconstrained Motion.md",
-    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/The Lagrangian Formalism/_The Lagrangian Formalism.md",
-    "Notes/Mathematics/Linear Algebra Index.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md"
   ]
 }
