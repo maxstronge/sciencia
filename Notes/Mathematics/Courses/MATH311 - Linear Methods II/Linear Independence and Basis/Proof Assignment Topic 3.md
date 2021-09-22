@@ -1,4 +1,4 @@
-Let $U$ be a subspace of $\RR^n$ with dimension $m$. 
+Let $U$ be a subspace of $\RR^n$ with dimension $m$. Let $S = \{\vec{v_1}, \vec{v_2}, \dots, \vec{v_m} \} \subset U$ .
 
 Recall that the dimension of $U$, $\text{dim}(U)$, is the number of linearly independent vectors in the *basis* of $U$. 
 
@@ -25,7 +25,7 @@ This was proved earlier, but let us take a moment to ensure that this way of wri
 2. If two vectors $\vec{u}$ and $\vec{v}$ are in $\text{span}\{ \vec{b_1},\dots,\vec{b_m}\}$, then they both can be written as a linear combination of the basis vectors - for example, $\vec{u} = c_1\vec{b_1} + \dots + c_m\vec{b_m}, c_i \in \RR$ and $\vec{v} = a_1\vec{b_1} + \dots + a_m\vec{b_m}, a_i \in \RR$. The sum of $\vec{u}$ and $\vec{v}$ is then $(a_1 + c_1)\vec{b_1} + \dots + (a_m + c_m)\vec{b_m}$, and since $a$ and $c$ are both arbitrary scalars, this sum will also be contained in  $\text{span}\{ \vec{b_1},\dots,\vec{b_m}\}$.
 3. By the definition of span as the set of all linear combinations, any scalar multiple of the basis,  $c\,\{ \vec{b_1},\dots,\vec{b_m}\}, \,c \in \RR$ will also be contained in the span. 
 
-Thus, $U = \text{span}\{\vec{b_1},\dots,\vec{b_m} \}$. Since $U$ is a subspace of $\RR^n \implies m \leq n$. Note also that since the basis forms the *minimal* spanning set, we can declare that $\{ \vec{b_1},\dots,\vec{b_m}\}$ are linearly independent. 
+Thus, $U = \text{span}\{\vec{b_1},\dots,\vec{b_m} \}$. Since $U$ is a subspace of $\RR^n \implies m \leq n$. Note also that since the basis forms the *minimal* spanning set, we can declare that $\{ \vec{b_1},\dots,\vec{b_m}\}$ are linearly independent $\implies U$ spans $\RR^m$.
 
 ***
 
@@ -35,5 +35,18 @@ Let us now examine the two statements necessary for our proof. First:
 
 By definition: a set $S$ of vectors $\{\vec{v_1}, \vec{v_2}, \dots, \vec{v_m} \}$ is linearly independent $\iff$ the equation $t_1 \vec{v_1} + t_2\vec{v_2} + \dots + t_m \vec{v_m} = 0$ has only the trivial solution $t_1=t_2=\dots=t_n = 0.$
 
-Let us assume that $S$ is linearly independent, such that none of the vectors $\{\vec{v_1}, \vec{v_2}, \dots, \vec{v_m} \}$ can be written as linear combinations of each other. 
+Let us assume that $S$ is linearly independent, such that none of the vectors $\{\vec{v_1}, \vec{v_2}, \dots, \vec{v_m} \}$ can be written as linear combinations of each other. Therefore, the span of $S$, $\text{span}\{\vec{v_1}, \vec{v_2}, \dots, \vec{v_m} \}$, contains no redundant vectors, and thus can be written:
 
+>###  $$\text{span}\{ \vec{v_1},\dots,\vec{v_m} \} = a_1\vec{v_1} + \dots + a_m \vec{v_m},\, a_i \in \RR. $$
+
+
+Recall that $S \subset U$, *i.e.* each element $\vec{v_i}$ in $S$ is contained in $U \implies \vec{v_i} \in \text{span}\{\vec{b_1},\dots,\vec{b_m}\}$. 
+
+Because every $\vec{b_i}$ in $U$ is a vector in $\RR^n$, as given in the prompt, any linear combination of the vectors $\vec{b_i}$ will also be vectors in $\RR^n$. Therefore, according to the above, every vector $\vec{v_i}$ in $S$ is also $\in \RR^n$.
+
+If we assume that the set $S$ is linearly independent, we have the following: 
+
+
+$$\begin{align} \text{span}\{S\} & =\text{span}\{ \vec{v_1},\dots,\vec{v_m} \}\\  &= \RR^m \\  &= \text{span} \{\vec{b_1},\dots,\vec{b_m} \}  = U.\\ \end{align}$$
+
+...where the third  equality is taken from the above result that the vectors $\vec{b_i}$ in the basis of $U$ are linearly independent. The spans of any 
