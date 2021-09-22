@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"Notes/Physics/Courses/PHYS343 - Classical Mechanics II\"",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "query": "path:",
+      "query": "path:\"Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics\"",
       "color": {
         "a": 1,
         "rgb": 5431473
@@ -53,6 +53,6 @@
   "repelStrength": 20,
   "linkStrength": 0.948717948717949,
   "linkDistance": 146,
-  "scale": 0.20922382806581732,
+  "scale": 0.05218258925415726,
   "close": true
 }
