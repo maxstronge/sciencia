@@ -1,3 +1,6 @@
+## Topic 3 Proof-Writing Assignment: 
+***
+
 Let $U$ be a subspace of $\RR^n$ with dimension $m$. Let $S = \{\vec{v_1}, \vec{v_2}, \dots, \vec{v_m} \} \subset U$ .
 
 Recall that the dimension of $U$, $\text{dim}(U)$, is the number of linearly independent vectors in the *basis* of $U$. 
@@ -49,4 +52,40 @@ If we assume that the set $S$ is linearly independent, we have the following:
 
 $$\begin{align} \text{span}\{S\} & =\text{span}\{ \vec{v_1},\dots,\vec{v_m} \}\\  &= \RR^m \\  &= \text{span} \{\vec{b_1},\dots,\vec{b_m} \}  = U.\\ \end{align}$$
 
-...where the third  equality is taken from the above result that the vectors $\vec{b_i}$ in the basis of $U$ are linearly independent. The spans of any 
+...where the third  equality is taken from the above result that the vectors $\vec{b_i}$ in the basis of $U$ are linearly independent. The spans of any $m$ linearly independent vectors are equivalent to $\RR^m$.
+
+Note that this shows that $\text{span}\{S\}$ is *equivalent* to the set $U$ - $S$ is an alternative (but valid) basis for $U$.
+***
+
+
+Now for the converse statement: 
+
+> A set $S$ spans $U \implies S$  is linearly independent. 
+
+
+Assume that $S=\{ \vec{v_1},\dots,\vec{v_m} \}$ spans $U$, such that:
+
+$$\text{span}\{ \vec{v_1},\dots,\vec{v_m} \} = U = \text{span}\{ \vec{b_1},\dots,\vec{b_m}\} .$$
+
+We were given the fact that the dimension of $U$ is $m$ in the prompt $\implies$ a minimal spanning set for $U$ contains $m$ linearly independent vectors. Therefore, if $S$ spans $U \implies$ the vectors $\{\vec{v_1},\dots, \vec{v_m} \}$ must be linearly independent.
+
+***
+
+We have now seen that the following two statements are true:
+
+>- A set $S$ spans $U \implies S$  is linearly independent. 
+> - A set $S$ is linearly independent $\implies S$  spans $U$.
+
+Therefore: 
+
+>  $S$ spans $U \iff S$  is linearly independent. 
+
+
+
+QED.
+
+
+
+
+
+$$\delta = \beta + \gamma = \phi_1 + \phi_2$$

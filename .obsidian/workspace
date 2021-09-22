@@ -4,30 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "5efa54abf2d214bd",
+        "id": "37db6b8fb46235af",
         "type": "leaf",
-        "dimension": 34.862385321100916,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Proof Assignment Topic 3.md",
-            "mode": "source"
-          }
-        },
-        "group": "9c5c0a57788fa984"
-      },
-      {
-        "id": "83b16d6099bec3e2",
-        "type": "leaf",
-        "dimension": 65.13761467889908,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Proof Assignment Topic 3.md",
-            "mode": "preview"
-          }
-        },
-        "group": "9c5c0a57788fa984"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -95,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 179.00338745117188,
-    "collapsed": true
+    "width": 376.0033874511719
   },
   "right": {
     "id": "d096a09190251c2a",
@@ -112,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Proof Assignment Topic 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,8 +142,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5efa54abf2d214bd",
+  "active": "37db6b8fb46235af",
   "lastOpenFiles": [
+    "Untitled 1.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Proof Assignment Topic 3.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Set Theory.md",
@@ -172,7 +153,6 @@
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/_LINEAR INDEPENDENCE AND BASIS.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_INTRO TO COURSE AND PROOFS.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/_SPAN, IMAGE SPACE, NULLSPACE, SUBSPACES.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/LINEAR ALGEBRA REVIEW/Systems of Linear Equations and Elementary Operations.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Magnification, Sensitivity, and Resolution.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/LINEAR ALGEBRA REVIEW/Systems of Linear Equations and Elementary Operations.md"
   ]
 }
