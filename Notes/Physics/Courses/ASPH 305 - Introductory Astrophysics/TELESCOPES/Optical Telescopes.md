@@ -50,4 +50,7 @@ In very large telescopes, the observer can sit with their instruments in a speci
 
 The first practical reflecting telescope was built by Sir Isaac Newton. The light is guided perpendicularly out from the telescope with a small flat mirror - the focus of the image in such a telescope is therefore called the **Newton focus**. 
 
-Another possibility is to bore a hole at the center of the primary mirror, and reflect the rays through it with a small *hyperbolic* secondary mirror in the front end of the telescope. In these designs, the rays meet in what is called the **Cassegrain focus**. 
+Another possibility is to bore a hole at the center of the primary mirror, and reflect the rays through it with a small *hyperbolic* secondary mirror in the front end of the telescope. In these designs, the rays meet in what is called the **Cassegrain focus**.  The Cassegrain is a common design, used to make compact telescopes with long focal lengths, which are good for large fields of view. 
+
+***
+
