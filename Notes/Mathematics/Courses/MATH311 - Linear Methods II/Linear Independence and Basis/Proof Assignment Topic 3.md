@@ -81,11 +81,4 @@ Therefore:
 >  $S$ spans $U \iff S$  is linearly independent. 
 
 
-
 QED.
-
-
-
-
-
-$$\delta = \beta + \gamma = \phi_1 + \phi_2$$
