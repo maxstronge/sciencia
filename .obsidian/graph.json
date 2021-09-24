@@ -6,53 +6,17 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "path:\"Notes/Physics/Courses/PHYS343 - Classical Mechanics II\"",
-      "color": {
-        "a": 1,
-        "rgb": 2531807
-      }
-    },
-    {
-      "query": "path:\"Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics\"",
-      "color": {
-        "a": 1,
-        "rgb": 7346050
-      }
-    },
-    {
-      "query": "path:\"Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism and Thermal Physics\"",
-      "color": {
-        "a": 1,
-        "rgb": 15130679
-      }
-    },
-    {
-      "query": "path:\"Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics\"",
-      "color": {
-        "a": 1,
-        "rgb": 9641759
-      }
-    },
-    {
-      "query": "path:",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    }
-  ],
-  "collapse-display": false,
-  "showArrow": true,
-  "textFadeMultiplier": -2.1,
-  "nodeSizeMultiplier": 1.9761580775912,
-  "lineSizeMultiplier": 5,
-  "collapse-forces": false,
-  "centerStrength": 0.735042735042735,
-  "repelStrength": 20,
-  "linkStrength": 0.948717948717949,
-  "linkDistance": 146,
-  "scale": 0.04218874231050246,
-  "close": true
+  "colorGroups": [],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.047787637109624616,
+  "close": false
 }

@@ -13,3 +13,7 @@
 With small-angle approximation: physical diameter $D = d \alpha:$
 
 $$\begin{align} D & = d \alpha \\ & = (1.06663 \times 10^{8})\,(4.84814 \times 10^{-8}) \\ &=5.17118 \,km.\end{align} $$
+
+Full trigonometric approach: 
+
+$$$$
