@@ -1,45 +1,33 @@
 {
   "main": {
-    "id": "e709f706eb0d8c1b",
+    "id": "a98d554006554e5f",
     "type": "split",
     "children": [
       {
-        "id": "be3f31389f36609c",
+        "id": "f7cbe5c9a2f31a0f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/Homework Assignment 1.md",
-            "mode": "source"
-          }
-        },
-        "group": "4d023e3422343ca4"
-      },
-      {
-        "id": "4cbf07b3092f1e2f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/Homework Assignment 1.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md",
             "mode": "preview"
           }
-        },
-        "group": "4d023e3422343ca4"
+        }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "6769d09f406f7316",
+    "id": "8061e04aba1f234c",
     "type": "split",
     "children": [
       {
-        "id": "17740ca0822d2392",
+        "id": "39bfc459900e04ba",
         "type": "tabs",
+        "dimension": 60.70726915520628,
         "children": [
           {
-            "id": "f23a90ebf6e29992",
+            "id": "ee6d2bdc75e3edee",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +35,7 @@
             }
           },
           {
-            "id": "a5cf3ad8e2264ee9",
+            "id": "ddfe78ddb15101f0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -62,26 +50,53 @@
             }
           }
         ]
+      },
+      {
+        "id": "65b0c1c933f7decf",
+        "type": "tabs",
+        "dimension": 39.29273084479371,
+        "children": [
+          {
+            "id": "4ddee9e36834d202",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3f4997e087c80ebf",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 382.0033874511719
   },
   "right": {
-    "id": "df674f911be59496",
+    "id": "d096a09190251c2a",
     "type": "split",
     "children": [
       {
-        "id": "644daac6b811780e",
+        "id": "d4166eb14b8d8d9d",
         "type": "tabs",
         "children": [
           {
-            "id": "d4924e89f99b2bbc",
+            "id": "47784f8ba03a045b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/Homework Assignment 1.md",
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,18 +108,23 @@
             }
           },
           {
-            "id": "61fb92cd212e1519",
+            "id": "49824d4eb0f4a056",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "8cc923a674a39c59",
+            "id": "7bda5265672c15a3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "21487db72b35ca3a",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -112,7 +132,7 @@
             }
           },
           {
-            "id": "0e87dc7c4f36528f",
+            "id": "6cd68a13072efcfa",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -126,11 +146,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "be3f31389f36609c",
+  "active": "f7cbe5c9a2f31a0f",
   "lastOpenFiles": [
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/Homework Assignment 1.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/Untitled.md",
-    "conflict-files-obsidian-git.md"
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/_Spherical Astronomy.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/Homework Assignment 1.md",
+    "Notes/Physics/Astrophysics Index.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Proof Assignment Topic 3.md",
+    "Untitled 1.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Set Theory.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Linear Independence.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Untitled.md"
   ]
 }
