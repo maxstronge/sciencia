@@ -4,28 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "b1eca66cb16e30af",
+        "id": "ee2ad2915bf394af",
         "type": "leaf",
+        "dimension": 24.890829694323145,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Lab 1 - Telescope and Sky Familiarization.md",
             "mode": "source"
           }
         },
-        "group": "b4cefd4349d52ca5"
+        "group": "dacdacaa1fdc1ba3"
       },
       {
-        "id": "2e37c8c913182bde",
+        "id": "2609396e8f16a494",
         "type": "leaf",
+        "dimension": 75.10917030567684,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Lab 1 - Telescope and Sky Familiarization.md",
             "mode": "preview"
           }
         },
-        "group": "b4cefd4349d52ca5"
+        "group": "dacdacaa1fdc1ba3"
       }
     ],
     "direction": "vertical"
@@ -93,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 508
+    "width": 434
   },
   "right": {
     "id": "d096a09190251c2a",
@@ -109,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Lab 1 - Telescope and Sky Familiarization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,17 +161,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b1eca66cb16e30af",
+  "active": "ee2ad2915bf394af",
   "lastOpenFiles": [
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Image Space and Nullspace.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Lab 1 - Telescope and Sky Familiarization.md",
+    "conflict-files-obsidian-git.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Untitled.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/COORDINATE SYSTEMS.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Directional Derivatives.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Linear Approximations and Differentiability.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Untitled.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/Set Theory.md",
-    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md"
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/_Partial Derivatives.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Image Space and Nullspace.md"
   ]
 }
