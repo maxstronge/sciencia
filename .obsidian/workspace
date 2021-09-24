@@ -7,20 +7,25 @@
         "id": "be3f31389f36609c",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/Homework Assignment 1.md",
+            "mode": "source"
+          }
+        },
+        "group": "4d023e3422343ca4"
       },
       {
-        "id": "35de1a28a9148189",
+        "id": "4cbf07b3092f1e2f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "conflict-files-obsidian-git.md",
-            "mode": "source"
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/Homework Assignment 1.md",
+            "mode": "preview"
           }
-        }
+        },
+        "group": "4d023e3422343ca4"
       }
     ],
     "direction": "vertical"
@@ -76,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/Homework Assignment 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,8 +126,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "35de1a28a9148189",
+  "active": "be3f31389f36609c",
   "lastOpenFiles": [
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/Homework Assignment 1.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/Untitled.md",
     "conflict-files-obsidian-git.md"
   ]
 }
