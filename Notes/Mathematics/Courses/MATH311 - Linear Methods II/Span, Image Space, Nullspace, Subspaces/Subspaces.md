@@ -25,34 +25,3 @@ Any subspace of $\RR^n$ other than the zero subspace or $\RR^n$ itself is called
 
 ***
 
-### Image Space and Null Space:
-
-Subspaces can also be used to describe important features  of an $m\times m$ matrix $A$ - notably, the **null space** and the **image space**. 
-
-The **null space** of  $A$, denoted $\text{null}(A)$, is defined as:
-
-> ### $$\text{null}(A)= \{x \in\RR^n: Ax=0  \}.$$
-
-The null space is also referred to as the **kernel** of the matrix. In the language of matrix algebra, $\text{null }(A)$ is the set of all solutions $x$ in $\RR^n$ of the homogenous system $Ax=0$:
-
-> ## $$x \in \text{null} (A )\iff Ax = 0.$$
-
-For example:
-
-> *e.g. * if $A =\begin{bmatrix}1&0\\0&0 \end{bmatrix}$, then $\text{null}(A) = \{ \begin{bmatrix} 0\\y\end{bmatrix} : y \in \RR\} \implies$ the null space is the entire y-axis. 
-
-The **image space** of $A$, denoted $\text{im} (A)$, is defined as:
-
-> ### $$\text{im} (A) = \{Ax : x \in \RR^n \}.$$
-
-The image space is the set of all vectors $y$ in $\RR^m$ such that $Ax=y$ *has* a solution $y$.
-
-> *eg. * if $A = \begin{bmatrix} 1&0 \\ 0&0\end{bmatrix}$, then $\text{im}(A)=\{ \begin{bmatrix} x\\0 \end{bmatrix} : x \in \RR\} \implies$ the image space is the entire x-axis.  
-
-
-If $A$ is an $m\times n$ matrix, then:
-
-1. null $A$ is a subspace of $\RR^n$.
-2.  im $A$ is a subspace of $\RR^m$.
-
-***

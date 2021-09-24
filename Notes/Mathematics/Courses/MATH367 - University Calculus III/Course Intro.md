@@ -39,3 +39,8 @@ $$\text{domain} \overset{f}\to \text{range} $$
 
 - functions often defined by equations/zeros
 - Recap: this course is about **functions** and **spaces**
+
+***
+### Sections:
+
+[[_Partial Derivatives|Partial Derivatives]]
