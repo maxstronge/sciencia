@@ -1,48 +1,40 @@
 {
   "main": {
-    "id": "a98d554006554e5f",
+    "id": "e709f706eb0d8c1b",
     "type": "split",
     "children": [
       {
-        "id": "ee2ad2915bf394af",
+        "id": "be3f31389f36609c",
         "type": "leaf",
-        "dimension": 24.890829694323145,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Lab 1 - Telescope and Sky Familiarization.md",
-            "mode": "source"
-          }
-        },
-        "group": "dacdacaa1fdc1ba3"
+          "type": "empty",
+          "state": {}
+        }
       },
       {
-        "id": "2609396e8f16a494",
+        "id": "35de1a28a9148189",
         "type": "leaf",
-        "dimension": 75.10917030567684,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Lab 1 - Telescope and Sky Familiarization.md",
-            "mode": "preview"
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
           }
-        },
-        "group": "dacdacaa1fdc1ba3"
+        }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "8061e04aba1f234c",
+    "id": "6769d09f406f7316",
     "type": "split",
     "children": [
       {
-        "id": "39bfc459900e04ba",
+        "id": "17740ca0822d2392",
         "type": "tabs",
-        "dimension": 68.07228915662651,
         "children": [
           {
-            "id": "ee6d2bdc75e3edee",
+            "id": "f23a90ebf6e29992",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,7 +42,7 @@
             }
           },
           {
-            "id": "ddfe78ddb15101f0",
+            "id": "a5cf3ad8e2264ee9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,53 +57,26 @@
             }
           }
         ]
-      },
-      {
-        "id": "65b0c1c933f7decf",
-        "type": "tabs",
-        "dimension": 31.92771084337349,
-        "children": [
-          {
-            "id": "4ddee9e36834d202",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "3f4997e087c80ebf",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 434
+    "width": 300
   },
   "right": {
-    "id": "d096a09190251c2a",
+    "id": "df674f911be59496",
     "type": "split",
     "children": [
       {
-        "id": "d4166eb14b8d8d9d",
+        "id": "644daac6b811780e",
         "type": "tabs",
         "children": [
           {
-            "id": "47784f8ba03a045b",
+            "id": "d4924e89f99b2bbc",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Lab 1 - Telescope and Sky Familiarization.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,23 +88,18 @@
             }
           },
           {
-            "id": "49824d4eb0f4a056",
+            "id": "61fb92cd212e1519",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
             }
           },
           {
-            "id": "7bda5265672c15a3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "21487db72b35ca3a",
+            "id": "8cc923a674a39c59",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -147,7 +107,7 @@
             }
           },
           {
-            "id": "6cd68a13072efcfa",
+            "id": "0e87dc7c4f36528f",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -161,17 +121,8 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ee2ad2915bf394af",
+  "active": "35de1a28a9148189",
   "lastOpenFiles": [
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Lab 1 - Telescope and Sky Familiarization.md",
-    "conflict-files-obsidian-git.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Untitled.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/COORDINATE SYSTEMS.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Directional Derivatives.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Linear Approximations and Differentiability.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/_Partial Derivatives.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Image Space and Nullspace.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
