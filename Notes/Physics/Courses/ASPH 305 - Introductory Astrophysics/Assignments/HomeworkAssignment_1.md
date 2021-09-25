@@ -1,7 +1,8 @@
 # 	ASPH305: Homework Assignment #1
 ***
 
-1. Astronomers on Earth have measured the distance to a hypothetical approaching asteroid to be $0.713\,AU$. 
+## 1. 
+Astronomers on Earth have measured the distance to a hypothetical approaching asteroid to be $0.713\,AU$. 
 
 ***
 
@@ -67,3 +68,6 @@ To find the solid angle without using the small angle approximation:
 Again, the discrepancy between the approximation and the full trigonometric approach is much greater than before (though it is still relatively small). When the survival of the human race is concerned, this approximation loses too much precision to be useful. 
 
 ***
+
+## 2.
+
