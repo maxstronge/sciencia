@@ -4,30 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4cbf07b3092f1e2f",
-        "type": "leaf",
-        "dimension": 38.837920489296636,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Radio Telescopes.md",
-            "mode": "source"
-          }
-        },
-        "group": "3709b2212941912e"
-      },
-      {
         "id": "e908d7613c9378b4",
         "type": "leaf",
-        "dimension": 61.16207951070336,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Radio Telescopes.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 3.md",
             "mode": "preview"
           }
-        },
-        "group": "3709b2212941912e"
+        }
       }
     ],
     "direction": "vertical"
@@ -83,8 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413,
-    "collapsed": true
+    "width": 413
   },
   "right": {
     "id": "df674f911be59496",
@@ -100,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Radio Telescopes.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,15 +129,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4cbf07b3092f1e2f",
+  "active": "e908d7613c9378b4",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 3.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Span.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Radio Telescopes.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Untitled.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Optical Telescopes.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/Untitled.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/Homework Assignment 1.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/Untitled.md",
-    "conflict-files-obsidian-git.md"
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md"
   ]
 }
