@@ -6,13 +6,28 @@
       {
         "id": "e908d7613c9378b4",
         "type": "leaf",
+        "dimension": 34.862385321100916,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 3.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Rank-Nullity.md",
+            "mode": "source"
+          }
+        },
+        "group": "684b78c7d1aa4267"
+      },
+      {
+        "id": "1a9f618d2791a836",
+        "type": "leaf",
+        "dimension": 65.13761467889908,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Rank-Nullity.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "684b78c7d1aa4267"
       }
     ],
     "direction": "vertical"
@@ -68,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413
+    "width": 413,
+    "collapsed": true
   },
   "right": {
     "id": "df674f911be59496",
@@ -84,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 3.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Rank-Nullity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,15 +147,15 @@
   },
   "active": "e908d7613c9378b4",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Rank-Nullity.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Row Space and Column Space.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Untitled.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 3.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Span.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Radio Telescopes.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Untitled.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Optical Telescopes.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/Untitled.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/Homework Assignment 1.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md"
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Optical Telescopes.md"
   ]
 }
