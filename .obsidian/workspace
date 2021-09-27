@@ -4,30 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "e908d7613c9378b4",
+        "id": "f6f78507feb34c20",
         "type": "leaf",
-        "dimension": 34.862385321100916,
+        "dimension": 35.2112676056338,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Rank-Nullity.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
             "mode": "source"
           }
         },
-        "group": "684b78c7d1aa4267"
+        "group": "915ac50f66a464a1"
       },
       {
-        "id": "1a9f618d2791a836",
+        "id": "8d749f4afbedadcb",
         "type": "leaf",
-        "dimension": 65.13761467889908,
+        "dimension": 64.7887323943662,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Rank-Nullity.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
             "mode": "preview"
           }
         },
-        "group": "684b78c7d1aa4267"
+        "group": "915ac50f66a464a1"
       }
     ],
     "direction": "vertical"
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Rank-Nullity.md",
+                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e908d7613c9378b4",
+  "active": "f6f78507feb34c20",
   "lastOpenFiles": [
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Rank-Nullity.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Row Space and Column Space.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Untitled.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 3.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Image Space and Nullspace.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Span.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Radio Telescopes.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Untitled.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Optical Telescopes.md"
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Drawing 2021-09-27 14.10.32.excalidraw.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Untitled.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Untitled.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Rank-Nullity.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Row Space and Column Space.md"
   ]
 }

@@ -9,4 +9,20 @@ The **rank** of a matrix $A$, $\text{rank}(A)$, is the number of leading 1s in t
 
 **Theorem:** If $A$ is a matrix, then $\text{rank}(A)=\text{dim}(\text{row}(A)) = \text{dim}(\text{col}(A)).$
 
-Additionally, if $A$ is a matrix, then $\text{rank}(A)$
+Additionally, if $A$ is a matrix, then $\text{rank}(A)=\text{rank}(A^T).$
+
+***
+
+The **nullity** of a matrix $A$, denoted $\nullity (A)$, is the *dimension* of the *nullspace* of $A$ (*i.e. $\nullity(A) = \dim(\null(A))$.*)
+
+> *e.g.* if $A=\begin{bmatrix} 1&2&3\\0&0&0\end{bmatrix}$,  then $\nullity(A) = 2.$
+
+
+***
+
+### The Rank-Nullity Theorem:
+
+If $A$ is a matrix with $n$ columns, then:
+
+##  $$\rank(A) + \nullity(A) = n. $$
+
