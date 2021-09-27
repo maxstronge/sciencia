@@ -71,3 +71,4 @@ Again, the discrepancy between the approximation and the full trigonometric appr
 
 ## 2.
 
+Assuming the Earth is perfectly spherical with a radius of $6365\,km$, and using the formulae 

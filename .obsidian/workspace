@@ -6,10 +6,11 @@
       {
         "id": "4cbf07b3092f1e2f",
         "type": "leaf",
+        "dimension": 38.837920489296636,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Radio Telescopes.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "e908d7613c9378b4",
         "type": "leaf",
+        "dimension": 61.16207951070336,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Radio Telescopes.md",
             "mode": "preview"
           }
         },
@@ -81,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413
+    "width": 413,
+    "collapsed": true
   },
   "right": {
     "id": "df674f911be59496",
@@ -97,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Radio Telescopes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,6 +147,9 @@
   },
   "active": "4cbf07b3092f1e2f",
   "lastOpenFiles": [
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Untitled.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/TELESCOPES/Optical Telescopes.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/Untitled.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/Homework Assignment 1.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.1 - Spherical Trigonometry.md",
