@@ -1,4 +1,5 @@
 {
   "baseFontSize": 16,
-  "cssTheme": "Notation"
+  "cssTheme": "Notation",
+  "translucency": true
 }

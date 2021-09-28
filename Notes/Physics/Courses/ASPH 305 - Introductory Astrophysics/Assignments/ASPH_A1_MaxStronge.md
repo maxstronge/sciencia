@@ -284,4 +284,57 @@ We can now measure the length of the line connecting the center of the exoplanet
 
 That distance is $181.38\,p.$ We then use our scale factor to find the angular distance in **''**:
 
-> ## $$181.38\,p = \frac{219.32\,p}{''}  $$
+> ## $$181.38\,p\,\cdot\, \frac{''}{219.32\,p} = 0.827011''.  $$
+
+We can again utilize the small-angle approximation to calculate the linear orbital distance of the planet from the star:
+
+
+> ## $$\begin{align} D &= 2r\theta \\ &=2\, (110\,pc)\,(0.827011'') \\ &= (220\,pc)\,(0.827011'') \\ &= (6.78849\times10^{18}\,m)(0.827011'') \\ &= 5.61415\times10^{18}\,m \\ &= 3.75273\times10^7\,AU.\end{align}$$
+
+***
+## b)
+
+At the same wavelength, **calculate the size of the hypothetical telescope needed to be able to clearly resolve an exoplanet orbiting this star at a distance of 1AU (in m)** (*i.e.* clearly see that the star and an exoplanet in an Earth-like orbit are separate objects). 
+
+
+The **Rayleigh Criterion**, as mentioned above, defines the minimal angular separation of two point sources that can still be identified as distinct sources. It is given by: 
+
+> ## $$\theta \text{ [rads]} = 1.22 \frac{\lambda}{D}.$$
+
+
+Here, we are interested in the diameter $D$ of the telescope making the hypothetical observation. We know that the wavelength $\lambda = 1.3\mu m$, but we do not yet know the angular separation of the new orbit. If the linear orbital distance is now $1\,AU$, we can use the same relation as above to find the new angular separation:
+
+
+> ### $$\begin{align} D = 2r  \theta \implies  \theta &= \frac{D}{2r} \\ &= \frac{1AU}{2(110\,pc)} \\ &= \frac{1AU}{220\,pc} \\ & = \frac{1.496 \times 10^{11}\,m}{6.78849\times10^{18}\,m} \\ \theta &=2.20373\times10^{-8}\text{ rads.}\end{align}$$
+
+We can now substitute this value of $\theta$ into the Rayleigh Criterion above and solve for the diameter:
+
+> ### $$\begin{align} \theta = 1.22 \frac{\lambda}{D} \implies D &= 1.22 \frac{\lambda}{\theta}\\ &=1.22 \left( \frac{1.3\times10^{-6}\,m}{2.20373\times10^{-8}\text{ rads}} \right) \\ &= 71.9689\,m.\end{align}$$
+
+***
+
+## c)
+
+If you wanted to observe the planetary system shown in the figure using the Thirty Meter Telescope (TMT - currently under construction on Mauna Kea in Hawaii) at the same wavelength, **calculate the maximum distance this system could be from Earth and still be resolved (in pc).**
+
+Since we're interested in finding the maximum distance where the two points can be seen as distinct, let's use the Rayleigh Criterion:
+
+
+> ## $$\theta \text{ [rads]} = 1.22 \frac{\lambda}{D}. $$
+
+This relation does not involve distance. We can, however, put $\theta$ in the above equation in terms of the distance $r$ and linear separation $D$ between the star and the exoplanet from the small-angle approximation:
+
+> ## $$D = 2r\theta\implies \theta = \frac{D_{\text{linear separation}}}{2r} = 1.22 \frac{\lambda}{D_{TMT}}. $$
+
+The diameter of the TMT is $30\,m$. [^1] We earlier calculated that the linear distance of the star's orbit is approximately $3.75273\times10^7\,AU =5.614\times10^{18}\,m.$ We can solve the above equation for the distance $r$ to find:
+
+
+> ### $$\frac{D_{\text{linear separation}}}{2r} = 1.22 \frac{\lambda}{D_{TMT}} \implies r = \frac{D_{\text{linear separation}}\,\cdot\,D_{TMT}}{2(1.22\,\lambda)}$$
+>  ### $$ r = \frac{5.614\times10^{18}\,m\,\cdot\,30\,m}{2(1.22\,(1.3\times10^{-6}\,m)}$$
+>  ### $$ r = \frac{1.6842\times10^{20}\,m^2}{3.172\times10^{-6}\,m}$$
+>  ## $$ r = 5.30958\times10^{25}\,m = 1.72085\times10^9 \,pc.(!!)$$
+
+The distance from which the system can be resolved using the TMT is incredibly large. 
+
+
+[^1]: https://www.tmt.org/page/optics
