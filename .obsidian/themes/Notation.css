@@ -24,7 +24,7 @@
 /* 6. Notion Colour Blocks
 /* 7. In-document header (scrolls with the document) [remove for compatibility with Andy's mode]
 /*     7.1. Adjustments for non-in-document headers (graphs, etc)\
-/*     7.2. Active pane border 
+/*     7.2. Active pane border
 /*     7.3. Misc fixes
 /* 8. Tags
 /*     8.1. Tag custom colours
@@ -157,6 +157,23 @@ body.theme-light {
 .titlebar-inner {
   color: var(--text-normal);
 }
+
+/* Enlarge image on hover */
+.markdown-preview-view img {
+  display: block;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /*experiment with values*/
+  transition: transform 0.25s ease;
+}
+
+.markdown-preview-view img:hover {
+  -webkit-transform: scale(2); /* experiment with values */
+  transform: scale(2);
+}
+
 
 /* 4. Markdown (editor / preview)
 /* 4.1. Headings */
@@ -821,7 +838,7 @@ a.tag,
 }
 
 /* 8.1. Tag custom colours */
-/* As of Obsidian 0.9.0 there are custom classes for tags. 
+/* As of Obsidian 0.9.0 there are custom classes for tags.
  * this theme provides varibles of the form --background-<color> and --text-<color> for the following colours:
  * gray, brown, orange, yellow, green, blue, purple, pink, red
  * If you want your own colours for your own specific tags you can copy and utilize this: */

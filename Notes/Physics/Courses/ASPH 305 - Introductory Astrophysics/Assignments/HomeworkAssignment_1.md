@@ -161,4 +161,44 @@ The orbit of Pluto around the Sun is 49.305 *AU* at aphelion, giving our solar s
 
 ***
 
-WIP
+## 3.
+
+The image below shows an "optical" image of the Orion Constellation ($\lambda = 550\,nm$) with an $8''$ ($20\,cm$) telescope. The inset at the top right shows a small region of the optical image observed with the $15\,m$ JCMT telescope at $\lambda = 850\,\mu m$ and shows a region containing a newly forming star. The inset at the bottom right shows a small region of the JCMT image observed with the ALMA array (composed of fifty $12m$ telescopes and another twelve $7m$ telescopes that make up something called the *compact array*) at $\lambda = 1.3\,mm$ and shows that what we thought was one forming star in the JCMT image is actually **two** new stars forming ("blobs" **B1** and **B2** in the ALMA image). 
+
+![[Pasted image 20210928124342.png]]
+***
+
+### a)
+
+**Calculate the resolutions of the optical image and the JCMT image (in '').**
+
+
+To approximate the resolution of a telescope using a Gaussian whose FWHM angular resolution ~ the Rayleigh Criterion:
+
+> ### $$\text{angular resolution: }\theta('') = 2.516\times 10^5 \frac{\lambda}{D}. $$
+
+Plugging in the given values of $\lambda$ and $D$ for the optical telescope gives a resolution of:
+
+> ### $$\begin{align} \theta_{optical} &= 2.516\times10^5 \left(\frac{5.50\times10^{-7}\,m}{0.2\,m} \right) \\ &= 2.516\times10^5 (2.75\times10^{-6}) \\ &= 0.6919''.\end{align}$$ 
+
+We use a similar calculation for the JCMT image, using the appropriate values of $\lambda$ and $D$:
+
+> ### $$\begin{align} \theta_{JCMT} &= 2.516\times10^5 \left(\frac{8.50\times10^{-4}\,m}{15\,m} \right) \\ &= 2.516\times10^5 (0.01275) \\ &= 14.2573''.\end{align} $$
+
+***
+
+### b)
+
+If the distance to the Orion Molecular Cloud (in which blobs **B1** and **B2** are located) is $412\,pc$ and, at this distance, ALMA has a linear resolution of $500\,AU$, **calculate the maximum baseline of the ALMA array used to obtain this image (in m)**. 
+
+Aperture synthesis arrays can achieve high resolutions - we can find the baseline using a similar relation as we did for the above telescopes:
+
+> ### $$\text{Resolution: } \theta = 2.516\times 10^5 \frac{\lambda}{B},\text{ where B is the baseline.}$$
+
+We don't yet know the angular resolution $\theta$ - to find it, we need to convert the *linear* resolution, $500\,AU$, to angular using the relation from before (since this distance is so large, we will again use the small-angle approximation):
+
+> $$D \approx 2r\theta \implies \theta \approx \frac{D}{2r}$$
+
+Filling in our given values for the distance and linear resolution:
+
+> ### $$\begin{align} \theta = \frac{500\,AU}{2(412\,pc)} &= \frac{7.479893\times10^{13}\,m}{2.50557\times10^{19}\,m} \\ &= 2\end{align} $$
