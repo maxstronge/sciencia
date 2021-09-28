@@ -136,7 +136,29 @@ Since the entire sky (when modeled as a sphere) has a surface area of $4\pi\text
 
 Since only half the sky (at most) is visible at one time, however, the percentage of the visible sky taken up by the telescope's resolution is twice as high. 
 
-The 
+The *FWHM* of a telescope is the smallest possible angular separation it can detect. So at a distance of $r = 384,000\,km$, we can again use the small-angle approximation to find the linear diameter $D$ of the smallest detectable object:
 
-So at a distance of $384,000\,km$
+> ### $$\begin{align}D &\approx 2r\theta \\ & = 2 \,(384,000)\,\cdot\,(6.0601 \times 10^{-5}) \\ &= 46.5421\text{ km}.  \end{align} $$
 
+We can find the linear area (in $m^2$) of this smallest detectable object on the surface of the moon by using the same formula as we did previously:
+
+> ### $$\begin{align} dA &= \rho^2\,d\Omega \\ &= (384,000)^2\,\cdot\,(1.15377 \times 10^{-8}) \\ & = 1701.3\,\text{km}^2.\end{align} $$
+
+Following a similar process at a distance of $450\text{ pc}$, we can find the linear size (in **AU**) of the smallest object that can be clearly seen. First, since we need the size in astronomical units, let's convert our distance $r$:
+
+> $$450 \text{ pc} \,\cdot\,\frac{648,000}{\pi} = \frac{291,600,000}{\pi}\text{ AU} = 9.28192\times10^7 \text{ AU}. $$
+
+We can now follow exactly the same steps as before with this new distance (in *AU* instead of *km*) to find the new linear diameter:
+
+
+> ### $$\begin{align}D &\approx 2r\theta \\ & = 2 \,(9.28192\times10^7)\,\cdot\,(6.0601 \times 10^{-5}) \\ &= 11250.0\text{ AU}.  \end{align} $$
+
+The orbit of Pluto around the Sun is 49.305 *AU* at aphelion, giving our solar system a diameter of approximately 98.61 *AU*. To compare sizes....
+
+
+> $\frac{11250}{98.61} = 114.086 \implies$ the smallest detectable object is over 100x the size of our solar system at that distance. 
+
+
+***
+
+WIP
