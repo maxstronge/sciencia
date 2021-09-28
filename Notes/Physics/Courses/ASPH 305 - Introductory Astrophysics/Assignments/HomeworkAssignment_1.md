@@ -105,7 +105,7 @@ We can integrate this equation over the specified coordinates to find the actual
 
 Now we can integrate our expression for the solid angle from above and fill our values for $\theta$ and $\phi$:
 
->### $$\begin{align} d\Omega & = \int_{\theta_1}^{\theta_2}\sin\theta\,d\theta \int_{\phi_1}^{\phi_2}\,d\phi \\ & = (-\cos\theta_2 + \cos\theta_1)\, \cdot\, (\phi_2 - \phi_1) \\ & = (-\cos(0.898471)+\cos(0.898974) \,\cdot\,(33.9467\times10^{-4} - 8.77998\times10^{-4}) \\ & = 9.89151\times 10^{-7}\text{ sr}.\end{align}$$
+> $$\begin{align} d\Omega & = \int_{\theta_1}^{\theta_2}\sin\theta\,d\theta \int_{\phi_1}^{\phi_2}\,d\phi \\ & = (-\cos\theta_2 + \cos\theta_1)\, \cdot\, (\phi_2 - \phi_1) \\ & = (-\cos(0.898471)+\cos(0.898974) \,\cdot\,(33.9467\times10^{-4} - 8.77998\times10^{-4}) \\ & = 9.89151\times 10^{-7}\text{ sr}.\end{align}$$
 
 We can now convert to $km^2$ using the relation above:
 
@@ -115,4 +115,28 @@ We can now convert to $km^2$ using the relation above:
 
 ### b)
 
-A telescope has a FWHM (Full Width at Half Maximum) resolution that can be approximated by the angle $2\theta$ in the figure to the right. If the FWHM of a telescope is $025''$, **calculate the solid angle of the telescope's resolution (in sr). Calculate the percentage of the full sky that this covers. Using a distance $= 384,000\,km$, calculate the linear size (in m) and the linear area (in $m^2$) of the smallest object that could be clearly seen on the Moon. Calculate the linear size (in AU) of the smallest object that can be clearly seen at a distance of 450*pc* (the distance of Orion). How does this compare to the size of a solar system like our own (*i.e.* to the orbit of Pluto)?**
+A telescope has a FWHM (Full Width at Half Maximum) resolution that can be approximated by the angle $2\theta$ in the figure below. If the FWHM of a telescope is $25''$, **calculate the solid angle of the telescope's resolution (in sr). Calculate the percentage of the full sky that this covers. Using a distance $= 384,000\,km$, calculate the linear size (in m) and the linear area (in $m^2$) of the smallest object that could be clearly seen on the Moon. Calculate the linear size (in AU) of the smallest object that can be clearly seen at a distance of 450*pc* (the distance of Orion). How does this compare to the size of a solar system like our own (*i.e.* to the orbit of Pluto)?**
+
+![[asph_FWHM_diagram.svg]]
+
+> **FWHM** = $2\theta$ = $25'' \implies \theta = \frac{25}{2}'' = (\frac{25''}{2}\,\cdot\,\frac{1\degree}{3600''}) = \frac{1}{288}\degree = 6.0601 \times 10^{-5}\text{ rad}.$ 	
+
+We can find the solid angle in two ways: we can use the full formula for the solid angle of a circular region...
+
+>## $$d\Omega = 2\pi (1-\cos\theta) $$
+
+...or, given that this angle is incredibly small, we can use the small-angle approximation....
+
+
+> ## $$\begin{align} d\Omega &\approx \pi \theta^2 \\ &= \pi (6.0601 \times 10^{-5})^2 \\ &= 1.15377 \times 10^{-8}\text{ sr}.\end{align}$$
+
+Since the entire sky (when modeled as a sphere) has a surface area of $4\pi\text{ sr}$, we can find the percentage of the visible sky with a ratio:
+
+> $$\text{percentage of sky }=\frac{1.15377 \times 10^{-8}}{4\pi}\,\cdot\,100\% = 9.18142\times10^{-8}\,\%. $$
+
+Since only half the sky (at most) is visible at one time, however, the percentage of the visible sky taken up by the telescope's resolution is twice as high. 
+
+The 
+
+So at a distance of $384,000\,km$
+

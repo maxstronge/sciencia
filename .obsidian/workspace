@@ -4,9 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "4cbf07b3092f1e2f",
+        "id": "e908d7613c9378b4",
         "type": "leaf",
-        "dimension": 39.473684210526315,
         "state": {
           "type": "markdown",
           "state": {
@@ -14,12 +13,11 @@
             "mode": "source"
           }
         },
-        "group": "3709b2212941912e"
+        "group": "ca4b5c87cc582dbc"
       },
       {
-        "id": "e908d7613c9378b4",
+        "id": "1048497ebeca05eb",
         "type": "leaf",
-        "dimension": 60.526315789473685,
         "state": {
           "type": "markdown",
           "state": {
@@ -27,7 +25,7 @@
             "mode": "preview"
           }
         },
-        "group": "3709b2212941912e"
+        "group": "ca4b5c87cc582dbc"
       }
     ],
     "direction": "vertical"
@@ -144,7 +142,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4cbf07b3092f1e2f",
+  "active": "e908d7613c9378b4",
   "lastOpenFiles": [
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
     "conflict-files-obsidian-git.md",
