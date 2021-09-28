@@ -81,7 +81,7 @@ Assuming the Earth is perfectly spherical with a radius of $6365\,km$ and using 
 - $\phi_1 = -0\degree\,3'\,1.1''$ (W)
 - $\phi_1 = -0\degree\,11'\,40.2''$ (W)
 
-To illustrate:
+To illustrate:	
 
 ![[q2diagram.svg]]
 
@@ -289,7 +289,7 @@ That distance is $181.38\,p.$ We then use our scale factor to find the angular d
 We can again utilize the small-angle approximation to calculate the linear orbital distance of the planet from the star:
 
 
-> ## $$\begin{align} D &= 2r\theta \\ &=2\, (110\,pc)\,(0.827011'') \\ &= (220\,pc)\,(0.827011'') \\ &= (6.78849\times10^{18}\,m)(0.827011'') \\ &= 5.61415\times10^{18}\,m \\ &= 3.75273\times10^7\,AU.\end{align}$$
+> ## $$\begin{align} D &= 2r\theta \\ &=2\, (110\,pc)\,(0.827011'') \\ &= (220\,pc)\,(0.827011'') \\ &= (6.78849\times10^{18}\,m)(4.0094\times10^{-6}\,rad) \\ &= 2.72182\times10^{13}\,m \\ &= 181.954\,AU.\end{align}$$
 
 ***
 ## b)
@@ -317,24 +317,19 @@ We can now substitute this value of $\theta$ into the Rayleigh Criterion above a
 
 If you wanted to observe the planetary system shown in the figure using the Thirty Meter Telescope (TMT - currently under construction on Mauna Kea in Hawaii) at the same wavelength, **calculate the maximum distance this system could be from Earth and still be resolved (in pc).**
 
-Since we're interested in finding the maximum distance where the two points can be seen as distinct, let's use the Rayleigh Criterion:
+The diameter of the TMT is $30\,m$. $^1$ We earlier calculated that the linear distance of the star's orbit is approximately $181.954,AU =2.722\times10^{13}\,m.$ Since we're interested in finding the maximum distance where the two points can be seen as distinct, let's use the Rayleigh Criterion:
 
 
-> ## $$\theta \text{ [rads]} = 1.22 \frac{\lambda}{D}. $$
+> ## $$\theta \text{ [rads]} = 1.22 \frac{\lambda}{D} .$$
 
-This relation does not involve distance. We can, however, put $\theta$ in the above equation in terms of the distance $r$ and linear separation $D$ between the star and the exoplanet from the small-angle approximation:
+We can evaluate the right-hand side using our values for the wavelength and telescope diameter:
 
-> ## $$D = 2r\theta\implies \theta = \frac{D_{\text{linear separation}}}{2r} = 1.22 \frac{\lambda}{D_{TMT}}. $$
+> ## $$= 5.28667 \times 10^{-8}\text{ rads} = 0.0109052''. $$
 
-The diameter of the TMT is $30\,m$. [^1] We earlier calculated that the linear distance of the star's orbit is approximately $3.75273\times10^7\,AU =5.614\times10^{18}\,m.$ We can solve the above equation for the distance $r$ to find:
+Now we have the angular resolution given by the Rayleigh criterion. We can use this value in our small-angle approximation:
 
+> ## $$\begin{align} D_{\text{linear separation}}  = 2r\theta \implies r &= \frac{D_{\text{linear separation}}}{2\theta} \\ &= \frac{2.72182\times10^{13}\,m}{2(5.28667 \times 10^{-8})}  \\ &=2.57423\times10^{20}\,m \\ &= 8341.77\,pc.\end{align} $$
 
-> ### $$\frac{D_{\text{linear separation}}}{2r} = 1.22 \frac{\lambda}{D_{TMT}} \implies r = \frac{D_{\text{linear separation}}\,\cdot\,D_{TMT}}{2(1.22\,\lambda)}$$
->  ### $$ r = \frac{5.614\times10^{18}\,m\,\cdot\,30\,m}{2(1.22\,(1.3\times10^{-6}\,m)}$$
->  ### $$ r = \frac{1.6842\times10^{20}\,m^2}{3.172\times10^{-6}\,m}$$
->  ## $$ r = 5.30958\times10^{25}\,m = 1.72085\times10^9 \,pc.(!!)$$
+***
 
-The distance from which the system can be resolved using the TMT is incredibly large. 
-
-
-[^1]: https://www.tmt.org/page/optics
+1: https://www.tmt.org/page/optics
