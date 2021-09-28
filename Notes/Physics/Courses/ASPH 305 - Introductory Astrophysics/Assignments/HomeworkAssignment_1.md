@@ -71,7 +71,9 @@ Again, the discrepancy between the approximation and the full trigonometric appr
 
 ## 2.
 
-<<<<<<< HEAD
+### a)
+
+
 Assuming the Earth is perfectly spherical with a radius of $6365\,km$ and using the formulae from the notes, **calculate the solid angle (in sr) and geographical area (in $km^2$)** of a portion of the Earth's surface enclosed by the points with coordinates:
 
 - $\theta_1 = +51\degree\, 30'\,26.6''$ (N)
@@ -100,31 +102,17 @@ We can integrate this equation over the specified coordinates to find the actual
 > - $\phi_2 = -0\degree\,11'\,40.2'' = 0\degree + \frac{11}{60}\degree + \frac{40.2}{3600}\degree = 0.1945\degree = 33.9467\times10^{-4}\,rad$.
 
  
-=======
-Assuming the Earth is perfectly spherical with a radius of $6365\,km$, and using the formulae from the notes, **calculate the solid angle (in sr) and the geographical area (in $km^2$) of a portion of the Earth's surface with the coordinates of:**
 
-- $\theta_1 = +51\degree \,30'\, 26.6''$ [N]
-- $\theta_2 = +51\degree \,28'\, 43.0''$ [N]
-- $\phi_1 = -0\degree\,3'\,1.1''$[W]
-- $\phi_2 = -0\degree\,11'\,40.2''$[W]
+Now we can integrate our expression for the solid angle from above and fill our values for $\theta$ and $\phi$:
 
-The surface area element, $dA$, is found with the following relation:
+>### $$\begin{align} d\Omega & = \int_{\theta_1}^{\theta_2}\sin\theta\,d\theta \int_{\phi_1}^{\phi_2}\,d\phi \\ & = (-\cos\theta_2 + \cos\theta_1)\, \cdot\, (\phi_2 - \phi_1) \\ & = (-\cos(0.898471)+\cos(0.898974) \,\cdot\,(33.9467\times10^{-4} - 8.77998\times10^{-4}) \\ & = 9.89151\times 10^{-7}\text{ sr}.\end{align}$$
 
+We can now convert to $km^2$ using the relation above:
 
-$$dA = \rho^2\sin\theta \,d\theta\, d\phi$$
+> ### $$\begin{align} dA &= \rho^2\,d\Omega \\ & = (6465\,km)^2 \,\cdot\,(9.89151\times 10^{-7}\text{ sr}) \\ &=40.0737\,km^2.\end{align} $$
 
-And we can relate the surface area element $dA$ to the solid angle $d\Omega$ by: 
+***
 
-$$dA = \rho^2\, d\Omega $$
+### b)
 
-Leaving us with:
-
-$$d\Omega = \sin\theta\,d\theta\,d\phi. $$
-
-Let's begin with the solid angle. We will need to integrate the above equation for $d\Omega$ over the bounds given in the question - we need to convert the geographical coordinates to radians so we can work with them more easily. 
-
-*[fill in work from paper copy]*
-
-
-## $$\begin{align} d\Omega & = \int_{\theta_1}^{\theta_2}\sin\theta\,d\theta \int_{\phi_1}^{\phi_2}\,d\phi \\ & = (-\cos\theta_2 + \cos\theta_1)\, \cdot\, (\phi_2 - \phi_1)  \end{align}$$
->>>>>>> df06ef9cf9d95b6c198640b47e0c1bbfd0448ad8
+A telescope has a FWHM (Full Width at Half Maximum) resolution that can be approximated by the angle $2\theta$ in the figure to the right. If the FWHM of a telescope is $025''$, **calculate the solid angle of the telescope's resolution (in sr). Calculate the percentage of the full sky that this covers. Using a distance $= 384,000\,km$, calculate the linear size (in m) and the linear area (in $m^2$) of the smallest object that could be clearly seen on the Moon. Calculate the linear size (in AU) of the smallest object that can be clearly seen at a distance of 450*pc* (the distance of Orion). How does this compare to the size of a solar system like our own (*i.e.* to the orbit of Pluto)?**
