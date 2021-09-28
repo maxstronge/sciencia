@@ -201,4 +201,87 @@ We don't yet know the angular resolution $\theta$ - to find it, we need to conve
 
 Filling in our given values for the distance and linear resolution:
 
-> ### $$\begin{align} \theta = \frac{500\,AU}{2(412\,pc)} &= \frac{7.479893\times10^{13}\,m}{2.50557\times10^{19}\,m} \\ &= 2\end{align} $$
+> ### $$\begin{align} \theta = \frac{500\,AU}{2(412\,pc)} &= \frac{7.479893\times10^{13}\,m}{2.50557\times10^{19}\,m} \\ &= 5.884\times10^{-6}\text{ rad} \\ \theta &= 1.21407''. \end{align} $$
+
+Now that we have $\theta$ in arcseconds, we can rearrange the above formula:
+
+> ### $$\begin{align} \theta = 2.516\times10^5 \frac{\lambda}{B} &\implies B = 2.516\times 10^5 \frac{\lambda}{\theta} \\ &=2.516\times10^5 \frac{0.0013\,m}{1.21407''} \\ B &=269.408\,m.  \end{align} $$
+
+***
+
+### c)
+
+If it took ALMA 1 hour of observing to make this image, **calculate how long it would take the JCMT to observe the source to the same flux limit** (assuming they are both observing at the same frequency).
+
+The **flux limit** $F_{min}$ is proportional to the area and integration time according to the following relation:
+
+> ### $$F_{min} \propto \frac{1}{A \sqrt{t_{int}}} .$$
+
+
+
+If we set the two flux limits $F_{min}^{ALMA}$ and $F_{min}^{JCMT}$ to be equal, we find:
+
+
+> ### $$\frac{1}{A_{ALMA}\sqrt{t_{ALMA}}} = \frac{1}{A_{JCMT}\sqrt{t_{JCMT}}}. $$
+
+
+The light-gathering area $A$ of each telescope is given by:
+
+> ### $$A = \pi \frac{D^2}{4} $$
+
+Plugging in our values for the diameter $D$ of each telescope, we can find the area of the JCMT telescope to be:
+
+
+> ### $$A_{JMCT} = \pi \frac{15^2}{4} = 176.715\,m^2.$$
+
+For an interferometer like ALMA, the process of finding the light-gathering area is slightly more involved. It is the sum of the areas of all the telescopes within the baseline. Since there are 50 $12\,m$ telescopes and  12 $7\,m$ telescopes, the total area is:
+
+
+> ### $$A_{ALMA} = 50\left(\pi \frac{12^2}{4} \right) + 12\left(\pi \frac{7^2}{4} \right) = 6116.68\,m^2.$$
+
+
+We now have enough information to determine how long the JCMT would take to to observe the source to the same flux limit. If the ALMA telescope had an integration time $t_{int}$ of $3600\,s$:
+
+
+> ### $$\frac{1}{A_{ALMA}\sqrt{t_{ALMA}}} = \frac{1}{A_{JCMT}\sqrt{t_{JCMT}}}. $$
+> ### $$\frac{1}{6116.68\,m^2\sqrt{3600\,s}} = \frac{1}{176.715\,m^2\sqrt{t_{JCMT}}}. $$
+
+
+Rearranging:
+
+> ### $$\begin{align} \sqrt{t_{JCMT}} &= \frac{6116.68\,m^2\sqrt{3600\,s}}{176.715\,m^2} \\ &= 2076.79 \\ t_{JCMT} &= 4.31308 \times 10^6\,s \\ &= 1198.06 \,h.\end{align}$$
+
+The JCMT would take almost 1200x as long to observe the source to the same flux limit due to its significantly smaller light-gathering area. This highlights the advantages of interferometers. 
+
+***
+
+## 4.
+
+The image below is direct detection (using an $8m$ telescope at $\lambda = 1.3 \mu m$) of an exoplanet orbiting around a star that is $110\,pc$ from Earth. The star is located at the "+" symbol and its light is blocked out by the instrument used to take this image (a coronagraph). The planet is the point marked "b". It has a mass of ~9 Jupiter masses and a radius of 1.5 Jupiter radii. 
+
+![[Pasted image 20210928142308.png]]
+***
+### a)
+
+**Estimate the orbital distance of the planet from the star (in '') and, from that, calulate the orbital distance of the planet in AU.**
+
+
+We can use the given scale of 1 arcsecond to set up a scale conversion factor from pixels to arcseconds: 
+
+![[Pasted image 20210928143457.png]]
+
+![[Pasted image 20210928143523.png]]
+
+The 1 arcsec line is 219.32 pixels in length. Therefore:
+
+> ## $$\text{Scale factor }= \frac{219.32\,p}{''}.$$
+
+We can now measure the length of the line connecting the center of the exoplanet **b** and the star **+** in pixels:
+
+![[Pasted image 20210928143856.png]]
+
+![[Pasted image 20210928143908.png]]
+
+That distance is $181.38\,p.$ We then use our scale factor to find the angular distance in **''**:
+
+> ## $$181.38\,p = \frac{219.32\,p}{''}  $$
