@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "f6f78507feb34c20",
+        "id": "8d749f4afbedadcb",
         "type": "leaf",
-        "dimension": 35.2112676056338,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 3.md",
             "mode": "source"
           }
         },
-        "group": "915ac50f66a464a1"
+        "group": "60b111a97196f628"
       },
       {
-        "id": "8d749f4afbedadcb",
+        "id": "f8fd0c4ba7ce48ed",
         "type": "leaf",
-        "dimension": 64.7887323943662,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 3.md",
             "mode": "preview"
           }
         },
-        "group": "915ac50f66a464a1"
+        "group": "60b111a97196f628"
       }
     ],
     "direction": "vertical"
@@ -83,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413
+    "width": 214.00338745117188
   },
   "right": {
     "id": "df674f911be59496",
@@ -99,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,8 +142,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f6f78507feb34c20",
+  "active": "8d749f4afbedadcb",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 3.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Untitled.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Image Space and Nullspace.md",
@@ -153,8 +153,6 @@
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Span.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Drawing 2021-09-27 14.10.32.excalidraw.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Untitled.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Rank-Nullity.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Row Space and Column Space.md"
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Untitled.md"
   ]
 }

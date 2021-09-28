@@ -71,6 +71,8 @@ Again, the discrepancy between the approximation and the full trigonometric appr
 
 ## 2.
 
+### a)
+
 Assuming the Earth is perfectly spherical with a radius of $6365\,km$, and using the formulae from the notes, **calculate the solid angle (in sr) and the geographical area (in $km^2$) of a portion of the Earth's surface with the coordinates of:**
 
 - $\theta_1 = +51\degree \,30'\, 26.6''$ [N]
@@ -97,3 +99,10 @@ Let's begin with the solid angle. We will need to integrate the above equation f
 
 
 ## $$\begin{align} d\Omega & = \int_{\theta_1}^{\theta_2}\sin\theta\,d\theta \int_{\phi_1}^{\phi_2}\,d\phi \\ & = (-\cos\theta_2 + \cos\theta_1)\, \cdot\, (\phi_2 - \phi_1)  \end{align}$$
+
+***
+
+### b)
+
+A telescope has a FWHM (Full Width at Half Maximum) resolution that can be approximated as 
+
