@@ -6,10 +6,11 @@
       {
         "id": "b9f06d0a22f7342c",
         "type": "leaf",
+        "dimension": 33.94495412844037,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Rank-Nullity.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Orthogonality.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "4a75dba8d9461449",
         "type": "leaf",
+        "dimension": 66.05504587155964,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Rank-Nullity.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Orthogonality.md",
             "mode": "preview"
           }
         },
@@ -98,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Rank-Nullity.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Orthogonality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,15 +147,15 @@
   },
   "active": "b9f06d0a22f7342c",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Orthogonality.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/_TOPIC4.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Untitled.md",
+    "Notes/Mathematics/Linear Algebra Index.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Vector Geometry Review.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Rank-Nullity.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/_TOPIC4.md",
-    "Notes/Mathematics/Linear Algebra Index.md",
     "Pasted image 20210928124342.png [width=50%.md",
     "[12.7 - Alpha Decay.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Rank-Nullity.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/_TOPIC2.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Intro to Course and Proofs/_TOPIC1.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/_TOPIC3.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/_ROW SPACE, COLUMN SPACE, RANK-NULLITY.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Rank-Nullity.md"
   ]
 }

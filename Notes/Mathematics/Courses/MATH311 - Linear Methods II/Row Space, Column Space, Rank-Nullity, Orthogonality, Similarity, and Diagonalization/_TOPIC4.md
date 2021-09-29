@@ -7,3 +7,5 @@
 - [[Row Space and Column Space]]
 
 - [[Rank-Nullity]]
+- [[Vector Geometry Review]]
+- [[Orthogonality]]
