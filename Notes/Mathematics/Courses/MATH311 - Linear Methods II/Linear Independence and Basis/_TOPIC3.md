@@ -3,4 +3,5 @@
 ***
 
 ### Sections:
-
+- [[Linear Independence]]
+- [[Basis]]

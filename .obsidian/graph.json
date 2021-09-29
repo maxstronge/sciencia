@@ -1,22 +1,65 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Notes/Mathematics/Courses/MATH311 - Linear Methods II\"",
+      "color": {
+        "a": 1,
+        "rgb": 13667545
+      }
+    },
+    {
+      "query": "path:\"Notes/Mathematics/Courses/MATH367 - University Calculus III\"",
+      "color": {
+        "a": 1,
+        "rgb": 14115363
+      }
+    },
+    {
+      "query": "path:\"Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics\"",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:\"Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism and Thermal Physics\"",
+      "color": {
+        "a": 1,
+        "rgb": 15779112
+      }
+    },
+    {
+      "query": "path:\"Notes/Physics/Courses/PHYS343 - Classical Mechanics II\"",
+      "color": {
+        "a": 1,
+        "rgb": 8132632
+      }
+    },
+    {
+      "query": "path:\"Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics\"",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    }
+  ],
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.047787637109624644,
-  "close": false
+  "textFadeMultiplier": -0.9,
+  "nodeSizeMultiplier": 2.63485217391304,
+  "lineSizeMultiplier": 1.65290434782609,
+  "collapse-forces": false,
+  "centerStrength": 0.256546583850932,
+  "repelStrength": 11.8727950310559,
+  "linkStrength": 0.631751552795031,
+  "linkDistance": 209,
+  "scale": 0.062410510214502085,
+  "close": true
 }
