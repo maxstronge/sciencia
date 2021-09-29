@@ -163,3 +163,9 @@ So returning to the area:
   ### $$= (-\cos\theta_2 + \cos\theta_1)\, \cdot \, (\phi_2 - \phi_1).$$
   
   Once $d\Omega$ is determined, recall that the area can be found by $dA = r^2 d\Omega$. 
+  
+  ***
+  
+
+  
+  

@@ -6,10 +6,11 @@
       {
         "id": "b9f06d0a22f7342c",
         "type": "leaf",
+        "dimension": 35.270132517838945,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Basis.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/Spherical Coordinates and the Equatorial System.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "98b5f5783105e304",
         "type": "leaf",
+        "dimension": 64.72986748216107,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Basis.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/Spherical Coordinates and the Equatorial System.md",
             "mode": "preview"
           }
         },
@@ -81,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.0033874511719
+    "width": 338.0033874511719,
+    "collapsed": true
   },
   "right": {
     "id": "df674f911be59496",
@@ -97,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Basis.md",
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/Spherical Coordinates and the Equatorial System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,15 +147,15 @@
   },
   "active": "b9f06d0a22f7342c",
   "lastOpenFiles": [
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/Spherical Coordinates and the Equatorial System.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/Untitled.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/Spherical Trigonometery.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/Galactic Coordinates.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.2 - The Earth.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector Fields.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Basis.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Linear Independence.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/Rank-Nullity.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 3.md",
-    "conflict-files-obsidian-git.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Untitled.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Image Space and Nullspace.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 3.md"
   ]
 }

@@ -12,6 +12,6 @@ For simplicity, we will assume that the observer is always in the *northern hemi
 
 ## Sections:
 
-### [[2.1 - Spherical Trigonometry]]
+### [[Spherical Trigonometery]]
 
 ### [[2.2 - The Earth]]
