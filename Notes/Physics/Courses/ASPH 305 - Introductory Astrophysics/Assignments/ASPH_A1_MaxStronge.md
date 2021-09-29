@@ -115,11 +115,11 @@ We can now convert to $km^2$ using the relation above:
 
 ### b)
 
-A telescope has a FWHM (Full Width at Half Maximum) resolution that can be approximated by the angle $2\theta$ in the figure below. If the FWHM of a telescope is $25''$, **calculate the solid angle of the telescope's resolution (in sr). Calculate the percentage of the full sky that this covers. Using a distance $= 384,000\,km$, calculate the linear size (in m) and the linear area (in $m^2$) of the smallest object that could be clearly seen on the Moon. Calculate the linear size (in AU) of the smallest object that can be clearly seen at a distance of 450*pc* (the distance of Orion). How does this compare to the size of a solar system like our own (*i.e.* to the orbit of Pluto)?**
+A telescope has a FWHM (Full Width at Half Maximum) resolution that can be approximated by the angle $2\theta$ in the figure below. If the FWHM of a telescope is $0.25''$, **calculate the solid angle of the telescope's resolution (in sr). Calculate the percentage of the full sky that this covers. Using a distance $= 384,000\,km$, calculate the linear size (in m) and the linear area (in $m^2$) of the smallest object that could be clearly seen on the Moon. Calculate the linear size (in AU) of the smallest object that can be clearly seen at a distance of 450*pc* (the distance of Orion). How does this compare to the size of a solar system like our own (*i.e.* to the orbit of Pluto)?**
 
 ![[asph_FWHM_diagram.svg]]
 
-> **FWHM** = $2\theta$ = $25'' \implies \theta = \frac{25}{2}'' = (\frac{25''}{2}\,\cdot\,\frac{1\degree}{3600''}) = \frac{1}{288}\degree = 6.0601 \times 10^{-5}\text{ rad}.$ 	
+> **FWHM** = $2\theta$ = $25'' \implies \theta = \frac{0.25}{2}'' = (\frac{0.25''}{2}\,\cdot\,\frac{1\degree}{3600''}) = \frac{1}{28800}\degree = 6.0601 \times 10^{-7}\text{ rad}.$ 	
 
 We can find the solid angle in two ways: we can use the full formula for the solid angle of a circular region...
 
