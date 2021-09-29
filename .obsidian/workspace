@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 214.00338745117188
+    "width": 338.0033874511719
   },
   "right": {
     "id": "df674f911be59496",
@@ -145,6 +145,7 @@
   "active": "8d749f4afbedadcb",
   "lastOpenFiles": [
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 3.md",
+    "conflict-files-obsidian-git.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Untitled.md",
@@ -152,7 +153,6 @@
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Subspaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Review of Systems of Equations.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Span.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Drawing 2021-09-27 14.10.32.excalidraw.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Untitled.md"
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Drawing 2021-09-27 14.10.32.excalidraw.md"
   ]
 }

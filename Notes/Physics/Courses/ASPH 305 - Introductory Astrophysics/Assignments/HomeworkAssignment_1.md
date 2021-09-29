@@ -71,8 +71,41 @@ Again, the discrepancy between the approximation and the full trigonometric appr
 
 ## 2.
 
+<<<<<<< HEAD
 ### a)
 
+=======
+<<<<<<< HEAD
+Assuming the Earth is perfectly spherical with a radius of $6365\,km$ and using the formulae from the notes, **calculate the solid angle (in sr) and geographical area (in $km^2$)** of a portion of the Earth's surface enclosed by the points with coordinates:
+
+- $\theta_1 = +51\degree\, 30'\,26.6''$ (N)
+- $\theta_2 = +51\degree\, 28'\,43.0''$ (N)
+- $\phi_1 = -0\degree\,3'\,1.1''$ (W)
+- $\phi_1 = -0\degree\,11'\,40.2''$ (W)
+
+To illustrate:
+
+![[q2diagram.svg]]
+
+We can relate the geographical area $dA$ to the solid angle $d\Omega$ with the following formula:
+
+## $$dA = \rho^2 d\Omega $$
+
+And since $dA = \rho^2 \sin\theta\, d\theta \,d\phi$, we can find the solid angle to be:
+
+## $$d\Omega = \sin\theta\,d\theta\,d\phi. $$
+
+We can integrate this equation over the specified coordinates to find the actual solid angle - but first, we need to convert the latitude/longitude coordinates to angles we can use as the limits for $\theta$ and $\phi.$
+
+
+> - $\theta_1 = +51\degree\, 30'\,26.6'' = 51\degree + \frac{30}{60}\degree + \frac{26.6}{3600}\degree = 51.5073888\degree = 0.898974\,rad$
+> - $\theta_2 = +51\degree\, 28'\,43.0'' = 51\degree + \frac{28}{60}\degree + \frac{43.0}{3600}\degree = 51.47861111\degree = 0.898471\,rad$
+> - $\phi_1 = -0\degree\,3'\,1.1'' = 0\degree + \frac{3}{60}\degree + \frac{1.1}{3600}\degree = 0.4669722222\degree = 8.77998\times10^{-4}\,rad$
+> - $\phi_2 = -0\degree\,11'\,40.2'' = 0\degree + \frac{11}{60}\degree + \frac{40.2}{3600}\degree = 0.1945\degree = 33.9467\times10^{-4}\,rad$.
+
+ 
+=======
+>>>>>>> 1ff1576ad2e80c963737e60becdfd72daa914138
 Assuming the Earth is perfectly spherical with a radius of $6365\,km$, and using the formulae from the notes, **calculate the solid angle (in sr) and the geographical area (in $km^2$) of a portion of the Earth's surface with the coordinates of:**
 
 - $\theta_1 = +51\degree \,30'\, 26.6''$ [N]
@@ -99,6 +132,7 @@ Let's begin with the solid angle. We will need to integrate the above equation f
 
 
 ## $$\begin{align} d\Omega & = \int_{\theta_1}^{\theta_2}\sin\theta\,d\theta \int_{\phi_1}^{\phi_2}\,d\phi \\ & = (-\cos\theta_2 + \cos\theta_1)\, \cdot\, (\phi_2 - \phi_1)  \end{align}$$
+<<<<<<< HEAD
 
 ***
 
@@ -106,3 +140,6 @@ Let's begin with the solid angle. We will need to integrate the above equation f
 
 A telescope has a FWHM (Full Width at Half Maximum) resolution that can be approximated as 
 
+=======
+>>>>>>> df06ef9cf9d95b6c198640b47e0c1bbfd0448ad8
+>>>>>>> 1ff1576ad2e80c963737e60becdfd72daa914138
