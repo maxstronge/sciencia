@@ -60,7 +60,7 @@ The second coordinate, the **Azimuth**, is the lateral position of the object al
 A helpful feature of the horizontal system: the altitude of the **Northern Celestial Pole** is equal to the *latitude of the observer*. 
 
 
-[add figure]
+![[HorizontalSystemAltitudeOfPolarisGeometricalProof.svg]]
 
 
 It is essential to note, however, that since the horizontal system is defined for a local position on Earth, the altitude and azimuth of an object will change as a function of time as the sky (*i.e.* the Earth) rotates. The horizontal system is **not** time-independent. So if we are recording the position of an object, just the altitude and azimuth are not sufficient - a time coordinate must also be specified. 
