@@ -5,7 +5,7 @@
 To this point, we have exclusively considered real (scalar) valued functions of a vector variable. Now, we expand our focus to **vector-valued** functions of a vector variable, which take this form:
 
 ### $$\vec{f}: \RR^n \to \RR^m.$$
-The function $f$ will now result in a vector (we assume $m>1$).
+In other words, the function $f$ will now result in a vector (we assume $m>1$). We are now examining functions that assign to each $t\in\RR$ a vector $\vec{f}(t)$
 
 There are three main cases to consider:
 
@@ -55,3 +55,13 @@ You may recognize this function - it is the function that converts polar coordin
 This is a transformation $\RRii \to \RRii$ that we've seen before, but now we can explicitly write it as a vector-valued function. 
 
 ***
+
+## Vector-Valued Functions of a Vector Variable:
+
+We now turn our focus to functions that output vectors *and* take vectors for input - functions of this type can be represented as a transformation:
+
+> ## $$f :\RR^n\to\RR^m $$
+
+We can write these functions more explicitly in terms of **component functions**, as before: 
+
+> ## $$ $$
