@@ -15,8 +15,13 @@ Every possible subspace $U \subseteq \RR^n$ has an *infinite number* of possible
 
 **Theorem**: Let $\{\vec{v_1}, \vec{v_2},\dots, \vec{v_n}\}$ be a basis for $V$. If a subset of $V$ contains:
 
-- *a)* more than $n$ vectors, then it is linearly independent.
+- *a)* more than $n$ vectors, then it is linearly dependent.
 - *b)* less than $n$ vectors, then it does not span $V$.
 
 
-**Proof**: 
+**Proof**: ....
+
+***
+
+## The Invariance Theorem:
+> All bases of a subspace $U \subseteq \RR^n$ have the **same number of vectors**. 

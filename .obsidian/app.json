@@ -17,7 +17,7 @@
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,
-    "margin": "2",
+    "margin": "0",
     "downscalePercent": 100
   }
 }
