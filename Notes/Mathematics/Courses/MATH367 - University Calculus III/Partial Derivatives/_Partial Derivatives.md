@@ -5,3 +5,6 @@
 [[Partial Derivatives and the Gradient]]
 
 [[The Geometry of Partial Derivatives]]
+
+[[Extrema, Critical Points, and their Classification]]
+

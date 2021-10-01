@@ -22,7 +22,7 @@ Eg. $f(x,y) = \tan^{-1}\frac{y}{x}$.
 
 To compute $f_x$, take *y* as fixed:
 
-> #### $$f_x(x,y)= \frac{1}{1+(\frac{y}{x})^2}(\frac{-y}{x^2}) =  - \frac{y}{x^2(1+\frac{y^2}{x^2})}.$$
+> #### $$\begin{align} f_x(x,y) &= \frac{1}{1 + \left(\frac{y}{x}\right)^2} \,\cdot\,\frac{-y}{x^2} \\ &=\frac{-y}{x^2 + y^2}\end{align}$$
 
 This approach scales to any number of dimensions:
 
