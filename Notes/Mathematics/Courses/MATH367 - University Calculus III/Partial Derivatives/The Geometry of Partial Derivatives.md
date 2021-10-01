@@ -70,19 +70,42 @@ Since the limit $\lim_{h\to 0} \frac{f(x_0+h,y_0)-f(x_0,y_0)}{h}$ is the *defini
 
 ## General Form of the Equation of the Tangent Plane:
 
+Two linear approximations of a function $z=f(x,y),\,L_x\text{ and }L_y,$ both lie in a unique plane - the *tangent plane* to $z=f(x,y)$ at the point of interest. 
+
+>**Characterization of $L_x$:**
+>- point at $(a,b,f(a,b))$
+>- directional vector $(1,0,f_x(a,b))$
+
+>**Characterization of $L_y$:**
+>- point at $(a,b,f(a,b))$
+>- directional vector $(0,1,f_y(a,b))$
+
+
+Taking the cross product of the two directional vectors will find us a **normal vector** to the plane:
+
+
+>### $$\begin{align} \vec{n} &=(1,0,f_x(a,b)) \times (0,1,y(a,b)) \\ &=(-f_x(a,b),-f_y(a,b),1). \end{align} $$
+
 
 Recall from introductory linear algebra that the equation of a plane going through the point $(a,b,c)$ with normal vector $(p,q,r)$ is given by:
 
 > $$p(x-a)+q(y-b)+r(z-c)=0. $$
 
+Substituting $(a,b,f(a,b))$ for $(a,b,c)$ and using the previously found normal vector $\vec{n}$ for $(p,q,r),$ we find:
 
-***
+> ## $$-f_x(a,b)(x-a) - f_y(a,b)(y-b)+z-f(a,b)=0. $$
 
-Recall: $y=f(\vec{x}), x\in \RR^n.$
+This can be rearranged to give a nicer equation for the tangent plane:
 
-The tangent plane to $y=f(\vec{x})$ at $\vec{x} = \vec{a}$:
+> ## $$z = f(a,b) + f_x(a,b)(x-a)+f_y(a,b)(y-b). $$
+
+We can write this more compactly by packaging $f_x$ and $f_y$ into the gradient vector $\nabla f\,(a,b)$ and taking a dot product:
+
+> ### $$\begin{align} z &= f(a,b) + \nabla f(a,b)\,\cdot\,\begin{bmatrix} x-a \\ y-b \end{bmatrix} \\ &= f(a,b) + \nabla f(a,b)\,\cdot\,\{ \begin{bmatrix} x\\y \end{bmatrix} - \begin{bmatrix} a\\b\end{bmatrix}\}.\end{align}$$ 
+
+Therefore, the tangent plane to $y=f(\vec{x})$ at $\vec{x} = \vec{a}$ can be succinctly given by:
 
 
-> $$y = f(\vec{a})+\nabla f(\vec{a})\,\cdot \, (\vec{x}-\vec{a})  $$
+> # $$z = f(\vec{a})+\nabla f(\vec{a})\,\cdot \, (\vec{x}-\vec{a}).  $$
 
 
