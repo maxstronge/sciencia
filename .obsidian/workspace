@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "b9f06d0a22f7342c",
+        "id": "4a75dba8d9461449",
         "type": "leaf",
-        "dimension": 34.21588594704684,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
             "mode": "source"
           }
         },
-        "group": "48aa771174d7f9e6"
+        "group": "caba4fe63ec4d362"
       },
       {
-        "id": "4a75dba8d9461449",
+        "id": "13c90bfb0683d3af",
         "type": "leaf",
-        "dimension": 65.78411405295316,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
             "mode": "preview"
           }
         },
-        "group": "48aa771174d7f9e6"
+        "group": "caba4fe63ec4d362"
       }
     ],
     "direction": "vertical"
@@ -83,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.0033874511719,
+    "width": 399.0076217651367,
     "collapsed": true
   },
   "right": {
@@ -100,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
+                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,8 +143,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b9f06d0a22f7342c",
+  "active": "4a75dba8d9461449",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector Fields.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Orthogonality.md",
@@ -155,7 +154,6 @@
     "Notes/Mathematics/Linear Algebra Index.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Vector Geometry Review.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Rank-Nullity.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/_TOPIC4.md",
-    "Pasted image 20210928124342.png [width=50%.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space and Column Space/_TOPIC4.md"
   ]
 }
