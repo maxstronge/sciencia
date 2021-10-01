@@ -68,6 +68,16 @@ Since the limit $\lim_{h\to 0} \frac{f(x_0+h,y_0)-f(x_0,y_0)}{h}$ is the *defini
 
 ***
 
+## General Form of the Equation of the Tangent Plane:
+
+
+Recall from introductory linear algebra that the equation of a plane going through the point $(a,b,c)$ with normal vector $(p,q,r)$ is given by:
+
+> $$p(x-a)+q(y-b)+r(z-c)=0. $$
+
+
+***
+
 Recall: $y=f(\vec{x}), x\in \RR^n.$
 
 The tangent plane to $y=f(\vec{x})$ at $\vec{x} = \vec{a}$:
