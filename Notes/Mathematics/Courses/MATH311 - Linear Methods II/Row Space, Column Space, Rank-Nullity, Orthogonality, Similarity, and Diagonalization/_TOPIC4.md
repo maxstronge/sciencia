@@ -9,3 +9,5 @@
 - [[Vector Geometry Review]]
 - [[Orthogonality and Orthonormality]]
 - [[Fourier Expansion]]
+- [[Eigenvalues and Eigenvectors]]
+- [[Similar Matrices and Diagonalization]]
