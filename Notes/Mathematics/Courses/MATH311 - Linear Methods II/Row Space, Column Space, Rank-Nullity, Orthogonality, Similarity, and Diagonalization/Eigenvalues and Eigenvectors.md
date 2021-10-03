@@ -30,3 +30,4 @@ If $A$ is a square matrix, then:
 > 1. Find the characteristic polynomial $C_A(\ll) = \det(A-\ll I).$
 > $$\begin{align} \det(A-\ll I) & = 0 \\ 0 &= \det\begin{bmatrix}3-\ll&0\\8&-(1+\ll) \end{bmatrix} \\ &= \left((3-\ll)(-1-\ll) \right)\, - \, \left((8\cdot0)\right)   \\ &= (3-\ll) \cdot (-1 - \ll) \\ & = -3 -3\ll -\ll + \ll^2 \\ &= \ll^2 -4\ll - 3 = 0 \\ &= (\ll+4) (\ll - 1) = 0.\end{align} $$
 > The roots of this equation are $\ll_1 = -4$ and $\ll_2 = 1.$
+
