@@ -65,3 +65,12 @@ We now turn our focus to functions that output vectors *and* take vectors for in
 We can write these functions more explicitly in terms of **component functions**, as before: 
 
 > ## $$ $$
+
+
+***
+
+## The Chain Rule for Vector-Valued Functions of a Vector Variable:
+
+Consider the function $f(x,y)$ where $x = x(r,\theta)$ and $y = y(r,\theta)$. Clearly $f$ is also a function of $r\text{ and }\theta$ through the dependencies of $x$ and $y$.
+
+If we use the familiar $x = r\cos\theta,\, y = r\sin\theta$, 

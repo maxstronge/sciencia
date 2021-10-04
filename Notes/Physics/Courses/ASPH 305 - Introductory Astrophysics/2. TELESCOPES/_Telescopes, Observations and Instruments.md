@@ -4,7 +4,8 @@
 
 ### Sections:
 
-[[Optical Telescopes]]
+- [[Optical Telescopes]]
 
-[[Magnification, Sensitivity, and Resolution]]
+- [[Magnification, Sensitivity, and Resolution]]
+- [[Radio Telescopes and Interferometers]]	
 

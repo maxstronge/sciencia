@@ -4,8 +4,7 @@ Spherical coordinates are a much more natural coordinate system when dealing wit
 
 A typical example of spherical coordinates on Earth is the longitude/latitude system. 
 
-***
-### The Equatorial System:
+
 
 ![[Pasted image 20210929110836.png]]
 
@@ -68,3 +67,10 @@ It is essential to note, however, that since the horizontal system is defined fo
 
 ***
 
+### The Equatorial System:
+
+Much like the latitude/longitude system, the **equatorial system** is a fixed coordinate system that does not change as the sky rotates. We can give coordinates in the equatorial system in terms of the following: 
+
+**Right Ascension** (RA or $\aa$) is the *angular* position of the object along the celestial equator (measured counterclockwise from the **vernal equinox**).
+
+![[equatorialsystem.svg]]
