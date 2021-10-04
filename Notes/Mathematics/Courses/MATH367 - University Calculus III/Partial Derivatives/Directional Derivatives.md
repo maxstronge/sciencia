@@ -17,8 +17,3 @@ If $\vec{u}$ is the standard basis vector (eg. $\hat i, \hat j, \hat k$), this i
 
 
 
-**Proof**: Consider the limit:
-
-#### $$\lim_{h \to 0} \frac {f(\vec{a}+h\vec{u}) - f(\vec{a})}{h}.$$
-
-Recall that $L(\vec{a}) =$
