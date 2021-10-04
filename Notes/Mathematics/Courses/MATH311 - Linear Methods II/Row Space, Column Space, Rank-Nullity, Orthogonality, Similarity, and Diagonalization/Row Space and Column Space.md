@@ -26,7 +26,7 @@ The inverse is **not** true - EROs *do* change the column space of a matrix.
 
 Question: How can we find a basis for $\text{im}(A) = \text{col}(A)?$
 
-One way is to create a new matrix, whose rows are the *columns* $A$, then to use the previously discussed method of finding a basis. **ADD LINK** Another method is outlined in the following theorem:
+One way is to create a new matrix, whose rows are the *columns* $A$, then to use the previously discussed [[Basis#Procedure for finding a basis|method of finding a basis.]]  Another method is outlined in the following theorem:
 
 >**Theorem:**
 >- Let $B$ be a matrix obtained by performing elementary row operations on $A$. Then, a given set of column vectors of $A$ form a *basis* for $\text{col}(A) \iff$ the corresponding column vectors of $B$ form a basis for $\text{col}(B)$. 

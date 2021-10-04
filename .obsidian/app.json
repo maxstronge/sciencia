@@ -11,7 +11,11 @@
     "interparticle",
     "translational",
     "translational",
-    "translationally"
+    "translationally",
+    "diagonalizable",
+    "invertible",
+    "diagonalizable",
+    "diagonalization"
   ],
   "attachmentFolderPath": "Images",
   "pdfExportSettings": {

@@ -5,11 +5,13 @@
   "drawingFilenameDateTime": "YYYY-MM-DD HH.mm.ss",
   "displaySVGInPreview": true,
   "width": "400",
+  "zoomToFitOnResize": true,
   "linkPrefix": "📍",
   "urlPrefix": "🌐",
   "showLinkBrackets": true,
   "allowCtrlClick": true,
   "forceWrap": false,
+  "pageTransclusionCharLimit": 200,
   "pngExportScale": 1,
   "exportWithTheme": true,
   "exportWithBackground": true,
@@ -17,11 +19,13 @@
   "autoexportSVG": false,
   "autoexportPNG": false,
   "autoexportExcalidraw": false,
+  "embedType": "excalidraw",
   "syncExcalidraw": false,
   "experimentalFileType": false,
   "experimentalFileTag": "✏️",
   "compatibilityMode": false,
   "loadCount": 1,
   "drawingOpenCount": 0,
-  "library": "{\"type\":\"excalidrawlib\",\"version\":1,\"library\":[]}"
+  "library": "{\"type\":\"excalidrawlib\",\"version\":1,\"library\":[]}",
+  "patchCommentBlock": false
 }
