@@ -38,6 +38,6 @@ A set of vectors $S =\{\vec{x_1},\dots, \vec{x_n} \}$ is called **orthonormal** 
 
 ### Normalizing an Orthogonal Set: 
 
-If $\{\vec{x_1},\dots,\vec{x_n}\}$ is an orthonormal set, then it can be *normalized* as the orthonormal set:
+If $\{\vec{x_1},\dots,\vec{x_n}\}$ is an orthogonal set, then it can be *normalized* as the orthonormal set:
 
 >  ## $$\left(\frac{\vec{x_1}}{||\vec{x_1}||}\,,\dots\,\frac{\vec{x_n}}{||\vec{x_n}||}\right).$$
