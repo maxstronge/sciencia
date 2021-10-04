@@ -4,28 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e22cbb1ca3d64358",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
-            "mode": "source"
-          }
-        },
-        "group": "f5a40a67965a744f"
-      },
-      {
         "id": "4267492c9005b995",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
+            "file": "practice.md",
             "mode": "preview"
           }
-        },
-        "group": "f5a40a67965a744f"
+        }
       }
     ],
     "direction": "vertical"
@@ -81,8 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.0033874511719,
-    "collapsed": true
+    "width": 310.0033874511719
   },
   "right": {
     "id": "df674f911be59496",
@@ -98,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
+                "file": "practice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,17 +129,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e22cbb1ca3d64358",
+  "active": "4267492c9005b995",
   "lastOpenFiles": [
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector Fields.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/Spherical Coordinates and the Equatorial System.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/_Spherical Astronomy.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/Galactic Coordinates.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/Spherical Trigonometery.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/2. TELESCOPES/_Telescopes, Observations and Instruments.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/Untitled.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/Parallax and Proper Motion.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Similar Matrices and Diagonalization.md"
+    "practice.md",
+    "Untitled.md",
+    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/Calculus of Variations/6.3 - Applications of the Euler-Lagrange Equation.md",
+    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/Calculus of Variations/6.1 -  The Shortest Path Between Two Points and Fermats Principle.md",
+    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/Calculus of Variations/_The Calculus of Variations.md",
+    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/The Lagrangian Formalism/_The Lagrangian Formalism.md",
+    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/The Lagrangian Formalism/7.3 - Constrained Systems in General and Degrees of Freedom.md",
+    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/The Lagrangian Formalism/7.2 - An Example of a Constrained System.md",
+    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/The Lagrangian Formalism/7.1 - Lagrange's Equations for Unconstrained Motion.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Lagrange Multipliers for Constrained Optimization.md"
   ]
 }

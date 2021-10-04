@@ -73,4 +73,17 @@ We can write these functions more explicitly in terms of **component functions**
 
 Consider the function $f(x,y)$ where $x = x(r,\theta)$ and $y = y(r,\theta)$. Clearly $f$ is also a function of $r\text{ and }\theta$ through the dependencies of $x$ and $y$.
 
-If we use the familiar $x = r\cos\theta,\, y = r\sin\theta$, 
+If we use the familiar $x = r\cos\theta,\, y = r\sin\theta$, we can define a new function $F$ that is a composition of the component functions:
+
+$$F(r,\theta) = f(x(r,\theta),\,y(r,\theta)). $$
+
+When $r$ or $\theta$ vary in the function above, both the x-arguments and the y-arguments of $f$ vary as well. Consequently, the chain rule for $f\,(x(r,\theta),\,y(r,\theta))$ is the sum of two terms: one resulting from the variation of the x-argument, and the other from the variation of the y-argument. 
+
+***
+
+### **Theorem:** 
+
+Assume that all first order partial derivatives of $f(x,y)$, $x(r,\theta)$, and $y(r,\theta)$ exist and are continuous. Then the same is true for $F(r,\theta) = f(x(r,\theta),\,y(r,\theta))$, and:
+
+
+>  $$\begin{align} \pdv{F}{r} (r,\theta) &= \pdv{f}{x} (x(r,\theta),\,y(r, \theta))\pdv{x}{r} (r,\theta) + \pdv{f}{y} (x(r,\theta),\,y(r, \theta))\pdv{y}{r} (r,\theta). \\ \pdv{F}{\theta}(r,\theta) & = \pdv{f}{x} (x(r,\theta),\,y(r, \theta))\pdv{x}{\theta} (r,\theta) + \pdv{f}{y} (x(r,\theta),\,y(r, \theta))\pdv{y}{\theta} (r,\theta).\end{align}  $$
