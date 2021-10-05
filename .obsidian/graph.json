@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"Notes/Mathematics/Courses/MATH311 - Linear Methods II\"",
@@ -18,7 +18,7 @@
       "query": "path:\"Notes/Mathematics/Courses/MATH367 - University Calculus III\"",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 13656086
       }
     },
     {
@@ -60,6 +60,6 @@
   "repelStrength": 20,
   "linkStrength": 0.769230769230769,
   "linkDistance": 183,
-  "scale": 0.03408574896700115,
+  "scale": 0.047787637109625004,
   "close": true
 }

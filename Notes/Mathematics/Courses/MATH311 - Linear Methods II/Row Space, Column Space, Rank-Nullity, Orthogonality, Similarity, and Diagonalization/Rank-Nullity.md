@@ -7,7 +7,7 @@ The **rank** of a matrix $A$, $\text{rank}(A)$, is the number of leading 1s in t
 
 ***
 
-**Theorem:** If $A$ is a matrix, then $\text{rank}(A)=\text{dim}(\text{row}(A)) = \text{dim}(\text{col}(A)).$
+**Theorem:** If $A$ is a matrix, then: $$\text{rank}(A)=\text{dim}(\text{row}(A)) = \text{dim}(\text{col}(A)).$$
 
 Additionally, if $A$ is a matrix, then $\text{rank}(A)=\text{rank}(A^T).$
 
