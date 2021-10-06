@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Eigenspaces.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Lagrange Multipliers for Constrained Optimization.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Eigenspaces.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Lagrange Multipliers for Constrained Optimization.md",
             "mode": "preview"
           }
         },
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Eigenspaces.md",
+                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Lagrange Multipliers for Constrained Optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,6 +147,7 @@
   },
   "active": "1253a92f4ddb6d40",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Lagrange Multipliers for Constrained Optimization.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Eigenspaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/_TOPIC4.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Untitled.md",
@@ -155,7 +156,6 @@
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/Parallax and Proper Motion.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Sidereal Time.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Untitled.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/_Introduction and Coordinate Systems.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Intro Lecture.md"
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/_Introduction and Coordinate Systems.md"
   ]
 }
