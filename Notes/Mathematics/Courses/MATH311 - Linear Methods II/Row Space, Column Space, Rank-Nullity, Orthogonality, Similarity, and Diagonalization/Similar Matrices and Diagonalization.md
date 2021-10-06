@@ -41,7 +41,7 @@ We can restate this as a theorem using the language of diagonalization:
 Let $A$ be an $\nxn$ matrix. 
 
 1. Find $n$ linearly independent eigenvectors of $A$: $\va{p_1},\va{p_2},\dots, \va{p_n}.$
-2.  Form a matrix $P$ whose *i*-th column is $\va{p_i}$ for $i\leq p \leq n.$
+2.  Form a matrix $P$ whose $i$-th column is $\va{p_i}$ for $i\leq p \leq n.$
 3.  The matrix $P^{-1}AP$ will be a diagonal matrix $D$ whose *i*-th diagonal entry is the eigenvalue $\ll_i$ corresponding to $\va{p_i}$ for $1\leq i \leq n$. 
 
 
@@ -60,5 +60,11 @@ Let $A$ be an $\nxn$ matrix.
 > $$P = \bmqty{\va{x_{\ll_1}}\,,\,\va{x_{\ll_2}}} = \bmqty{1&1\\1&2}. $$
 > Now, $D = P^{-1}AP =\bmqty{1&1\\1&2}^{-1}\,\bmqty{1&1\\-2&4}\,\bmqty{1&1\\1&2} = \bmqty{2&-1\\-1&1}\,\bmqty{1&1\\-2&4}\,\bmqty{1&1\\1&2}...$
 > $D = \bmqty{2&0\\0&3}.$
+
+***
+**Theorem:** If $A$ is an $\nxn$ matrix with $n$ distinct eigenvalues, then $A$ is diagonalizable.
+
+**Proof Idea:** 
+> Let $\va{v_1},\dots,\va{v_n}$ be the eigenvectors corresponding to distinct eigenvalues $\ll_1,\dots,\ll_n$. It suffices to show that these eigenvectors are *linearly independent*. This can be shown by induction on $n$  (see pp. 301-302 of LAWA).
 
 ***
