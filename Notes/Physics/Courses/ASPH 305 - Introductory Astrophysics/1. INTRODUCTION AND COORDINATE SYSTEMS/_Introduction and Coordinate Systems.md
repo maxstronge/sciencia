@@ -12,6 +12,7 @@ For simplicity, we will assume that the observer is always in the *northern hemi
 
 ## Sections:
 
+- [[Intro Lecture|Course Information and Appendix]]
 - [[Spherical Trigonometery]]
 - [[Spherical Coordinates and the Equatorial System]]
 - [[Galactic Coordinates]]
