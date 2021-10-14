@@ -48,7 +48,7 @@ A: Yes - though the definitions of addition and multiplication are confusing, no
 
 ***
 
-**Theorem:** The following are vector spaces:
+**Theorem:** The following are vector spaces: ^b51340
 
 1. The set $M_{mn}$ of $\mxn$ matrices using matrix addition + scalar multiplication.
 2. The set $F(-\infty,\infty)$ of all real-valued functions on $(-\infty,\infty)$ where $(F+g)(x) = F(x) + g(x)$ and $(KF)(x) = K F(x)$ for $K \in \RR$. 
@@ -62,3 +62,23 @@ A: Yes - though the definitions of addition and multiplication are confusing, no
 
 ***
 
+## Subspaces of Vector Spaces:
+
+A subset $U$  of a vector space $V$  is a called a **subspace** of $V$	if it is itself a vector space under the addition and scalar multiplication rules defined on $V$.
+
+**Theorem - Subspace Test:** A subset $U$  of a vector space $V$  is a subspace of $V \iff U$ satisfies the following:
+
+1. Zero Vector: $\va{0} \in U$.
+2. Closed Under Addtion: $\va{x},\va{y}\in U \implies \va{x} + \va{y} \in U.$
+3. Closed Under Scalar Multiplication: $\va{x} \in U \implies K\va{x} \in U,K\in\RR.$
+
+
+***
+
+**Example:** Which of the following are subspaces of $M_{nn}$?
+
+- a) $U =$ {invertible $\nxn$ matrices}
+	- According to the theorem [[Vector Spaces#^b51340|above]], the set of all $\mxn$ matrices are vector spaces, so in this case $m=n$ and $U$ is a subspace (matrix addition and scalar multiplication hold as they do not change the dimensions of the matrices)
+
+
+***
