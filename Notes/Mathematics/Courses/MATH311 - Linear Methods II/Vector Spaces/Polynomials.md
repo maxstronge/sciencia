@@ -36,9 +36,9 @@ Clearly, these results are again polynomials: thus, $\mathcal{P}$ is closed unde
 
 ***
 
+There is another important vector space of polynomials we will consider. 
 
-
-Let $\mathcal{P}_n$ denote the set of polynomials with a degree of at most $n$. 
+Given $n\geq1,$ let $\mathcal{P}_n$ denote the set of polynomials with a degree of at most $n$, together with the zero polynomial: 
 
 >$$\mathcal{P}_n = \{a_0 + a_1 x + a_2x^2 + \dots + a_n x^n | a_0,\dots, a_n \in \RR\}.$$
 
