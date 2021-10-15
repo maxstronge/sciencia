@@ -4,30 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "1253a92f4ddb6d40",
+        "id": "dae6547caf24fa5a",
         "type": "leaf",
-        "dimension": 32.51783893985729,
+        "dimension": 43.83282364933741,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Lagrange Multipliers for Constrained Optimization.md",
+            "file": "Notes/Computer Science/CPSC219 - Introductory Java/Classes.md",
             "mode": "source"
           }
         },
-        "group": "66309fb7b8fd0f9b"
+        "group": "ec50cab17a565444"
       },
       {
-        "id": "77df9dfef9755487",
+        "id": "24b385390825a89a",
         "type": "leaf",
-        "dimension": 67.48216106014272,
+        "dimension": 56.16717635066259,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Lagrange Multipliers for Constrained Optimization.md",
+            "file": "Notes/Computer Science/CPSC219 - Introductory Java/Classes.md",
             "mode": "preview"
           }
         },
-        "group": "66309fb7b8fd0f9b"
+        "group": "ec50cab17a565444"
       }
     ],
     "direction": "vertical"
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.0033874511719
+    "width": 301.0033874511719,
+    "collapsed": true
   },
   "right": {
     "id": "df674f911be59496",
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Lagrange Multipliers for Constrained Optimization.md",
+                "file": "Notes/Computer Science/CPSC219 - Introductory Java/Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,8 +154,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1253a92f4ddb6d40",
+  "active": "dae6547caf24fa5a",
   "lastOpenFiles": [
+    "Notes/Computer Science/CPSC219 - Introductory Java/Classes.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Lagrange Multipliers for Constrained Optimization.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/_Vector-Valued Functions.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Eigenspaces.md",
@@ -163,7 +165,6 @@
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Untitled.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Untitled.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Electromagnetic Spectrum.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/_The Electromagnetic Spectrum and Photometric Concepts.md"
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Electromagnetic Spectrum.md"
   ]
 }
