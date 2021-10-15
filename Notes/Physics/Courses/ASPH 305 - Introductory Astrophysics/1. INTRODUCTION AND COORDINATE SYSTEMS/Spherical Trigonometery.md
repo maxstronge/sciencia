@@ -91,7 +91,7 @@ First: the sum of the angles of a spherical triangle is always **greater than** 
 
 ![[Pasted image 20210913114503.png]]
 
-The angular area on the sky (denoted $d\Omega$ on the above figure) is called the **solid angle**. The solid angle is in units of **steradians** ($\text{rad}^2$), often abbreviated as *sr*. Much like there are $2\pi$ radians in the circumference of a circle, there are $4\pi$ steradians in the entire surface of a sphere. 
+The angular area on the sky (denoted $d\Omega$ on the above figure) is called the **solid angle**. The solid angle is in units of **steradians** ($\text{rad}^2$), often abbreviated as *sr*. Much like there are $2\pi$ radians in the circumference of a circle, there are $4\pi$ steradians in the entire surface of a sphere.  ^df6b3f
 
 If a region on the sky is **circular** in shape, which is a common scenario in astronomy, the solid angle is given by:
 

@@ -35,4 +35,25 @@ We can also find the energy of a light wave as follows:
 
 ### Visible Light:
 
-Visible light (i.e. optical light) covers the wavelength range from $4 \times 10^{-4}\,mm...$
+Visible light (i.e. optical light) covers the wavelength range from $4 \times 10^{-4}\,mm \to 7 \times 10^{-4}mm$ (or 400-700$nm$).
+
+This is the range of visible light that can be seen when a beam of white light passes through a prism -- the prism separates the colors by their wavelength via refraction.
+***
+
+### Beyond Visible Light:
+ The visible range is only a tiny portion of the entire *electromagnetic spectrum* - radiation with wavelengths greater than that of red light ($\ll = 700\,nm$) is invisible to the human eye. 
+ 
+ Light with wavelengths between $700\,nm\text{ and }100\mu m$ is  known as **infrared** radiation. 
+ 
+ If the light's wavelength exceeds $100\mu m$,  the waves are considered **radio** waves. 
+ 
+ In the other direction, light with wavelengths between $400\,nm\text{ and }1\,nm$ is **ultraviolet** radiation.
+ 
+ From $\ll = 1\,nm \text{ to }1\times 10^{-4}\,nm$ , radiation belongs to the **x-ray** regime. 
+ 
+ Radiation with wavelength of less than $1\times10^{-4}\,nm$ is called **gamma** rays. 
+ 
+![https://cdn.britannica.com/75/95275-050-6ABFB771/Radio-waves-rays-light-gamma-ultraviolet-electromagnetic.jpg](https://cdn.britannica.com/75/95275-050-6ABFB771/Radio-waves-rays-light-gamma-ultraviolet-electromagnetic.jpg)
+
+***
+
