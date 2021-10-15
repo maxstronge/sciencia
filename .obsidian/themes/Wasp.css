@@ -108,17 +108,17 @@ button.mod-cta {
 }
 
       .cm-header-1 {
-      font-size: 24px;
+      font-size: 32px;
       color: var(--text-title-h1) !important;
       }
 
       .cm-header-2 {
-      font-size: 22px;
+      font-size: 28px;
       color: var(--text-title-h2) !important;
       }
 
       .cm-header-3 {
-      font-size: 20px;
+      font-size: 22px;
       color: var(--text-title-h3) !important;
       }
 
@@ -139,19 +139,19 @@ button.mod-cta {
       }
 
       .markdown-preview-view h1 {
-      font-size: 24px;
+      font-size: 32px;
       line-height: 24px;
       color: var(--text-title-h1) !important;
       }
 
       .markdown-preview-view h2 {
-      font-size: 22px;
+      font-size: 28px;
       line-height: 24px;
       color: var(--text-title-h2) !important;
       }
 
       .markdown-preview-view h3 {
-      font-size: 20px;
+      font-size: 22px;
       line-height: 24px;
       color: var(--text-title-h3) !important;
       }

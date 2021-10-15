@@ -15,8 +15,3 @@ A subset $U$ of a vector space $V$  is called a **subspace** of $V$ if it is its
 
 ***
 
-Let $\mathcal{P}_n$ denote the set of polynomials with a degree of at most $n$. 
-
->i.e. $\mathcal{P}_n = \{a_0 + a_1 x + a_2x^2 + \dots + a_n x^n | a_0,\dots, a_n \in \RR\}$.
-
-Show that $\mathcal{P}_n$ is a subspace of $F(-\infty,\infty)$, the vector space of all real-valued functions on $(-\infty, \infty)$.
