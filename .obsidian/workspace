@@ -4,30 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "dae6547caf24fa5a",
+        "id": "83ea8f86aff1041c",
         "type": "leaf",
-        "dimension": 24.57002457002457,
+        "dimension": 37.71661569826708,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/_MULTIPLEINTEGRALS.md",
             "mode": "source"
           }
         },
-        "group": "ec50cab17a565444"
+        "group": "2d79080802891faa"
       },
       {
-        "id": "24b385390825a89a",
+        "id": "64db74f1ea6c8679",
         "type": "leaf",
-        "dimension": 75.42997542997543,
+        "dimension": 62.28338430173292,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/_MULTIPLEINTEGRALS.md",
             "mode": "preview"
           }
         },
-        "group": "ec50cab17a565444"
+        "group": "2d79080802891faa"
       }
     ],
     "direction": "vertical"
@@ -68,7 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 167.00338745117188,
+    "width": 487.0033874511719,
     "collapsed": true
   },
   "right": {
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
+                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/_MULTIPLEINTEGRALS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             }
           },
           {
-            "id": "a57f2e5e8fc30811",
+            "id": "4e43097b7fc75493",
             "type": "leaf",
             "state": {
               "type": "side-panel-control-view",
@@ -139,17 +139,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dae6547caf24fa5a",
+  "active": "83ea8f86aff1041c",
   "lastOpenFiles": [
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Untitled.md",
+    "Example Random THing.md",
+    "Untitled.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Lagrange Multipliers for Constrained Optimization.md",
+    "Notes/Computer Science/CPSC219 - Introductory Java/Classes.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/_TOPIC5.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Subspaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Untitled.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Flux and Luminosity.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/_The Electromagnetic Spectrum and Photometric Concepts.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Untitled.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Doppler Effect.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Electromagnetic Spectrum.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Untitled.md"
   ]
 }
