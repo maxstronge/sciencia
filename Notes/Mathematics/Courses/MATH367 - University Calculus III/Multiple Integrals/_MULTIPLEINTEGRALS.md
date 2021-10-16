@@ -3,3 +3,6 @@
 
 ***
 
+### Sections:
+
+-[[Areas of Parametric Surfaces]]

@@ -3,9 +3,11 @@
 ***
 
 
-## [[_Ordinary Differential Equations|Ordinary Differential Equations]]
 
-## [[Course Intro|Intro to University Calculus III]]
+ - [[Course Intro|Intro to University Calculus III]]
+ - [[_Partial Derivatives|Partial Derivatives]]
+ - [[_Vector-Valued Functions|Calculus of Vector-Valued Functions]]
+
 
 
 
