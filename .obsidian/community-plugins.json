@@ -6,5 +6,7 @@
   "juggl",
   "obsidian-markdown-formatting-assistant-plugin",
   "obsidian-pandoc",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-plantuml"
 ]

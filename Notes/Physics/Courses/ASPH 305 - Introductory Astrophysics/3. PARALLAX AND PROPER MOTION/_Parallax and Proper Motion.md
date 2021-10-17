@@ -4,4 +4,5 @@
 
 ### Sections: 
 
-- [[Parallax and Proper Motion]]
+- [[Parallax, Motion, and Distance]]
+- [[Proper Motion]]
