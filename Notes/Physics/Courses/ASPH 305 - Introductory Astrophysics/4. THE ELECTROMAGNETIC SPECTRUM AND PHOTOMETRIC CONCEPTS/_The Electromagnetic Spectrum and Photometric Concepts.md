@@ -2,4 +2,7 @@
 
 ***
 
-[[The Electromagnetic Spectrum]]
+- [[The Electromagnetic Spectrum]]
+
+- [[The Doppler Effect]]
+- [[Flux and Luminosity]]
