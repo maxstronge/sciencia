@@ -4,28 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "7f850d44821aaf05",
+        "id": "b5aa768791e2f6d8",
         "type": "leaf",
+        "dimension": 38.1243628950051,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
             "mode": "source"
           }
         },
-        "group": "5a9954d37dbb7806"
+        "group": "36936930df171c55"
       },
       {
-        "id": "c5786d95b012bb83",
+        "id": "1c384f7336adc0e8",
         "type": "leaf",
+        "dimension": 61.87563710499491,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
             "mode": "preview"
           }
         },
-        "group": "5a9954d37dbb7806"
+        "group": "36936930df171c55"
       }
     ],
     "direction": "vertical"
@@ -37,7 +39,6 @@
       {
         "id": "17740ca0822d2392",
         "type": "tabs",
-        "dimension": 57.730923694779115,
         "children": [
           {
             "id": "f23a90ebf6e29992",
@@ -63,25 +64,10 @@
             }
           }
         ]
-      },
-      {
-        "id": "82fc5e171bb98b64",
-        "type": "tabs",
-        "dimension": 42.269076305220885,
-        "children": [
-          {
-            "id": "be3f31389f36609c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 517
+    "width": 287.0033874511719
   },
   "right": {
     "id": "df674f911be59496",
@@ -97,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,25 +120,34 @@
               "type": "juggl_style",
               "state": {}
             }
+          },
+          {
+            "id": "4e43097b7fc75493",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "7f850d44821aaf05",
+  "active": "b5aa768791e2f6d8",
   "lastOpenFiles": [
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Functions as Vector Spaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Basis of Vector Spaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Functions as Vector Spaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Basis.md",
+    "conflict-files-obsidian-git.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Rank-Nullity.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Subspaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Untitled.md",
-    "Example Random THing.md",
-    "Notes/Mathematics/Calculus Index.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/_TOPIC5.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Terminology Review.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Untitled.md"
   ]
 }

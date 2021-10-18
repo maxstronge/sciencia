@@ -41,6 +41,8 @@ There is another important vector space of polynomials we will consider.
 >Given $n\geq1,$ let $\mathcal{P}_n$ denote the set of polynomials with a degree of at most $n$, together with the zero polynomial: 
 >$$\mathcal{P}_n = \{a_0 + a_1 x + a_2x^2 + \dots + a_n x^n | a_0,\dots, a_n \in \RR\}.$$
 >Then $\mathcal{P}_n$ is a vector space. Indeed, sums and scalar multiples of polynomials in $\Ppn$ are again in $\Ppn$, and the other vector space axioms are inherited from $\Pp$. In particular, the zero vector and the negative of a polynomial in $\Ppn$ are equivalent to those in $\Pp$.
+>
+> The dimension of $\mathcal{P}_n$ is $n+1$.
 
 
 
@@ -61,6 +63,11 @@ The vector space of all polynomials of degree at most $n$ is denoted $\Ppn$.
 
 
 Show that $\mathcal{P}_n$ is a subspace of $F(-\infty,\infty)$, the vector space of all real-valued functions on $(-\infty, \infty)$.
+
+
+**Solution:**
+
+Note that for each $n \geq 1,\,\mathcal{P}$ has a subspace $\Ppn$ of dimension $n+1$. Suppose $\mathcal{P}$ is finite-dimensional, say $\dim(\mathcal{P}) = m$. Then, $\dim(\mathcal{P}_n) \leq \dim(\mathcal{P})$
 
 
 
