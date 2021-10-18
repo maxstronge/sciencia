@@ -5,4 +5,5 @@
 
 ### Sections:
 
--[[Areas of Parametric Surfaces]]
+- [[Areas of Parametric Surfaces]]
+- [[Surface Integrals]]

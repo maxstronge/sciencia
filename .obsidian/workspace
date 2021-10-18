@@ -4,30 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "b5aa768791e2f6d8",
+        "id": "1c384f7336adc0e8",
         "type": "leaf",
-        "dimension": 38.1243628950051,
+        "dimension": 38.53211009174312,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Vector Fields.md",
             "mode": "source"
           }
         },
-        "group": "36936930df171c55"
+        "group": "434275465e553c2d"
       },
       {
-        "id": "1c384f7336adc0e8",
+        "id": "6060369ebbb8cdfa",
         "type": "leaf",
-        "dimension": 61.87563710499491,
+        "dimension": 61.46788990825688,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Vector Fields.md",
             "mode": "preview"
           }
         },
-        "group": "36936930df171c55"
+        "group": "434275465e553c2d"
       }
     ],
     "direction": "vertical"
@@ -67,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.0033874511719
+    "width": 287.0033874511719,
+    "collapsed": true
   },
   "right": {
     "id": "df674f911be59496",
@@ -83,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
+                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Vector Fields.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,17 +138,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b5aa768791e2f6d8",
+  "active": "1c384f7336adc0e8",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Vector Fields.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Untitled.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Surface Integrals.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Areas of Parametric Surfaces.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/_MULTIPLEINTEGRALS.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Basis of Vector Spaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Functions as Vector Spaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Basis.md",
-    "conflict-files-obsidian-git.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Rank-Nullity.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Subspaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/_TOPIC5.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Untitled.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
