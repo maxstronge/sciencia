@@ -6,4 +6,4 @@
 - [[_TOPIC2|Span, Image Space, Nullspace, Subspaces]]
 - [[_TOPIC3|Linear Independence and Basis]]
 - [[_TOPIC4|Row Space & Column Space, Rank-Nullity, Orthogonality, Similarity and Diagonalization]]
-- [[_TOPIC5|Vector Spaces]]
+- [[_TOPIC5+6|Vector Spaces]]
