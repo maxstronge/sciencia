@@ -15,3 +15,4 @@ It turns out that there are many other types of mathematical objects that can be
 - [[Vector Spaces]]
 - [[Vector Subspaces]]
 - [[Polynomials]]
+- [[Functions as Vector Spaces]]

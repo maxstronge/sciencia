@@ -4,30 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "83ea8f86aff1041c",
+        "id": "b5aa768791e2f6d8",
         "type": "leaf",
-        "dimension": 37.71661569826708,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Calculus Index.md",
-            "mode": "source"
-          }
-        },
-        "group": "2d79080802891faa"
-      },
-      {
-        "id": "64db74f1ea6c8679",
-        "type": "leaf",
-        "dimension": 62.28338430173292,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Mathematics/Calculus Index.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Basis.md",
             "mode": "preview"
           }
-        },
-        "group": "2d79080802891faa"
+        }
+      },
+      {
+        "id": "7f14c6e6d12c3209",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -67,8 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 487.0033874511719,
-    "collapsed": true
+    "width": 287.0033874511719
   },
   "right": {
     "id": "df674f911be59496",
@@ -84,7 +76,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Calculus Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,17 +129,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "83ea8f86aff1041c",
+  "active": "7f14c6e6d12c3209",
   "lastOpenFiles": [
-    "Notes/Mathematics/Calculus Index.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Untitled.md",
-    "Example Random THing.md",
-    "Untitled.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Lagrange Multipliers for Constrained Optimization.md",
-    "Notes/Computer Science/CPSC219 - Introductory Java/Classes.md",
+    "conflict-files-obsidian-git.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Basis.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Rank-Nullity.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Subspaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Functions as Vector Spaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/_TOPIC5.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Subspaces.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Untitled.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
+    "Notes/Mathematics/Calculus Index.md"
   ]
 }

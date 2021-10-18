@@ -38,14 +38,19 @@ Clearly, these results are again polynomials: thus, $\mathcal{P}$ is closed unde
 
 There is another important vector space of polynomials we will consider. 
 
-Given $n\geq1,$ let $\mathcal{P}_n$ denote the set of polynomials with a degree of at most $n$, together with the zero polynomial: 
-
+>Given $n\geq1,$ let $\mathcal{P}_n$ denote the set of polynomials with a degree of at most $n$, together with the zero polynomial: 
 >$$\mathcal{P}_n = \{a_0 + a_1 x + a_2x^2 + \dots + a_n x^n | a_0,\dots, a_n \in \RR\}.$$
+>Then $\mathcal{P}_n$ is a vector space. Indeed, sums and scalar multiples of polynomials in $\Ppn$ are again in $\Ppn$, and the other vector space axioms are inherited from $\Pp$. In particular, the zero vector and the negative of a polynomial in $\Ppn$ are equivalent to those in $\Pp$.
+
+
+
+
+
+
 
 
 
 ***
-
 **Example**: 
 
 
