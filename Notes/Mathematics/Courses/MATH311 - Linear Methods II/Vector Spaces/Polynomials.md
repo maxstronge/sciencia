@@ -44,8 +44,13 @@ There is another important vector space of polynomials we will consider.
 
 
 
-***
 
+
+
+
+
+
+***
 **Example**: 
 
 

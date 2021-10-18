@@ -1,4 +1,4 @@
-# Vector Spaces:
+x# Vector Spaces:
 ***
 **Motivation**: Thus far, we have restricted our attention to vectors in $\Rn$, examining concepts like span, linear independence, subspaces, basis, and dimension.
 
