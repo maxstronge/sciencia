@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
+            "file": "Notes/Mathematics/Calculus Index.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
+            "file": "Notes/Mathematics/Calculus Index.md",
             "mode": "preview"
           }
         },
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
+                "file": "Notes/Mathematics/Calculus Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,15 +144,15 @@
   },
   "active": "2c7d5062ba2ca6fa",
   "lastOpenFiles": [
+    "Notes/Mathematics/Calculus Index.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/_TOPIC5.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Subspaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Terminology Review.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Span.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Row Space and Column Space.md",
     "conflict-files-obsidian-git.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Eigenspaces.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Lagrange Multipliers for Constrained Optimization.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector Fields.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Eigenspaces.md"
   ]
 }
