@@ -45,6 +45,12 @@ There is another important vector space of polynomials we will consider.
 
 
 
+***
+
+### Vector Space Applications to Polynomials:
+
+The vector space of all polynomials of degree at most $n$ is denoted $\Ppn$.
+
 
 
 
@@ -55,3 +61,11 @@ There is another important vector space of polynomials we will consider.
 
 
 Show that $\mathcal{P}_n$ is a subspace of $F(-\infty,\infty)$, the vector space of all real-valued functions on $(-\infty, \infty)$.
+
+
+
+
+***
+
+
+#linear_algebra #vector #vector_space #sets #polynomials #degree

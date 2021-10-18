@@ -82,3 +82,5 @@ A subset $U$  of a vector space $V$  is a called a **subspace** of $V$	if it is 
 
 
 ***
+
+#linear_algebra #vector #vector_space #

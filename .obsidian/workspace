@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Subspaces.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Subspaces.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
             "mode": "preview"
           }
         },
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Subspaces.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,15 +144,15 @@
   },
   "active": "7f850d44821aaf05",
   "lastOpenFiles": [
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Subspaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Basis of Vector Spaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Untitled.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Functions as Vector Spaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Functions as Vector Spaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Basis of Vector Spaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Subspaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Untitled.md",
     "Example Random THing.md",
     "Notes/Mathematics/Calculus Index.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/_TOPIC5.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Terminology Review.md"
   ]
 }
