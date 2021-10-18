@@ -4,22 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2c7d5062ba2ca6fa",
+        "id": "7f850d44821aaf05",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
-        },
-        "group": "49cdee3015b5c5eb"
-      },
-      {
-        "id": "b41a68f6dac4ced9",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        },
-        "group": "49cdee3015b5c5eb"
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Functions as Vector Spaces.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -91,6 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Functions as Vector Spaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,10 +129,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2c7d5062ba2ca6fa",
+  "active": "7f850d44821aaf05",
   "lastOpenFiles": [
-    "Example Random THing.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Functions as Vector Spaces.md",
+    "Example Random THing.md",
     "Notes/Mathematics/Calculus Index.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/_TOPIC5.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
