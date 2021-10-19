@@ -8,5 +8,9 @@
   "obsidian-pandoc",
   "obsidian-excalidraw-plugin",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-plantuml"
+  "obsidian-plantuml",
+  "oz-image-plugin",
+  "obsidian-style-settings",
+  "obsidian-contextual-typography",
+  "obsidian-smart-typography"
 ]

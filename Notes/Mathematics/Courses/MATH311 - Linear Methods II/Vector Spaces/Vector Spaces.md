@@ -1,4 +1,4 @@
-x# Vector Spaces:
+# Vector Spaces:
 ***
 **Motivation**: Thus far, we have restricted our attention to vectors in $\Rn$, examining concepts like span, linear independence, subspaces, basis, and dimension.
 
@@ -83,4 +83,4 @@ A subset $U$  of a vector space $V$  is a called a **subspace** of $V$	if it is 
 
 ***
 
-#linear_algebra #vector #vector_space #
+#linear_algebra #vector #vector_space #matrix #subspace
