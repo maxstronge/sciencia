@@ -44,4 +44,28 @@ The magnitude we have been using thus far are **apparent magnitudes** ($m$). App
 
 We can solve this by defining an **absolute magnitude** $(M)$, which is defined as the *apparent magnitude* an object would have if it were a distance of $12\,pc$ from the observer. 
 
-We can relate the absolute magnitude to the apparent magnitude in the following way. Consider a star wit
+We can relate the absolute magnitude to the apparent magnitude in the following way. Consider a star with apparent magnitude $m$ at a distance of $D\,pc$, as yet unknown. Define $M$ as the *absolute* magnitude of the *same* star if it were at a distance of $10\,pc$: 
+
+
+> ## $$m_2 - m_1 = -2.5\log\frac{F_2}{F_1} $$
+> ## $$m-M = -2.5\log\frac{F(D)}{F(10\,pc)}, $$ 
+>where $F(D)$ is the flux it has at some unknown distance $D$, and the flux in the denominator is the flux it would have at $10\,pc$. 
+>
+> Recall that $F(D) = \frac{L}{4\pi D^2}$ and $F(10\,pc) = \frac{L}{4\pi \,(10\,pc)^2}$.
+
+***
+
+### Magnitude Systems:
+
+The *apparent magnitude $m$*, which we have just defined, depends on the instrument used to measure it. The sensitivity of a detector will be different at different wavelengths/different instruments detect different wavelength *ranges*. Thus the flux measured by an instrument is	*not* equal to the total flux, but only the fraction of it which that instrument can detect. Depending on the method of the observation, we can define various different magnitude systems, each with different zero points (*i.e.* different flux densities $F_o$ corresponding to zero magnitude). 
+
+
+In daylight, the *human eye* is most sensitive to radiation with a wavelength of about $550\,nm$, and the sensitivity decreases towards red (longer wavelengths) and violet (shorter wavelengths). The magnitude corresponding to the sensitivity of the human eye is called the **visual magnitude**, $m_v$ . 
+
+*Photographic plates* are typically most sensitive at *blue* and *violet* wavelengths, but they are also able to register radiation not detectable by the human eye. Thus the **photographic magnitude** $m_{pg}$ usually differs from the visual magnitude. 
+
+The sensitivity of the human eye can be *simulated* with a photographic plate by using a yellow filter in combination with plates sensitized to yellow light. Magnitudes observed this way are called **photovisual magnitudes**.
+
+
+
+If, in an ideal case, 

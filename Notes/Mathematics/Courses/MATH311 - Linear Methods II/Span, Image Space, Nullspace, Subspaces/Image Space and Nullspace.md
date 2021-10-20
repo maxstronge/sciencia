@@ -1,14 +1,6 @@
 # Image Space and Nullspace:
 ***
 
-### Linear Transformations:
-
-
-If *V* and *W* are vector spaces, such as $\RRii$ or $\RRiii$, a function $T:V \to W$ is a rule that assigns to each vector $\vec{v}$ in *V* a uniquely determined vector $T(\vec{v})$ in *W*. 
-
-
-***
-
 ### Image Space and Null Space:
 
 Subspaces can also be used to describe important features  of an $m\times m$ matrix $A$ - notably, the **null space** and the **image space**. 

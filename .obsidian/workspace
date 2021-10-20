@@ -4,30 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "6060369ebbb8cdfa",
+        "id": "3c942267dfb42908",
         "type": "leaf",
-        "dimension": 39.24566768603466,
+        "dimension": 40.87665647298675,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Magnitudes.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Properties of Linear Transformations.md",
             "mode": "source"
           }
         },
-        "group": "262fb77d8934576c"
+        "group": "ce02ac068dde37a0"
       },
       {
-        "id": "3c942267dfb42908",
+        "id": "96d60773ce5bcf4a",
         "type": "leaf",
-        "dimension": 60.75433231396534,
+        "dimension": 59.12334352701325,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Magnitudes.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Properties of Linear Transformations.md",
             "mode": "preview"
           }
         },
-        "group": "262fb77d8934576c"
+        "group": "ce02ac068dde37a0"
       }
     ],
     "direction": "vertical"
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "linear transformation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Magnitudes.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Properties of Linear Transformations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,17 +138,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6060369ebbb8cdfa",
+  "active": "3c942267dfb42908",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Properties of Linear Transformations.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/_Linear Transformations.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Image Space and Nullspace.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/_TOPIC5+6.md",
+    "Notes/Mathematics/Linear Algebra Index.md",
+    "Notes/Mathematics/Mathematics Index.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/_The Electromagnetic Spectrum and Photometric Concepts.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Magnitudes.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Flux and Luminosity.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Doppler Effect.md",
-    "Research/Mathematical Kinesiology.md",
-    "Notes/Computer Science/CPSC219 - Introductory Java/Classes.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/_Parallax and Proper Motion.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/Parallax, Motion, and Distance.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/Proper Motion.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Sidereal Time.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/2. TELESCOPES/_Telescopes, Observations and Instruments.md"
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Doppler Effect.md"
   ]
 }
