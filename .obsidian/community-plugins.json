@@ -3,7 +3,6 @@
   "obsidian-autocomplete-plugin",
   "obsidian-discordrpc",
   "obsidian-latex",
-  "juggl",
   "obsidian-markdown-formatting-assistant-plugin",
   "obsidian-pandoc",
   "cm-editor-syntax-highlight-obsidian",
@@ -11,5 +10,6 @@
   "oz-image-plugin",
   "obsidian-style-settings",
   "obsidian-contextual-typography",
-  "obsidian-smart-typography"
+  "obsidian-citation-plugin",
+  "folder-note-plugin"
 ]
