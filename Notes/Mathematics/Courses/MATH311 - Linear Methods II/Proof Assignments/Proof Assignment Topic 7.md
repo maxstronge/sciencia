@@ -21,4 +21,12 @@ Suppose as well that the two transformations composing $T$, $Q$ and $R$, are bot
 
 Let $\va{a},\va{b}$ be two vectors $\in V$. Our goal is to demonstrate that the transformation $T = Q\circ R$ is linear if both $Q$ and $R$ are linear. The two axioms needed to determine whether a transformation is linear are above. Let us begin with the first axiom:
 
-> ## $$\begin{align}T(\va{a}+\va
+> ### $$\begin{align}T(\va{a}+\va{b})& =Q\circ R\,(\va{a}+\va{b}) \\ &= Q(R(\va{a}+\va{b})) \\ \qq{by axiom 1:} & = Q(R(\va{a}) + R(\va{b})) \\ & = Q(R(\va{a})) + Q(R(\va{b})) \\ &= Q\circ R(\va{a}) + Q\circ R (\va{b}) \\ &= T(\va{a}) + T(\va{b}).\end{align} $$
+
+The composite transformation satisfies the first axiom just as a consequence of its component transformations being linear. Let us now turn to the second axiom:
+
+> ## $$\begin{align}T(r\,\va{a}) = Q\circ R (r\,\va{a}) &= Q(R(r \,\va{a})) \\ \qq{by axiom 2:} &= Q(r\,R(\va{a})) \\ &= r\,Q(R(\va{a})) \\ &= r\,Q\circ R(\va{a}) \\ &= r\, T(\va{a}). \end{align} $$
+
+The second axiom is also satisfied by this general composite transformation $T$. 
+
+Therefore: if $Q: V \to W$ and $R: V \to W$ are linear transformations $\implies$ the transformation $T = Q \circ R$ is also linear. QED. 

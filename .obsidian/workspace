@@ -6,7 +6,7 @@
       {
         "id": "3c942267dfb42908",
         "type": "leaf",
-        "dimension": 40.87665647298675,
+        "dimension": 35.26077097505669,
         "state": {
           "type": "markdown",
           "state": {
@@ -19,7 +19,7 @@
       {
         "id": "96d60773ce5bcf4a",
         "type": "leaf",
-        "dimension": 59.12334352701325,
+        "dimension": 64.73922902494331,
         "state": {
           "type": "markdown",
           "state": {
@@ -67,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 166.5
+    "width": 100,
+    "collapsed": true
   },
   "right": {
     "id": "df674f911be59496",
@@ -121,7 +122,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3c942267dfb42908",
+  "active": "96d60773ce5bcf4a",
   "lastOpenFiles": [
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 7.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/_Linear Transformations.md",
