@@ -4,15 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "6060369ebbb8cdfa",
+        "id": "7f850d44821aaf05",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Computer Science/CPSC219 - Introductory Java/Classes.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
+            "mode": "source"
+          }
+        },
+        "group": "5a9954d37dbb7806"
+      },
+      {
+        "id": "c5786d95b012bb83",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "5a9954d37dbb7806"
       }
     ],
     "direction": "vertical"
@@ -24,6 +37,7 @@
       {
         "id": "17740ca0822d2392",
         "type": "tabs",
+        "dimension": 57.730923694779115,
         "children": [
           {
             "id": "f23a90ebf6e29992",
@@ -49,10 +63,26 @@
             }
           }
         ]
+      },
+      {
+        "id": "82fc5e171bb98b64",
+        "type": "tabs",
+        "dimension": 42.269076305220885,
+        "children": [
+          {
+            "id": "be3f31389f36609c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 287.0033874511719
+    "width": 517,
+    "collapsed": true
   },
   "right": {
     "id": "df674f911be59496",
@@ -68,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Computer Science/CPSC219 - Introductory Java/Classes.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,34 +135,25 @@
               "type": "juggl_style",
               "state": {}
             }
-          },
-          {
-            "id": "4e43097b7fc75493",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "6060369ebbb8cdfa",
+  "active": "7f850d44821aaf05",
   "lastOpenFiles": [
-    "Notes/Computer Science/CPSC219 - Introductory Java/Classes.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/_Parallax and Proper Motion.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/Parallax, Motion, and Distance.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/Proper Motion.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Sidereal Time.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/2. TELESCOPES/_Telescopes, Observations and Instruments.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Galactic Coordinates.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Surface Integrals.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector Fields.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Flux and Luminosity.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Functions as Vector Spaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Basis of Vector Spaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Subspaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Untitled.md",
+    "Example Random THing.md",
+    "Notes/Mathematics/Calculus Index.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/_TOPIC5.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Terminology Review.md"
   ]
 }
