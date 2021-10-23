@@ -1,0 +1,3516 @@
+/* @settings
+
+name: Shimmering Focus Theme
+id: shimmering-focus
+settings:
+  -
+    id: show-hide-elements
+    title: Show/Hide Elements
+    type: heading
+    level: 2
+    collapsed: false
+  -
+    id: show-titlebar
+    title: Show Title Bar
+    type: class-toggle
+    description: Re-enable this to have a title bar, e.g. for moving the Obsidian window
+    default: false
+  -
+    id: show-ribbons
+    title: Show Ribbons
+    type: class-toggle
+    description: Ribbons are the thin vertical bars to the very left & right
+    default: false
+  -
+    id: show-header-bar
+    title: Permanently show the Header Bar
+    type: class-toggle
+    description: When false, the Header bar is still visible upon focus and hover
+    default: false
+  -
+    id: show-statusbar
+    title: Permanently show the Status Bar
+    type: class-toggle
+    description: When false, the Status bar is still visible upon focus and hover
+    default: false
+  -
+    id: show-close-button
+    title: Permanently show the Close Button in the Settings Menu
+    type: class-toggle
+    description: When false, you can close the menu with `Esc` or by clicking outside the menu area.
+    default: false
+  -
+    id: headings-sizes
+    title: Heading Sizes
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: h1-size
+    title: Level 1 Headings
+    type: variable-number-slider
+    default: 1.7
+    min: 1
+    max: 3
+    step: 0.1
+    format: em
+  -
+    id: h2-size
+    title: Level 2 Headings
+    type: variable-number-slider
+    default: 1.5
+    min: 1
+    max: 3
+    step: 0.1
+    format: em
+  -
+    id: h3-size
+    title: Level 3 Headings
+    type: variable-number-slider
+    default: 1.3
+    min: 1
+    max: 3
+    step: 0.1
+    format: em
+  -
+    id: h4-size
+    title: Level 4 Headings
+    type: variable-number-slider
+    default: 1.2
+    min: 1
+    max: 3
+    step: 0.1
+    format: em
+  -
+    id: h5-size
+    title: Level 5 Headings
+    type: variable-number-slider
+    default: 1.1
+    min: 1
+    max: 3
+    step: 0.1
+    format: em
+  -
+    id: font-selection
+    title: Fonts
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: regular-font
+    title: Main Font
+    type: variable-text
+    default: "Computer Modern"
+  -
+    id: font-monospace
+    title: Monospace Font
+    description: Code blocks, YAML in edit mode, tables, etc.
+    type: variable-text
+    default: '"Input Mono"'
+  -
+    id: heading-font
+    title: Heading Font
+    description: H1 to H5 Headings
+    type: variable-text
+    default: 'Optima, Candara, "Helvetica Neue"'
+  -
+    id: not-optima-font
+    title: Decrease letter spacing for headings
+    description: This theme increases letter spacing to make Optima/Canberra align more with the other fonts. Turn off, if you are using a different Heading Font.
+    type: class-toggle
+    default: false
+  -
+    id: longform-settings
+    title: Longform Plugin Styling
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: longform-font
+    title: Main Font for Longform Notes
+    description: Font used in folders marked as Longform Project
+    type: variable-text
+    default: '"Crimson Pro"'
+  -
+    id: longform-font-size
+    title: Longform Font Size
+    type: variable-number-slider
+    default: 1.2
+    min: 0.7
+    max: 3
+    step: 0.1
+    format: em
+  -
+    id: longform-left-aligned
+    title: Left-aligned text in Longform notes
+    description: Use left-aligned instead of justified text.
+    type: class-toggle
+    default: false
+  -
+    id: longform-no-bg
+    title: No Background Color for Longform Notes
+    description: Turn off the slight coloring of longform notes.
+    type: class-toggle
+    default: false
+  -
+    id: miscellaneous
+    title: Miscellaneous
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: normal-checkboxes
+    title: Normal Checkboxes
+    description: Use the normal checkboxes from the default theme.
+    type: class-toggle
+    default: false
+  -
+    id: no-alternating-header-italics
+    title: No Alternating Italic of Headings
+    description: In this theme, the Heading Levels alternate between italic/regular to make them more distinguishable. You can turn that feature off if you prefer non-italic at all heading levels.
+    type: class-toggle
+    default: false
+  -
+    id: no-pandoc-citation-emphasis
+    title: No Emphasis of Pandoc Citations
+    description: Turn off the coloring of Pandoc Citations [@citekey] done by this theme.
+    type: class-toggle
+    default: false
+  -
+    id: no-h2-numbering
+    title: No H2 Numbering
+    description: Turn off the numbering H2 in Preview Mode.
+    type: class-toggle
+    default: false
+  -
+    id: hide-index-files
+    title: Hide files named "Index.md" from File Explorer
+    description: Files named that way are created by some plugins and in many cases should not be touched (e.g. Longform Plugin). If you use such a plugin, you can hide those files.
+    type: class-toggle
+    default: false
+
+*/
+
+/* above: settings for the Style Settings Plugin
+https://github.com/mgmeyers/obsidian-style-settings*/
+
+/* ------------------------------------------------------ */
+/* > SHIMMERING FOCUS, version 1.59
+Created by @pseudometa (Discord) aka @chrisgrieser (GitHub)
+https://github.com/chrisgrieser/shimmering-focus/ */
+/* ---------------------------------------------------------
+For help and/or CSS snippets, thanks to:
+- @SlRvb
+- @javalent
+- @kepano
+- @Mara
+- @Chetachie
+- @Eleanor Konik
+- @Atlas
+- @Grimdewaldt
+- @jdaniel
+- @só erick mesmo
+- @NothingIsLost
+- @phibr0
+- @Damian Korcz
+--------------------------------------------------------- */
+
+/* ------------------------------------------------------ */
+/* > Colors and Variables */
+/* ------------------------------------------------------ */
+
+:root {
+	--accent-lighter: #a09beb;
+	--alt-accent: #02ac7d;
+	--alt-accent-darker: #009a72;
+	--alt-accent-lighter: #00d29a;
+	--code-color: var(--alt-accent-darker);
+	--html-tag-color: var(--alt-accent-darker);
+	--scrollbar-hover:  var(--alt-accent-lighter);
+	--pseudo-admonition-border: var(--accent-lighter);
+	--cursor-color: var(--accent-lighter);
+	--scrollbar-active: var(--accent-lighter);
+	--highlight-color: #00ff8866;
+	--highlight-alt1: #ffff0066;
+	--highlight-alt2: #00ffff66;
+	--search-match-hl: var(--highlight-alt2);
+	--bold-in-darkmode: hsl(30deg 100% 80%);
+	--unresolved-link-color: #0F80FF;
+	--backdrop-color: hsl(228deg 40% 7%);
+	--active-line: #adae9820;
+
+	--block-border-radius: 4px;
+	--resize-handle-thickness: 0.35em;
+	--scrollbar-thickness: 0.85em;
+	--image-size: 50%;
+	--inactive-pane-opacity: 75%;
+	--signature:"⟡";
+}
+
+.theme-light {
+	--editor-alt-accent: var(--alt-accent-darker);
+	--selection-color: #e8ddffDD;
+	--more-contrast-muted: #5E5E5E;
+	--grey-line-color: #888;
+	--image-zoom-bg: #444;
+	--button-hover: var(--alt-accent);
+	--longform-background: hsl(30deg 30% 98%);
+	--finished-task: hsl(74deg 36% 60%);
+	--spell-error-color: #7490FF;
+	--tooltip-notification-bg: var(--text-faint);
+	--tooltip-notification-text: var(--interactive-normal);
+	--tooltip-notification-border: var(--text-muted);
+}
+
+.theme-dark {
+	--editor-alt-accent: var(--alt-accent);
+	--selection-color: #3c243bDD;
+	--more-contrast-muted: #BBB;
+	--grey-line-color: #CCC;
+	--image-zoom-bg: #000;
+	--button-hover: var(--alt-accent-darker);
+	--longform-background: hsl(226deg 18% 13%);
+	--finished-task: hsl(74deg 36% 40%);
+	--spell-error-color: #637BE1;
+	--tooltip-notification-bg: var(--more-contrast-muted);
+	--tooltip-notification-text: var(--interactive-normal);
+	--tooltip-notification-border: var(--text-muted);
+}
+
+
+/* ------------------------------------------------------ */
+/* > Fonts */
+/* ------------------------------------------------------ */
+@font-face {
+	 font-family: "Computer Modern";
+	 src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+ }
+ @font-face {
+	 font-family: "Computer Modern";
+	 src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+	 font-weight: bold;
+ }
+ @font-face {
+	 font-family: "Computer Modern";
+	 src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+	 font-style: italic, oblique;
+ }
+ @font-face {
+	 font-family: "Computer Modern";
+	 src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+	 font-weight: bold;
+	 font-style: italic, oblique;
+ }
+
+ body {
+	 font-family: "Computer Modern", sans-serif;
+ }
+
+:root{
+	--default-font: "Computer Modern";
+	--font-monospace: "Input Mono";
+	--heading-font: Optima, Candara, "Helvetica Neue";
+	--mermaid-font: var(--font-monospace);
+	--longform-font: "Crimson Pro";
+
+	--h1-size: 1.7em;
+	--h2-size: 1.5em;
+	--h3-size: 1.3em;
+	--h4-size: 1.2em;
+	--h5-size: 1.1em;
+	--longform-font-size: 1.2em;
+}
+
+.CodeMirror-linenumber{
+	font-family: var(--font-monospace) !important;
+}
+
+input,
+button{
+	font-family: var(--default-font) !important;
+}
+
+/* ensures similar height of "#" and text of tags */
+.cm-formatting.cm-formatting-hashtag.cm-hashtag-begin.cm-hashtag.cm-meta{
+	font-family: var(--default-font);
+}
+
+/* >> Bold */
+/* Colored Bold to increase distinguishability */
+.theme-dark .cm-strong,
+.theme-dark .markdown-preview-view strong {
+  color: var(--bold-in-darkmode) !important;
+}
+/* fix bold for iA Writer Quattro */
+body:not(.not-ia-writer-font) .suggestion-highlight,
+body:not(.not-ia-writer-font) .cm-strong,
+body:not(.not-ia-writer-font) .markdown-preview-view strong,
+body:not(.not-ia-writer-font) .nav-file-title.is-active,
+body:not(.not-ia-writer-font) table:not(.dataview.table-view-table) th,
+body:not(.not-ia-writer-font) .svelte-23avsr[name~="projects"],
+body:not(.not-ia-writer-font) .draft-container.svelte-1jmafs.selected,
+body:not(.not-ia-writer-font) .draft-container.svelte-1jmafs.selected:hover,
+body:not(.not-ia-writer-font) .scene-container.svelte-1wlkmbt.selected:hover,
+body:not(.not-ia-writer-font) .scene-container.svelte-1wlkmbt.selected,
+body:not(.not-ia-writer-font) .svelte-23avsr[name~="projects"]{
+  text-rendering: geometricPrecision;
+}
+
+.suggestion-highlight,
+.cm-strong,
+.markdown-preview-view strong,
+.nav-file-title.is-active,
+table:not(.dataview.table-view-table) th,
+.svelte-23avsr[name~="projects"],
+.draft-container.svelte-1jmafs.selected,
+.draft-container.svelte-1jmafs.selected:hover,
+.scene-container.svelte-1wlkmbt.selected:hover,
+.scene-container.svelte-1wlkmbt.selected,
+.svelte-23avsr[name~="projects"]{
+  font-weight: 900;
+}
+
+
+
+/* ------------------------------------------------------ */
+/* > TITLE BAR */
+/* ------------------------------------------------------ */
+/* display only when set in style settings */
+body:not(.show-titlebar) .titlebar{
+	display: none;
+}
+
+/* fix for Mac OS Traffic Lights */
+/* same for right side to harmonize */
+body:not(.show-titlebar) .workspace-split.mod-left-split > .workspace-tabs,
+body:not(.show-titlebar) .workspace-split.mod-right-split > .workspace-tabs {
+	padding-top: 1.15em;
+}
+/*thanks @javalent*/
+body:not(.show-titlebar) .workspace-split.mod-left-split.is-collapsed ~ .mod-root .view-header{
+	padding-left: 45px;
+}
+
+/* header bar is considered as titlebar on mobile */
+.theme-dark:not(.show-titlebar):not(.is-mobile),
+.theme-light:not(.show-titlebar):not(.is-mobile) {
+	padding: 0 !important;
+}
+
+/* adapt height of resize handle */
+body:not(.show-titlebar) .workspace-split.mod-horizontal > .workspace-leaf-resize-handle {
+	top: 3.05em !important;
+}
+
+/* styling when shown */
+.theme-light .titlebar-button{
+	opacity: 1;
+	color: var(--text-on-accent);
+}
+.titlebar-button{
+	opacity: 1;
+	color: var(--more-contrast-muted);
+}
+.titlebar-button:hover{
+	color: var(--alt-accent);
+}
+.titlebar-button:active{
+	color: var(--text-accent);
+}
+
+/* proper light theme for titlebar */
+.theme-light .titlebar {
+	background-color: var(--background-secondary-alt);
+}
+.theme-light .titlebar-text{
+	opacity: 1;
+	color: var(--more-contrast-muted);
+}
+
+/* ------------------------------------------------------ */
+/* > Ribbons */
+/* ------------------------------------------------------ */
+/* hide ribbons, when the setting is chosen */
+body:not(.show-ribbons) .workspace-ribbon{
+	display: none;
+}
+
+/* readability improvements when shown */
+.side-dock-ribbon-action svg,
+.workspace-ribbon-collapse-btn svg{
+	color: var(--more-contrast-muted);
+}
+
+.workspace-ribbon-collapse-btn svg{
+	stroke-width: 4px;
+}
+.side-dock-ribbon-action:hover svg,
+.workspace-ribbon-collapse-btn:hover svg{
+	color: var(--alt-accent);
+}
+.side-dock-ribbon-action:active svg,
+.workspace-ribbon-collapse-btn:active svg{
+	color: var(--text-accent);
+}
+
+/* ------------------------------------------------------ */
+/* > Notifications & Tooltips */
+/* ------------------------------------------------------ */
+
+.tooltip{
+	background-color: var(--tooltip-notification-bg) !important;
+	border: 2px ridge var(--tooltip-notification-border);
+	color: var(--tooltip-notification-text);
+	border-radius: 15px;
+}
+
+.theme-light .notice,
+.theme-dark .notice{
+	font-size: 1em;
+	background-color: var(--tooltip-notification-bg);
+	border: 2px solid var(--tooltip-notification-border);
+	color: var(--tooltip-notification-text);
+	padding: 7px 12px 7px 12px;
+	border-radius: 10px;
+}
+
+.tooltip .tooltip-arrow{
+	display: none;
+	/* styling info in yin yang theme */
+}
+
+/* ------------------------------------------------------ */
+/* > HIDE FURTHER STUFF */
+/* ------------------------------------------------------ */
+/* based on css from the hider plugin by @kepano:
+https://github.com/kepano/obsidian-hider/blob/master/styles.css */
+
+/* hide vault title */
+.nav-folder.mod-root > .nav-folder-title {
+	display: none;
+}
+
+/* only show on hover */
+body:not(.show-close-button) .modal.mod-settings .modal-close-button {
+	opacity: 0;
+	transition: 1000ms;
+}
+body:not(.show-close-button) .modal.mod-settings .modal-close-button:hover {
+	opacity: 1;
+	transition: 200ms;
+}
+
+
+/* Hide instructions */
+.prompt-instructions {
+	display:none;
+}
+
+/* hide empty pane info*/
+.empty-state-action{
+	display: none;
+}
+.community-plugin-details-empty-state,
+.empty-state-title{
+	font-size: 0;
+}
+.community-plugin-details-empty-state{
+	padding-top: 10rem;
+}
+/* replace empty pane info with something nicer */
+.community-plugin-details-empty-state::after,
+.empty-state-title::after{
+	content: var(--signature);
+	font-size: 10rem;
+	color: var(--more-contrast-muted);
+}
+
+/* ------------------------------------------------------ */
+/* > Header Bar */
+/* ------------------------------------------------------ */
+
+/* harmonize sizes for when titlebar is shown */
+.view-header-title{
+	line-height: 2;
+	font-size: 0.9em;
+}
+body:not(.is-mobile) .view-header-icon {
+	padding-top:  0.2em;
+}
+body:not(.is-mobile) .view-actions {
+	padding-top:  0.1em;
+}
+.view-header-icon,
+.view-action {
+	color: var(--more-contrast-muted) !important;
+}
+
+/* show only on hover, when writing in the header bar,
+or when enabled by the style settings plugin */
+body:not(.show-header-bar):not(.is-mobile) .view-header {
+ 	height: 0.9em;
+	transition: 300ms;
+	border-bottom: none !important;
+	background-color: var(--background-primary) !important;
+}
+body:not(.show-header-bar):not(.is-mobile) .view-header {
+	border-color: var(--text-faint);
+	border-top: none;
+}
+
+body:not(.is-mobile) .view-header-title-container::after{
+	display: none;
+}
+
+body:not(.show-header-bar):not(.is-mobile) .view-header-icon,
+body:not(.show-header-bar):not(.is-mobile) .view-action svg {
+	opacity: 0;
+	color: var(--more-contrast-muted);
+}
+body:not(.show-header-bar):not(.is-mobile) .view-header-title {
+	opacity: 0;
+	color: var(--text-normal);
+}
+
+/*thanks to @só erick mesmo for ":focus-within"*/
+body.show-header-bar:not(.is-mobile) .view-header,
+body:not(.show-header-bar):not(.is-mobile) .view-header:hover,
+body:not(.show-header-bar):not(.is-mobile) .view-header:focus-within{
+	height: 1.9em !important;
+	background-color: var(--background-secondary) !important;
+	transition: 300ms;
+}
+
+body.show-header-bar:not(.is-mobile) .view-header{
+	border-bottom: 2px solid var(--background-secondary-alt) !important;
+}
+
+/*.is-mobile .view-header-icon,
+.is-mobile .view-action svg,
+.is-mobile .view-header-title,*/
+body.show-header-bar .view-header-icon,
+body.show-header-bar .view-action svg,
+body.show-header-bar .view-header-title,
+body .view-header:hover .view-header-icon,
+body .view-header:hover .view-action svg,
+body .view-header:hover .view-header-title,
+body .view-header:focus-within .view-header-icon,
+body .view-header:focus-within .view-action svg,
+body .view-header:focus-within .view-header-title{
+	opacity: 1 !important;
+}
+
+.view-content:not(.is-mobile) {
+  height: 100%;
+}
+
+/* hover & active coloring */
+
+body.show-header-bar.is-mobile.view-header:hover,
+body:not(.is-mobile) .view-header:hover{
+	border-bottom: 2px solid var(--alt-accent) !important;
+}
+
+body.show-header-bar.is-mobile.view-header:focus-within,
+body:not(.is-mobile) .view-header:focus-within{
+	border-bottom: 2px solid var(--text-accent) !important;
+}
+.view-header-icon:hover,
+.view-action:hover svg{
+	color: var(--alt-accent) !important;
+}
+.view-header-icon:active,
+.view-action:active svg{
+	color: var(--text-accent) !important;
+}
+
+
+/* ------------------------------------------------------ */
+/* > Context Menus */
+/* ------------------------------------------------------ */
+
+.menu-item.selected,
+.menu-item.selected svg{
+	color: var(--text-accent);
+}
+
+.menu-item svg{
+	color: var(--more-contrast-muted);
+}
+
+.menu-item:hover,
+.menu-item:hover svg,
+.menu-item.selected:hover,
+.menu-item.selected:hover svg,
+.menu-item.selected:hover .menu-item-title{
+	color: var(--alt-accent);
+}
+
+.menu-item.selected:hover,
+.menu-item:hover{
+	border-left: 3px solid var(--alt-accent);
+	margin-left: 0px;
+}
+
+.menu-item.selected{
+	border-left: 3px solid var(--text-accent);
+	margin-left: 0px;
+}
+
+.menu-item{
+	margin-left: 3px;
+}
+
+.menu-item:hover .menu-item-title {
+	color: var(--alt-accent)
+}
+.menu-item.selected .menu-item-title {
+	color: var(--text-accent)
+}
+
+/* ------------------------------------------------------ */
+/* > Status Bar */
+/* ------------------------------------------------------ */
+/* based on some CSS snippets from @Chetachi's Yin-and-Yang Theme https://github.com/chetachiezikeuzor/Yin-and-Yang-Theme */
+
+.status-bar-item,
+.status-bar::after {
+  padding: 0 0 0 1.3em;
+  color: var(--more-contrast-muted);
+  font-size: 1em;
+}
+
+.status-bar,
+.is-translucent .status-bar {
+  border: 1px solid var(--background-modifier-border) !important;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-top-left-radius: 7px;
+  padding: 0.5em 1em 0.5em 0 !important;
+  max-height: unset;
+  line-height: 1.2;
+}
+
+/* "signature" */
+.status-bar::after {
+  content: var(--signature);
+}
+
+/* only show on hover */
+body:not(.show-statusbar) .status-bar,
+.is-translucent .status-bar {
+  opacity: 0;
+  transition: 800ms;
+}
+body:not(.show-statusbar) .status-bar:hover {
+  opacity: 1;
+  transition: 200ms;
+}
+
+/* hovering color for clickable plugins */
+.status-bar-item.mod-clickable:hover,
+.lt-status-bar-btn:hover{
+   color: var(--alt-accent) !important;
+ }
+
+/* ------------------------------------------------------ */
+/* > Scrollbar */
+/* ------------------------------------------------------ */
+
+/* hide all scrollbars except the one for the editor */
+::-webkit-scrollbar {
+	display: none;
+}
+.workspace-split.mod-vertical ::-webkit-scrollbar {
+	display: unset;
+	width: var(--scrollbar-thickness);
+}
+::-webkit-scrollbar {
+	display: none;
+}
+
+/* hover / active colors */
+::-webkit-scrollbar-thumb:hover{
+	background-color: var(--scrollbar-hover);
+}
+::-webkit-scrollbar:hover {
+	background-color: var(--background-secondary-alt);
+}
+::-webkit-scrollbar-thumb:active {
+	background-color: var(--scrollbar-active) !important;
+}
+
+/* ------------------------------------------------------ */
+/* > Buttons & Checkboxes & Input */
+/* ------------------------------------------------------ */
+
+button{
+	font-weight: 600;
+}
+
+button:hover{
+	background-color: var(--button-hover) !important;
+	color: var(--interactive-normal);
+}
+
+body:not(.normal-checkboxes) .checkbox-container.is-enabled:hover,
+.checkbox-container.is-enabled:hover{
+	background-color: var(--scrollbar-hover);
+	opacity: 1;
+}
+
+body:not(.normal-checkboxes) .checkbox-container:hover,
+.checkbox-container:hover{
+	background-color: var(--alt-accent);
+	opacity: 0.65;
+}
+
+.checkbox-container {
+	margin-left: 5px;
+}
+
+/* minimalistic checkboxes, thanks @SlRvb */
+body:not(.normal-checkboxes) .checkbox-container {
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px ridge var(--text-faint);
+    width: 22px;
+    height: 22px;
+    background-color: var(--background-secondary);
+}
+body:not(.normal-checkboxes) .checkbox-container:after {
+    display: none;
+}
+body:not(.normal-checkboxes) .checkbox-container.is-enabled {
+    background-color: var(--interactive-accent);
+}
+/* bugfix  since ridge does not look nice in dark mode*/
+.theme-dark:not(.normal-checkboxes) .checkbox-container{
+	border-style: double;
+	border-width: 3px;
+}
+
+input{
+	padding: 5px !important;
+	padding-right: 0 !important;
+	left: 0 !important;
+}
+
+input:hover{
+	border-color: var(--alt-accent);
+}
+
+
+
+/* ------------------------------------------------------ */
+/* > CODE BLOCKS & INLINE CODE */
+/* ------------------------------------------------------ */
+.cm-s-obsidian .HyperMD-codeblock,
+.markdown-preview-view code,
+.cm-s-obsidian span.cm-inline-code,
+.theme-dark .cm-s-obsidian .HyperMD-codeblock {
+	font-size: 1em;
+	color: var(--code-color) !important;
+}
+
+/*wrapping, preserving line breaks*/
+.markdown-preview-view code{
+  white-space: pre-wrap !important;
+}
+
+
+/* show language of Code Block in Preview Mode */
+/* snippet by Chetachi */
+
+pre {
+  position: relative;
+}
+pre[class*="language-"]::after {
+  content: attr(class);
+  font-size: 0.8em;
+  font-family: var(--font-monospace);
+  color: var(--text-muted);
+  position: absolute;
+  right: 5px;
+  bottom: 2px;
+}
+pre[class~="language-c"]:after {
+  content: "C";
+}
+pre[class~="language-python"]:after {
+  content: "Python";
+}
+pre[class~="language-nginx"]:after {
+  content: "Nginx";
+}
+pre[class~="language-css"]:after {
+  content: "CSS";
+}
+pre[class~="language-node"]:after {
+  content: "Node";
+}
+pre[class~="language-react"]:after {
+  content: "React";
+}
+pre[class~="language-javascript"]:after {
+  content: "JavaScript";
+}
+pre[class~="language-js"]:after {
+  content: "JavaScript";
+}
+pre[class~="language-php"]:after {
+  content: "PHP";
+}
+pre[class~="language-shell"]:after {
+  content: "Shell";
+}
+pre[class~="language-bash"]:after {
+  content: "Bash";
+}
+pre[class~="language-typescript"]:after {
+  content: "TypeScript";
+}
+pre[class~="language-shell"]:after {
+  content: "Shell";
+}
+pre[class~="language-flow"]:after {
+  content: "Flow";
+}
+pre[class~="language-sequence"]:after {
+  content: "Sequence";
+}
+pre[class~="language-sql"]:after {
+  content: "SQL";
+}
+pre[class~="language-yaml"]:after {
+  content: "YAML";
+}
+pre[class~="language-ini"]:after {
+  content: "INI";
+}
+pre[class~="language-xml"]:after {
+  content: "XML";
+}
+pre[class~="language-git"]:after {
+  content: "GIT";
+}
+pre[class~="language-cs"]:after {
+  content: "C#";
+}
+pre[class~="language-cpp"]:after {
+  content: "C++";
+}
+pre[class~="language-java"]:after {
+  content: "JAVA";
+}
+pre[class~="language-html"]:after {
+  content: "HTML";
+}
+pre[class~="language-txt"]:after {
+  content: "TXT";
+}
+
+/* fix for the buggy selection fo inline text
+https://forum.obsidian.md/t/inline-code-occludes-text-selection-and-vim-cursor/11552/10 */
+.theme-dark .cm-inline-code {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+/* ------------------------------------------------------ */
+/* > Spellcheck Error Overlay */
+/* ------------------------------------------------------ */
+
+/*change spellcheck styling*/
+.CodeMirror .cm-spell-error{
+	background-image: none;
+	text-decoration: underline solid var(--spell-error-color);
+	text-decoration-thickness: 2px;
+}
+
+/* do not spellcheck inside a blockquote, yaml, or code */
+.cm-hmd-frontmatter.cm-overlay.cm-spell-error,
+span.cm-quote.cm-quote-1.cm-overlay.cm-spell-error,
+.HyperMD-codeblock.cm-spell-error,
+span.cm-inline-code.cm-spell-error {
+	text-decoration: none;
+	background-image: none;
+}
+
+
+/* ------------------------------------------------------ */
+/* > Links, Tags, HTML, & Comments */
+/* ------------------------------------------------------ */
+/* hovered links in alt accent */
+.cm-string.cm-url:hover:not(.cm-formatting),
+.cm-hmd-internal-link:hover,
+.modal-content a:hover,
+.markdown-preview-view a.footnote-link:hover,
+.markdown-preview-view a.internal-link:hover,
+.markdown-preview-view a.external-link:hover {
+	color: var(--alt-accent) !important;
+	cursor: pointer;
+}
+
+/* unresolved links */
+a.internal-link.is-unresolved{
+  color: var(--unresolved-link-color);
+  opacity: 0.65 !important;
+}
+a.internal-link.is-unresolved:hover{
+  color: var(--alt-accent);
+  opacity: 0.8 !important;
+}
+
+/* dont underline the brackets */
+.cm-url.cm-formatting {
+	text-decoration: none !important;
+}
+
+/* tags */
+.cm-hashtag,
+a.tag {
+	color: var(--editor-alt-accent) !important;
+ 	text-decoration: none !important;
+}
+
+.cm-hashtag:hover,
+a.tag:hover {
+	cursor: pointer;
+	text-decoration: underline !important;
+}
+
+/*comments: more contrast */
+.cm-comment{
+	color: var(--text-muted) !important;
+}
+
+/* HTML Tags */
+.cm-tag.cm-bracket.cm-hmd-html-begin,
+.cm-tag.cm-bracket.cm-hmd-html-end,
+.cm-tag{
+	color: var(--html-tag-color) !important;
+	font-family: var(--font-monospace) !important;
+}
+
+/* ------------------------------------------------------ */
+/* > to dos */
+/* ------------------------------------------------------ */
+
+/* edit mode */
+
+/* unfinished */
+.cm-s-obsidian span.cm-formatting-task {
+	font-weight: 600;
+}
+
+/* finished */
+.cm-s-obsidian span.cm-formatting-task.cm-property {
+	font-weight: 600;
+	color: var(--finished-task);
+}
+
+
+/* ------------------------------------------------------ */
+/* > Modal & Prompt Boxes */
+/* ------------------------------------------------------ */
+/* (modal also applies to settings/plugin browser) */
+
+.modal-content h2 {
+	font-size: var(--h2-size);
+	margin-top: 0.5em;
+}
+
+.modal-content h4 {
+	font-size: var(--h4-size);
+	margin-top: 0.5em;
+}
+
+.modal-content li {
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+.modal-content {
+	margin-top: 0;
+}
+
+.modal {
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-right: 1em;
+	padding-left: 1em;
+	border-radius: 12px;
+	border: 5px solid var(--background-primary);
+}
+
+.prompt-bg,
+.modal-bg {
+	backdrop-filter: blur(4px);
+	background-color: var(--backdrop-color);
+	opacity: 0.8;
+}
+
+.prompt {
+	border-radius: 15px;
+	border: 5px solid var(--background-secondary);
+}
+
+/* close buttom */
+.modal-close-button:hover {
+	color: var(--alt-accent);
+	background: var(--background-secondary-alt);
+}
+.modal-close-button {
+	top: 0;
+	right: 0;
+	padding-left: 4px;
+	padding-bottom: 4px;
+	padding-right: 3px;
+	border-bottom-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+
+
+/* ------------------------------------------------------ */
+/* > Command Palette & QuickSwitcher(s) */
+/* ------------------------------------------------------ */
+
+/* change font color of hotkeys */
+.suggestion-item.is-selected,
+.suggestion-item.is-selected .suggestion-flair,
+.suggestion-item.is-selected .suggestion-highlight{
+	color: var(--text-accent);
+}
+
+.suggestion-item:hover,
+.suggestion-item:hover .suggestion-flair{
+	color: var(--alt-accent);
+}
+.suggestion-item.is-selected .suggestion-hotkey,
+.suggestion-item:hover .suggestion-hotkey{
+	background-color: var(--background-secondary-alt);
+}
+
+.suggestion-item:hover,
+.suggestion-highlight,
+.suggestion-item:hover .suggestion-highlight{
+	color: var(--editor-alt-accent);
+}
+
+
+/* Another Quick Switcher */
+.another-quick-switcher__item__directory svg{
+	display: none;
+}
+.another-quick-switcher__item__directory::before{
+	content: "folder_open";
+	font-family: "Material Icons";
+	font-size: 1.4em;
+}
+
+.suggestion-item.is-selected .another-quick-switcher__item__directory{
+	color: var(--text-accent);
+	opacity: 0.7;
+}
+
+.suggestion-item:hover .another-quick-switcher__item__directory{
+	color: var(--editor-alt-accent);
+	opacity: 0.7;
+}
+
+
+
+/* ------------------------------------------------------ */
+/* > CURSOR */
+/* ------------------------------------------------------ */
+.CodeMirror-cursor {
+	border: none;
+	border-left: 3px solid var(--cursor-color);
+}
+
+/* ------------------------------------------------------ */
+/* > SIDEBAR */
+/* ------------------------------------------------------ */
+
+/* hover colors */
+.workspace-tab-header-inner-icon:hover,
+.workspace-tab-header-inner:hover svg,
+.nav-action-button:hover svg,
+.nav-action-button.is-active:hover svg {
+	color: var(--alt-accent);
+  cursor: pointer;
+}
+
+.workspace-tab-header-inner:active svg,
+.nav-action-button:active svg,
+.nav-action-button.is-active:active svg,
+.nav-action-button.is-active svg {
+	color: var(--text-accent) !important;
+}
+
+/* condense left sidebar */
+.nav-action-button svg,
+.workspace-tab-header-inner-icon svg {
+	width: 18px;
+	stroke-width: 2px;
+	color: var(--more-contrast-muted);
+}
+.nav-header {
+	padding-top: 0.8em;
+	padding-bottom: 0.1em;
+	padding-right: 0.2em;
+	padding-left: 0.2em;
+}
+
+.nav-action-button {
+	padding: 0 7px 0 0;
+}
+.workspace-tab-header-inner {
+	padding: 1px 5px 3px 8px;
+}
+
+/* ------------------------------------------------------ */
+/* > Resize Handles */
+/* ------------------------------------------------------ */
+/*thicker resize handles*/
+.workspace-split.mod-horizontal > .workspace-leaf-resize-handle {
+	width: var(--resize-handle-thickness);
+}
+.workspace-split.mod-horizontal > .workspace-leaf > .workspace-leaf-resize-handle,
+.workspace-split.mod-horizontal > .workspace-tabs > .workspace-leaf-resize-handle{
+	height: var(--resize-handle-thickness);
+}
+
+/* coloring */
+.workspace-leaf-resize-handle:active {
+	background-color: var(--scrollbar-active) !important;
+}
+.workspace-leaf-resize-handle:hover {
+	background-color: var(--scrollbar-hover);
+}
+
+/* ------------------------------------------------------ */
+/* > PANES: Search, Backlink, Tags, Starred, and Outline   */
+/* ------------------------------------------------------ */
+/* all panes */
+
+.tree-item-inner-subtext,
+.tree-item-inner,
+.search-result-file-match,
+.tree-item-flair,
+.tree-item-icon svg {
+	color: var(--more-contrast-muted);
+}
+
+.tree-item-inner-subtext{
+	opacity: 0.8;
+}
+
+.tree-item-inner:hover,
+.tree-item-self:hover .tree-item-inner-subtext,
+.tree-item-self:hover .tree-item-icon svg,
+.tree-item-self:hover,
+.tree-item-self:hover .tree-item-icon svg,
+.tree-item-self:hover .tree-item-inner,
+.tree-item.is-collapsed:hover,
+.tree-item.is-collapsed:hover .tree-item-inner,
+.tree-item.is-collapsed:hover .tree-item-icon svg {
+	color: var(--alt-accent) !important;
+}
+.theme-light .tree-item-self:hover .tree-item-flair {
+	background: var(--alt-accent) !important;
+	font-weight: 600;
+	opacity: 0.8;
+}
+.theme-dark .tree-item-self:hover .tree-item-flair {
+	background: var(--highlight-color) !important;
+	font-weight: 600;
+}
+
+.tree-item-self:active,
+.tree-item-self:active .tree-item-icon svg {
+	color: var(--text-accent);
+}
+
+.tree-item.is-collapsed,
+.tree-item.is-collapsed .tree-item-inner,
+.tree-item.is-collapsed .tree-item-icon svg {
+	color: var(--text-accent) !important;
+	font-weight: 600;
+}
+
+.tree-item.is-collapsed .tree-item-flair{
+	background-color: var(--selection-color);
+	font-weight: 600;
+}
+
+
+.tree-item-icon svg {
+	height: 10px;
+	width: 10px;
+}
+
+/* >> search & backlink */
+.workspace-leaf-content[data-type="search"] .tree-item-self {
+	padding-left: 1.2em;
+}
+
+.backlink-pane .tree-item-inner.is-collapsed{
+	color: var(--text-accent) !important;
+	font-weight: 600;
+}
+
+.search-info-container {
+	color: var(--more-contrast-muted);
+	font-style: italic;
+}
+
+.backlink-pane {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.workspace-leaf-content[data-type="backlink"] .search-result-container {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.workspace-leaf-content[data-type="backlink"] .search-result-container .tree-item-flair {
+	margin-right: 0.07em;
+}
+
+.workspace-leaf-content[data-type="backlink"] .tree-item-self {
+	font-weight: 600;
+}
+
+.workspace-leaf-content[data-type="backlink"] .search-result-file-match {
+	margin-left: 1.3em;
+	font-weight: 500;
+}
+
+.search-result-file-match {
+	padding-left: 0;
+	padding-right: 1em;
+	max-width: 90%;
+	line-height: 1.4em;
+	margin-bottom: 0.4em;
+	width: 98%;
+}
+.search-result-file-matches {
+	margin-left: 0;
+	margin-right: 0.6em;
+	border-bottom: 2px solid var(--text-faint);
+}
+
+/* search result highlights are colored text instead for
+readability */
+.search-result-file-matched-text {
+	color: var(--alt-accent);
+	font-weight: 600;
+	background: none;
+}
+
+/*prevents text being colors on a highlight */
+.is-flashing,
+.obsidian-search-match-highlight{
+	color: var(--text-normal) !important;
+	background-color: var(--search-match-hl) !important;
+}
+
+/* >> outgoing and backlink unlinked mentions */
+.search-result-file-match-destination-file{
+	color: var(--more-contrast-muted);
+}
+.search-result-file-match-destination-file:hover{
+	background-color: var(--alt-accent) !important;
+}
+.search-result-hover-button{
+	color: var(--more-contrast-muted);
+}
+.search-result-hover-button:hover{
+	background-color: var(--alt-accent);
+}
+
+
+/* >> Tag Pane */
+.tag-container {
+	padding-right: 0;
+	padding-left: 2px;
+}
+.tree-item-self.tag-pane-tag {
+	padding-left: 1.2em;
+	padding-right: 2px;
+}
+
+.tag-pane-tag-count {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.tag-container .tree-item-flair-outer::after{
+	display: none;
+}
+
+/* > Outline Pane */
+.workspace-leaf-content[data-type="outline"] .tree-item-self {
+	padding-right: 0;
+	line-height: 1.35em;
+	padding-bottom: 0.3em;
+	padding-top: 0.3em;
+	margin-bottom: 0.1em;
+}
+
+.workspace-leaf-content[data-type="outline"] .view-content {
+	padding-left: 0.25em;
+	padding-top: 1em;
+}
+
+/* > Starred Pane */
+.workspace-leaf-content[data-type="starred"] .nav-file-title {
+  padding-left: 0;
+}
+.workspace-leaf-content[data-type="starred"] .nav-header{
+  padding-top: 5px;
+}
+
+.workspace-leaf-content[data-type="starred"] .nav-buttons-container,
+.workspace-leaf-content[data-type="starred"] .nav-file-title .nav-file-title-content::before,
+.workspace-leaf-content[data-type="starred"] .nav-file-icon svg.document{
+	display: none;
+}
+
+.workspace-leaf-content[data-type="starred"] .nav-file-title:hover{
+	color: var(--alt-accent);
+}
+
+/*for starred searches*/
+.workspace-leaf-content[data-type="starred"] .nav-file-icon svg.search{
+	margin-left: 0.7em;
+	vertical-align: text-bottom;
+	color: var(--more-contrast-muted);
+}
+
+.nav-buttons-container {
+	height: 1.7em;
+}
+
+.nav-action-button.is-active {
+	background: none;
+}
+
+/* ------------------------------------------------------ */
+/* > FILE EXPLORER */
+/* ------------------------------------------------------ */
+
+:root {
+	/* line styles for nesting indicators */
+	--nestlinestyle1: solid;
+	--nestlinestyle2: dotted;
+	--nestlinestyle3: dashed;
+}
+
+.nav-file-title,
+.nav-folder-title {
+	/* wrap text in file explorer */
+	width: 100%;
+	white-space: normal;
+
+	color: var(--more-contrast-muted);
+	line-height: 1.3em;
+	padding-top: 0.1em;
+}
+
+/* hover file */
+.nav-folder-title:hover .nav-folder-title-content,
+.nav-file-title:hover .nav-file-title-content {
+	color: var(--alt-accent);
+}
+/* active file */
+.nav-file-title.is-active {
+	color: var(--text-accent);
+	opacity: 0.9;
+	font-weight: 600;
+}
+
+.nav-file:h.nav-file-title.is-active {
+	border-left: 3px solid var(--text-accent) !important;
+}
+
+
+/* >> relationship lines
+based on css from @Mara https://github.com/Mara-Li/Obsidian-Snippet-collection */
+
+/* Top Level Folder Titles */
+
+.nav-folder.mod-root > .nav-folder-children > .nav-folder > .nav-folder-title,
+.nav-folder.mod-root > .nav-folder-children .nav-file-title,
+.nav-folder.mod-root > .nav-folder-children .nav-folder-title {
+	padding-left: 4px;
+}
+
+/* top folder line */
+.nav-folder.mod-root
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children {
+	padding-left: 1.1em;
+	border-top: var(--grey-line-color) 2px solid;
+	border-radius: 0px 0px;
+}
+
+/* Relationship lines for 2nd, 3rd, and 4th level folders */
+.nav-folder.mod-root
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-file {
+	border-left: var(--nestlinestyle1) 2px var(--grey-line-color);
+}
+
+.nav-folder.mod-root
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-folder {
+	border-left: var(--nestlinestyle1) 2px var(--grey-line-color);
+}
+
+.nav-folder.mod-root
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-file {
+	border-left: var(--nestlinestyle2) 2px var(--grey-line-color);
+}
+
+.nav-folder.mod-root
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-folder {
+	border-left: var(--nestlinestyle2) 2px var(--grey-line-color);
+}
+
+.nav-folder.mod-root
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-file {
+	border-left: var(--nestlinestyle3) 2px var(--grey-line-color);
+}
+
+.nav-folder.mod-root
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-folder
+	> .nav-folder-children
+	> .nav-folder {
+	border-left: var(--nestlinestyle3) 2px var(--grey-line-color);
+}
+
+/* ------------------------------------------------------ */
+/* > FOLDER & NOTE ICONS */
+/* ------------------------------------------------------ */
+.nav-folder-title-content::before,
+.nav-file-title-content::before {
+	/*vertical-align: text-top;*/
+	vertical-align: bottom;
+	font-family: "Material Icons";
+	font-size: 1.2em;
+}
+
+/* >> FOLDERS ICONS */
+.nav-folder-title-content::before {
+	content: "folder_open ";
+}
+
+.nav-folder.is-collapsed .nav-folder-title-content::before {
+	content: "folder ";
+}
+
+/* hide toggle icon, as folders already do that now */
+.nav-folder-collapse-indicator {
+	display: none;
+}
+
+.nav-folder-title[data-path*="attachment"] .nav-folder-title-content::before {
+	content: "attachment ";
+}
+.nav-folder.is-collapsed .nav-folder-title[data-path*="attachment"] .nav-folder-title-content::before {
+	content: "attach_file ";
+}
+
+
+.nav-folder-title[data-path*="old"] .nav-folder-title-content:before,
+.nav-folder-title[data-path*="Archiv"] .nav-folder-title-content:before,
+.nav-folder-title[data-path*="archive"] .nav-folder-title-content:before {
+	content: "inventory_2 ";
+}
+
+/* >> FILE ICONS */
+.nav-file-title-content::before {
+	content: "description ";
+}
+
+.nav-file-title[data-path*="Hub"] .nav-file-title-content:before,
+.nav-file-title[data-path*="HUB"] .nav-file-title-content:before {
+	content: "device_hub ";
+}
+
+.nav-file-title[data-path*="MoC"] .nav-file-title-content:before,
+.nav-file-title[data-path*="MOC"] .nav-file-title-content:before {
+	content: "map ";
+}
+
+
+.nav-file-title[data-path$="pptx"] .nav-file-title-content:before {
+	content: "present_to_all ";
+	color: orange;
+}
+
+.nav-file-title[data-path*="presentation"] .nav-file-title-content:before,
+.nav-file-title[data-path*="Presentation"] .nav-file-title-content:before {
+	content: "present_to_all ";
+}
+
+.nav-file-title[data-path$="ts"] .nav-file-title-content:before,
+.nav-file-title[data-path$="js"] .nav-file-title-content:before {
+	content: "code ";
+}
+
+.nav-file-title[data-path$="tiff"] .nav-file-title-content:before,
+.nav-file-title[data-path$="jpg"] .nav-file-title-content:before,
+.nav-file-title[data-path$="png"] .nav-file-title-content:before,
+.nav-file-title[data-path$="jpeg"] .nav-file-title-content:before {
+	content: "image ";
+}
+
+.nav-file-title[data-path$="doc"] .nav-file-title-content:before,
+.nav-file-title[data-path$="docx"] .nav-file-title-content:before {
+	color: teal;
+}
+
+.nav-file-title[data-path$="pdf"] .nav-file-title-content:before {
+	content: "picture_as_pdf ";
+  color: #8B3244;
+}
+
+.nav-file-title[data-path$="xlsx"] .nav-file-title-content:before,
+.nav-file-title[data-path$="csv"] .nav-file-title-content:before {
+	color: green;
+	content: "table_chart ";
+}
+
+.nav-file-title[data-path*="statistic"] .nav-file-title-content:before,
+.nav-file-title[data-path*="Statistik"] .nav-file-title-content:before {
+	content: "pie_chart_outline ";
+}
+
+.nav-file-title[data-path*="To do"] .nav-file-title-content:before,
+.nav-file-title[data-path*="to Do"] .nav-file-title-content:before,
+.nav-file-title[data-path*="To Do"] .nav-file-title-content:before,
+.nav-file-title[data-path*="to do"] .nav-file-title-content:before {
+	content: "check_box ";
+}
+
+.nav-file-title[data-path*="README"] .nav-file-title-content:before,
+.nav-file-title[data-path*="readme"] .nav-file-title-content:before,
+.nav-file-title[data-path*="Metadata"] .nav-file-title-content:before,
+.nav-file-title[data-path*="metadata"] .nav-file-title-content:before {
+	content: "info ";
+}
+
+.nav-file-title[data-path*="Kanban"] .nav-file-title-content:before,
+.nav-file-title[data-path*="kanban"] .nav-file-title-content:before {
+	content: "dashboard ";
+}
+
+.nav-file-title[data-path*="OCR-Screenshot"] .nav-file-title-content::before {
+	content: "photo_camera ";
+}
+
+.nav-file-title[data-path*="Word Limit"] .nav-file-title-content::before,
+.nav-file-title[data-path*="Character Limit"] .nav-file-title-content::before,
+.nav-file-title[data-path*="Character Count"] .nav-file-title-content::before,
+.nav-file-title[data-path*="Word Count"] .nav-file-title-content::before {
+	content: "flag ";
+}
+
+.nav-file-title[data-path$="Activity Tracker.md"] .nav-file-title-content::before {
+  content: "date_range ";
+}
+
+/* As icons are now used, the labeled boxes (e.g. "pdf") can be removed. */
+.nav-file-tag {
+	display: none;
+}
+
+/* ------------------------------------------------------ */
+/* > SETTINGS MENU */
+/* ------------------------------------------------------ */
+
+/* make settings menu bigger and more compact */
+.modal.mod-settings {
+	height: 93%;
+	max-width: unset;
+	width: 93%;
+	border-color: var(--background-primary-alt);
+}
+.modal.mod-settings .modal-content{
+	padding-right: 0;
+}
+.modal.mod-settings button{
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+
+/* thanks to @SlRvB for this */
+.modal.mod-settings .vertical-tab-content-container {
+	padding-top: 0;
+	margin-top: 0px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 1em;
+	border-left: 3px solid var(--background-primary-alt);
+	height: 95vh;
+}
+.modal.mod-settings .vertical-tab-header {
+	height: 95vh;
+}
+.modal.mod-settings .vertical-tab-content-container .vertical-tab-content,
+.modal.mod-settings .vertical-tab-content-container .vertical-tab-header {
+	overflow-y: auto;
+}
+
+.vertical-tab-header-group {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0 ;
+	background-color: var(--background-secondary-alt);
+	margin-bottom: 20px;
+}
+
+.setting-item {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.setting-item-description {
+	font-size: 0.85em;
+	line-height: 1.5em;
+}
+.setting-item-name {
+	font-size: 0.95em;
+	line-height: 1.5em;
+}
+.mod-cta,
+.dropdown {
+	font-size: 0.85em !important;
+	line-height: 1.3em;
+}
+.vertical-tab-content {
+	background: var(--background-primary);
+	padding-top: 0.7em;
+	padding-left: 1.3em;
+	padding-right: 1.3em;
+}
+.modal.mod-settings .vertical-tab-header {
+	background: var(--background-secondary);
+	padding-top: 0;
+}
+.vertical-tab-header-group-title {
+	color: var(--text-normal);
+	font-size: 0.8em;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding-top: 4px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	margin-top: 0px !important;
+}
+.vertical-tab-nav-item {
+	padding: 3px 3px 3px 6px;
+	color: var(--more-contrast-muted);
+	background: var(--background-secondary);
+}
+
+/*thicker "community plugins and "appearance"*/
+.vertical-tab-header-group:first-child .vertical-tab-header-group-items .vertical-tab-nav-item:nth-child(3),
+.vertical-tab-header-group:first-child .vertical-tab-header-group-items .vertical-tab-nav-item:last-child{
+	font-weight: 900;
+	text-rendering: geometricPrecision;
+}
+.theme-dark .vertical-tab-header-group:first-child .vertical-tab-header-group-items .vertical-tab-nav-item:nth-child(3),
+.theme-dark .vertical-tab-header-group:first-child .vertical-tab-header-group-items .vertical-tab-nav-item:last-child{
+	color: var(--bold-in-darkmode);
+}
+
+
+/* color active/hovered submenu in theme style */
+.vertical-tab-nav-item.is-active {
+	color: var(--text-accent);
+	background: var(--background-primary);
+}
+
+.vertical-tab-nav-item:active {
+	color: var(--text-accent);
+}
+
+.vertical-tab-nav-item.is-active:hover,
+.vertical-tab-nav-item:hover {
+	color: var(--alt-accent);
+	border-left: 3px solid var(--alt-accent);
+	background: var(--background-primary);
+}
+
+/* increased contrast*/
+.setting-editor-extra-setting-button,
+.setting-add-hotkey-button,
+.setting-restore-hotkey-button,
+.mobile-option-setting-item svg{
+	color: var(--more-contrast-muted);
+	opacity: 0.9;
+	padding: 4px;
+	margin-right: 0px;
+	margin-left: 3px;
+	border-radius: 6px;
+}
+
+.mobile-option-setting-item > span:hover > svg,
+.setting-add-hotkey-button:hover,
+.setting-restore-hotkey-button:hover,
+.setting-editor-extra-setting-button:hover{
+	color: var(--editor-alt-accent) !important;
+	opacity: 1;
+	background-color: var(--background-secondary);
+}
+
+.mobile-option-setting-item svg{
+	stroke-width: 5px;
+}
+
+/* emphasize appearance & community plugins */
+.theme-dark .vertical-tab-header-group:first-child .vertical-tab-header-group-items .vertical-tab-nav-item:nth-child(3),
+.theme-dark .vertical-tab-header-group:first-child .vertical-tab-header-group-items .vertical-tab-nav-item:last-child{
+	color: var(--bold-in-darkmode);
+}
+.theme-dark .vertical-tab-header-group:first-child .vertical-tab-header-group-items .vertical-tab-nav-item:nth-child(3).is-active:hover,
+.theme-dark .vertical-tab-header-group:first-child .vertical-tab-header-group-items .vertical-tab-nav-item.is-active:hover,
+.theme-dark .vertical-tab-header-group:first-child .vertical-tab-header-group-items .vertical-tab-nav-item:nth-child(3):hover,
+.theme-dark .vertical-tab-header-group:first-child .vertical-tab-header-group-items .vertical-tab-nav-item:last-child:hover{
+	color: var(--alt-accent);
+}
+
+.theme-dark .vertical-tab-header-group:first-child .vertical-tab-header-group-items .vertical-tab-nav-item:nth-child(3).is-active,
+.theme-dark .vertical-tab-header-group:first-child .vertical-tab-header-group-items .vertical-tab-nav-item.is-active{
+	color: var(--text-accent);
+}
+
+
+/* ------------------------------------------------------ */
+/* > COMMUNITY PLUGIN BROWSER */
+/* ------------------------------------------------------ */
+/* bigger and more condensed */
+
+.modal.mod-community-plugin {
+	height: 93%;
+	max-width: unset;
+	width: 93%;
+}
+
+/* search results */
+.community-plugin-item {
+	padding-top: 0.1em;
+	padding-left: 0.9em;
+	padding-right: 0.3em;
+	padding-bottom: 0.1em;
+	line-height: 1.2em;
+	margin-top: 0.1em;
+}
+
+.community-plugin-search-summary.u-muted {
+	font-weight: 600;
+	padding-left: 0.9em;
+	font-style: italic;
+	text-transform: capitalize;
+}
+
+.community-plugin-author,
+.community-plugin-desc,
+.community-plugin-version {
+	font-size: 0.85em !important;
+	line-height: 1.3em;
+	color: var(--more-contrast-muted);
+}
+/* lowercase "by"*/
+.community-plugin-author::first-letter{
+	text-transform: lowercase;
+}
+
+.community-plugin-search-results .community-plugin-author {
+	font-style: italic;
+}
+.community-plugin-name {
+	line-height: 1.3em !important;
+	font-size: 0.9em;
+	font-weight: 600;
+}
+.community-plugin-search{
+	padding-top: 10px;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+
+/*sort button*/
+.community-plugin-search button.clickable-icon{
+	background-color: var(--background-primary-alt) !important;
+	color: var(--more-contrast-muted);
+	stroke-width: 4px;
+}
+
+.community-plugin-search button.clickable-icon:hover{
+	background-color: var(--alt-accent) !important;
+	color: var(--interactive-normal);
+}
+
+
+.community-plugin-search,
+.community-plugin-search .search-input-container{
+	margin-left: 0;
+}
+/*installation icon*/
+.flair.mod-pop {
+	top: 5px;
+	line-height: 1;
+	font-size: 0;
+	background: none;
+}
+.community-plugin-info .community-plugin-name .flair.mod-pop::before,
+.community-plugin-search .flair.mod-pop::before {
+	content: "✓";
+	font-size: 0.75rem;
+	background-color: var(--text-accent);
+	opacity: 0.7;
+	border-radius: 3px;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	font-family: Inter;
+	line-height: 0.8;
+}
+
+.community-plugin-info .community-plugin-name .flair.mod-pop::before{
+	font-size: 1.2rem;
+}
+
+/*download statistics*/
+.install {
+	display: none;
+}
+.community-plugin-downloads::before,
+.community-plugin-downloads-text {
+	content: "↓";
+	font-size: 0.9em;
+	color: var(--more-contrast-muted);
+}
+
+/* color hovered item in theme style */
+.community-plugin-item:hover {
+	color: var(--alt-accent);
+}
+
+/*plugin info */
+.community-plugin-info .community-plugin-name{
+	font-family: var(--heading-font);
+  	letter-spacing: 0.7px;
+  	font-size: 1.5em;
+}
+.community-plugin-readme li{
+	font-size: 1em;
+}
+
+/*hide redundant info*/
+.community-plugin-info .community-plugin-desc{
+	display: none;
+}
+.community-plugin-info h1{
+	display: none;
+}
+.community-plugin-info hr{
+	margin: 5px;
+}
+.community-plugin-info{
+	padding: 10px 5px 10px 15px;
+}
+.community-plugin-readme {
+	padding-top: 0 !important;
+}
+
+
+/* ------------------------------------------------------ */
+/* > COMMUNITY THEME BROWSER */
+/* ------------------------------------------------------ */
+
+.modal.mod-community-theme {
+	height: 93%;
+	max-width: unset;
+	width: 93%;
+}
+
+.modal.mod-community-theme .community-theme.is-selected button:first-child:hover{
+	background-color: var(--background-secondary-alt) !important;
+	cursor: default;
+}
+
+.modal.mod-community-theme .community-plugin-downloads-text::before{
+	content: "↓ ";
+	color: var(--more-contrast-muted);
+}
+
+.modal.mod-community-theme .community-theme .clickable-icon:hover{
+	color: var(--alt-accent);
+}
+
+.modal.mod-community-theme .clickable-icon svg{
+	stroke-width: 4px !important;
+}
+.modal.mod-community-theme .clickable-icon:hover{
+	color: var(--interactive-normal);
+}
+
+.modal.mod-community-theme .modal-title{
+	text-transform: capitalize;
+	font-family: var(--heading-font);
+	font-size: 2.2em;
+	font-weight: 500;
+}
+
+/* ------------------------------------------------------ */
+/* > HIGHLIGHT & SELECTION */
+/* ------------------------------------------------------ */
+/* highlight active line */
+.CodeMirror-activeline .CodeMirror-linebackground {
+	background-color: var(--active-line);
+	border-radius: 8px;
+}
+
+
+/* change highlight color */
+.markdown-preview-view mark,
+.cm-s-obsidian span.cm-highlight {
+	background-color: var(--highlight-color);
+}
+
+/* color for selected text */
+.theme-light,
+.theme-dark {
+	--text-selection: var(--selection-color);
+}
+
+/* ------------------------------------------------------ */
+/* > Multi-Color Highlighting */
+/* ------------------------------------------------------ */
+/* thanks to @Atlas for these snippets */
+/* https://discord.com/channels/686053708261228577/702656734631821413/881443661269827656 */
+
+/* Yellow Highlight */
+span.cm-strong.cm-highlight{
+  font-weight: normal;
+  background-color: var(--highlight-alt1);
+}
+.markdown-preview-view strong > mark{
+  font-weight: normal !important;
+  background-color: var(--highlight-alt1) !important;
+}
+
+/* Cyan Highlight */
+span.cm-em.cm-highlight {
+  font-style: initial;
+  background-color: var(--highlight-alt2);
+}
+.markdown-preview-view em > mark {
+  font-style: initial !important;
+  background-color: var(--highlight-alt2) !important;
+}
+
+/* ------------------------------------------------------ */
+/* > Pseudo-Spoiler-Tag */
+/* ------------------------------------------------------ */
+
+.theme-light{
+	--spoiler-bg: #111;
+}
+
+.theme-dark{
+	--spoiler-bg: #EEE;
+}
+
+div:not(.CodeMirror-activeline) > .CodeMirror-line .cm-em.cm-strikethrough,
+em > del {
+  font-style: initial;
+  text-decoration: unset;
+  background-color: var(--spoiler-bg);
+  color: var(--spoiler-bg);
+  transition-duration: 250ms;
+}
+
+.CodeMirror-activeline > .CodeMirror-line .cm-em.cm-strikethrough,
+em > del:hover,
+.cm-em.cm-strikethrough:hover {
+  background-color: var(--background-secondary-alt) !important;
+  transition-duration: 250ms;
+}
+
+/* ------------------------------------------------------ */
+/* > YAML HEADER & METADATA BLOCK */
+/* ------------------------------------------------------ */
+/* YAML-Header in Edit Mode */
+span.cm-hmd-frontmatter {
+	color: var(--text-muted) !important;
+	font-size: 0.9em;
+}
+
+/* harmonize with styling of Horizontal Lines (HR) */
+.cm-def.cm-hmd-frontmatter{
+	letter-spacing: 0.2em;
+	color: var(--text-muted) !important;
+}
+
+.cm-atom.cm-hmd-frontmatter{
+  font-weight: 600;
+}
+
+/* YAML-Header in Preview Mode */
+.markdown-preview-view pre.frontmatter.language-yaml {
+	display: none;
+}
+
+/* METADATA BLOCK */
+.markdown-preview-view .frontmatter-container {
+	font-size: 1em;
+	color: var(--more-contrast-muted);
+}
+
+.markdown-preview-view .frontmatter-container-header{
+	font-size: 0.9em;
+}
+.markdown-preview-view .frontmatter-container-header:hover{
+	color: var(--alt-accent);
+}
+
+.frontmatter-section-label {
+	display: none;
+}
+
+.frontmatter-section-tags  > a.tag {
+	background: none;
+	font-size: 1em;
+	border: none;
+	color: var(--more-contrast-muted) !important;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.frontmatter-section-tags  > a.tag:hover {
+	color: var(--alt-accent) !important;
+	background: var(--background-secondary-alt);
+}
+.frontmatter-alias {
+	background: none !important;
+	font-size: 1em !important;
+	color: var(--more-contrast-muted) !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding-left: 6px !important;
+	padding-right: 6px !important;
+}
+
+/* ------------------------------------------------------ */
+/* > Collapse Indicator (Fold Gutter) */
+/* ------------------------------------------------------ */
+
+/*preview mode*/
+.right-triangle{
+	height: 0.6em;
+	width: 0.6em;
+}
+
+.is-collapsed .heading-collapse-indicator.collapse-indicator.collapse-icon:hover,
+.heading-collapse-indicator.collapse-indicator.collapse-icon:hover{
+	color: var(--alt-accent);
+	opacity: 0.8;
+}
+.is-collapsed .heading-collapse-indicator.collapse-indicator.collapse-icon{
+	color: var(--text-accent);
+}
+
+/*edit mode*/
+.CodeMirror-foldgutter-folded.CodeMirror-guttermarker-subtle:hover,
+.CodeMirror-foldgutter-open.CodeMirror-guttermarker-subtle:hover,
+.CodeMirror-foldmarker:hover{
+	color: var(--alt-accent) !important;
+	opacity: 0.8;
+}
+
+.CodeMirror-foldgutter-folded.CodeMirror-guttermarker-subtle::after,
+.CodeMirror-foldgutter-open.CodeMirror-guttermarker-subtle::after{
+	font-size: 1.5em;
+	line-height: 1;
+}
+
+.CodeMirror-gutters{
+	padding-right: 1em !important;
+}
+.CodeMirror-foldgutter-folded.CodeMirror-guttermarker-subtle{
+	color: var(--text-accent);
+	opacity: 0.8;
+}
+
+/* the "..." when content is folded */
+.CodeMirror-foldmarker{
+	display: none;
+}
+
+/*fix for note being in the sidebar*/
+/* thanks @SlRvb */
+.CodeMirror-foldgutter {
+	background-color: transparent !important;
+}
+
+
+/* ------------------------------------------------------ */
+/* > Editor Size & Line Numbers */
+/* ------------------------------------------------------ */
+/*grey out non-active note */
+.workspace-leaf:not(.mod-active) .workspace-leaf-content[data-type='markdown'] {
+    opacity: var(--inactive-pane-opacity);
+    transition-duration: 0.5s;
+}
+
+.CodeMirror-linenumbers{
+	padding-right: 2px;
+}
+.CodeMirror-linenumber{
+	padding-top: 2px;
+}
+
+/* Preview Mode */
+.markdown-preview-view{
+	padding-top: 10px;
+	padding-left: 50px;
+}
+
+/*Editor Mode*/
+.markdown-source-view.mod-cm5{
+	padding-left: 10px;
+}
+
+/*full length when left widebar collapsed */
+.workspace-split.mod-left-split.is-collapsed ~ .mod-root .CodeMirror-wrap{
+   max-width: 100% !important;
+}
+
+
+/* ------------------------------------------------------ */
+/* > Pandoc Citations & Footnotes */
+/* ------------------------------------------------------ */
+/* Pandoc Citations (applies to all []-links) */
+body:not(.no-pandoc-citation-emphasis) .cm-hmd-barelink,
+body:not(.no-pandoc-citation-emphasis) .cm-link.cm-quote.cm-hmd-barelink {
+	color: var(--editor-alt-accent) !important;
+}
+
+/* Footnotes */
+/* set space above and below horizontal line that seperates footnotes */
+.markdown-preview-view .footnotes hr {
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+/* footnotes preview */
+.markdown-preview-section .footnotes {
+	font-size: 85%;
+	text-align: justify;
+	hyphens: auto;
+}
+.markdown-preview-section .footnotes ol {
+  padding-inline-start: 1.6em;
+}
+
+/* applies to number-references in the footnote text */
+span.cm-link.cm-hmd-footnote {
+	color: var(--alt-accent) !important;
+	vertical-align: top;
+}
+
+/* footnotes (at the bottom) */
+.HyperMD-footnote.CodeMirror-line {
+	font-size: 85%;
+	text-align: justify;
+	hyphens: auto;
+	padding-left: 5px; /* same of paragraphs */
+}
+
+/* remove underline which only decreases redability */
+.markdown-preview-view a.footnote-link{
+	text-decoration: none;
+}
+
+/* ------------------------------------------------------ */
+/* > HORIZONTAL LINE (HR)*/
+/* ------------------------------------------------------ */
+
+/* increased redability in edit mode */
+.cm-s-obsidian span.cm-hr {
+	color: var(--text-muted);
+	letter-spacing: 0.12em;
+}
+
+/* increase readability in preview mode */
+.markdown-preview-view hr{
+	border-top-width: 2.5px;
+	border-color: var(--more-contrast-muted);
+	opacity: 0.7;
+}
+
+/* ------------------------------------------------------ */
+/* > TABLES */
+/* ------------------------------------------------------ */
+/*add some more table styling, e.g. from https://forum.obsidian.md/t/custom-css-for-tables-5-new-styles-ready-to-use-in-your-notes/17084*/
+
+/* normal tables */
+table:not(.dataview.table-view-table) td,
+table:not(.dataview.table-view-table) th {
+	border: 2px ridge var(--text-muted);
+}
+
+table:not(.dataview.table-view-table) th {
+	background-color: var(--background-secondary-alt);
+	font-weight: 900;
+}
+.theme-dark table:not(.dataview.table-view-table) th {
+	color: var(--bold-in-darkmode);
+}
+.markdown-preview-view table:not(.dataview.table-view-table) {
+	table-layout: fixed;
+	width: 100%;
+}
+
+
+/* ------------------------------------------------------ */
+/* > HEADINGS / HEADERS */
+/* ------------------------------------------------------ */
+/* Alternation between italic & different font style
+for all headings to improve distinguishability = more readability */
+
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5,
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5{
+	font-family: var(--heading-font);
+ 	line-height: 1.3em;
+}
+
+.cm-header-1,
+.markdown-preview-view h1 {
+	font-size: var(--h1-size);
+}
+.cm-header-2,
+.markdown-preview-view h2 {
+	font-size: var(--h2-size);
+}
+.cm-header-3,
+.markdown-preview-view h3{
+	font-size: var(--h3-size);
+}
+.cm-header-4,
+.markdown-preview-view h4{
+	font-size: var(--h4-size);
+}
+.cm-header-5,
+.markdown-preview-view h5 {
+	font-size: var(--h5-size);
+}
+
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5 {
+	margin-top: 1.2em;
+	margin-bottom: 0.5em;
+}
+
+body:not(.not-optima-font) .cm-header-1,
+body:not(.not-optima-font) .cm-header-2,
+body:not(.not-optima-font) .cm-header-3,
+body:not(.not-optima-font) .cm-header-4,
+body:not(.not-optima-font) .cm-header-5,
+body:not(.not-optima-font) .markdown-preview-view h1,
+body:not(.not-optima-font) .markdown-preview-view h2,
+body:not(.not-optima-font) .markdown-preview-view h3,
+body:not(.not-optima-font) .markdown-preview-view h4,
+body:not(.not-optima-font) .markdown-preview-view h5
+body:not(.not-optima-font) .modal.mod-community-theme .modal-title{
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+body:not(.no-alternating-header-italics) .cm-header-2,
+body:not(.no-alternating-header-italics) .markdown-preview-view h2,
+body:not(.no-alternating-header-italics) .cm-header-4,
+body:not(.no-alternating-header-italics) .markdown-preview-view h4{
+  font-style: italic;
+}
+
+/* counter for h2*/
+/*https://2ality.com/2012/01/numbering-headingshtml.html*/
+body:not(.no-h2-numbering) {
+	counter-reset: h2counter;
+}
+body:not(.no-h2-numbering) .markdown-preview-view h1 {
+	counter-reset: h2counter;
+}
+body:not(.no-h2-numbering) .markdown-preview-view h2:before {
+	content: counter(h2counter) ".\0000a0";
+	counter-increment: h2counter;
+}
+
+/* ------------------------------------------------------ */
+/* > Pseudo Admonitions (only for one-liners) */
+/* ------------------------------------------------------ */
+/* For H6 only (without following blocks or line breaks).
+Based on some CSS from @SlRvb, @gee & @Eleanor Konik */
+
+body:not(.not-optima-font) .cm-header-6,
+body:not(.not-optima-font) .markdown-preview-view h6{
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.cm-header-6,
+.markdown-preview-view h6{
+	font-family: var(--default-font);
+ 	font-size: 1em;
+}
+
+.markdown-preview-view h6 .heading-collapse-indicator.collapse-indicator.collapse-icon,
+.cm-header-6.cm-formatting.cm-formatting-header{
+	display: none;
+}
+
+/* when pseudo-admonition is also active line */
+.CodeMirror-activeline .HyperMD-header.HyperMD-header-6.CodeMirror-line {
+  border-radius: var(--block-border-radius) !important;
+  background-color: var(--active-line) !important;
+  color: var(--text-normal) !important;
+}
+
+.theme-dark .HyperMD-header.HyperMD-header-6.CodeMirror-line{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.theme-light .HyperMD-header.HyperMD-header-6.CodeMirror-line{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.markdown-preview-view h6 {
+  background-color: var(--background-secondary-alt);
+}
+
+.HyperMD-header.HyperMD-header-6.CodeMirror-line,
+.markdown-preview-view h6 {
+	padding-left: 1em !important;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.6em;
+	margin-bottom: 0;
+	border-left: 12px solid var(--pseudo-admonition-border) !important;
+	border-radius: var(--block-border-radius);
+	color: var(--text-normal) !important;
+}
+
+
+/* ------------------------------------------------------ */
+/* > BLOCKQUOTE */
+/* ------------------------------------------------------ */
+
+/* >> BLOCKQUOTE IN EDIT MODE */
+.cm-quote{
+  color: var(--more-contrast-muted) !important;
+  font-style: italic;
+}
+
+.HyperMD-quote.HyperMD-quote-1{
+  text-align: justify;
+  hyphens: auto;
+  color: var(--text-normal);
+  padding-top: 0.4em;
+  padding-bottom: 0.5em;
+  padding-right: 0.8em;
+  border-radius: var(--block-border-radius);
+}
+
+/* fixes color when text is selected */
+/*https://forum.obsidian.md/t/inline-code-occludes-text-selection-and-vim-cursor/11552/10?u=pseudometa*/
+.theme-light .HyperMD-quote.HyperMD-quote-1{
+  background-color: rgba(0, 0, 0, 0.07) !important;
+}
+.theme-dark .HyperMD-quote.HyperMD-quote-1{
+  background-color: rgba(0, 0, 0, 0.35) !important;
+}
+
+/* when blockquote is also active line */
+.CodeMirror-activeline .HyperMD-quote.HyperMD-quote-1.CodeMirror-line {
+  border-radius: 5px !important;
+  background-color: var(--active-line) !important;
+  color: var(--text-normal) !important;
+}
+
+/* the ">"*/
+.cm-formatting.cm-formatting-quote{
+  font-weight: 600;
+  font-style: unset;
+}
+
+/* underline emphasis in blockquote, since they are italic already */
+.markdown-preview-view blockquote > p > em,
+span.cm-em.cm-quote.cm-quote-1{
+	text-decoration: underline;
+}
+
+/* style links in blockquotes, e.g. es quote sources */
+.cm-link.cm-quote.cm-quote-1:not(.cm-formatting){
+	color: var(--text-accent) !important;
+}
+
+.cm-string.cm-url.cm-quote.cm-quote-1,
+.cm-link.cm-quote.cm-quote-1{
+	font-style: unset;
+}
+
+blockquote p {
+	display: inline;
+}
+
+blockquote {
+	margin-left: 0 !important;
+	border-radius: var(--block-border-radius) !important;
+	border: 2px solid var(--text-faint) !important;
+	padding-left: 0.8em !important;
+	padding-right: 0.8em !important;
+	padding-top: 0.4em !important;
+	padding-bottom: 0.5em !important;
+	font-style: italic;
+	margin-top: 1.5em;
+	margin-bottom: 2em;
+	text-align: justify;
+	hyphens: auto;
+	color: var(--more-contrast-muted);
+   background-color: var(--background-primary-alt);
+}
+
+/* ------------------------------------------------------ */
+/* > DOCUMENT SEARCH / REPLACE (cmd + f) */
+/* ------------------------------------------------------ */
+
+.document-search-container {
+  bottom: 2.5em; /* move up to avoid collision with statusbar */
+  background-color:var(--background-secondary-alt);
+  border: 2px solid var(--text-faint);
+  border-radius: 6px;
+  width: 95%;
+  left: 2.5%;
+  height: 3.5em;
+}
+
+.document-search-container.mod-replace-mode {
+  height: 6em;
+}
+
+/* for whatever reason, 0px shows the bar without
+search and leaving it at 50px shows it when searching
+without replace */
+.CodeMirror-scroll{
+	padding-bottom: 10em;
+}
+
+input.document-search-input,
+input.document-replace-input{
+	font-size: 1.2em;
+	padding-left: 0.4em;
+	background-color: var(--background-primary);
+	margin-top: 0.2em;
+	height: 1.6em;
+}
+
+input.document-search-input:hover,
+input.document-replace-input:hover{
+	background-color: var(--background-primary);
+}
+
+.document-search-button{
+	color: var(--text-on-accent);
+	margin-top: 0.27em;
+	height: 2.2em;
+	background-color: var(--text-accent);
+	opacity: 0.65;
+}
+
+.document-search-button:hover{
+	background-color: var(--alt-accent);
+	opacity: 0.9;
+	color: var(--text-on-accent);
+}
+
+.document-search-close-button:hover{
+	color: var(--alt-accent);
+}
+
+/* ------------------------------------------------------ */
+/* > GRAPH VIEW */
+/* ------------------------------------------------------ */
+/*https://help.obsidian.md/Plugins/Graph+view#Custom+CSS*/
+
+.graph-controls-button:hover{
+	color: var(--alt-accent);
+}
+.graph-controls-button:active{
+	color: var(--text-accent);
+}
+.graph-controls-button{
+	color: var(--more-contrast-muted);
+}
+.tree-item-self:hover .graph-control-section-header{
+	color: var(--alt-accent);
+}
+
+/* local graph controls */
+.graph-controls.is-close{
+  background-color: var(--background-secondary);
+  padding: 0;
+}
+
+/* node of current node (local graph) */
+.graph-view.color-fill-focused{
+	color: var(--text-accent);
+	opacity: 0.8;
+}
+
+/* border around circle */
+.graph-view.color-circle {
+	opacity: 0;
+}
+
+/* regular node */
+.graph-view.color-fill{}
+
+/* unresolved, getting same color as unresolved links */
+.graph-view.color-fill-unresolved{
+	color: var(--unresolved-link-color);
+}
+
+/* hovered */
+.graph-view.color-fill-highlight,
+.graph-view.color-line-highlight{
+	color: var(--alt-accent);
+	opacity: 0.8;
+}
+
+/* edges */
+.graph-view.color-line,
+.graph-view.color-arrow{
+  color: var(--more-contrast-muted);
+}
+
+/* ------------------------------------------------------ */
+/* > IMAGES */
+/* ------------------------------------------------------ */
+/* Image Alt as Caption in Preview Mode */
+/* useful as this is also how Pandoc converts */
+.image-embed[alt]:after {
+	content: attr(alt);
+	font-size: 90%;
+	font-style: italic;
+	font-weight: 300;
+	color: var(--text-muted);
+	padding-top: 2px;
+
+	/* center text */
+	white-space: pre;
+	text-align: center;
+	display: block;
+}
+
+.view-content .markdown-preview-view img{
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	border-radius: 5px;
+}
+
+/* restrict image size */
+.view-content .markdown-preview-view img{
+	max-width: var(--image-size);
+}
+
+.view-content .markdown-preview-view img {
+	cursor: zoom-in;
+}
+
+/* image zoom */
+/* by @kepano  https://forum.obsidian.md/t/image-zoom-click-hold-to-expand-images/5164 */
+.markdown-preview-view img:active {
+	cursor:zoom-out;
+	display:block;
+	z-index:100;
+	position:fixed;
+    max-height:100%;
+    max-width:100%;
+    height:100%;
+    width:100%;
+    object-fit: contain;
+    margin:0 auto;
+    text-align:center;
+    top: 50%;
+  	transform: translateY(-50%);
+    padding:0;
+    left:0;
+    right:0;
+    bottom:0;
+	background-color: var(--image-zoom-bg);
+}
+
+
+/* ------------------------------------------------------ */
+/* > Mermaid */
+/* ------------------------------------------------------ */
+/* https://forum.obsidian.md/t/ability-to-resize-and-align-mermaid-diagrams/7019/11?u=pseudometa*/
+
+div.mermaid {
+    text-align: center;
+}
+
+svg[id^="m"][width][height][viewBox] {
+    min-width: 350px;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+/* ------------------------------------------------------ */
+/* > BULLET POINT RELATIONSHIP LINES */
+/* ------------------------------------------------------ */
+/* based on css from the outliner plugin */
+/* https://github.com/vslinko/obsidian-outliner/blob/main/styles.css */
+
+/* edit mode */
+.cm-hmd-list-indent .cm-tab {
+	position: relative;
+}
+
+.cm-hmd-list-indent .cm-tab::before {
+	content: "";
+	border-left: 1px solid var(--text-faint);
+	position: absolute;
+	left: 3px;
+	top: -9px;
+	bottom: -9999px;
+}
+
+/* ":not(.HyperMD-table-2)" prevents targeting tables */
+.cm-s-obsidian .CodeMirror-line:not(.HyperMD-table-2) {
+	position: relative;
+	overflow: hidden;
+}
+
+/* Preview Mode */
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  position: relative;
+}
+
+ul ul::before,
+ol ol::before,
+ul ol::before,
+ol ul::before {
+  content: "";
+  border-left: 1px solid var(--text-faint);
+  position: absolute;
+  left: -1rem;
+  top: 0;
+  bottom: 0;
+}
+
+/* ------------------------------------------------------ */
+/* > DARK MODE PDFs */
+/* ------------------------------------------------------ */
+/*snippet from @phibr0*/
+.theme-dark .pdf-embed iframe,
+.theme-dark .workspace-leaf-content[data-type="pdf"] iframe {
+    filter: invert(0.85);
+}
+
+/* ------------------------------------------------------ */
+/* > MOBILE */
+/* ------------------------------------------------------ */
+
+/* slightly thinner on mobile */
+.is-mobile .view-header {
+	height: 2.4em;
+}
+
+/* ------------------------------------------------------ */
+/* > SMALL FIXES */
+/* ------------------------------------------------------ */
+
+/* numbers with same width */
+body,
+.app-container {
+	-webkit-font-feature-settings: "tnum";
+	-moz-font-feature-settings: "tnum";
+	font-feature-settings: "tnum";
+	-webkit-font-variant-numeric: tabular-nums;
+	-moz-font-variant-numeric: tabular-nums;
+	font-variant-numeric: tabular-nums;
+}
+
+/* fix html comments by disabling ligatures in edit mode */
+.CodeMirror.cm-s-obsidian {
+	font-feature-settings: "liga" 0;
+}
+
+/* ------------------------------------------------------ */
+/* > Calendar Plugin */
+/* ------------------------------------------------------ */
+
+.workspace-leaf-content[data-type="calendar"] .view-content{
+	font-family: var(--font-monospace);
+	padding: 4px;
+}
+
+.workspace-leaf-content[data-type="calendar"] table td{
+	padding: 0;
+
+}
+.workspace-leaf-content[data-type="calendar"] .day{
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.workspace-leaf-content[data-type="calendar"] .month,
+.workspace-leaf-content[data-type="calendar"] .year{
+	color: var(--text-normal) !important;
+	font-family: var(--heading-font);
+	font-weight: 500;
+	font-size: 115%;
+}
+
+/* "today" button */
+.workspace-leaf-content[data-type="calendar"] .reset-button{
+	color: var(--more-contrast-muted) !important;
+	font-size: 0.8em !important;
+}
+
+.workspace-leaf-content[data-type="calendar"] .arrows{
+	background-color: var(--background-secondary-alt) !important;
+}
+.workspace-leaf-content[data-type="calendar"] .nav{
+	padding: 0 !important;
+	margin-top: 8px !important;
+	margin-bottom: 10px !important;
+}
+
+/*week days*/
+.workspace-leaf-content[data-type="calendar"] table th{
+	font-size: 0.7em;
+	color: var(--more-contrast-muted);
+	text-transform: capitalize;
+}
+
+.workspace-leaf-content[data-type="calendar"] .week-num:hover,
+.workspace-leaf-content[data-type="calendar"] .reset-button:hover,
+.workspace-leaf-content[data-type="calendar"] .arrow:hover svg,
+.workspace-leaf-content[data-type="calendar"] .day:hover,
+.workspace-leaf-content[data-type="calendar"] .day.active:hover{
+	color: var(--alt-accent) !important;
+	border-radius: 0;
+}
+
+.workspace-leaf-content[data-type="calendar"] .day.today{
+	color: var(--text-accent);
+}
+
+.workspace-leaf-content[data-type="calendar"] .day.active{
+	border-radius: 0;
+	background-color: var(--text-accent);
+	opacity: 0.7;
+	font-weight: 900;
+	color: var(--interactive-normal);
+}
+.workspace-leaf-content[data-type="calendar"] .day.active{
+	text-decoration: underline 2px;
+}
+
+.workspace-leaf-content[data-type="calendar"] .day.active svg dot{
+	color: var(--interactive-normal) !important;
+}
+
+/* ------------------------------------------------------ */
+/* Templater */
+/* ------------------------------------------------------ */
+
+.cm-s-obsidian .cm-templater-command {
+	font-size: 1em !important;
+}
+
+/* fix for the buggy selection fo inline text
+https://forum.obsidian.md/t/inline-code-occludes-text-selection-and-vim-cursor/11552/10 */
+.theme-light .cm-inline-code,
+.theme-light .cm-s-obsidian .cm-templater-command {
+  background-color: rgba(0, 0, 0, 0.005) !important;
+}
+
+/* >> Improve Templater Syntax Readability */
+.theme-light .cm-s-obsidian .cm-templater-command.cm-operator {
+}
+.cm-s-obsidian .cm-templater-command.cm-def {
+	font-weight: 600 !important;
+}
+.theme-light .cm-s-obsidian .cm-templater-command.cm-string {
+	color: hsl(59deg 66% 37%) !important;
+}
+.cm-s-obsidian .cm-templater-command.cm-keyword {
+}
+.cm-s-obsidian .cm-templater-command.cm-property {
+	font-style: italic;
+}
+.theme-light .cm-s-obsidian .cm-templater-command.cm-number{
+	color: hsl(352deg 83% 40%) !important;
+}
+
+.cm-templater-command.cm-spell-error{
+	text-decoration: none;
+	background-image: none;
+}
+
+/* ------------------------------------------------------ */
+/* > Kanban Plugin */
+/* ------------------------------------------------------ */
+
+.theme-light{
+	--kanban-background: #DADADA;
+	--active-hover-kanban-item: #EEE;
+	--dot-color: #CCCCCC80;
+}
+.theme-dark{
+	--kanban-background: #2C2C2C;
+	--active-hover-kanban-item: var(--kanban-background);
+	--dot-color: #22222280;
+}
+:root{
+	--dot-spacing: 8px;
+	--dot-size: 1px;
+}
+
+/* thanks @Damian Korcz for this*/
+body .workspace-leaf-content[data-type=kanban] .view-header,
+.kanban-plugin__board {
+   background-size: var(--dot-spacing) var(--dot-spacing);
+   background-attachment: local;
+   background-image: radial-gradient(circle, var(--dot-color) var(--dot-size), transparent var(--dot-size));
+}
+
+body .workspace-leaf-content[data-type=kanban] .view-header{
+	background-color: var(--kanban-background) !important;
+}
+body .workspace-leaf-content[data-type=kanban] .view-header:focus-within,
+body .workspace-leaf-content[data-type=kanban] .view-header:hover{
+	background-color: var(--background-secondary) !important;
+	background-image: unset;
+}
+
+/* more condensed */
+.kanban-plugin__drag-container p,
+.workspace-leaf-content[data-type=kanban] p{
+	font-size: 0.95em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+.kanban-plugin__drag-container li,
+.workspace-leaf-content[data-type=kanban] li{
+	font-size: 0.85em;
+}
+
+.workspace-leaf-content[data-type=kanban] ul{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+
+textarea.kanban-plugin__item-input{
+	font-family: var(--default-font) !important;
+	font-size: 0.95em !important;
+	background-color: var(--background-secondary-alt);
+}
+
+body:not(.not-ia-writer-font) textarea.kanban-plugin__item-input,
+body:not(.not-ia-writer-font) .kanban-plugin__drag-container p,
+body:not(.not-ia-writer-font) .workspace-leaf-content[data-type=kanban] p{
+  letter-spacing: -0.01em;
+}
+
+/*vertical three dots*/
+.kanban-plugin__lane-settings-button-wrapper svg{
+	color: var(--more-contrast-muted);
+	stroke-width: 3px !important;
+}
+.kanban-plugin__lane-settings-button-wrapper:hover svg{
+	color: #EEE;
+}
+
+/* remove button on card to save space */
+.kanban-plugin__item-postfix-button-wrapper{
+	display: none !important;
+}
+
+.kanban-plugin__item-button-wrapper{
+	padding-bottom: 6px !important;
+	padding-top: 4px !important;
+}
+
+.kanban-plugin__new-item-button{
+	font-family: var(--default-font);
+	font-size: 0.8em;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+	padding-left: 8px !important;
+	padding-left: 8px !important;
+}
+
+a.tag.kanban-plugin__item-tag {
+	background: none;
+}
+
+.kanban-plugin__new-item-button:hover{
+	background-color: var(--active-hover-kanban-item) !important;
+	color: var(--alt-accent) !important;
+}
+
+.kanban-plugin__item-content-wrapper:hover,
+.kanban-plugin__item:hover{
+	border-color: var(--alt-accent) !important;
+}
+
+.kanban-plugin__drag-container .kanban-plugin__item-title-wrapper,
+.kanban-plugin__item:hover .kanban-plugin__item-title-wrapper,
+.kanban-plugin__item:hover{
+	background-color: var(--active-hover-kanban-item) !important;
+}
+
+.kanban-plugin{
+	background-color: var(--kanban-background) !important;
+}
+
+.view-content > .kanban-plugin > * > div{
+	padding-top: 0.5em;
+}
+
+/*hr notes become seperators*/
+.workspace-leaf-content[data-type=kanban] hr{
+	border-width: 0.5em;
+	border-radius: 10px;
+}
+
+/* fix metadata in kanban card display */
+.workspace-leaf-content[data-type=kanban] table td{
+	border: none !important;
+}
+.kanban-plugin__item-metadata-wrapper{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+/* ------------------------------------------------------ */
+/* > Longform Plugin */
+/* ------------------------------------------------------ */
+
+/* >> Longform SIDEBAR */
+/* container with more space */
+.tab-list.svelte-1bo97vk{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.tab-panel-container.svelte-11pvpwl{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.workspace-leaf-content[data-type="VIEW_TYPE_LONGFORM_EXPLORER"] .view-content{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* hide folder path*/
+.current-draft-path.svelte-23avsr{
+  display: none;
+}
+
+/* scene item / draft item */
+.draft-container.svelte-1jmafs,
+.scene-container.svelte-1wlkmbt {
+	/* wrap long titles */
+	width: 100% !important;
+	white-space: normal !important;
+
+	color: var(--more-contrast-muted) !important;
+
+	padding-left: 2px !important;
+	padding-bottom: 2px !important;
+	padding-top: 2px !important;
+	line-height: 1.25em !important;
+}
+
+.scene-container.svelte-1wlkmbt.selected,
+.draft-container.svelte-1jmafs.selected {
+  color: var(--text-accent) !important;
+}
+
+/* dragging */
+.scene-container.svelte-1wlkmbt.dragging,
+.scene-container.svelte-1wlkmbt:active{
+	color: var(--text-accent) !important;
+	background-color: transparent !important;
+}
+/* shadow of dragging */
+.sortable-chosen{
+	padding: 0 !important;
+	border: none !important;
+	border-radius: 3px !important;
+	background-color: none;
+}
+
+/* hover */
+.draft-container.svelte-1jmafs.selected:hover,
+.draft-container.svelte-1jmafs:hover,
+.scene-container.svelte-1wlkmbt:hover,
+.scene-container.svelte-1wlkmbt.selected:hover,
+.svelte-23avsr:hover{
+  color: var(--alt-accent) !important;
+}
+
+/* selected */
+.draft-container.svelte-1jmafs.selected,
+.draft-container.svelte-1jmafs.selected:hover,
+.scene-container.svelte-1wlkmbt.selected:hover,
+.scene-container.svelte-1wlkmbt.selected {
+  font-weight: 600;
+}
+
+/* new scene/draft field */
+.svelte-1lq63fp,
+.svelte-1wkli4h{
+  padding-left: 3px !important;
+}
+
+/* >> TAB-ITEMS */
+/* >> Longform Sidebar Icons */
+.svelte-htpziy::before{
+  font-family: "Material Icons";
+  font-size: 1.5rem;
+  vertical-align: top;
+}
+.svelte-htpziy:nth-child(1)::before{
+  content: "format_list_numbered_rtl";
+}
+.svelte-htpziy:nth-child(2)::before{
+  content: "import_contacts";
+}
+.svelte-htpziy:nth-child(3)::before{
+  content: "merge_type";
+}
+
+.svelte-htpziy.selected{
+  color: var(--text-accent) !important;
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.svelte-htpziy:hover{
+  color: var(--alt-accent) !important;
+  background-color: var(--background-primary) !important;
+}
+.svelte-htpziy.selected:hover{
+  color: var(--alt-accent) !important;
+  background-color: var(--background-secondary-alt) !important;
+}
+
+
+.svelte-htpziy{
+  font-size: 0;
+  color: var(--more-contrast-muted) !important;
+  background-color: var(--background-primary) !important;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 4px !important;
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+  border: 2px solid var(--text-faint) !important;
+  border-bottom: none !important;
+}
+
+
+/* horizontal borders between sections */
+.tab-list.svelte-1bo97vk{
+  border-bottom: 3px solid var(--text-faint) !important;
+}
+
+.new-draft-container.svelte-1wkli4h,
+.new-scene-container.svelte-1lq63fp,
+.compile-container.svelte-1vu6mjk{
+  border-top: 3px solid var(--text-faint) !important;
+}
+
+/* Compile */
+.compile-button.svelte-1vu6mjk:hover{
+  background-color: var(--alt-accent) !important;
+}
+
+/* >> PROJECT TITLE */
+.svelte-23avsr{
+  color: var(--more-contrast-muted) !important;
+}
+.svelte-23avsr[name~="projects"] {
+  font-weight: 600;
+}
+
+.right-arrow.svelte-23avsr{
+  display: none !important;
+}
+
+.svelte-23avsr:hover {
+  text-decoration: none !important;
+  color: var(--alt-accent) !important;
+}
+
+/* container */
+#project-picker.svelte-23avsr {
+  margin-bottom: 0em;
+  margin-top: 0;
+  background-color: var(--background-secondary-alt);
+  border-radius: 4px;
+  padding-left: 1px;
+  padding-right: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 0.8em;
+  border: 2.5px solid var(--text-faint);
+}
+
+/* >> Longform EDITOR */
+/* https://github.com/kevboh/longform#scene-only-styling */
+
+.longform-leaf .markdown-preview-view,
+.longform-leaf .cm-s-obsidian{
+  font-family: var(--longform-font);
+  letter-spacing: 0 !important;
+  font-size: var(--longform-font-size);
+  line-height: 1.35;
+}
+
+/* background color */
+body:not(.longform-no-bg) .longform-leaf .markdown-preview-view,
+body:not(.longform-no-bg) .longform-leaf .markdown-source-view,
+body:not(.show-header-bar):not(.is-mobile):not(.longform-no-bg) .longform-leaf .view-header{
+	background-color: var(--longform-background) !important;
+}
+
+body:not(.longform-left-aligned) .longform-leaf .cm-s-obsidian{
+	text-align: justify;
+	hyphens: auto;
+}
+
+/* keep any code smaller though */
+.longform-leaf .markdown-preview-view .frontmatter-container,
+.longform-leaf .cm-s-obsidian .cm-hmd-frontmatter,
+.longform-leaf .cm-s-obsidian .HyperMD-codeblock,
+.longform-leaf .markdown-preview-view code,
+.longform-leaf .cm-s-obsidian span.cm-inline-code,
+.longform-leaf .HyperMD-table-row {
+	font-size: calc(var(--longform-font-size) * 0.66);
+	text-align: start;
+	hyphens: none;
+}
+
+.longform-leaf .HyperMD-list-line{
+	text-align: start;
+	hyphens: none;
+}
+
+
+/* do not justify heading text*/
+.longform-leaf .markdown-preview-view h1,
+.longform-leaf .markdown-preview-view h2,
+.longform-leaf .markdown-preview-view h3,
+.longform-leaf .markdown-preview-view h4,
+.longform-leaf .markdown-preview-view h5,
+.longform-leaf .HyperMD-header {
+  text-align: start;
+  font-family: var(--longform-font);
+}
+
+:root{
+  --longform-heading-scale: 1.1;
+}
+.longform-leaf .cm-header-1,
+.longform-leaf .cm-header-2,
+.longform-leaf .cm-header-3,
+.longform-leaf .cm-header-4,
+.longform-leaf .cm-header-5,
+.longform-leaf .markdown-preview-view h1,
+.longform-leaf .markdown-preview-view h2,
+.longform-leaf .markdown-preview-view h3,
+.longform-leaf .markdown-preview-view h4,
+.longform-leaf .markdown-preview-view h5{
+  text-align: start;
+  font-family: var(--longform-font);
+  line-height: 1.2em;
+  letter-spacing: 0.5px;
+}
+
+.longform-leaf .cm-header-1,
+.longform-leaf .markdown-preview-view h1 {
+  font-size: calc(var(--h1-size) * var(--longform-heading-scale));
+}
+.longform-leaf .cm-header-2,
+.longform-leaf .markdown-preview-view h2 {
+  font-size: calc(var(--h2-size) * var(--longform-heading-scale));
+}
+.longform-leaf .cm-header-3,
+.longform-leaf .markdown-preview-view h3{
+  font-size: calc(var(--h3-size) * var(--longform-heading-scale));
+}
+.longform-leaf .cm-header-4,
+.longform-leaf .markdown-preview-view h4{
+  font-size: calc(var(--h4-size) * var(--longform-heading-scale));
+}
+.longform-leaf .cm-header-5,
+.longform-leaf .markdown-preview-view h5 {
+  font-size: calc(var(--h5-size) * var(--longform-heading-scale));
+}
+
+/* >> Longform Icons */
+
+/* hide index file in file explorer, which shouldn't
+be messed with anyway */
+body.hide-index-files .nav-file-title[data-path$="Index.md"] {
+	display: none;
+}
+
+.nav-file-title[data-path$="Index.md"] .nav-file-title-content:before {
+	content: "settings ";
+}
+
+.nav-folder-title[data-path$="Drafts"] .nav-folder-title-content::before {
+	content: "folder_special ";
+	/* alternative:  "auto_stories" or "menu_book" */
+}
+
+/* ------------------------------------------------------ */
+/* > Ozan's Image Plugin */
+/* ------------------------------------------------------ */
+
+div.oz-image-widget > img{
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	border-radius: 5px;
+}
+
+/* restrict image size */
+div.oz-image-widget > img{
+	max-width: var(--image-size) !important;
+}
+
+div.oz-image-widget > img {
+	cursor: unset !important;
+}
+
+/* ------------------------------------------------------ */
+/* > RECENT FILES */
+/* ------------------------------------------------------ */
+
+/* Show no icons for recent files plugin */
+.workspace-leaf-content[data-type="recent-files"] .nav-file-title .nav-file-title-content::before{
+	display: none;
+}
+
+.workspace-leaf-content[data-type="recent-files"] .view-content{
+	padding-left: 4px;
+	padding-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+/* ------------------------------------------------------ */
+/* > Quick Explorer */
+/* ------------------------------------------------------ */
+
+/* prevent appearing on top of the traffic lights of macOS */
+.menu.qe-popup-menu{
+	padding-top: 1.2em;
+	margin-left: 1px;
+}
+
+.menu.qe-popup-menu .menu-item{
+	padding-left: 5px;
+}
+
+.menu.qe-popup-menu .menu-separator{
+	border-bottom-width: 4px;
+}
+
+/*hover & select colors*/
+.menu.qe-popup-menu .menu-item.selected:hover::before,
+.menu.qe-popup-menu .menu-item:hover::before{
+	color: var(--alt-accent);
+}
+
+.menu.qe-popup-menu .menu-item.selected::before{
+	color: var(--text-accent);
+}
+.menu.qe-popup-menu .menu-item:hover,
+.menu.qe-popup-menu .menu-item.selected{
+	background-color: var(--background-secondary-alt) !important;
+}
+
+/*icons*/
+.menu.qe-popup-menu .menu-item::before{
+	font-family: "Material Icons";
+	padding-right: 4px;
+}
+.menu.qe-popup-menu .menu-item-icon{
+	display: none;
+}
+.menu.qe-popup-menu .menu-item.is-qe-folder::before{
+	content: "folder";
+}
+.menu.qe-popup-menu .menu-item.is-qe-file::before{
+	content: "description";
+}
+
+
+
+/* ------------------------------------------------------ */
+/* > Other Plugin Customizations */
+/* ------------------------------------------------------ */
+/* drag blocks refs */
+body #search-res-hover.show,
+body #block-ref-hover.show{
+   color: var(--text-muted);
+   background-color: var(--background-primary-alt);
+   border-radius: calc(var(--block-border-radius) - 4px);
+}
+
+body #search-res-hover.show:hover,
+body #block-ref-hover.show:hover {
+   color: var(--alt-accent);
+   background-color: var(--background-secondary-alt);
+}
+
+/* Zoom Plugin */
+a.zoom-plugin-title:hover{
+  color: var(--alt-accent);
+  opacity: 0.8 !important;
+}
+
+/* daily stats plugin */
+.react-calendar-heatmap {
+  font-size: 0.6em;
+}
+
+/* advanced tables plugin */
+.widget-icon:hover {
+	fill: var(--alt-accent) !important;
+}
+
+/* remove status bar item for Autocomplete plugin */
+.plugin-obsidian-autocomplete-plugin{
+	display: none;
+}
+
+/* CodeMirror Options*/
+.cm-s-obsidian .hmd-link-icon::after{
+	background-color: var(--more-contrast-muted) !important;
+	opacity: 1 !important;
+}
+.cm-s-obsidian .hmd-link-icon:hover::after{
+	background-color: var(--alt-accent) !important;
+	cursor: pointer;
+}
+
+/*my snippets plugin*/
+.status-bar-item.plugin-mysnippets-plugin.cMenu-statusbar-button{
+	height: 1em;
+}
+button.MS-OpenSnippet:hover,
+button.MySnippetsButton:hover{
+   background-color: var(--alt-accent) !important;
+}
+
+.MySnippets-statusbar-menu{
+	width: 300px !important;
+	border-radius: 8px !important;
+	border: 3px ridge var(--background-secondary-alt);
+}
+
+.MySnippets-statusbar-menu .menu-item.buttonitem:hover{
+	background-color: unset;
+	border-color: transparent;
+}
+
+.MySnippets-statusbar-menu .checkbox-container{
+	left: 0.5em;
+}
+
+button.MS-OpenSnippet{
+	background-color: var(--text-muted) !important;
+}
+
+/* Cursor Location */
+/* so it aligns directly with word count */
+.status-bar-item.plugin-obsidian-cursor-location-plugin{
+	padding-left: 0.5em;
+}

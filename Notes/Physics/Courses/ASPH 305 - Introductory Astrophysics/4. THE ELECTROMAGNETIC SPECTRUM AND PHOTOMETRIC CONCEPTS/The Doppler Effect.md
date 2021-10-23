@@ -32,6 +32,10 @@ The corresponding relativistic relation is:
 
 > ## $$\frac{\ll-\ll_0}{\ll_0} =\frac{\Delta\ll}{\ll_0} = \sqrt{\frac{1+\frac{v}{c}}{1-\frac{v}{c}}}-1.$$
 
+
+Obviously, the relativistic equation must be used when the velocity predicted by the classical equation exceeds the speed of light. 
+
+
 ***
 
 ### Example: 
@@ -42,4 +46,6 @@ Suppose you measure a spectral line in a distance star at a wavelength of $656.5
 > Because the light's apparent wavelength is *longer* than the 'true' wavelength, we can conclude that the wavlength is **redshifted** $\implies$ the star is moving away from the observer.
 
 ***
+### **Example:** Carbon has a strong and well-known spectral line that is emitted at 158$\mu m$. Suppose you observe it in a galaxy to at a wavelength of 1$mm$. What is the velocity of the galaxy?
 
+**Solution:** Recall 

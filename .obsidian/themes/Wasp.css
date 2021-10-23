@@ -24,18 +24,18 @@
      --text-title-h5:              #E0E0E0;
      --text-title-h6:              #E0E0E0;
      --text-highlight-bg:          #640211;
-     --text-link:                  #83a598;
-     --text-a-hover:               #83a598;
+     --text-link:                  #83a598; 
+     --text-a-hover:               #83a598; 
          --text-accent-hover:      #D49335;
 /* ^^^ added for hover over bracket internal links */
-     --inline-code:                #83a598;
-     --code-block:                 #83a598;
-     --text-a:                     #f8c537;
+     --inline-code:                #83a598; 
+     --code-block:                 #83a598; 
+     --text-a:                     #f8c537; 
      --interactive-accent:         #f8c537;
-     --text-accent:                #f8c537;
+     --text-accent:                #f8c537; 
      --text-on-accent:             #fff;
-     --interactive-accent-rgb:     #f8c537;
-     --vim-cursor:                 #f8c537;
+     --interactive-accent-rgb:     #f8c537; 
+     --vim-cursor:                 #f8c537; 
      /*  --text-mark:                  add text-mark if needed, this should work together with 'mark' */
      --pre-code:                   #;
      --interactive-before:         #7c6f64;
@@ -108,17 +108,17 @@ button.mod-cta {
 }
 
       .cm-header-1 {
-      font-size: 32px;
+      font-size: 18px;
       color: var(--text-title-h1) !important;
       }
 
       .cm-header-2 {
-      font-size: 28px;
+      font-size: 18px;
       color: var(--text-title-h2) !important;
       }
 
       .cm-header-3 {
-      font-size: 22px;
+      font-size: 18px;
       color: var(--text-title-h3) !important;
       }
 
@@ -128,48 +128,48 @@ button.mod-cta {
       }
 
       .cm-header-5 {
-      font-size: 16px;
+      font-size: 18px;
       color: var(--text-title-h5) !important;
       }
 
       .cm-header-6 {
-      font-size: 14px;
+      font-size: 18px;
       color: --text-normal;
       color: var(--text-title-h6) !important;
       }
 
       .markdown-preview-view h1 {
-      font-size: 32px;
+      font-size: 20px;
       line-height: 24px;
       color: var(--text-title-h1) !important;
       }
 
       .markdown-preview-view h2 {
-      font-size: 28px;
+      font-size: 20px;
       line-height: 24px;
       color: var(--text-title-h2) !important;
       }
 
       .markdown-preview-view h3 {
-      font-size: 22px;
+      font-size: 20px;
       line-height: 24px;
       color: var(--text-title-h3) !important;
       }
 
       .markdown-preview-view h4 {
-      font-size: 18px;
+      font-size: 20px;
       line-height: 24px;
       color: var(--text-title-h4) !important;
       }
 
       .markdown-preview-view h5 {
-      font-size: 16px;
+      font-size: 20px;
       line-height: 24px;
       color: var(--text-title-h5) !important;
       }
 
       .markdown-preview-view h6 {
-      font-size: 14px;
+      font-size: 20px;
       line-height: 24px;
       color: --text-normal;
       color: var(--text-title-h6) !important;
@@ -184,7 +184,7 @@ button.mod-cta {
      .cm-fat-cursor .CodeMirror-cursor {
      background-color: #f8c537 !important;
      opacity: 80% !important;
-     width: 9px !important;
+     width: 9px !important; 
      visibility: visible !important
      }
 

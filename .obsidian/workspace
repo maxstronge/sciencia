@@ -6,22 +6,36 @@
       {
         "id": "7f850d44821aaf05",
         "type": "leaf",
+        "dimension": 21.20456165359943,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Surface Integrals.md",
             "mode": "source"
           }
         },
         "group": "5a9954d37dbb7806"
       },
       {
-        "id": "c5786d95b012bb83",
+        "id": "7df8c8dd41110765",
         "type": "leaf",
+        "dimension": 21.20456165359943,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "c5786d95b012bb83",
+        "type": "leaf",
+        "dimension": 57.59087669280114,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Surface Integrals.md",
             "mode": "preview"
           }
         },
@@ -81,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 517,
-    "collapsed": true
+    "width": 517
   },
   "right": {
     "id": "df674f911be59496",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
+                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Surface Integrals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,22 +132,6 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "8cc923a674a39c59",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "0e87dc7c4f36528f",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
           }
         ]
       }
@@ -143,17 +140,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7f850d44821aaf05",
+  "active": "c5786d95b012bb83",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Surface Integrals.md",
+    "conflict-files-obsidian-git.md",
+    "Research/Mathematical Kinesiology.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Areas of Parametric Surfaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Functions as Vector Spaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Basis of Vector Spaces.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Subspaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Untitled.md",
-    "Example Random THing.md",
-    "Notes/Mathematics/Calculus Index.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/_TOPIC5.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Terminology Review.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Untitled.md"
   ]
 }

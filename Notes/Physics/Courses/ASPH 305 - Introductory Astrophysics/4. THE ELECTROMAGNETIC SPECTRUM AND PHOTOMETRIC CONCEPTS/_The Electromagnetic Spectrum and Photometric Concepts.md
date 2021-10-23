@@ -6,3 +6,4 @@
 
 - [[The Doppler Effect]]
 - [[Flux and Luminosity]]
+- [[Magnitudes]]
