@@ -1,45 +1,18 @@
 {
   "main": {
-    "id": "e709f706eb0d8c1b",
+    "id": "6c219f36e97ae5ac",
     "type": "split",
     "children": [
       {
-        "id": "7f850d44821aaf05",
+        "id": "ecfe85eb8b0bce64",
         "type": "leaf",
-        "dimension": 21.20456165359943,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Surface Integrals.md",
-            "mode": "source"
-          }
-        },
-        "group": "5a9954d37dbb7806"
-      },
-      {
-        "id": "7df8c8dd41110765",
-        "type": "leaf",
-        "dimension": 21.20456165359943,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "conflict-files-obsidian-git.md",
             "mode": "source"
           }
         }
-      },
-      {
-        "id": "c5786d95b012bb83",
-        "type": "leaf",
-        "dimension": 57.59087669280114,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Surface Integrals.md",
-            "mode": "preview"
-          }
-        },
-        "group": "5a9954d37dbb7806"
       }
     ],
     "direction": "vertical"
@@ -140,7 +113,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c5786d95b012bb83",
+  "active": "ecfe85eb8b0bce64",
   "lastOpenFiles": [
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Surface Integrals.md",
     "conflict-files-obsidian-git.md",
