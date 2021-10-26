@@ -255,8 +255,57 @@ Because we want to express the luminosity in terms of the luminosity of our Sun 
 Before we proceed further, we need to determine the absolute magnitudes of each type of star. To do so, we will need to know the *distance* to the star cluster, which can be determined as we did previously via parallax. Assuming again that the parallax was measured with a baseline of $1\,AU$ (maximum separation in Earth's orbit), we can find the distance via the following relation:
 
 
-### $$\begin{align}D\text{ (pc)} &= \frac{1}{p\text{ (")}} \\[2ex] &= \frac{1}{0.50327\times 10^{-3}\text} \end{align} $$
+### $$\begin{align}D\text{ (pc)} &= \frac{1}{p\text{ (")}} \\[2ex] &= \frac{1}{0.50327\times 10^{-3}\text{ "}} \\[2ex] &= 1987\text{ pc.}\end{align} $$
+
+With the distance determined, we can use the apparent magnitudes given in the table to determine the absolute magnitudes as we did above:
+# $$M_v = m_v - 5\log[D]+5$$
+
+In order: 
+
+
+ $$\text{O Star: }M_{v,O} = 6.991 - 5\log[1987]+5 = -4.49999. $$
+ 
+  $$\text{B Star: }M_{v,B} = 11.091 - 5\log[1987]+5 = -0.39989. $$
+  
+  $$\text{A Star: }M_{v,A} = 13.491 - 5\log[1987]+5 = 2.00001. $$
+   
+ $$\text{F Star: }M_{v,F} = 15.191 - 5\log[1987]+5 = 3.70001. $$
+  
+ $$\text{G Star: }M_{v,G} = 16.691- 5\log[1987]+5 = 5.20001. $$
+  
+ $$\text{K Star: }M_{v,K} = 18.891- 5\log[1987]+5 = 7.40001. $$
+ 
+$$\text{M Star: }M_{v,M} = 23.791- 5\log[1987]+5 = 12.3. $$ 
+
+Finally, we can use the relation found above to determine the luminosities of each star type (in units of $L_\Sun$). Noting that $M_{v,\Sun}=+4.83$, we find:
+
+>### $$\begin{align} \frac{L_O}{L_\Sun} = 10^{\frac{M_{v,\Sun} - M_{v,O}}{2.5}}	= 10^{\frac{4.83 -+4.49999}{2.5}} &= 5395.06\,L_\Sun.\end{align}$$
+
+Identical calculations yield the rest of the luminosities:
+
+>### $$\begin{align}  \frac{L_B}{L_\Sun} &= 123.582\,L_\Sun. \\[2ex]  \frac{L_A}{L_\Sun} &= 13.5518\,L_\Sun. \\[2ex]  \frac{L_F}{L_\Sun} &= 2.83137\,L_\Sun. \\[2ex]  \frac{L_G}{L_\Sun} &= 0.711207\,L_\Sun. \\[2ex]  \frac{L_K}{L_\Sun} &= 0.093753 L_\Sun. \\[2ex]  \frac{L_M}{L_\Sun} &= 0.00102802\, L_\Sun.\end{align}$$
+
+The sum of the luminosities of all star types except O stars is $140.771\,L_\Sun$ - therefore, the O star is:
+
+> ### $$\frac{L_O}{L_{\text{sum}}} = \frac{5395.06}{140.771} = 38.325\text{ times as luminous.}$$
 
 ***
 
 ##### **b**: Calculate the absolute and apparent V-band magnitudes of the ENTIRE cluster. 
+
+Since magnitudes cannot be directly added together, we can find the total luminosity of the entire cluster by adding together the luminosities for different types of stars:
+
+### $$\begin{align}L_{\text{total}} &= 1(L_O) + 20(L_B) + 64(L_A) + 192(L_F)+344(L_G)+772(L_K)+2052(L_M). \\[2ex] &= 9596.78\,L_\Sun.\end{align} $$
+
+Recalling our previous expression relating absolute magnitude to luminosity, we find:
+
+### $$M_\Sun - M_v = 2.5\log\qty(\frac{L}{L_\Sun}) \implies M_v = M_\Sun - 2.5 \log\qty(\frac{L}{L_\Sun})$$
+
+>### $$M_v = 4.83 - 2.5\log\qty(9596.78 ) = -5.12531.$$
+
+Finally, we can now relate this back to the apparent magnitude $m_v$ since we already know the distance:
+
+
+> ### $$\begin{align} m- M = 5\log[D]-5 &\implies m_v = M_v + 5\log[D] - 5 \\[2ex] m_v &= -5.12531 + 5\log[1987] - 5 \\[2ex] &= 6.36568.\end{align}$$
+ 
+ The magnitude of the entire star cluster is only slightly greater than the 
