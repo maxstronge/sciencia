@@ -1,4 +1,7 @@
-# ASPH305 Homework Assignment 2:
+# ASPH305 - Homework Assignment 2:
+
+Max Stronge (30064749)
+*10/26/2021*
 
 ***
 #####  1: The figure below shows the position of an asteroid as seen from telescope 1 (located in Calgary) and from telescope 2 (located $500km$ away from telescope 1). The observations were taken at the same time. 
@@ -40,13 +43,13 @@ NASA identifies Potentially Hazardous Objects (PHOs) as near-Earth objects whose
 
  A diagram to illustrate:
  
- ![[propermotiontangrad.svg|Proper motion of asteroid]]
+ ![[propermotiontangrad 1.svg|Proper motion of asteroid]]
  
  	
 
 From the figure we can form a triangle to determine the radial and tangential components of velocity:
 
-![[propermotiontrig.svg|Trigonometric diagram]]
+![[propermotiontrig_updated.svg|Trigonometric construction for determining velocity components]]
 
 So the radial and tangential velocity components are:
 
@@ -308,4 +311,4 @@ Finally, we can now relate this back to the apparent magnitude $m_v$ since we al
 
 > ### $$\begin{align} m- M = 5\log[D]-5 &\implies m_v = M_v + 5\log[D] - 5 \\[2ex] m_v &= -5.12531 + 5\log[1987] - 5 \\[2ex] &= 6.36568.\end{align}$$
  
- The magnitude of the entire star cluster is only slightly greater than the 
+ The magnitude of the entire star cluster is only slightly greater than the magnitude of the O star. Indeed, the O star contributes $\approx 97.74$% of the overall luminosity. 

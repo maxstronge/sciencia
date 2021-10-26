@@ -112,7 +112,7 @@ settings:
     title: Heading Font
     description: H1 to H5 Headings
     type: variable-text
-    default: 'Optima, Candara, "Helvetica Neue"'
+    default: "Computer Modern"
   -
     id: not-optima-font
     title: Decrease letter spacing for headings
@@ -2784,14 +2784,7 @@ ol ul::before {
   bottom: 0;
 }
 
-/* ------------------------------------------------------ */
-/* > DARK MODE PDFs */
-/* ------------------------------------------------------ */
-/*snippet from @phibr0*/
-.theme-dark .pdf-embed iframe,
-.theme-dark .workspace-leaf-content[data-type="pdf"] iframe {
-    filter: invert(0.85);
-}
+
 
 /* ------------------------------------------------------ */
 /* > MOBILE */
