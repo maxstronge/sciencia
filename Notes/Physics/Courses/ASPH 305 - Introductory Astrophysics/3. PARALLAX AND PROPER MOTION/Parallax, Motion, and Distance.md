@@ -24,4 +24,4 @@ So if observations are made six months apart, the separation $d$ will be $2AU$, 
 
 For this $p$, we would measure $2p = 1'$, which is about the resolution of the human eye, so it's the best we can do unaided. The calculation proceeds as follows according to the above relation:
 
-> ## $$\tan(p) = \frac{d}{D}\implies D = \frac{d}{\tan(p)} $$
+> ### $$\tan(p) = \frac{d}{D}\implies D = \frac{d}{\tan(p)} .$$

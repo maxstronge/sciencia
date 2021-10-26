@@ -1,16 +1,16 @@
 {
   "main": {
-    "id": "6c219f36e97ae5ac",
+    "id": "779d99d753898217",
     "type": "split",
     "children": [
       {
-        "id": "ecfe85eb8b0bce64",
+        "id": "c23a81efa3d0d070",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Surface Integrals.md",
-            "mode": "source"
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.md",
+            "mode": "preview"
           }
         }
       }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Surface Integrals.md",
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,17 +113,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ecfe85eb8b0bce64",
+  "active": "c23a81efa3d0d070",
   "lastOpenFiles": [
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Surface Integrals.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/_Parallax and Proper Motion.md",
     "conflict-files-obsidian-git.md",
-    "Research/Mathematical Kinesiology.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Areas of Parametric Surfaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Functions as Vector Spaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Basis of Vector Spaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Subspaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Untitled.md"
+    "README.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Spherical Coordinates and the Equatorial System.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/a2picture1.png",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/Parallax, Motion, and Distance.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.pdf",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/ASPH_A1_MaxStronge.md"
   ]
 }
