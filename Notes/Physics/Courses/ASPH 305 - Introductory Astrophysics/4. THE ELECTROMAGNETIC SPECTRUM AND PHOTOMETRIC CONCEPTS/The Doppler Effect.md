@@ -30,7 +30,7 @@ We can relate this to the velocity nonrelativistically (for speeds $v<<c$):
 
 The corresponding relativistic relation is:
 
-> ## $$\frac{\ll-\ll_0}{\ll_0} =\frac{\Delta\ll}{\ll_0} = \sqrt{\frac{1+\frac{v}{c}}{1-\frac{v}{c}}}-1.$$
+> ### $$\frac{\ll-\ll_0}{\ll_0} =\frac{\Delta\ll}{\ll_0} = \sqrt{\frac{1+\frac{v}{c}}{1-\frac{v}{c}}}-1.$$
 
 
 Obviously, the relativistic equation must be used when the velocity predicted by the classical equation exceeds the speed of light. 

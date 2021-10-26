@@ -207,12 +207,33 @@ The Hubble Law takes the velocity of the galaxy in units of $km/s$, however, so 
 
 We can now rearrange the Hubble Law to solve for the Hubble Constant:
 
-### $$V \text{ (km/s)}= H_0 \,D\text{ (Mpc)}$$
-### $$\begin{align}H_0 &= \frac{V}{D}\,\frac{km}{s}\cdot Mpc^{-1} \\[2ex] &=  \frac{4109.17}{50.12}\,\frac{km}{s}\cdot Mpc^{-1} \\[2ex] &=81,9866\,km\,s^{-1}\,Mpc^{-1}. \end{align} $$
+>### $$V \text{ (km/s)}= H_0 \,D\text{ (Mpc)}$$
+>### $$\begin{align}H_0 &= \frac{V}{D}\,\frac{km}{s}\cdot Mpc^{-1} \\[2ex] &=  \frac{4109.17}{50.12}\,\frac{km}{s}\cdot Mpc^{-1} \\[2ex] &=81.9866\,km\,s^{-1}\,Mpc^{-1}. \end{align} $$
 
 ***
 
-**f.**  Finally, you observe a galaxy that is too far away to see any individual stars and does not have a supernova in it. But you take a spectrum of this galaxy and find that the hydrogen spectrum (which should be at $656.00\text{ nm}$) is actually at a wavelength of $2.00\,\mu m$. Using your results from **e**, calculate the distance to this galaxy (*in $Mpc$*). 
+##### **f.**  Finally, you observe a galaxy that is too far away to see any individual stars and does not have a supernova in it. But you take a spectrum of this galaxy and find that the hydrogen spectrum (which should be at $656.00\text{ nm}$) is actually at a wavelength of $2.00\,\mu m$. Using your results from **e**, calculate the distance to this galaxy (*in $Mpc$*). 
 
+First, we find the redshifted velocity:
+
+### $$Z = \frac{\Delta \ll}{\ll_0} = \frac{2\mu m - 656.00nm}{656.00nm} = \frac{1344nm}{656nm} = 2.04878.$$
+
+### $$v = cZ =2.04878\cdot c. $$
+
+Clearly this is a problem - the velocity of the galaxy cannot exceed c. Instead, we can use the relativistic form of the equation:
+
+### $$\frac{\ll-\ll_0}{\ll_0} =\frac{\Delta\ll}{\ll_0} = Z =\sqrt{\frac{1+\frac{v}{c}}{1-\frac{v}{c}}}-1.$$
+ Plugging in our value for $Z$:
+ 
+ ### $$\begin{align}2.04878 &= \sqrt{\frac{1+\frac{v}{c}}{1-\frac{v}{c}}}-1 \\[2ex] 3.04878 &=  \sqrt{\frac{1+\frac{v}{c}}{1-\frac{v}{c}}} \\[2ex] 9.29506 &= \frac{1+\frac{v}{c}}{1-\frac{v}{c}} \\[2ex] 9.29506\qty(1-\frac{v}{c}) &= 1+\frac{v}{c} \\[2ex] 9.29506 -\frac{9.29506 \,v}{c}  - 1 &= \frac{v}{c} \\[2ex] 9.29506  - 1 &= \frac{v}{c}\qty(1 + 9.29506 ) \\[2ex] \frac{8.29506}{\qty(10.29506)}\cdot c &= v  \\[2ex] v &= 2.41552\times10^8\,m/s \\ &= 241,552\text{ km/s}. \end{align}$$
+
+Now that the velocity no longer exceeds $c$, we can proceed to find the distance using the Hubble Law and the calculated value for the Hubble Constant from **e**:
+
+#### $$V \text{ (km/s)}= H_0 \,D\text{ (Mpc)} \implies D = \frac{V}{H_0}$$
+> ### $$\begin{align}D &= \frac{V}{H_0} \\[2ex] &= \frac{241,552\text{ km/s}}{81.9866\,km\,s^{-1}\,Mpc^{-1}} \\[2ex] &= 2946.24\text{ Mpc}. \end{align}$$
 
 ***
+
+##### 4. Suppose that in ASPH307 (Observational Astrophysics) you observe a cluster of 	stars that has a parallax of $0.50327$ milliarcseconds. In that cluster, there are: 1 O star, 20 B stars, 64 A stars, 192 F stars, 344 G stars, 772 K stars,  and 2052 M stars. The table below provides the observed V-band apparent magnitude for each star in the cluster by spectral type. For reference, you may assume that the Sun's absolute V-band magnitude is $M_{v,\Sun} = +4.83$ and ignore all interstellar extinction.
+
+![[Pasted image 20211026134221.png|Observed V-Band Magnitude for a cluster of stars. ]]
