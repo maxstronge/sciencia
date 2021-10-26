@@ -6,13 +6,28 @@
       {
         "id": "52e9e190fa105c52",
         "type": "leaf",
+        "dimension": 29.02829028290283,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "71698fc9cde76c5c"
+      },
+      {
+        "id": "d6ea7d6a0312db03",
+        "type": "leaf",
+        "dimension": 70.97170971709717,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.md",
+            "mode": "preview"
+          }
+        },
+        "group": "71698fc9cde76c5c"
       }
     ],
     "direction": "vertical"
@@ -52,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 234
   },
   "right": {
     "id": "56fe24060d61a7db",

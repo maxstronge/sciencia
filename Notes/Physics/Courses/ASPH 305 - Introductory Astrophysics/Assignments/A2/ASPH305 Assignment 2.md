@@ -1,13 +1,12 @@
 # ASPH305 Homework Assignment 2:
 
 ***
-###  1:
-The figure below shows the position of an asteroid as seen from telescope 1 (located in Calgary) and from telescope 2 (located $500km$ away from telescope 1). The observations were taken at the same time. 
+#####  1: The figure below shows the position of an asteroid as seen from telescope 1 (located in Calgary) and from telescope 2 (located $500km$ away from telescope 1). The observations were taken at the same time. 
 
 ![[a2picture1.png|Positions of asteroids measured by telescopes 1 and 2. ]]
 
 
-##### a.)  Calculate the distance to the asteroid (in $AU$). You may ignore the curvature of the Earth and the exact latitude/longitude of each telescope. 
+>##### a.)  Calculate the distance to the asteroid (in $AU$). You may ignore the curvature of the Earth and the exact latitude/longitude of each telescope. 
 
 
 We can find the distance using the *parallactic angle formula*:
@@ -37,17 +36,17 @@ We can now find the distance to the asteroid:
 NASA identifies Potentially Hazardous Objects (PHOs) as near-Earth objects whose orbit brings them within ~0.05 $AU$ of Earth's orbit, so no cause for alarm yet. 
 
 ***
-##### b.) At the time of the above observation, the asteroid is moving towards us with a velocity of $36.056\,km/s$ at an angle of $30\degree$ with respect to the line of sight (*i.e.* the vector between Earth and the asteroid). Calculate the radial and tangential velocity components (in $km/s$), and the proper motion that would be observed from Earth (in units of BOTH *"/yr* and *"/min*).
+>##### b.) At the time of the above observation, the asteroid is moving towards us with a velocity of $36.056\,km/s$ at an angle of $30\degree$ with respect to the line of sight (*i.e.* the vector between Earth and the asteroid). Calculate the radial and tangential velocity components (in $km/s$), and the proper motion that would be observed from Earth (in units of BOTH *"/yr* and *"/min*).
 
  A diagram to illustrate:
  
- ![[propermotiontangrad.svg]]
+ ![[propermotiontangrad.svg|Proper motion of asteroid]]
  
  	
 
 From the figure we can form a triangle to determine the radial and tangential components of velocity:
 
-![[propermotiontrig.svg]]
+![[propermotiontrig.svg|Trigonometric diagram]]
 
 So the radial and tangential velocity components are:
 
@@ -62,19 +61,22 @@ We can now find the proper motion with the following relation:
 
  ### $$\begin{align} \theta &\text{ (rads)}= \frac{D}{r} \\[2ex] \theta &= \frac{18.028\text{ km}}{0.28283\,AU \cdot \qty(\frac{1.496 \times 10^8\text{ km}}{AU})} \\[2ex] \theta &= \frac{18.028\text{ km}}{4.23108 \times 10^7 \text{ km}} \\[2ex] \theta &= 4.26085 \times 10^{-7} \text{ rad}.\end{align} $$
  
+ We want our answer in units of $"\text{/min}$ and $"\text{/yr}$, so after one final conversion:
+ 
+ > ### $$\begin{align} \theta &= 4.26085 \times10^{-7}\text{ radians/s} \\ &=  4.26085 \times10^{-7} \frac{\text{rad}}{s}\cdot \frac{648,000}{\pi}\frac{"}{\text{rad}} \end{align}$$
  
  
-
+ 
+***
 
 
 ##### 2. The molecule CO has a fundamental quantum (rotational) transition that occurs at a rest frequency of $115.27\,GHz\,(1\,GHz = 10^9 Hz)$. Spectra of this transition were obtained at three different positions in a galaxy (see figure below) and shows that this galaxy is simultaneously rotating and moving either towards or away from us. Calculate the velocity and direction with which this galaxy is moving with respect to us (*in km/s*). In the rest frame of the galaxy, calculate its rotational velocity (*in km/s*). Which side is rotating toward us and which is rotating away?
 
-
-![[Pasted image 20211025124439.png]]
+![[Pasted image 20211026113824.png|Spectra]]
 
 We can determine the velocity, direction, and rotation of the galaxy using the Doppler Shift formula:
 
-## $$Z = \frac{\Delta \ll}{\ll_0} $$
+### $$Z = \frac{\Delta \ll}{\ll_0} $$
 
 ...where $\Delta \ll$ is the *change in wavelength* of the shifted light, and $\ll_0$ is the '*rest*' wavelength. By converting the given frequencies into wavelengths, we can find the observed Doppler shift of each of the three observations. The rest wavelength can be obtained from the rest frequency, recalling that $c =\nu \ll$:
 
@@ -86,7 +88,7 @@ The spectra show transition frequencies of $\nu_1,\nu_2,\nu_3 =115.04\,GHz, \,11
 
 We can see already that the wavelengths at all three locations all exceed the rest wavelength - therefore, the light from the galaxy is **redshifted** and we can conclude the galaxy is moving away from us. We can relate the Doppler shift to the velocity of the galaxy with the following (non-relativistic) relation:
 
-## $$Z = \frac{\Delta\ll}{\ll_0} = \frac{v}{c} \implies v = cZ.$$
+### $$Z = \frac{\Delta\ll}{\ll_0} = \frac{v}{c} \implies v = cZ.$$
 
 Since the galaxy is rotating, each side will be moving away from us at a different rate - one will move away faster than the center, and the other will move away slower than the center. If we use the wavelength from light at the *center of the galaxy* ($\ll_2$) in the above relation, it should give us the velocity of the galaxy as a whole with respect to us. The redshift at the center is:
 
@@ -94,7 +96,7 @@ Since the galaxy is rotating, each side will be moving away from us at a differe
 
 Plugging this into the velocity relation above, we find the velocity of the galaxy to be:
 
-> ## $$\begin{align} v &= cZ \\ &=(299792458\text{m/s})\cdot (0.00260938) \\ &= 782,271\,\text{m/s} \\ &= 782.271\,\text{km/s}\qq{away from us.}\end{align}$$
+> ### $$\begin{align} v &= cZ \\ &=(299792458\text{m/s})\cdot (0.00260938) \\ &= 782,271\,\text{m/s} \\ &= 782.271\,\text{km/s}\qq{away from us.}\end{align}$$
 
 The non-relativistic equation holds in this case since the velocity $v << c$. This is the **recession velocity** of the galaxy, $v_{\text{recession}}$.
 
