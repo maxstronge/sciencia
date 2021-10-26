@@ -237,3 +237,26 @@ Now that the velocity no longer exceeds $c$, we can proceed to find the distance
 ##### 4. Suppose that in ASPH307 (Observational Astrophysics) you observe a cluster of 	stars that has a parallax of $0.50327$ milliarcseconds. In that cluster, there are: 1 O star, 20 B stars, 64 A stars, 192 F stars, 344 G stars, 772 K stars,  and 2052 M stars. The table below provides the observed V-band apparent magnitude for each star in the cluster by spectral type. For reference, you may assume that the Sun's absolute V-band magnitude is $M_{v,\Sun} = +4.83$ and ignore all interstellar extinction.
 
 ![[Pasted image 20211026134221.png|Observed V-Band Magnitude for a cluster of stars. ]]
+
+##### **a.** Calculate the V-band luminosities for each type of star (*in units of $L_\Sun$*). How many times more luminous is the single O-star vs. all the other stars combined?
+
+The following relation relates the *absolute* magnitude of two stars and their luminosities:
+
+### $$M_2 - M_1 = 2.5\log\qty(\frac{L_1}{L_2})$$
+
+...or, equivalently...
+
+### $$\frac{L_1}{L_2} = 10^{\frac{M_2-M_1}{2.5}}.$$
+
+Because we want to express the luminosity in terms of the luminosity of our Sun (units of $L_\Sun$), we can set star 2 in the above equation to be our Sun:
+
+### $$\frac{L_1}{L_\Sun} = 10^{\frac{M_\Sun-M_1}{2.5}}.$$
+
+Before we proceed further, we need to determine the absolute magnitudes of each type of star. To do so, we will need to know the *distance* to the star cluster, which can be determined as we did previously via parallax. Assuming again that the parallax was measured with a baseline of $1\,AU$ (maximum separation in Earth's orbit), we can find the distance via the following relation:
+
+
+### $$\begin{align}D\text{ (pc)} &= \frac{1}{p\text{ (")}} \\[2ex] &= \frac{1}{0.50327\times 10^{-3}\text} \end{align} $$
+
+***
+
+##### **b**: Calculate the absolute and apparent V-band magnitudes of the ENTIRE cluster. 
