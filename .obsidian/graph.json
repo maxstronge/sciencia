@@ -5,6 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
+<<<<<<< Updated upstream
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -61,5 +62,20 @@
   "linkStrength": 0.717647058823529,
   "linkDistance": 188,
   "scale": 0.03069902973286654,
+=======
+  "collapse-color-groups": true,
+  "colorGroups": [],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.06699744995282429,
+>>>>>>> Stashed changes
   "close": true
 }

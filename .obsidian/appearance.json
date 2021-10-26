@@ -1,5 +1,10 @@
 {
+<<<<<<< Updated upstream
   "baseFontSize": 15,
   "cssTheme": "Shimmering Focus",
+=======
+  "baseFontSize": 16,
+  "cssTheme": "Hulk",
+>>>>>>> Stashed changes
   "translucency": true
 }

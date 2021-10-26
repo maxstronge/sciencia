@@ -9,8 +9,13 @@
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< Updated upstream
             "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.md",
             "mode": "source"
+=======
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
+            "mode": "preview"
+>>>>>>> Stashed changes
           }
         }
       }
@@ -84,7 +89,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.md",
+=======
+                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +122,7 @@
     "width": 300,
     "collapsed": true
   },
+<<<<<<< Updated upstream
   "active": "c23a81efa3d0d070",
   "lastOpenFiles": [
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.md",
@@ -125,5 +135,19 @@
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.pdf",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/ASPH_A1_MaxStronge.md"
+=======
+  "active": "18b4ea51ae4c0931",
+  "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
+    "conflict-files-obsidian-git.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/_Partial Derivatives.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Linear Independence.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/ASPH_A1_MaxStronge.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Labs/Lab 1 - Telescope and Sky Familiarization.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/Intro Lecture.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/Galactic Coordinates.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.2 - The Earth.md"
+>>>>>>> Stashed changes
   ]
 }
