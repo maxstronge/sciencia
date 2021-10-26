@@ -6,7 +6,7 @@
 ![[a2picture1.png|Positions of asteroids measured by telescopes 1 and 2. ]]
 
 
->##### a.)  Calculate the distance to the asteroid (in $AU$). You may ignore the curvature of the Earth and the exact latitude/longitude of each telescope. 
+##### a.)  Calculate the distance to the asteroid (in $AU$). You may ignore the curvature of the Earth and the exact latitude/longitude of each telescope. 
 
 
 We can find the distance using the *parallactic angle formula*:
@@ -36,7 +36,7 @@ We can now find the distance to the asteroid:
 NASA identifies Potentially Hazardous Objects (PHOs) as near-Earth objects whose orbit brings them within ~0.05 $AU$ of Earth's orbit, so no cause for alarm yet. 
 
 ***
->##### b.) At the time of the above observation, the asteroid is moving towards us with a velocity of $36.056\,km/s$ at an angle of $30\degree$ with respect to the line of sight (*i.e.* the vector between Earth and the asteroid). Calculate the radial and tangential velocity components (in $km/s$), and the proper motion that would be observed from Earth (in units of BOTH *"/yr* and *"/min*).
+##### b.) At the time of the above observation, the asteroid is moving towards us with a velocity of $36.056\,km/s$ at an angle of $30\degree$ with respect to the line of sight (*i.e.* the vector between Earth and the asteroid). Calculate the radial and tangential velocity components (in $km/s$), and the proper motion that would be observed from Earth (in units of BOTH *"/yr* and *"/min*).
 
  A diagram to illustrate:
  
@@ -63,7 +63,7 @@ We can now find the proper motion with the following relation:
  
  We want our answer in units of $"\text{/min}$ and $"\text{/yr}$, so after one final conversion:
  
- > ### $$\begin{align} \theta &= 4.26085 \times10^{-7}\text{ radians/s} \\ &=  4.26085 \times10^{-7} \frac{\text{rad}}{s}\cdot \frac{648,000}{\pi}\frac{"}{\text{rad}} \end{align}$$
+ > ### $$\begin{align} \theta &= 4.26085 \times10^{-7}\text{ radians/s} \\ &=  4.26085 \times10^{-7} \frac{\text{rad}}{s}\cdot \frac{648,000}{\pi}\frac{"}{\text{rad}} \\ &= 8.78863\times10^{-2}\text{ "/s} \\[3ex] &= 5.27318 \text{ "/min} \\[3ex] &= 2.77158\times10^6 \text{ "/yr.}\end{align}$$
  
  
  
@@ -112,7 +112,7 @@ The following formula relates the **rotational velocity **$v_{\text{rotation}}$ 
 
 > ### $$v_{\text{rotation}} = \frac{v_{LOS} - v_{\text{recession}}}{\sin (i)}$$
 > where:
->-  $v_{LOS}$ is the total radial velocity relative to the observer (found via Doppler Shift)
+>-  $v_{\text{LOS}}$ is the total radial velocity relative to the observer (found via Doppler Shift)
 > - $i$ is the **inclination** angle of the galaxy relative to the observer.
 
 From the figure, we assume that the inclination angle $i$ is 90$\degree$ (viewed edge-on, like the side of a plate), so the denominator reduces to 1. We can now pick one of our points on the edge of the galaxy to find the rotational velocity. Taking the rightmost point:
@@ -121,18 +121,16 @@ From the figure, we assume that the inclination angle $i$ is 90$\degree$ (viewed
 
 Therefore:
 
->## $$v_{\text{rotation}} =  v_{LOS} - v_{\text{recession}} =130,776\text{ m/s}.$$
+>### $$v_{\text{rotation}} =  v_{LOS} - v_{\text{recession}} =130,776\text{ m/s}.$$
 
 
 **NB**: the rotational velocity of the galaxy is not constant - the gas on the other side of the galaxy (left), for which we measured a slightly different Doppler shift ($Z_1$),  will have a different $v_{\text{rotation}}$. To find the total angular velocity of the galaxy as a whole, more information is required (eg. distances, mass).
 ***
 
-### 3. 
-
-This question illustrates how we can use parallax and observations of the general/average properties of stars to "bootstrap" other methods, thereby determining distances to objects that are even further away. Ignore all interstellar extinction in this question. 
+##### 3.  This question illustrates how we can use parallax and observations of the general/average properties of stars to "bootstrap" other methods, thereby determining distances to objects that are even further away. Ignore all interstellar extinction in this question. 
 ***
 
-**a.** You observe a star and determine its parallax to be $5.37$ milliarcseconds. From photometery (measuring light intensity), you determine its apparent visual magnitude to be $m_v = +0.50$, and its apparent blue magnitude to be $m_B = +2.35$. From spectroscopy you determine that this is a *red supergiant* star. Calculate the absolute visual and blue magnitudes ($M_v$  and $M_b$) of this star. 
+##### **a.** You observe a star and determine its parallax to be $5.37$ milliarcseconds. From photometery (measuring light intensity), you determine its apparent visual magnitude to be $m_v = +0.50$, and its apparent blue magnitude to be $m_B = +2.35$. From spectroscopy you determine that this is a *red supergiant* star. Calculate the absolute visual and blue magnitudes ($M_v$  and $M_b$) of this star. 
 
 
 First, we use the measured parallactic angle to find the distance to the star. Assuming the parallax was measured with a baseline of $1\,AU$ (maximum separation in Earth's orbit), we can find the distance via the following relation:
@@ -148,42 +146,69 @@ Now that we have the distance in parsecs, we can use the *distance modulus* to r
 
 > ### $$\begin{align}M_v &= m_v - 5\log[D] + 5 \\ &= 0.50 - 5\log[186.22]+ 5 \\ &= -5.85013 \\[4ex] M_b &= m_b - 5\log[D]+5 \\ &=2.35 - 5\log[186.22] + 5 \\ &= -4.00013 \end{align}$$
 ***
-**b.** Assuming that *every* red supergiant star in the universe has similar properties, and therefore the same $M_v$  and $M_b$ (which happens to be a relatively good assumption), you now find another red supergiant in the Large Magellanic Cloud, a dwarf galaxy orbiting our own. For this star, you measure $m_v$ and $m_b$ to be $12.55$ and $14.40$, respectively. Calculate the distance to the LMC (*in pc*).
+##### **b.** Assuming that *every* red supergiant star in the universe has similar properties, and therefore the same $M_v$  and $M_b$ (which happens to be a relatively good assumption), you now find another red supergiant in the Large Magellanic Cloud, a dwarf galaxy orbiting our own. For this star, you measure $m_v$ and $m_b$ to be $12.55$ and $14.40$, respectively. Calculate the distance to the LMC (*in pc*).
 
 We have $M_v,\,M_b=-5.85013,-4.00013$ respectively. We can rearrange the previous equation:
 
 
-
-> ### $$m- M = 5\log[D]+5$$
-> ### $$\frac{m-M-5}{5} = \log[D]$$
->  ### $$D = 10^{(1/5)(m-M-5)}$$
+ ### $$m- M = 5\log[D]-5$$
+### $$\frac{m-M+5}{5} = \log[D]$$
+ ### $$D = 10^{(1/5)(m-M+5)}$$
 
 Substituting our values for $m_b,M_b$ into this equation, we find the distance to be:
-> ### $$D_b= 10^{(1/5)(m_ b-M_b-5)} = 10^{(1/5)(14.40+4.00013 - 5)} = 478.659\,pc.$$
+> ### $$D_b= 10^{(1/5)(m_ b-M_b+5)} = 10^{(1/5)(14.40+4.00013 + 5)} = 47865.9\,pc.$$
 
 Doing the same for $m_v,M_v$:
 
-> ### $$D_v= 10^{(1/5)(m_ v-M_v-5)} = 10^{(1/5)(12.55+5.85013 - 5)} = 478.659\,pc.$$
+> ### $$D_v= 10^{(1/5)(m_ v-M_v+5)} = 10^{(1/5)(12.55+5.85013 + 5)} = 47865.9\,pc.$$
 
-The results agree (as expected), so we can conclude that the distance to the LMC is $478.659\,pc.$
+The results agree (as expected), so we can conclude that the distance to the LMC is $47865.9\,pc.$
 
 
 
 
 ***
-**c.** The physical mechanism that produces a supernova results in every supernova having approximately the same *luminosity*. Assume you now see a supernova explosion in the LMC and measure $m_v = -0.77$. Calculate the absolute visual magnitude of this supernova (and therefore, the value of $M_v$ for every supernova in the universe).
+##### **c.** The physical mechanism that produces a supernova results in every supernova having approximately the same *luminosity*. Assume you now see a supernova explosion in the LMC and measure $m_v = -0.77$. Calculate the absolute visual magnitude of this supernova (and therefore, the value of $M_v$ for every supernova in the universe).
 
 Using the same relation as the previous question: 
 
-### $$\begin{align} M_v &= m_v - 5\log[D]+5 \\[2ex] &= -0.77 - 5\log[478.659] +5 \\[2ex] &= -9.17013	\end{align} $$
+>### $$\begin{align} M_v &= m_v - 5\log[D]+5 \\[2ex] &= -0.77 - 5\log[47865.9] +5 \\[2ex] &= -19.17013.	\end{align} $$
+
+Hillebrandt, Wolfgang *et al. *found an average value of $-19.3$, so the absolute visual magnitude we found is a reasonable result. ^[Hillebrandt, W., & Niemeyer, J. C. (2000). Type Ia supernova explosion models. _Annual Review of Astronomy and Astrophysics_, _38_(1), 191-230.]
+***
+
+##### **d.** Now you observe a supernova explosion (with $m_v = 14.33$) in a distant galaxy. Calculate the distance to this galaxy (*in $Mpc$*). 
+
+With $m_v = 14.33,\,M_v = -19.17013$ (as was found in part **c**), we can find the distance:
+
+> ### $$\begin{align}m- M &= 5\log[D]-5 \\[2ex] \log[D] &= \frac{m_v-M_v+5}{5}  \\[2ex] D &= 10^{\frac{m_v-M_v+5}{5}} \\[2ex] &= 5.01217\times10^7\,pc \\[2ex] &= 50.12\,Mpc.\end{align} $$
+
 
 ***
 
-**d.** Now you observe a supernova explosion (with $m_v = 14.33$) in a distant galaxy. Calculate the distance to this galaxy (*in $Mpc$*). 
+##### **e.** The Hubble Law is a simple formula relating the redshifted velocity of a galaxy to its distance: $V\text{ (km/s)}=H_0\,D\,(Mpc)$,  originating from the fact that the universe is expanding. $H_0$ is the **Hubble Constant**, and has units of $km/s\cdot Mpc^{-1}$. In the galaxy from part **d.**, you observe a hydrogen spectrum at a wavelength of $664.9916\text{ nm}$. The rest wavelength of hydrogen is $656.000\text{ nm}.$ Calculate the value of the Hubble Constant. 
 
-***
 
-**e.** The Hubble Law is a simple formula relating the redshifted velocity of a galaxy to its distances: $V\text{ (km/s)}=H_0\,D\,(Mpc).$,  originating from the fact that the universe is expanding. $H_0$ is the **Hubble Constant**, and has units of $km/s\cdot Mpc^{-1}$. In the galaxy from part **d.**, you observe a hydrogen spectrum at a wavelength of $664.9916\text{ nm}$. The rest wavelength of hydrogen is $656.000\text{ nm}.$ Calculate the value of the Hubble Constant. 
+From **d**, we have distance $D = 50.12\text{ Mpc}$. We can determine the redshifted velocity $v$ with the following relation:
+
+### $$v = cZ,\qq{where} Z=\frac{\Delta\ll}{\ll_0}.$$
+
+The redshift $Z$ can be calculated from the two given wavlengths for the hydrogen spectra:
+
+### $$Z =\frac{\Delta\ll}{\ll_0} = \frac{664.9916\text{ nm} - 656.000\text{ nm}}{656.000\text{ nm}}=0.0137067. $$
+
+Since the observed wavelength is greater than the rest wavelength, the galaxy's light is redshifted, and the galaxy is moving away from us. We can now find the velocity of the galaxy:
+
+### $$\begin{align} v &= cZ \\ &= 299,792,458\,\cdot(0.0137067) \\ &= 4.10917\times10^6\text{ m/s.}\end{align}$$
+
+The Hubble Law takes the velocity of the galaxy in units of $km/s$, however, so converting, we find:
+
+### $$V = 4109.17\text{ (km/s)}.$$
+
+We can now rearrange the Hubble Law to solve for the Hubble Constant:
+
+### $$V \text{ (km/s)}= H_0 \,D\text{ (Mpc)}$$
+### $$\begin{align}H_0 &= \frac{V}{D}\,\frac{km}{s}\cdot Mpc^{-1} \\[2ex] &=  \frac{4109.17}{50.12}\,\frac{km}{s}\cdot Mpc^{-1} \\[2ex] &=81,9866\,km\,s^{-1}\,Mpc^{-1}. \end{align} $$
 
 ***
 
