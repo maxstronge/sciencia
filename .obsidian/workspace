@@ -1,21 +1,16 @@
 {
   "main": {
-    "id": "779d99d753898217",
+    "id": "ac3f27ddef6591b1",
     "type": "split",
     "children": [
       {
-        "id": "c23a81efa3d0d070",
+        "id": "52e9e190fa105c52",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< Updated upstream
             "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.md",
             "mode": "source"
-=======
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
-            "mode": "preview"
->>>>>>> Stashed changes
           }
         }
       }
@@ -23,16 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6769d09f406f7316",
+    "id": "7eafc9147eecc12b",
     "type": "split",
     "children": [
       {
-        "id": "17740ca0822d2392",
+        "id": "ffc1006b59bacbe4",
         "type": "tabs",
-        "dimension": 57.730923694779115,
         "children": [
           {
-            "id": "f23a90ebf6e29992",
+            "id": "f5d1bc0b46457da9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -40,7 +34,7 @@
             }
           },
           {
-            "id": "a5cf3ad8e2264ee9",
+            "id": "44e3df00e6441047",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -55,45 +49,26 @@
             }
           }
         ]
-      },
-      {
-        "id": "82fc5e171bb98b64",
-        "type": "tabs",
-        "dimension": 42.269076305220885,
-        "children": [
-          {
-            "id": "be3f31389f36609c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 517
+    "width": 300
   },
   "right": {
-    "id": "df674f911be59496",
+    "id": "56fe24060d61a7db",
     "type": "split",
     "children": [
       {
-        "id": "644daac6b811780e",
+        "id": "73126be6d647f07b",
         "type": "tabs",
         "children": [
           {
-            "id": "d4924e89f99b2bbc",
+            "id": "f1dd2b6bb3bdf84a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
                 "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.md",
-=======
-                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
->>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +80,7 @@
             }
           },
           {
-            "id": "61fb92cd212e1519",
+            "id": "f7a52dd3fefda7c6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -122,32 +97,13 @@
     "width": 300,
     "collapsed": true
   },
-<<<<<<< Updated upstream
-  "active": "c23a81efa3d0d070",
+  "active": "52e9e190fa105c52",
   "lastOpenFiles": [
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/a2picture1.png",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/_Parallax and Proper Motion.md",
-    "conflict-files-obsidian-git.md",
-    "README.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Spherical Coordinates and the Equatorial System.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/Parallax, Motion, and Distance.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.pdf",
+    "Pasted image 20211025124439.png.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/A2.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/ASPH_A1_MaxStronge.md"
-=======
-  "active": "18b4ea51ae4c0931",
-  "lastOpenFiles": [
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
-    "conflict-files-obsidian-git.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/_Partial Derivatives.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Linear Independence.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/ASPH_A1_MaxStronge.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Labs/Lab 1 - Telescope and Sky Familiarization.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/Intro Lecture.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/Galactic Coordinates.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/INTRODUCTION AND COORDINATE SYSTEMS/SPHERICAL ASTRONOMY/2.2 - The Earth.md"
->>>>>>> Stashed changes
   ]
 }
