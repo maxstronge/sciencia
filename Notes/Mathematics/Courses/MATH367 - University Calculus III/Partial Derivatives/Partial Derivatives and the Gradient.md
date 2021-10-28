@@ -133,7 +133,7 @@ y' &= \frac{-2}{3y^2 - 3}.
 
 **Observation**: can be expressed in terms of partial derivatives: $f_x = 2$, $f_y = 3y^2 - 3$. Therefore:
 
-> ## $$y' = -\frac{f_x}{f_y}.$$ 
+> ### $$y' = -\frac{f_x}{f_y}.$$ 
 
 
 ***
@@ -146,10 +146,10 @@ We will claim that $f(x,y,z) = 0$ defines $z$ implicitly as a function of *x* an
 Partially differentiate both sides of $f=0$ with respect to *x*:
 
 > #### $3z^2 z_x + (y^2+1)\,z_x + 2e^{2x} = 0$
-> ## $z_x = \frac{-2e^{2x}}{3z^2 + y^2 + 1}$
-> ## $= \frac{-f_x}{f_z}$.
+> ### $z_x = \frac{-2e^{2x}}{3z^2 + y^2 + 1}$
+> ### $= \frac{-f_x}{f_z}$.
 
-**	Theorem**: when *z* is defined implicitly as a function of *x* and *y*, the following is true:
+**	Theorem**: when *z* is defined implicitly as a function of *x* and *y* $F(x,y,z) = 0$, the following is true:
 
 
 ### $z_x = \frac{-f_x}{f_y}$
@@ -179,8 +179,4 @@ The same logic applies to $f_{yy}$. The two successive derivatives taken need no
 
 There are only very specific situations where this does not hold.
 
-***
-### The Multivariable Chain Rule:
-
-***
 
