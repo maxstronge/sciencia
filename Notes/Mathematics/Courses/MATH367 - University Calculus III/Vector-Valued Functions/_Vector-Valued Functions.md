@@ -1,6 +1,7 @@
 # Vector-Valued Functions:
 ***
 
+- [[Parametric Curves]]
 - [[Vector-Valued Functions]]
 - [[Vector Fields]]
 

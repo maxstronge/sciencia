@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "52e9e190fa105c52",
+        "id": "18f507dea60aae27",
         "type": "leaf",
-        "dimension": 29.02829028290283,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Parametric Curves.md",
             "mode": "source"
           }
         },
-        "group": "71698fc9cde76c5c"
+        "group": "e3f66a8ecc2121d5"
       },
       {
-        "id": "d6ea7d6a0312db03",
+        "id": "ac80747b61db43b7",
         "type": "leaf",
-        "dimension": 70.97170971709717,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.md",
+            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Parametric Curves.md",
             "mode": "preview"
           }
         },
-        "group": "71698fc9cde76c5c"
+        "group": "e3f66a8ecc2121d5"
       }
     ],
     "direction": "vertical"
@@ -83,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.md",
+                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Parametric Curves.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,14 +110,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d6ea7d6a0312db03",
+  "active": "18f507dea60aae27",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Parametric Curves.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/_Vector-Valued Functions.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Lagrange Multipliers for Constrained Optimization.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Differential Forms.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/_MULTIPLEINTEGRALS.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/ASPH_A1_MaxStronge.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/a2picture1.png",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Doppler Effect.md",
-    "Pasted image 20211025124439.png.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/A2.md"
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Doppler Effect.md"
   ]
 }

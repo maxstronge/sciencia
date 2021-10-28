@@ -118,6 +118,7 @@ settings:
     title: Decrease letter spacing for headings
     description: This theme increases letter spacing to make Optima/Canberra align more with the other fonts. Turn off, if you are using a different Heading Font.
     type: class-toggle
+
     default: false
   -
     id: longform-settings
@@ -322,7 +323,7 @@ For help and/or CSS snippets, thanks to:
 :root{
 	--default-font: "Computer Modern";
 	--font-monospace: "Input Mono";
-	--heading-font: Optima, Candara, "Helvetica Neue";
+	--heading-font: "Computer Modern";
 	--mermaid-font: var(--font-monospace);
 	--longform-font: "Crimson Pro";
 
@@ -2402,7 +2403,7 @@ body:not(.no-alternating-header-italics) .cm-header-2,
 body:not(.no-alternating-header-italics) .markdown-preview-view h2,
 body:not(.no-alternating-header-italics) .cm-header-4,
 body:not(.no-alternating-header-italics) .markdown-preview-view h4{
-  font-style: italic;
+
 }
 
 /* counter for h2*/
@@ -2478,7 +2479,7 @@ body:not(.not-optima-font) .markdown-preview-view h6{
 /* >> BLOCKQUOTE IN EDIT MODE */
 .cm-quote{
   color: var(--more-contrast-muted) !important;
-  font-style: italic;
+  
 }
 
 .HyperMD-quote.HyperMD-quote-1{

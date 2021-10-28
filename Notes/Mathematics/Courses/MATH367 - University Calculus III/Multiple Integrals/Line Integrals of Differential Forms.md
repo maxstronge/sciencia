@@ -5,7 +5,7 @@
 A **differential 1-form** $\omega$ is an expression of the form:
 
 
-## $$\begin{align} P(x)dx &\qq{($n=1$)} \\ P(x,y)dx + Q(x,y) dy &\qq{$(n = 2)$}\end{align} $$
+### $$\begin{align} P(x)dx &\qq{($n=1$)} \\ P(x,y)dx + Q(x,y) dy &\qq{$(n = 2)$}\end{align} $$
 
 
 ***
@@ -15,17 +15,17 @@ Take $n=2$:
 
 ### $$\omega = P(x,y)dx + Q(x,y)dy. $$
 
-## $$C = \va{r}(t) = (x(t),y(t)). $$
+### $$C = \va{r}(t) = (x(t),y(t)). $$
 
 Define: 
 
-> ## $$\int_C \omega = \int_a^b P(x(t),y(t)) + Q(x(t),y(t)) dt$$
+> ### $$\int_C \omega = \int_a^b P(x(t),y(t)) + Q(x(t),y(t)) dt$$
 
 
 Compactly:
 
-> # $$\int_C P\,dx + Q\,dy = \int_C(P,Q)\cdot d\,\va{r}.$$
-> ## $$=\int_a^b P(x(t),y(t))x'(t)  + Q(x(t),y(t))\,y'(t)\,dt.$$
+> ### $$\int_C P\,dx + Q\,dy = \int_C(P,Q)\cdot d\,\va{r}.$$
+> ### $$=\int_a^b P(x(t),y(t))x'(t)  + Q(x(t),y(t))\,y'(t)\,dt.$$
 
 ***
 
