@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#linear_algebra",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,6 +100,7 @@
   "active": "18f507dea60aae27",
   "lastOpenFiles": [
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Properties of Linear Transformations.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Surface Integrals.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector Fields.md",
@@ -108,7 +108,6 @@
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Linear Approximations and Differentiability.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Extrema, Critical Points, and their Classification.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Directional Derivatives.md"
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Extrema, Critical Points, and their Classification.md"
   ]
 }
