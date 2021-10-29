@@ -61,14 +61,14 @@ However, it's length also tends to zero, which will not prove useful. If we divi
 
 Since the limit $\lim_{h\to 0} \frac{f(x_0+h,y_0)-f(x_0,y_0)}{h}$ is the *definition of the partial derivative* $f_x(x_0,y_0)$, we find that the vector:
 
-> ## $$\begin{pmatrix} 1, & 0, & f_x(x_0,y_0) \end{pmatrix}  $$
+> ### $$\begin{pmatrix} 1, & 0, & f_x(x_0,y_0) \end{pmatrix}  $$
 
 ...is a *nonzero* vector that is exactly tangent to the red curve, and is hence **also tangent to the surface** $z=f(x,y)$ at the point $(x_0,y_0,f(x_0,y_0))$.
 
 
 ***
 
-## General Form of the Equation of the Tangent Plane:
+### General Form of the Equation of the Tangent Plane:
 
 Two linear approximations of a function $z=f(x,y),\,L_x\text{ and }L_y,$ both lie in a unique plane - the *tangent plane* to $z=f(x,y)$ at the point of interest. 
 
@@ -93,11 +93,11 @@ Recall from introductory linear algebra that the equation of a plane going throu
 
 Substituting $(a,b,f(a,b))$ for $(a,b,c)$ and using the previously found normal vector $\vec{n}$ for $(p,q,r),$ we find:
 
-> ## $$-f_x(a,b)(x-a) - f_y(a,b)(y-b)+z-f(a,b)=0. $$
+> ### $$-f_x(a,b)(x-a) - f_y(a,b)(y-b)+z-f(a,b)=0. $$
 
 This can be rearranged to give a nicer equation for the tangent plane:
 
-> ## $$z = f(a,b) + f_x(a,b)(x-a)+f_y(a,b)(y-b). $$
+> ### $$z = f(a,b) + f_x(a,b)(x-a)+f_y(a,b)(y-b). $$
 
 We can write this more compactly by packaging $f_x$ and $f_y$ into the gradient vector $\nabla f\,(a,b)$ and taking a dot product:
 

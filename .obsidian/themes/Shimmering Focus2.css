@@ -2479,7 +2479,7 @@ body:not(.not-optima-font) .markdown-preview-view h6{
 /* >> BLOCKQUOTE IN EDIT MODE */
 .cm-quote{
   color: var(--more-contrast-muted) !important;
-  
+
 }
 
 .HyperMD-quote.HyperMD-quote-1{
@@ -2542,7 +2542,6 @@ blockquote {
 	padding-right: 0.8em !important;
 	padding-top: 0.4em !important;
 	padding-bottom: 0.5em !important;
-	font-style: italic;
 	margin-top: 1.5em;
 	margin-bottom: 2em;
 	text-align: justify;
