@@ -56,20 +56,7 @@ This is a transformation $\RRii \to \RRii$ that we've seen before, but now we ca
 
 ***
 
-## Vector-Valued Functions of a Vector Variable:
-
-We now turn our focus to functions that output vectors *and* take vectors for input - functions of this type can be represented as a transformation:
-
-> ## $$f :\RR^n\to\RR^m $$
-
-We can write these functions more explicitly in terms of **component functions**, as before: 
-
-> ## $$ $$
-
-
-***
-
-## The Chain Rule for Vector-Valued Functions of a Vector Variable:
+### The Chain Rule for Vector-Valued Functions of a Vector Variable:
 
 Consider the function $f(x,y)$ where $x = x(r,\theta)$ and $y = y(r,\theta)$. Clearly $f$ is also a function of $r\text{ and }\theta$ through the dependencies of $x$ and $y$.
 
@@ -87,3 +74,5 @@ Assume that all first order partial derivatives of $f(x,y)$, $x(r,\theta)$, and 
 
 
 >  $$\begin{align} \pdv{F}{r} (r,\theta) &= \pdv{f}{x} (x(r,\theta),\,y(r, \theta))\pdv{x}{r} (r,\theta) + \pdv{f}{y} (x(r,\theta),\,y(r, \theta))\pdv{y}{r} (r,\theta). \\ \pdv{F}{\theta}(r,\theta) & = \pdv{f}{x} (x(r,\theta),\,y(r, \theta))\pdv{x}{\theta} (r,\theta) + \pdv{f}{y} (x(r,\theta),\,y(r, \theta))\pdv{y}{\theta} (r,\theta).\end{align}  $$
+
+![[Pasted image 20211028204231.png]]
