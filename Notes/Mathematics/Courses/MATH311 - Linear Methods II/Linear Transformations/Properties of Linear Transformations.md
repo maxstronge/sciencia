@@ -42,3 +42,8 @@ The following example gives two important transformations of matrices. Recall th
 > - $R:\bf{M}_{mn} \to \bf{M}_{nm}\qq{where}R(A)=A^T\text{ for all }A \in \bf{M}_{mn}.$
 > 
 >- $S: \bf{M}_{mn} \to \RR\qq{where}S(A)=\tr(A)\text{ for all }A \in \bf{M}_{mn}.$
+
+
+***
+
+#linear_algebra #matrix #linear_transformations
