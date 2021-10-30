@@ -96,7 +96,7 @@ The given relations imply that:
 $$\begin{align} T(\va{v})- 3 T(\va{v}_1) &= \va{w} \\ 2T(\va{v}) - T(\va{v}_1) &= \va{w}_1\end{align}$$
 
 
-...by [[#^ed756e|Theorem 7.1.1.]]
+...by [[#^ed756e|Theorem 7.1.1.]] We can then solve via elimination and substitution. 
 
 
 
