@@ -61,7 +61,7 @@ $$(c_1-d_1)\,\vec{x_1}+\dots+(c_k-d_k)\,\vec{x_k}=\vec{0}.$$
 Since $S$ is linearly independent (as per the definition of a basis), we know the only solution to this equation is $c_1-d_1=0,\,\dots,c_k-d_k=0$, and thus:
 
 
-> ## $$c_1=d_1,\dots,c_k=d_k. $$
+> ### $$c_1=d_1,\dots,c_k=d_k. $$
 
 Therefore, the two expressions in * are the same. 
 
