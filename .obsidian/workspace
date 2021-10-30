@@ -10,9 +10,22 @@
           "type": "markdown",
           "state": {
             "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Properties of Linear Transformations.md",
+            "mode": "source"
+          }
+        },
+        "group": "4c4e33643dc05220"
+      },
+      {
+        "id": "8be4df8667a60073",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Properties of Linear Transformations.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "4c4e33643dc05220"
       }
     ],
     "direction": "vertical"
@@ -100,14 +113,14 @@
   "active": "18f507dea60aae27",
   "lastOpenFiles": [
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Properties of Linear Transformations.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Basis.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Linear Independence.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/5.1 - The Behaviour of a Wave at a Boundary.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Schrödinger Equation/_The Schrödinger Equation.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Surface Integrals.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector Fields.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/_Vector-Valued Functions.md"
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/_Vector-Valued Functions.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Partial Derivatives and the Gradient.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Linear Approximations and Differentiability.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Extrema, Critical Points, and their Classification.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/Directional Derivatives.md"
   ]
 }
