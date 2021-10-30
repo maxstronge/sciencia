@@ -67,11 +67,42 @@ We want to show, more precisely, that:
 $$[p(x) + q(x)]' = p'(x) + q'(x)\qq{and} [rp(x)]' = (r p)'(x)$$
 
 
-$$\int_0^x [p(t)+q(t)]\,dt = \int_0^x p(t)$$
+$$\int_0^x [p(t)+q(t)]\,dt = \int_0^x p(t)\,dt + \int_0^x q(t)\,dt\qq{and}\int_0^x r\, p(t)\,dt = r \int_0^x p(t)\,dt. $$
+
+Hence, differentiation and integration are linear transformations. 
 
 ***
 
-### Theorem 7.1.3^[LAWA, Nicholson]: 
+The following theorem collects three useful properties of *all* transformations. They can be described by saying that, in addition to preserving addition and scalar multiplication (which are the axioms of linear transformations, part of the definition), linear transformations *also* preserve the *zero vector*, *negatives*, and *linear combinations*. 
+
+### Theorem 7.11:^[Linear Algebra with Applications, Nicholson.]
+
+^cf8587
+
+> Let $T: V \to W$ be a linear transformation.
+> 1. $T(\va{0}) = \va{0}$
+> 2. $T(-\va{v}) = -T(\va{v})$ for all $v$ in $V$
+> 3. $T(r_1\va{v}_1 + r_2\va{v}_2 + \cdots + r_k\va{v}_k) = r_1T(\va{v}_1) + r_2T(\va{v}_2)+\dots+r_nT(\va{v}_n)$ for all $\va{v}_i$ in $V$ and all $r_i \in \RR$.
+
+^ed756e
+
+***
+###### Example: Let $T: V\to W$ be a linear transformation. If $T(\va{v} - 3\va{v}_1)=\va{w}$ and $T(2\va{v} - \va{v}_1)=\va{w}_1$, find $T(\va{v})$ and $T(\va{v}_1)$ in terms of $\va{w}$ and $\va{w}_1$.
+
+**Solution**:
+
+The given relations imply that:
+
+$$\begin{align} T(\va{v})- 3 T(\va{v}_1) &= \va{w} \\ 2T(\va{v}) - T(\va{v}_1) &= \va{w}_1\end{align}$$
+
+
+...by [[#^ed756e|Theorem 7.1.1.]]
+
+
+
+***
+
+### Theorem 7.1.3^[Ibid.]: 
 Let $V$ and $W$ be vector spaces and let $\{\va{b}_1, \va{b}_2,\dots,\va{b}_n\}$ be a basis of $V$. Given any vectors $\va{w}_1,\va{w}_2,\dots,\va{w}_n$ in $W$ (they need not be distinct), there exists a *unique* linear transformation $T:V\to W$ satisfying $T(\va{b}_i) = \va{w}_i$ for each $i = 1,2,3\dots,n$. 
 
 In fact, the action of $T$ is as follows:
@@ -86,5 +117,5 @@ Given $\va{v}=v_1\va{b}_1 + v_2 \va{b}_2 + \cdots + v_n\va{b}_n$ in $V$, $v_i \i
 
 ***
 
-#linear_algebra #matrix #linear_transformations
+#linear_algebra #matrix #linear_transformations #functions #polynomials 
 	
