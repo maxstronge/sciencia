@@ -68,7 +68,7 @@ Therefore, the two expressions in * are the same.
 
 ***
 
-## Procedure for finding a basis:
+### Procedure for finding a basis:
 
 Given a set of vectors $\vec{v_1},\dots,\vec{v_k} \in \RR^n$, we can find a basis for $U=\span\{\vec{v_1},\dots,\vec{v_k}\}$ by doing the following:
 
