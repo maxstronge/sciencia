@@ -11,7 +11,7 @@ The **null space** of  $A$, denoted $\text{null}(A)$, is defined as:
 
 The null space is also referred to as the **kernel** of the matrix. In the language of matrix algebra, $\text{null }(A)$ is the set of all solutions $x$ in $\RR^n$ of the homogenous system $Ax=0$:
 
-> ## $$x \in \text{null} (A )\iff Ax = 0.$$
+> ### $$x \in \text{null} (A )\iff Ax = 0.$$
 
 For example:
 

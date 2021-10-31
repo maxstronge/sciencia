@@ -19,4 +19,20 @@ Similarly, the concept that a linear transformation is *onto* is called **surjec
 ![[Pasted image 20211031114633.png|Visual example of surjectivity.]]
 
 
-A vector $\va{w}$ in $W$ is said to be **hit** by $T$ if $\va{w} = T(\va{v}$ for some $\va{v} \in V$. Then $T$ is onto / surjective if every vector $\va{w} \in W$ is hit at least once, and $T$ is 1:1 / injective if no element of $W$ gets hit twice.
+A vector $\va{w}$ in $W$ is said to be **hit** by $T$ if $\va{w} = T(\va{v})$ for some $\va{v} \in V$. Then $T$ is onto / surjective if every vector $\va{w} \in W$ is hit at least once, and $T$ is 1:1 / injective if no element of $W$ gets hit twice.
+
+We can now introduce an important theorem:
+
+
+**Theorem:**
+
+> If $T: V \to W$ is a linear transformation, then $T$ is one-to-one / injective $\iff \ker(T) = \va{0}.$
+
+**Proof:** 
+
+If $T$ is 1:1, let $\va{v}$ be any vector in $\ker(T).$ Then, $T(\va{v})=0 \implies T(\va{v}) = T(0).$ 
+
+Hence, $v = 0$ because $T$ is 1:1. Hence: $\ker(T) = \qty{0}.$
+
+***
+
