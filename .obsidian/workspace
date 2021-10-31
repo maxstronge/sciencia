@@ -6,28 +6,13 @@
       {
         "id": "18f507dea60aae27",
         "type": "leaf",
-        "dimension": 30.849753694581285,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Kernel and Image of Linear Transformations.md",
             "mode": "source"
           }
-        },
-        "group": "4c4e33643dc05220"
-      },
-      {
-        "id": "8be4df8667a60073",
-        "type": "leaf",
-        "dimension": 69.15024630541872,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Kernel and Image of Linear Transformations.md",
-            "mode": "preview"
-          }
-        },
-        "group": "4c4e33643dc05220"
+        }
       }
     ],
     "direction": "vertical"
