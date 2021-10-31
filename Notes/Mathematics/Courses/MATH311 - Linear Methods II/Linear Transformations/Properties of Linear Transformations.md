@@ -24,6 +24,9 @@ We can denote this transformation:
 Defined by:
 
 > ### $$T_A(\va{x}) = A\va{x}\text{ for every }\va{x} \in \Rn.$$
+
+^2e8fe9
+
 ***
 
 ### **Important Linear Transformations:**

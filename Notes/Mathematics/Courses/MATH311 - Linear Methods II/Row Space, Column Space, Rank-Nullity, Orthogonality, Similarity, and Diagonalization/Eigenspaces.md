@@ -3,7 +3,7 @@
 
 The **eigenspace** of an $\nxn$ matrix $A$ corresponding to an eigenvalue $\ll$ is:
 
-> ## $$ E_\ll(A) = \{ \va{x} \in \Rn: A\va{x} = \ll \va{x}.\}$$
+> ### $$ E_\ll(A) = \{ \va{x} \in \Rn: A\va{x} = \ll \va{x}.\}$$
 
 In words: the eigenspace of a matrix is the set of all vectors $\va{x}$ such that multiplication of $\va{x}$ by $A$ produces the same vector as the multiplication of $\va{x}$ by $\ll$. 
 
@@ -15,6 +15,10 @@ In words: the eigenspace of a matrix is the set of all vectors $\va{x}$ such tha
 
 > ### $$E_\ll(A) = \{\va{x} \in \Rn : A\va{x} = \ll\va{x} \} = \{\va{x}: (A-\ll\ I)\,\va{x} = \va{0}\}.$$
 
+
+It's worth noting a particular example more explicitly:
+
+> $$E_\ll (A) = \null(\ll I - A) \text{ is a subspace of  } \Rn  \text{ for each }\nxn \text{ matrix } A \text{ and number } \ll.$$
 ***
 
 **Example 1:** Let $B = \bmqty{0&0&-2\\1&2&1\\1&0&3}$. Find $E_1(B)$ and $E_2(B)$. Find a basis for each eigenspace. 
