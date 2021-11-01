@@ -67,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296
+    "width": 174.5
   },
   "right": {
     "id": "56fe24060d61a7db",
@@ -112,7 +112,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "18f507dea60aae27",
+  "active": "639105d9bcab5d35",
   "lastOpenFiles": [
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/One-to-One and Onto Transformations.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Kernel and Image of Linear Transformations.md",

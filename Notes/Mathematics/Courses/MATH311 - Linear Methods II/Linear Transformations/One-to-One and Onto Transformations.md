@@ -4,7 +4,7 @@
 > ### *Definition 7.3:* One-to-One and Onto Linear Transformations
 > Let $T: V\to W$ be a linear transformation.
 > 1. $T$ is said to be **onto** if $\img T = W$. 
-> 2. $T$ is said to be **one-to-one** (1:1) *if* $T(\va{v}) = T(\va{u})$ implies that $\va{v} = \va{u}$.
+> 2. $T$ is said to be **one-to-one** (1:1) *if* $T(\va{v}) = T(\impliesa{u})$ implies that $\va{v} = \va{u}$.
 ***
 
 ### Additional Terminology:
