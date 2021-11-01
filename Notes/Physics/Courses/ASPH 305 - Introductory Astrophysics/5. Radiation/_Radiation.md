@@ -8,4 +8,5 @@
 ### Sections:
 
 - [[Blackbody Radiation]]
+- [[Wien's Law]]
 - 
