@@ -43,3 +43,7 @@ The rank of some matrix $A$ was [[Rank-Nullity|earlier]] defined to be the dimen
 > ### $$\img(T_A) = \qty{A\va{x}:\va{x} \in \Rn} = \qty{x_1\va{c}_1 + \dots + x_n\va{c}_n:x_i \in \RR}.$$ 
 > Hence $\img(T_A)$ is the column space of $A$: the rest follows naturally.
 
+***
+
+### The Dimension Theorem: 
+
