@@ -113,7 +113,7 @@ So if we want to find the physical area of a region smaller than the entire surf
 
 ***
 
- ## Spherical Polar Coordinates:
+ ### Spherical Polar Coordinates:
  
  We are most familiar with the traditional Cartesian coordinate system (a.k.a. rectangular coordinates) with 3 variables *x*, *y*, and *z*.  In astronomy however, where our main areas of inquiry are the Earth and the sky above it, it will be practical to work in **spherical polar coordinates**, since both the Earth and sky can be approximated as spheres. 
  
@@ -144,7 +144,7 @@ So if we want to find the physical area of a region smaller than the entire surf
 And since the definition of $dA$ is $dA = \rho^2 d\Omega$....
 
 
-> ## $$d\Omega = \sin\theta \,d\theta \,d\phi.$$
+> ### $$d\Omega = \sin\theta \,d\theta \,d\phi.$$
  
  
 So returning to the area:
@@ -156,7 +156,7 @@ So returning to the area:
   
  
   
-  ## Finding physical area given polar coordinates:
+  ### Finding physical area given polar coordinates:
   
   ### $$d\Omega = \int_{\theta_1}^{\theta_2}\sin\theta d\theta \int_{\phi_1}^{\phi_2}d\phi = |-\cos\theta|_{\theta_1}^{\theta_2}\,\, |\phi|_{\phi_1}^{\phi_2}$$
   

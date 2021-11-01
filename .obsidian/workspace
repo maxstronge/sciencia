@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Doppler Effect.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/2. TELESCOPES/Radio Telescopes and Interferometers.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Doppler Effect.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/2. TELESCOPES/Radio Telescopes and Interferometers.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Doppler Effect.md",
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/2. TELESCOPES/Radio Telescopes and Interferometers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "1efc64873e0cd32f",
   "lastOpenFiles": [
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/2. TELESCOPES/Radio Telescopes and Interferometers.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/Parallax, Motion, and Distance.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/_Parallax and Proper Motion.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Spherical Trigonometery.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Spherical Coordinates and the Equatorial System.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Sidereal Time.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Intro Lecture.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Doppler Effect.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Blackbody Radiation.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/The Hydrogen Atom.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/ASPH_A1_MaxStronge.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/_Radiation.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Wien's Law.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Electromagnetic Spectrum.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Kernel and Image of Linear Transformations.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/One-to-One and Onto Transformations.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Basis.md"
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/The Hydrogen Atom.md"
   ]
 }
