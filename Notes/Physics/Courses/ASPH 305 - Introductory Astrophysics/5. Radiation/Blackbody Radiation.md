@@ -53,7 +53,7 @@ We can also write Planck's law as a function of *wavelength*, rather than temper
 >  $$B_\ll(T) = \frac{2hc^2}{\ll^5}\frac{1}{e^{hc/(\ll kT)}-1}.$$
 
 
-$B_\ll$ has units $\frac{W}{m^3\,sterad}$.
+$B_\ll$ has units $\frac{W}{m^2 \, \ll\,sterad}$.
 
 ***
 
@@ -64,3 +64,6 @@ The functions $B_\nu$ and $B_\ll$ are defined in such a way that the *total inte
 
 > #### $$B(T) = \int_0^\infty B_\nu\,d\nu = \int_0^\infty B_\ll\,d\ll.$$
 
+Let us now try to find the total intensity using the first of these two integrals:
+
+$$B(T) = \int $$
