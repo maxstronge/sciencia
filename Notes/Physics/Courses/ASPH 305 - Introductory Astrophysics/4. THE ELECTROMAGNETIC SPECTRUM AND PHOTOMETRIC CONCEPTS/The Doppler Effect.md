@@ -46,7 +46,9 @@ Suppose you measure a spectral line in a distance star at a wavelength of $656.5
 > Because the light's apparent wavelength is *longer* than the 'true' wavelength, we can conclude that the wavlength is **redshifted** $\implies$ the star is moving away from the observer.
 
 ***
-### **Example:** Carbon has a strong and well-known spectral line that is emitted at 158$\mu m$. Suppose you observe it in a galaxy to at a wavelength of 1$mm$. What is the velocity of the galaxy?
+**Example:**
+
+Carbon has a strong and well-known spectral line that is emitted at 158$\mu m$. Suppose you observe it in a galaxy to at a wavelength of 1$mm$. What is the velocity of the galaxy?
 
 **Solution:** Recall that for small velocities ($v<<c$), $Z = \frac{v}{c}$:
 
@@ -54,3 +56,4 @@ Suppose you measure a spectral line in a distance star at a wavelength of $656.5
 > $$\implies v = cZ = 5.329\,c$$
 > Clearly, this cannot be the case - we need to use the relativistic form of the equation:
 > $$\begin{align}Z &= \sqrt{\frac{1+v/c}{1-v/c}}-1 \\[2ex] Z+1 &=\sqrt{\frac{1+v/c}{1-v/c}} \\[2ex] (6.329)^2 &= \frac{1+v/c}{1-v/c} \\[2ex] (1-v/c)\,40.0576 &= 1+v/c \\[2ex] 40.0576 - \frac{40.0576\,v}{c} &= 1 + v/c \\[2ex] 40.0576 - 1 &= \frac{v+40.0576\,v}{c} \\[2ex]39.0576 &= 41.0576\frac{v}{c} \\[2ex] c\qty(\frac{39.0576}{41.0576}) &= v \\[2ex] v &= 0.951288\,c.\end{align}$$
+***
