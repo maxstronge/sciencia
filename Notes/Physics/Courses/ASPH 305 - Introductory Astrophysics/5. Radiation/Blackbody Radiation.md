@@ -66,4 +66,48 @@ The functions $B_\nu$ and $B_\ll$ are defined in such a way that the *total inte
 
 Let us now try to find the total intensity using the first of these two integrals:
 
-$$B(T) = \int $$
+$$B(T) = \int_0^\infty B_\nu (T) \,d\nu = \int_0^\infty \frac{\nu^3\,d\nu}{e^{h\nu/(kT)}-1} .$$
+
+We can evaluate this with a change of variable $x = h\nu/(k\,T)$, whence $d\nu = (k\,T/h)dx:$
+
+$$B(T) = \frac{2h}{c^2} \frac{k^4}{h^4}T^4 \int_0^\infty \frac{x^3\,dx}{e^x-1}$$
+
+The definite integral term in the above equation evaluates simply to a real number:
+
+$$\int_0^\infty \frac{x^3\,dx}{e^x-1} = \frac{\pi^4}{15}$$
+
+...leaving us with: 
+
+> $$B(T) = A T^4 $$
+> ...where the constant $A$ has the value:
+> $$A = \frac{2k^4}{c^2h^3}\frac{\pi^4}{15}.$$
+
+***
+
+Note that for small frequency or wavelength ranges it is possible to use the approximation: 
+
+$$\int B_\nu \,d\nu \approx B_\nu \nu_0 \text{ W m$^{-2}$ sterad$^{-1}$}$$
+
+$$\int B_\ll \,d\ll \approx B_\ll \ll_0 \text{ W m$^{-2}$ sterad$^{-1}$}$$
+
+...instead of integrating the Planck function. 
+
+***
+
+**Example**: 
+
+What is the ratio of red emission ($\ll = 6000\, \ang$) to blue emission ($\ll = 4000\,\ang$) for a $3000K$ star? For a $10,000K$ star?
+
+**Solution**: 
+
+$$\begin{align} \frac{B_\ll (\text{red})}{B_\ll (\text{blue})} &= \frac{\qty(\frac{2hc^2}{\ll(r)^5})\cdot\,\frac{1}{e^{hc/\ll(r)kT}-1}}{\qty(\frac{2hc^2}{\ll(b)^5})\cdot\frac{1}{e^{hc/\ll(b)kT}-1}} \\[4ex] \frac{B_\ll (\text{red})}{B_\ll (\text{blue})} &= \frac{\ll(b)^5}{\ll(r)^5}\,\cdot\frac{e^{hc/\ll(b)kT}-1}{e^{hc/\ll(r)kT}-1} \\[4ex]\end{align}$$
+
+Substituting our values for $\ll_r$ and $\ll_b$:
+
+$$= \frac{\qty(4000\times 10 ^{-10})^5}{\qty(6000\times 10 ^{-10})^5}\,\frac{e^{(6.626\times 10^{-34})(c)/(4000\times10^{-10}(1.38\times10^{-23})T}-1}{e^{(6.626\times 10^{-34})(c)/(6000\times10^{-10}(1.38\times10^{-23})T}-1}$$
+
+### $$\frac{B_\ll(\text{red})}{B_\ll(\text{blue})} = 0.1369\frac{e^{3.598\times10^4/T }-1}{e^{2.399\times10^4/T }-1}$$
+
+Now, if we put in values of $T$ in Kelvin, we find that at $3000K$, the ratio was 3:1, whereas at $10,000K$ the ratio was 1:2 (red to blue light, respectively.
+
+***
