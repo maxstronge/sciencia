@@ -96,7 +96,7 @@ $$\int B_\ll \,d\ll \approx B_\ll \ll_0 \text{ W m$^{-2}$ sterad$^{-1}$}$$
 
 **Example**: 
 
-What is the ratio of red emission ($\ll = 6000\, \ang$) to blue emission ($\ll = 4000\,\ang$) for a $3000K$ star? For a $10,000K$ star?
+What is the ratio of red emission ($\ll = 6000\, \ang$) to blue emission ($\ll = 4000\,\ang$) for a $3000K$ star? For a $10,000K$ star? 
 
 **Solution**: 
 
@@ -108,6 +108,6 @@ $$= \frac{\qty(4000\times 10 ^{-10})^5}{\qty(6000\times 10 ^{-10})^5}\,\frac{e^{
 
 ### $$\frac{B_\ll(\text{red})}{B_\ll(\text{blue})} = 0.1369\frac{e^{3.598\times10^4/T }-1}{e^{2.399\times10^4/T }-1}$$
 
-Now, if we put in values of $T$ in Kelvin, we find that at $3000K$, the ratio was 3:1, whereas at $10,000K$ the ratio was 1:2 (red to blue light, respectively.
+Now, if we put in values of $T$ in Kelvin, we find that at $3000K$, the ratio was 3:1, whereas at $10,000K$ the ratio was 1:2 (red to blue light, respectively).
 
 ***

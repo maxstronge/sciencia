@@ -20,7 +20,7 @@ Depending on the direction of the relative motion, the wavelength of light can b
 
 We can use the Doppler effect to calculate the velocity of any Doppler-shifted object with the following relation: 
 
-> ## $$\qquad{Redshift} = Z = \frac{\Delta\ll}{\ll_0} $$
+> ### $$\qquad{Redshift} = Z = \frac{\Delta\ll}{\ll_0} $$
 
 ...where $Z$ is the observed 	**redshift**, $\Delta\ll$ is the change in wavelength (or the difference between the apparent and true wavelength), and $\ll_0$ is the true/'rest' wavelength. 
 
@@ -48,4 +48,9 @@ Suppose you measure a spectral line in a distance star at a wavelength of $656.5
 ***
 ### **Example:** Carbon has a strong and well-known spectral line that is emitted at 158$\mu m$. Suppose you observe it in a galaxy to at a wavelength of 1$mm$. What is the velocity of the galaxy?
 
-**Solution:** Recall 
+**Solution:** Recall that for small velocities ($v<<c$), $Z = \frac{v}{c}$:
+
+> $$Z = \frac{\Delta\ll}{\ll_0} = \frac{1\,mm-0.158\,mm}{0.158\,mm} = 5.329.$$
+> $$\implies v = cZ = 5.329\,c$$
+> Clearly, this cannot be the case - we need to use the relativistic form of the equation:
+> $$\begin{align}Z &= \sqrt{\frac{1+v/c}{1-v/c}}-1 \\[2ex] Z+1 &=\sqrt{\frac{1+v/c}{1-v/c}} \\[2ex] (6.329)^2 &= \frac{1+v/c}{1-v/c} \\[2ex] (1-v/c)\,40.0576 &= 1+v/c \\[2ex] 40.0576 - \frac{40.0576\,v}{c} &= 1 + v/c \\[2ex] 40.0576 - 1 &= \frac{v+40.0576\,v}{c} \\[2ex]39.0576 &= 41.0576\frac{v}{c} \\[2ex] c\qty(\frac{39.0576}{41.0576}) &= v \\[2ex] v &= 0.951288\,c.\end{align}$$

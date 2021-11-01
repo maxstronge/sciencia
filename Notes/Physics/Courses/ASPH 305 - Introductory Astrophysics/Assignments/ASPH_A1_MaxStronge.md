@@ -123,12 +123,12 @@ A telescope has a FWHM (Full Width at Half Maximum) resolution that can be appro
 
 We can find the solid angle in two ways: we can use the full formula for the solid angle of a circular region...
 
->## $$d\Omega = 2\pi (1-\cos\theta) $$
+>### $$d\Omega = 2\pi (1-\cos\theta) $$
 
 ...or, given that this angle is incredibly small, we can use the small-angle approximation....
 
 
-> ## $$\begin{align} d\Omega &\approx \pi \theta^2 \\ &= \pi (6.0601 \times 10^{-7})^2 \\ &= 1.15377 \times 10^{-12}\text{ sr}.\end{align}$$
+> ### $$\begin{align} d\Omega &\approx \pi \theta^2 \\ &= \pi (6.0601 \times 10^{-7})^2 \\ &= 1.15377 \times 10^{-12}\text{ sr}.\end{align}$$
 
 Since the entire sky (when modeled as a sphere) has a surface area of $4\pi\text{ sr}$, we can find the percentage of the visible sky with a ratio:
 
@@ -161,7 +161,7 @@ The orbit of Pluto around the Sun is 49.305 *AU* at aphelion, giving our solar s
 
 ***
 
-## 3.
+### 3
 
 The image below shows an "optical" image of the Orion Constellation ($\lambda = 550\,nm$) with an $8''$ ($20\,cm$) telescope. The inset at the top right shows a small region of the optical image observed with the $15\,m$ JCMT telescope at $\lambda = 850\,\mu m$ and shows a region containing a newly forming star. The inset at the bottom right shows a small region of the JCMT image observed with the ALMA array (composed of fifty $12m$ telescopes and another twelve $7m$ telescopes that make up something called the *compact array*) at $\lambda = 1.3\,mm$ and shows that what we thought was one forming star in the JCMT image is actually **two** new stars forming ("blobs" **B1** and **B2** in the ALMA image). 
 
