@@ -24,7 +24,7 @@ The **nullity** of a matrix $A$, denoted $\nullity (A)$, is the *dimension* of t
 
 If $A$ is a matrix with $n$ columns, then:
 
-##  $$\rank(A) + \nullity(A) = n. $$
+###  $$\rank(A) + \nullity(A) = n. $$
 ***
 
 ### *Example 1*: 
