@@ -47,3 +47,22 @@ The rank of some matrix $A$ was [[Rank-Nullity|earlier]] defined to be the dimen
 
 ### The Dimension Theorem: 
 
+Let $A$ denote an $\mxn$ matrix of rank $r$ and let $T_A:\Rn \to \Rm$ denote the corresponding matrix transformation given by $T_A(\va{x})=A\va{x}$ for all *columns* $\va{x}$ in $\Rn$.
+
+It follows from previous  [[Image Space and Nullspace|work]] that $\img T_A = \col A$, so $\dim(\img T_A) = \dim (\col A) = r.$
+
+On the other hand, the [[Rank-Nullity|Rank-Nullity Theorem]] shows that $\dim (\ker T_A) = \dim (\null A) = n - r$. Combining these results we find that:
+
+### $$\dim(\img T_A) + \dim(\ker T_A) = n \qq{for every $\mxn$ matrix $A$.} $$
+
+The main result of this section is a deep generalization of this observation. 
+
+***
+
+> ### The Dimension Theorem:
+> Let $T: V \to W$ be any linear transformation and assume that $\ker T \text{ and } \img T$ are both *finite-dimensional.* Then, $V$ is also finite-dimensional and
+> #### $$\dim V = \dim (\ker T) + \dim (\img T).$$
+> In other words:
+> ### $$\dim V = \nullity T + \rank T. $$
+
+Note that in the above theorem, the vector space $V$ is *not* necessarily assumed to be finite-dimensional. In fact, verifying that $\ker T \text{ and } \img T$ are both finite-dimensional is typically an important way to *prove* that $V$ is finite-dimensional. 

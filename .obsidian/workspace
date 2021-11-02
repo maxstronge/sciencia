@@ -4,30 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "1efc64873e0cd32f",
+        "id": "18f507dea60aae27",
         "type": "leaf",
-        "dimension": 29.73621103117506,
+        "dimension": 32.20443349753695,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/2. TELESCOPES/Radio Telescopes and Interferometers.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Kernel and Image of Linear Transformations.md",
             "mode": "source"
           }
         },
-        "group": "4ebd47fd8f80d91f"
+        "group": "dbf3dffc342cd788"
       },
       {
-        "id": "121bc53b5e67eba8",
+        "id": "639105d9bcab5d35",
         "type": "leaf",
-        "dimension": 70.26378896882494,
+        "dimension": 67.79556650246306,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/2. TELESCOPES/Radio Telescopes and Interferometers.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Kernel and Image of Linear Transformations.md",
             "mode": "preview"
           }
         },
-        "group": "4ebd47fd8f80d91f"
+        "group": "dbf3dffc342cd788"
       }
     ],
     "direction": "vertical"
@@ -67,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207
+    "width": 296
   },
   "right": {
     "id": "56fe24060d61a7db",
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/2. TELESCOPES/Radio Telescopes and Interferometers.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Kernel and Image of Linear Transformations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,17 +112,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1efc64873e0cd32f",
+  "active": "18f507dea60aae27",
   "lastOpenFiles": [
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/2. TELESCOPES/Radio Telescopes and Interferometers.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/Parallax, Motion, and Distance.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/3. PARALLAX AND PROPER MOTION/_Parallax and Proper Motion.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Spherical Trigonometery.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Spherical Coordinates and the Equatorial System.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Sidereal Time.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Intro Lecture.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Doppler Effect.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Blackbody Radiation.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/The Hydrogen Atom.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Kernel and Image of Linear Transformations.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/One-to-One and Onto Transformations.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/Properties of Linear Transformations.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/Basis.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Basis of Vector Spaces.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Polynomials.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Span, Image Space, Nullspace, Subspaces/Image Space and Nullspace.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Row Space and Column Space.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Similar Matrices and Diagonalization.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Rank-Nullity.md"
   ]
 }
