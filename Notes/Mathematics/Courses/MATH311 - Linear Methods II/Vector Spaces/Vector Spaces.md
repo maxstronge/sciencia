@@ -37,7 +37,7 @@ If a set is a vector space, we can harness the tools of linear algebra to gain a
 
 ### Examples of Vector Spaces:
 
-1. Let $V=\RRii$ and define addition and scalar multiplication as follows:
+1. Let $V=\Rii$ and define addition and scalar multiplication as follows:
 
 >$$(x_1,y_1)+(x_2,y_2) = \,(x_1-2x_2+1,2y_1+3y_2-4).$$
 >$$K \times (x_1,y_1) = (\frac{x_1}{K},y_1K^2).$$
