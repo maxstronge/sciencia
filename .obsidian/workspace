@@ -6,10 +6,11 @@
       {
         "id": "f27c4a44d3224388",
         "type": "leaf",
+        "dimension": 50.26624068157614,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Isomorphisms and Inverses/Isomorphisms and Composition.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/A3/ASPH305 Homework Assignment 3.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "ae1248bea1f0e4fe",
         "type": "leaf",
+        "dimension": 49.73375931842386,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Isomorphisms and Inverses/Isomorphisms and Composition.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/A3/ASPH305 Homework Assignment 3.md",
             "mode": "preview"
           }
         },
@@ -65,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246
+    "width": 102.5
   },
   "right": {
     "id": "56fe24060d61a7db",
@@ -81,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Isomorphisms and Inverses/Isomorphisms and Composition.md",
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/A3/ASPH305 Homework Assignment 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +114,7 @@
   },
   "active": "f27c4a44d3224388",
   "lastOpenFiles": [
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/A3/ASPH305 Homework Assignment 3.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Isomorphisms and Inverses/Isomorphisms and Composition.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/One-to-One and Onto Transformations.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Isomorphisms and Inverses/_Isomorphisms and Inverses.md",
@@ -120,7 +123,6 @@
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/_Linear Transformations.md",
     "Notes/Mathematics/Linear Algebra Index.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/_TOPIC5+6.md",
-    "Pasted image 20211025124439.png.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Electromagnetic Spectrum.md"
+    "Pasted image 20211025124439.png.md"
   ]
 }
