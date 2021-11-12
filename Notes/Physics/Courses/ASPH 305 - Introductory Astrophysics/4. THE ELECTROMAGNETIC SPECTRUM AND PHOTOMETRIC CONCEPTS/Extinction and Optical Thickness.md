@@ -67,3 +67,37 @@ and [[#^21d6a7|the distance modulus]] becomes:
 
 ### Color Excess:
 
+Another effect caused by the interstellar medium is the **reddening** of light: blue light is scattered/absorbed more than red. Therefore, the color index $B - V$ *increases*. The visual magnitude of a star, as given above, is:
+
+$$V = M_V + 5\log frac{r}{10\,pc} + A_V $$
+
+...where $M_V$ is the absolute visual magnitude and $A_V$ is the extinction in the visual band. Similarly, we get for the blue magnitudes: 
+
+$$B = M_B + 5 \log frac{r}{10\,pc}+A_B $$
+
+
+So the observed color index is now:
+
+$$B - V = M_B - M_V +A_B -A_V $$
+
+or 
+
+> ### $$ B - V = (B - V)_0 + E_{B-V} $$
+> ...where $(B-V)_0=M_B -M_V$ is the **intrinsic color** of the star and $E_{B-V}=(B-V)-(B-V)_0$ is the **color excess**.
+
+Studies of the interstellar medium show that the ratio of the visual extinction $A_V$ to the color excess $E_{B-V}$ is almost constant *for all stars*:
+
+> #### $$R = \frac{A_V}{E_{B-V}}\approx 3.0. $$
+
+That makes it possible to find the visual extinction if the color excess is known:
+
+$$A_V \approx 3.0 E_{B-V}.$$
+
+When $A_V$ is obtained, the distance can be solved directly from the distance modulus when $V$ and $M_V$ are known. 
+
+We will continue our study of the interstellar medium in a future course. 
+
+***
+
+#physics #astrophysics #extinction #ma
+
