@@ -8,11 +8,8 @@
         "type": "leaf",
         "dimension": 50.26624068157614,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/A3/ASPH305 Homework Assignment 3.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         },
         "group": "0ede0396ce551ae0"
       },
@@ -21,11 +18,8 @@
         "type": "leaf",
         "dimension": 49.73375931842386,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/A3/ASPH305 Homework Assignment 3.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         },
         "group": "0ede0396ce551ae0"
       }
@@ -67,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 102.5
+    "width": 249.5
   },
   "right": {
     "id": "56fe24060d61a7db",
@@ -83,7 +77,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/A3/ASPH305 Homework Assignment 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
