@@ -42,7 +42,7 @@ Notice that the fainter star has a much larger magnitude!
 
 The magnitude we have been using thus far are **apparent magnitudes** ($m$). Apparent magnitudes correspond to how bright an object appears in the sky. Apparent brightness does not, however, tell us anything about the true luminosity of the star (if we don’t know the distance). 
 
-We can solve this by defining an **absolute magnitude** $(M)$, which is defined as the *apparent magnitude* an object would have if it were a distance of $12\,pc$ from the observer. 
+We can solve this by defining an **absolute magnitude** $(M)$, which is defined as the *apparent magnitude* an object would have if it were a distance of $10\,pc$ from the observer. 
 
 We can relate the absolute magnitude to the apparent magnitude in the following way. Consider a star with apparent magnitude $m$ at a distance of $D\,pc$, as yet unknown. Define $M$ as the *absolute* magnitude of the *same* star if it were at a distance of $10\,pc$: 
 
@@ -52,6 +52,10 @@ We can relate the absolute magnitude to the apparent magnitude in the following 
 >where $F(D)$ is the flux it has at some unknown distance $D$, and the flux in the denominator is the flux it would have at $10\,pc$. 
 >
 > Recall that $F(D) = \frac{L}{4\pi D^2}$ and $F(10\,pc) = \frac{L}{4\pi \,(10\,pc)^2}$.
+
+
+
+
 
 ^9b7b43
 

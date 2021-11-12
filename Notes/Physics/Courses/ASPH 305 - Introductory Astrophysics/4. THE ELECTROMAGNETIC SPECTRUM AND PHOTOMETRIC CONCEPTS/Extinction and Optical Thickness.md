@@ -3,6 +3,8 @@
 
 We saw when discussing [[Magnitudes#^9b7b43|absolute magnitudes]] that the apparent magnitude increases (and brightness decreases!) with increasing distance between the observer and the radiation source. If the space between these two objects is not completely empty, but instead contains some **interstellar medium**, the equation given above no longer holds exactly, because part of the radiation will be absorbed by that medium (and usually re-emitted at a different wavelength, which may be outside the band defining the magnitude), or scattered away outside the line of sight. All of these forms of radiation loss collectively referred to as **extinction**. 
 
+![[Pasted image 20211112163016.png|Extinction model.]]
+
 We would like to be able to determine how the extinction depends on the distance. Assume we have a star radiating a flux $L_0$ into a solid angle $\oo$ in some wavelength range. Since the medium will absorb and scatter radiation, the flux $L$ will now decrease with increasing distance $r$ ($D$ in the equation above, switching now) as the radiation travels through more medium. 
 
 In a short distance interval $\qty[r,\,r+dr]$, the extinction $dL$ is proportional to the flux $L$ and the distance travelled through the medium:
@@ -98,6 +100,36 @@ When $A_V$ is obtained, the distance can be solved directly from the distance mo
 We will continue our study of the interstellar medium in a future course. 
 
 ***
+### Atmospheric Extinction:
 
-#physics #astrophysics #extinction #ma
+The Earth's atmosphere also causes extinction. The observed magnitude $m$ of a body depends on the location of the observer and the *zenith distance of the object*, since these factors determine the distance light has to travel through the atmosphere. To compare different observations, we must *reduce* them, *i.e.* remove the atmospheric factors somehow. The magnitude $m_0$ obtained from such a reduction can then be compared with other observations. 
+
+If the **zenith distance** $z$ is not too large, we can approximate the atmosphere by a *plane layer* of constant thickness, as in the figure below:
+
+![[Pasted image 20211112161959.png|Atmospheric extinction plane model.]]
+
+If the thickness of the atmosphere is used as a unit, the light must travel a distance:
+
+$$X = \frac{1}{\cos z} = \sec z. $$
+
+The quantity $X$ is the **air mass**. According to our earlier work, the magnitude increases linearly with the distance $X$:
+
+> ### $$m = m_0 + k X $$
+
+
+ ...where $k$ is the **extinction coefficient**.
+ 
+ The extinction coefficient can be determined by observing the same source several times during a single night with as *wide a zenith distance as possible*. The observed magnitudes are plotted in a diagram as a function of the air mass $X$. The points lie on a straight line, the slope of which gives the extinction coefficient $k$. 	 
+ 
+ When this line is extrapolated to $X = 0$, we get the magnitude $m_0$, which is the apparent magnitude immediately outside the atmosphere. 
+ 
+ In practice, observations with zenith distances higher than $70\degree$ (or altitudes less than $20\degree$) are *not* used to determine $k$ and $m_0$, since at low altitudes the curvature of the atmosphere begins to complicate matters, and the plane layer is no longer a sufficient approximation. 
+ 
+ The value of the extinction coefficient $k$ also depends on the observation site and the time of the observation, as well as the wavelength (since extinction increases strongly towards short wavelengths). 
+ 
+ 
+
+
+***
+#physics #astrophysics #extinction #magnitude #optics #brightness #wavelength #flux 
 
