@@ -6,11 +6,10 @@
       {
         "id": "f27c4a44d3224388",
         "type": "leaf",
-        "dimension": 50.26624068157614,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/A3/ASPH305 Homework Assignment 3.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Extinction and Optical Thickness.md",
             "mode": "source"
           }
         },
@@ -19,11 +18,10 @@
       {
         "id": "ae1248bea1f0e4fe",
         "type": "leaf",
-        "dimension": 49.73375931842386,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/A3/ASPH305 Homework Assignment 3.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Extinction and Optical Thickness.md",
             "mode": "preview"
           }
         },
@@ -67,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 102.5
+    "width": 246
   },
   "right": {
     "id": "56fe24060d61a7db",
@@ -83,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/A3/ASPH305 Homework Assignment 3.md",
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Extinction and Optical Thickness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +112,15 @@
   },
   "active": "f27c4a44d3224388",
   "lastOpenFiles": [
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/A3/ASPH305 Homework Assignment 3.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Extinction and Optical Thickness.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Magnitudes.md",
+    "Images/Pasted image 20211112144715.png",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Flux and Luminosity.md",
+    "Notes/Physics/Astrophysics Index.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/_The Electromagnetic Spectrum and Photometric Concepts.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Electromagnetic Spectrum.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Isomorphisms and Inverses/Isomorphisms and Composition.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/One-to-One and Onto Transformations.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Isomorphisms and Inverses/_Isomorphisms and Inverses.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/_Linear Independence and Basis.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/_Linear Transformations.md",
-    "Notes/Mathematics/Linear Algebra Index.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/_TOPIC5+6.md",
-    "Pasted image 20211025124439.png.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Isomorphisms and Inverses/_Isomorphisms and Inverses.md"
   ]
 }

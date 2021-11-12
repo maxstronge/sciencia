@@ -21,13 +21,13 @@ When treating light as a wave, we have certain notations and terminology to work
 Recall from before that we can use a simple equation to relate wavelength to frequency:
 
 
-> ## $$c =  \nu \ll$$
+> ### $$c =  \nu \ll$$
 
 We can see that frequency and wavelength are inversely related.
 
 We can also find the energy of a light wave as follows:
 
-> ## $$E = h \nu = \frac{hc}{\ll} $$
+> ### $$E = h \nu = \frac{hc}{\ll} $$
 
 ...where $h$ is Planck's Constant $= 	6.626\times10^{-34}\,J\cdot s.$
 

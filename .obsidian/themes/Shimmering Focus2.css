@@ -168,7 +168,9 @@ settings:
   -
     id: no-alternating-header-italics
     title: No Alternating Italic of Headings
-    description: In this theme, the Heading Levels alternate between italic/regular to make them more distinguishable. You can turn that feature off if you prefer non-italic at all heading levels.
+    description: In this theme, the Heading Levels alternate between italic/regular to make them more distinguishable. You can turn that feature off if you prefer non-italic at all
+
+		 levels.
     type: class-toggle
     default: false
   -
@@ -325,7 +327,7 @@ For help and/or CSS snippets, thanks to:
 	--font-monospace: "Input Mono";
 	--heading-font: "Computer Modern";
 	--mermaid-font: var(--font-monospace);
-	--longform-font: "Crimson Pro";
+	--longform-font: "Computer Modern";
 
 	--h1-size: 1.7em;
 	--h2-size: 1.5em;
@@ -2350,7 +2352,7 @@ for all headings to improve distinguishability = more readability */
 .markdown-preview-view h3,
 .markdown-preview-view h4,
 .markdown-preview-view h5{
-	font-family: var(--heading-font);
+	font-family: var(--default-font);
  	line-height: 1.3em;
 }
 

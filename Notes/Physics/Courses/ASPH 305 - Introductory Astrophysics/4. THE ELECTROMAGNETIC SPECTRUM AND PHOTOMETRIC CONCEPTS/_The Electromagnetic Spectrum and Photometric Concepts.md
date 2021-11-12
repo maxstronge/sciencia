@@ -3,7 +3,7 @@
 ***
 
 - [[The Electromagnetic Spectrum]]
-
 - [[The Doppler Effect]]
 - [[Flux and Luminosity]]
 - [[Magnitudes]]
+- [[Extinction and Optical Thickness]]
