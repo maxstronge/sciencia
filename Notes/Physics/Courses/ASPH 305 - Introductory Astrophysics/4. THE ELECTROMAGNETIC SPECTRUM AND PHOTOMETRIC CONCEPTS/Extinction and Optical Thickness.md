@@ -40,3 +40,30 @@ $$F(r) = F_0 \frac{R^2}{r^2}e^{-\tau}. $$
 For the absolute magnitude we need to find the *flux density* at a distance of $10\,pc$, a.k.a $F(10)$, which is still evaluated without extinction:
 
 $$F(10) = F_0 \frac{R^2}{(10\,pc^2)}$$
+
+
+The distance modulus $m-M$ is now:
+
+$$\begin{align} m-M &= -2.5\log\frac{F(r)}{F(10)} \\[2ex] &= 5\log \frac{r}{10\,pc}-2.5\log e^{-\tau} \\[2ex] &= 5\log \frac{r}{10\,pc}+(2.5\log e) \tau \\[2ex] \end{align}$$
+
+...or...
+
+> ### $$m-M=5\log\frac{r}{10\,pc}+A $$
+> ...where $A \geq 0$ is the extinction in the magnitudes due to the entire medium between radiator and observer. 
+
+^21d6a7
+
+If the opacity is constant along the line of sight, we have:
+
+$$\tau = \aa \int_0^r dr = \aa r, $$
+
+and [[#^21d6a7|the distance modulus]] becomes:
+
+> ### $$ m - M = 5\log \frac{r}{10\,pc}+a r, $$
+> where the constant $a=2.5\aa \log e$ gives the extinction in magnitudes per unit distance. 
+
+
+***
+
+### Color Excess:
+
