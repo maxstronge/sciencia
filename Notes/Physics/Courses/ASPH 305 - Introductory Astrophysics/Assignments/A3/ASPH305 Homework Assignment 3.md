@@ -28,18 +28,19 @@ Which telescope would be better to use for these observations, and why?
 - Wavelength: $\ll = 10\mu m$
 - Extinction coefficient at sea level ($z=0$): $k_0 = 0.262\text{ mag km}^{-1}$
 
-Using the plane-parallel atmosphere model, we can determine the distance $ds$ the radiation will travel through the atmosphere in terms of the *zenith angle* $z$:
+Using the plane-parallel atmosphere model, we can determine the distance $ds$ the radiation will travel through the atmosphere in terms of the *zenith angle* $za$:
 
-$$\cos z = \frac{H}{\DD s}\implies\DD s = H \sec z = H X.$$
-...where $\DD s$ is the path length, $H$ is the scale of the horizon (given in this question as $8\,km$), and $z$ is the angle between the observer's zenith and the radiative object (*i.e.* $90\degree - \text{altitude}_{\text{object}}$). $X=\sec z$ is the air mass.
+$$\cos za = \frac{H}{\DD s}\implies\DD s = H \sec za = H X.$$
+...where $\DD s$ is the path length, $H$ is the scale of the atmosphere (given in this question as $8\,km$), and $z$ is the angle between the observer's zenith and the radiative object (*i.e.* $90\degree - \text{altitude}_{\text{object}}$). $X=\sec za$ is the air mass.
 
-If we use the values of $z$ for the first object
+The limits of integration must be in terms of $z$, since the 
+
 
 The atmospheric extinction coefficient $k$ changes as a function of the *physical* altitude $z$, as given above. 
 
 We can express the opacity $\tau$ as the integral of the extinction function $k(z)$ over the line of sight (from $0 \to \DD s=HX$) as follows:
 
-### $$\tau = \int_0^{HX}k(z)\,ds =\int_{z_i}^{HX} k_0e^{-\frac{z}{H}}\,ds = k_0 \int_0^{HX} e^{-\frac{z}{H}}$$
+### $$\tau = \int_{z_i}^{HX}k(z)\,ds =\int_{z_i}^{HX} k_0e^{-\frac{z}{H}}\,ds = k_0 \int_0^{HX} e^{-\frac{z}{H}}$$
 ***
 
 2. The table below lists the observed V-band ($\ll = 547.5\,nm$) and B-Band ($\ll =  435.3\,nm$) for some star observed over the course of the night on December 25th, 2021. The time of the observations, altitude, and azimuth of the star are given in the first 5 columns. The star has a parallax of $284.56\text{ mas}$.
