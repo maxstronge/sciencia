@@ -7,15 +7,15 @@
 
 	Atmospheric extincition changes as a function of the *atmospheric presure*, which is itself a function of the physical altitude above sea level. Approximating the atmosphere using a model in which both the atmospheric density and pressure fall off exponentially with physical altitude, atmospheric extinction can be given by the equation:
 
-# $$ \kappa (z) = \kappa_0\,e^{-\frac{z}{H}}$$
+# $$ k (z) = k_0\,e^{-\frac{z}{H}}$$
 
-...where $\kappa(z)$ is the extinction at a physical altitude of $z$, $z$ is your physical altitude above sea level, $\kappa_0$ is the extinction at sea level, and $H$ is the scale height of the atmosphere (measured to be $\approx \,8km$).
+...where $k(z)$ is the extinction at a physical altitude of $z$, $z$ is your physical altitude above sea level, $k_0$ is the extinction at sea level, and $H$ is the scale height of the atmosphere (measured to be $\approx \,8km$).
 
 At $\ll = 10\mu m$, and using $\kappa_0 = 0.262\text{ mag }km^{-1}$, calculate the *opacity* $\tau$ AND *transmission of the atmosphere for both telescopes*, for a source at an altitude of $10\degree$ above the horizon. 
 
 **NB**: physical (geographical) altitude $\neq$ astronomical altitude
 
-**NB**: $\kappa$ is not a constant, it varies as the atmosphere varies, so we will need to the opacity equation along the line of sight. 
+**NB**: $k$ is not a constant, it varies as the atmosphere varies, so we will need to the opacity equation along the line of sight. 
 
 Which telescope would be better to use for these observations, and why?
 ***
@@ -28,11 +28,18 @@ Which telescope would be better to use for these observations, and why?
 - Wavelength: $\ll = 10\mu m$
 - Extinction coefficient at sea level ($z=0$): $k_0 = 0.262\text{ mag km}^{-1}$
 
-Using the plane-parallel atmosphere model, we can determine the distance $ds$ the radiation will travel through the atmosphere in terms of the*zenith angle* $z$:
+Using the plane-parallel atmosphere model, we can determine the distance $ds$ the radiation will travel through the atmosphere in terms of the *zenith angle* $z$:
 
 $$\cos z = \frac{H}{\DD s}\implies\DD s = H \sec z = H X.$$
-...where $\DD s$ is the path length, $H$ is the scale of the horizon (given in this question as $8\,km$), and $z$ is the angle between the observer's zenith and the radiative object (*i.e.* $90\degree - \text{altitude}_{\text{object}}$). $X=H\sec z$ is the air mass
+...where $\DD s$ is the path length, $H$ is the scale of the horizon (given in this question as $8\,km$), and $z$ is the angle between the observer's zenith and the radiative object (*i.e.* $90\degree - \text{altitude}_{\text{object}}$). $X=\sec z$ is the air mass.
 
+If we use the values of $z$ for the first object
+
+The atmospheric extinction coefficient $k$ changes as a function of the *physical* altitude $z$, as given above. 
+
+We can express the opacity $\tau$ as the integral of the extinction function $k(z)$ over the line of sight (from $0 \to \DD s=HX$) as follows:
+
+### $$\tau = \int_0^{HX}k(z)\,ds =\int_{z_i}^{HX} k_0e^{-\frac{z}{H}}\,ds = k_0 \int_0^{HX} e^{-\frac{z}{H}}$$
 ***
 
 2. The table below lists the observed V-band ($\ll = 547.5\,nm$) and B-Band ($\ll =  435.3\,nm$) for some star observed over the course of the night on December 25th, 2021. The time of the observations, altitude, and azimuth of the star are given in the first 5 columns. The star has a parallax of $284.56\text{ mas}$.
