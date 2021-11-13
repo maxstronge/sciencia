@@ -5,7 +5,7 @@
 
 1. The $8.2m$ VLT telescope is located on Cerro Paranal in the Atacama desert in Northern Chile, and is at an an altitude of $2635m$ above sea level. The $1.8m$ ARCT telescope (owned by the University of Calgary) is located near Priddis, AB at a physical altitude of $1300m$ above sea level. Both can operate at wavelengths from $300nm$ to $20\mu m$.
 
-	Atmospheric extincition changes as a function of the *atmospheric presure*, which is itself a function of the physical altitude above sea level. Approximating the atmosphere using a model in which both the atmospheric density and pressure fall off exponentially with physical altitude, atmospheric extinction can be given by the equation:
+	Atmospheric extinction changes as a function of the *atmospheric pressure*, which is itself a function of the physical altitude above sea level. Approximating the atmosphere using a model in which both the atmospheric density and pressure fall off exponentially with physical altitude, atmospheric extinction can be given by the equation:
 
 # $$ k (z) = k_0\,e^{-\frac{z}{H}}$$
 
@@ -30,23 +30,27 @@ Which telescope would be better to use for these observations, and why?
 
 Using the plane-parallel atmosphere model, we can determine the distance $ds$ the radiation will travel through the atmosphere in terms of the *zenith angle* $za$:
 
-$$\cos za = \frac{H}{\DD s}\implies\DD s = H \sec za = H X.$$
+$$\cos za = \frac{H}{d s}\implies d s = H \sec za = H X.$$
 ...where $\DD s$ is the path length, $H$ is the scale of the atmosphere (given in this question as $8\,km$), and $z$ is the angle between the observer's zenith and the radiative object (*i.e.* $90\degree - \text{altitude}_{\text{object}}$). $X=\sec za$ is the air mass.
 
-The limits of integration must be in terms of $z$, since the 
+ The magnitude difference of an object due to atmospheric extinction can be given by 
+ 
+ $$m-m_0 = kX \implies (m-m_0)=k(HX),$$
+ 
+ *i.e.* the product of the distance traveled by the radiation with the extinction coefficient - but, as given in the question, the extinction $k$ is not constant, but varies with the physical altitude/height $z$ according to the function 
+ 
+ $$k (z) = k_0\,e^{-\frac{z}{H}}$$
 
+So we will need to integrate this function over the distance $ds = HX$.
 
-The atmospheric extinction coefficient $k$ changes as a function of the *physical* altitude $z$, as given above. 
+The vertical height $z$ the radiation will travel through is the scale height of the atmosphere $H$ minus the physical altitude of the observer $z_i$
 
-We can express the opacity $\tau$ as the integral of the extinction function $k(z)$ over the line of sight (from $0 \to \DD s=HX$) as follows:
-
-### $$\tau = \int_{z_i}^{HX}k(z)\,ds =\int_{z_i}^{HX} k_0e^{-\frac{z}{H}}\,ds = k_0 \int_0^{HX} e^{-\frac{z}{H}}$$
 ***
 
 2. The table below lists the observed V-band ($\ll = 547.5\,nm$) and B-Band ($\ll =  435.3\,nm$) for some star observed over the course of the night on December 25th, 2021. The time of the observations, altitude, and azimuth of the star are given in the first 5 columns. The star has a parallax of $284.56\text{ mas}$.
 
 
-	**a.** Plot $m_V$ and $m_B$ versus airmass. From the plot, determine the *atmospheric exctinction coefficients* for both bands, and the *true* V-band and B-band magnitudes for the star (i.e. corrected for exctinction).
+	**a.** Plot $m_V$ and $m_B$ versus airmass. From the plot, determine the *atmospheric exctinction coefficients* for both bands, and the *true* V-band and B-band magnitudes for the star (i.e. corrected for extinction).
 	
 	
 	**b.** Spectroscopically, this star is a hot, blue star (known as a B-type star) with known, intrinsic, absolute magnitudes	of $M_{V,0} = -3.7$ and $M_{B,0} = -2.95.$ Calculate the amount of *interstellar extinction* (i.e. $A_V$ and $A_B$) in both bands. 
