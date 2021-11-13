@@ -2353,7 +2353,7 @@ for all headings to improve distinguishability = more readability */
 .markdown-preview-view h4,
 .markdown-preview-view h5{
 	font-family: var(--default-font);
- 	line-height: 1.3em;
+ 	line-height: 1.5sem;
 }
 
 .cm-header-1,
