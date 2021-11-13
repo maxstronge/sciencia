@@ -19,8 +19,19 @@ At $\ll = 10\mu m$, and using $\kappa_0 = 0.262\text{ mag }km^{-1}$, calculate t
 
 Which telescope would be better to use for these observations, and why?
 ***
+- Physical altitude of VLT telescope: $2635m$
+- Physical altitude of ARCT telescope: $1300m$
 
+![[Pasted image 20211112163421.png|Visualized.]]
+- Astronomical altitude of Source 1: $75\degree$ above the horizon
+- Astronomical altitude of Source 2: $10\degree$ above the horizon. 
+- Wavelength: $\ll = 10\mu m$
+- Extinction coefficient at sea level ($z=0$): $k_0 = 0.262\text{ mag km}^{-1}$
 
+Using the plane-parallel atmosphere model, we can determine the distance $ds$ the radiation will travel through the atmosphere in terms of the*zenith angle* $z$:
+
+$$\cos z = \frac{H}{\DD s}\implies\DD s = H \sec z = H X.$$
+...where $\DD s$ is the path length, $H$ is the scale of the horizon (given in this question as $8\,km$), and $z$ is the angle between the observer's zenith and the radiative object (*i.e.* $90\degree - \text{altitude}_{\text{object}}$). $X=H\sec z$ is the air mass
 
 ***
 
