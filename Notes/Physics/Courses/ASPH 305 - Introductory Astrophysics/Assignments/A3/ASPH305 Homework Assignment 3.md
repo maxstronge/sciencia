@@ -33,9 +33,9 @@ Using the plane-parallel atmosphere model, we can determine the distance $ds$ th
 $$\cos za = \frac{H}{d s}\implies d s = H \sec za = H X.$$
 ...where $\DD s$ is the path length, $H$ is the scale of the atmosphere (given in this question as $8\,km$), and $z$ is the angle between the observer's zenith and the radiative object (*i.e.* $90\degree - \text{altitude}_{\text{object}}$). $X=\sec za$ is the air mass.
 
- The magnitude difference of an object due to atmospheric extinction can be given by 
+ The opacity $\tau$	 can be given by 
  
- $$m-m_0 = kX \implies (m-m_0)=k(HX),$$
+ $$\tau = \int k ds =k\int (HX),$$
  
  *i.e.* the product of the distance traveled by the radiation with the extinction coefficient - but, as given in the question, the extinction $k$ is not constant, but varies with the physical altitude/height $z$ according to the function 
  
@@ -43,7 +43,26 @@ $$\cos za = \frac{H}{d s}\implies d s = H \sec za = H X.$$
 
 So we will need to integrate this function over the distance $ds = HX$.
 
-The vertical height $z$ the radiation will travel through is the scale height of the atmosphere $H$ minus the physical altitude of the observer $z_i$
+The vertical height $z$ the radiation will travel through is the scale height of the atmosphere $H$ minus the physical altitude of the observer $z_i$, which gives us bounds for integration for $z$. We can put the air mass $X$ in terms of the physical altitude $z$ by subsituting:
+
+$$\begin{align}ds = H X = H\sec za \qq{} H - z_i = z\end{align}$$
+
+and via trigonometry we find: 
+
+$$HX = \frac{z}{\cos za}.$$
+
+So, setting our bounds for $z$ as the initial height $z_i$ (the geographical altitude of the observer) and the final height $z = H - z_i$, we can integrate the function
+
+$$\tau = \int_{z_i}^{H-z_i}\,k(z)\qty(\frac{z}{\cos za})\,dz =k_0\int_{z_i}^{H-z_i} e^{-\frac{z}{H}}\qty(\frac{z}{\cos za})\,dz$$
+
+to find the opacity.
+
+We can now find the opacity for the two sources for each telescope. Beginning with the VLT telescope ($z_i = 2635m$), we have for the first source (where astronomical altitude $= 70\degree \implies$ zenith angle $za = 20\degree$):
+
+$$\tau = k_0 \int _{2635\,m}^{8000\,m - 2635\,m} e^{-\frac{z}{8000\,m}}\qty(\frac{z}{\cos(20\degree) })$$
+
+$$= 0.262\int_{2635}^{5365}e^{-z / 8000}\sec\qty(\frac{\pi}{9})z\,dz$$
+
 
 ***
 
