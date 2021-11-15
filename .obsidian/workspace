@@ -6,11 +6,11 @@
       {
         "id": "f27c4a44d3224388",
         "type": "leaf",
-        "dimension": 32.57575757575758,
+        "dimension": 28.535353535353536,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/The Hydrogen Atom.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Line Profiles.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "ae1248bea1f0e4fe",
         "type": "leaf",
-        "dimension": 67.42424242424242,
+        "dimension": 71.46464646464646,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/The Hydrogen Atom.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Line Profiles.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/The Hydrogen Atom.md",
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Line Profiles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "f27c4a44d3224388",
   "lastOpenFiles": [
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/The Hydrogen Atom.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Line Profiles.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Blackbody Radiation.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/_Radiation.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/The Hydrogen Atom.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Wien's Law.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/A3/ASPH305 Homework Assignment 3.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Isomorphisms and Inverses/Isomorphisms and Composition.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/One-to-One and Onto Transformations.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Isomorphisms and Inverses/_Isomorphisms and Inverses.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Independence and Basis/_Linear Independence and Basis.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md"
   ]
 }

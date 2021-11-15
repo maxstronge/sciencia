@@ -10,6 +10,8 @@ Electromagnetic is emitted or absorbed when an atom or molecule moves from one *
 
 > ### $$\Delta E = h \nu.$$
 
+^5f6437
+
 [See earlier work on [[3.2 - The Photoelectric Effect]] for further exploration.]
 
 Similarly, if an atom receives or absorbs a photon of a frequency $\nu$, its energy *increases* by $\Delta E = h \nu.$

@@ -68,6 +68,7 @@ We can express this in terms of wavelength as follows:
 > ##### $$\frac{1}{\ll}=\frac{v}{c}=\frac{C}{hc} \qty(\frac{1}{n^2_1}-\frac{1}{n^2_2}) \equiv R\,\qty(\frac{1}{n^2_1}-\frac{1}{n^2_2})$$
 > ...where $R$ is the **Rydberg Constant**, $R =1.097\times10^7 m^{-1}.$
 
+The above equation was derived experimentally for $n_1 = 2$ by *Johann Jakob Balmer* circa $11885_{\text{HE}}$. That series is now called the **Balmer series** in his name. 
 
 
 ***
