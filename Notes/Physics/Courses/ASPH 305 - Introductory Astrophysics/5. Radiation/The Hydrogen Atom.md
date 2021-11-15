@@ -27,6 +27,8 @@ Radiation is emitted only when the electron jumps from a higher-energy state to 
 
 > ### $$hv=E_{n_2}-E_{n_1}.$$
 
+^e12e79
+
 We can now find the energy of an electron in the state $E_n$. [[22.4 - Coulomb's Law|Coulomb's Law]] gives the force of attraction between electron and proton:
 
 >$$F_{\text{Coulomb}}= \frac{1}{4\pi\epsilon_0}\frac{e^2}{r_n^2}$$
@@ -51,7 +53,24 @@ and, applying Newton's 2nd, we find:
 The total energy of the electron in orbit $n$ is then:
 
 
-###### [btw HII vs HI regions will be on exam]
+> $$\begin{align}E_n = T+V &= \frac{1}{2}mv^2_n - \frac{1}{4\pi\epsilon_0}\frac{e^2}{r_n} \\[2ex] &= - \frac{me^4}{32\pi^2\epsilon_0^2 \hbar^2} \frac{1}{n^2} \\[2ex] &= -C\frac{1}{n^2}  \end{align}$$...where $C$ is a constant. 
+
+From this, we can find the energy for the *ground state* $(n=1)$:
+
+$$E_1 = -C \frac{1}{(1)^2} = -2.18\times10^{-18}J = -13.6\,eV.$$
+
+From this and our [[#^e12e79|previous equation re: energy transitions]], we can find the energy of the quantum emitted in the transition $E_{n_2}\to E_{n_1}$:
+
+$$hv = E_{n_2} -  E_{n_1} = C\qty(\frac{1}{n^2_1}-\frac{1}{n^2_2}).$$
+
+We can express this in terms of wavelength as follows:
+
+> ##### $$\frac{1}{\ll}=\frac{v}{c}=\frac{C}{hc} \qty(\frac{1}{n^2_1}-\frac{1}{n^2_2}) \equiv R\,\qty(\frac{1}{n^2_1}-\frac{1}{n^2_2})$$
+> ...where $R$ is the **Rydberg Constant**, $R =1.097\times10^7 m^{-1}.$
 
 
-> $$\begin{align}E_n = T + V &= \frac{1}{2}mv^2_n - \frac{1}{4\pi\epsilon_0}\frac{e^2}{r_n}\\[2ex] &=-\frac{me^4}{32\pi^2\epsilon} \end{align} $$
+
+***
+
+#physics #modern_physics #astrophysics #hydrogen #atom #bohr_model #planck #balmer_series #spectroscopy #wavelength #rydberg_constant
+#spectral_lines #radiation
