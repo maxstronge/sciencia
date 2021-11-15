@@ -5,7 +5,10 @@
 A **differential 1-form** $\omega$ is an expression of the form:
 
 
-### $$\begin{align} P(x)dx &\qq{($n=1$)} \\ P(x,y)dx + Q(x,y) dy &\qq{$(n = 2)$}\end{align} $$
+### $$\begin{align} P(x)dx &\qq{($n=1$)} \\ P(x,y)dx + Q(x,y) dy &\qq{$(n = 2)$} \\[2ex] P(x,y,z)dx + Q(x,y,z)dy + R(x,y,z)dz &\qq{(n = 3)}\end{align} $$
+
+^096cde
+
 
 
 ***

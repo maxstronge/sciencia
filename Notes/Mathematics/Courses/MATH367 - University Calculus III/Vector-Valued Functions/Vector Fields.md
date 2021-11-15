@@ -16,7 +16,15 @@ Both gravitation and electromagnetism are examples of **inverse-square laws**: t
 
 ### $$\vec{F}(\vec{x}) = c\, \cdot\, \frac{1}{||x||^2}\,\cdot\,\frac{\vec{x}}{||\vec{x}||} $$
 
-Where the constant tends to determine the masses/charges, any constants of nature, and directionality, the second term determines the magnitude via the inverse-square law, and the third term is a unit vector in the direction of the force. 
+Where the constant tends to determine the masses/charges, any constants of nature, and directionality, the second term determines the magnitude via the inverse-square law, and the third term is a unit vector in the direction of the force.
+
+More rigorously, outside the context of physics, a **vector field** is a vector-valued function of several variables.
+
+> **Definition 2.1.1**
+> ***
+>-  A vector field in the plane is a rule which assigns to each point $(x,y)$ in a subset $D$ of the $xy$-plane a two-component vector $\va{v}(x,y).$
+> - A vector field in the 
+> 
 
 ***
 ### Velocity Fields:
