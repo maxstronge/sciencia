@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Line Profiles.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Line Profiles.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
             "mode": "preview"
           }
         },
@@ -67,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 209.5
   },
   "right": {
     "id": "56fe24060d61a7db",
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Line Profiles.md",
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,17 +112,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f27c4a44d3224388",
+  "active": "ae1248bea1f0e4fe",
   "lastOpenFiles": [
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Line Profiles.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Blackbody Radiation.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/_Radiation.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/The Hydrogen Atom.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Wien's Law.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/A3/ASPH305 Homework Assignment 3.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Isomorphisms and Inverses/Isomorphisms and Composition.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Transformations/One-to-One and Onto Transformations.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Isomorphisms and Inverses/_Isomorphisms and Inverses.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Vector Spaces/Vector Spaces.md"
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/ASPH_A1_MaxStronge.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Spherical Coordinates and the Equatorial System.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Sidereal Time.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Intro Lecture.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Galactic Coordinates.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Spherical Trigonometery.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Radiative Transfer.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/_Radiation.md"
   ]
 }

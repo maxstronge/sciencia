@@ -37,4 +37,9 @@ $$I_{v_0} = \frac{2}{\pi \gg}I_0,$$
 
 and at the frequency $\nu = \nu_0+ \gg/2$, 
 
-$$I_{v_0+\gg/2} = \frac{1}{\pi \gg}I_0 = \frac{1}{2}$$
+$$I_{v_0+\gg/2} = \frac{1}{\pi \gg}I_0 = \frac{1}{2}I_{v_0}.$$
+
+Thus the width $\gg$ is the width of the line profile where the intensity is *half* of the maximum - called the **Full Width at Half Maximum** (FWHM).
+
+****
+
