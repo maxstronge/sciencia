@@ -25,7 +25,7 @@ Let us see if $(A+B) \ (A^T + B^T) = I.$
 
 $$\begin{align}(A+B) \ (A^T + B^T) &= AA^T + AB^T + BA^T + BB^T \\ &= I + AB^T + BA^T + I \\ &= 2I + AB^T + BA^T  \end{align}$$
 
-The final sum can only be equal to the identity matrix if both $AB^T$ and $BA^T$ are equal to $-\frac{1}{2} I.$ As a counterexample, if $A = \bmqty{1&0\\0&-1}$ (a reflection across the x-axis, represented by an otrthogonal matrix)^[1] and $B = \bmqty{\cos\tt&-\sin\tt\\\sin\tt&\cos\tt}$ (a rotation by angle $\tt$, also an orthogonal matrix), we have:
+The final sum can only be equal to the identity matrix if both $AB^T$ and $BA^T$ are equal to $-\frac{1}{2} I.$ As a counterexample, if $A = \bmqty{1&0\\0&-1}$ (a reflection across the x-axis, represented by an otrthogonal matrix)^[Wikipedia contributors. "Orthogonal matrix." _Wikipedia, The Free Encyclopedia_. Wikipedia, The Free Encyclopedia, 16 Nov. 2021. Web. 16 Nov. 2021.],  and $B = \bmqty{\cos\tt&-\sin\tt\\\sin\tt&\cos\tt}$ (a rotation by angle $\tt$, also an orthogonal matrix), we have:
 
 $$\begin{align}(A+B)(A^T + B^T) &= 2I +AB^T + BA^T \\ &= 2I + \bmqty{\cos\tt&0\\0&-\cos\tt}+ \bmqty{\cos\tt&0\\0&-\cos\tt} \\ &= 2I + \bmqty{2\cos\tt&0\\0&-2\cos\tt} \\ &\neq I.\end{align}$$
 
@@ -48,6 +48,7 @@ $$(A^T)^{-1} = (A^{-1})^{-1} = A$$
 
 And since $A^T = A^{-1}$, we can rewrite this as:
 
-$$(A^T)^{-1}  = (A^{-1})^T$$
+$$(A^T)^{-1}  = (A^{-1})^T = A.$$
 
-Thus, the inerse of an orthogonal matrix is also orthogonal. QED. 
+
+Thus, $A^{-1}$  is orthogonal. QED. 
