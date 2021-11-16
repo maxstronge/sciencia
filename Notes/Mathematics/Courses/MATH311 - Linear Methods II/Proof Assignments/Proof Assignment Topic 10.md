@@ -9,18 +9,45 @@
 
 ***
 
-### 1:
+### 1.
 
 Let $A$ and $B$ be $\nxn$ matrices, and let them be *orthogonal*. 
 
-By definition: an $\nxn$ matrix $A$ is orthogonal if $A^{-1} = A^T$. Let $\va{c}_{A1}, \dots, \va{c}_{An}$ denote the columns of $A$, and then let $\va{c}_{B1},\dots, \va{c}_{Bn}$ denote the columns of $B$. 
+By definition: an $\nxn$ matrix $A$ is orthogonal if $A^{-1} = A^T$, or, equivalently:
 
-Because $A$ is orthogonal, $A^T = A^{-1} \implies A^T A = I \implies \va{c}_{Ai}^T \va{c}_{Aj} = 0$ for all $i \neq j, 1 \leq i, \  j \leq n$. Additionally, $\va{c}_i^T  \ \va{c}_i = 1.$
+$$A A^T = I.$$
 
-We can write the sum $A+B$ in terms of the columns of each matrix:
+ 
 
-$$A + B = \qty{\va{c}_{A1}+\va{c}_{B1}, \dots, \va{c}_{An}+\va{c}_{Bn}}$$
 
-Let us call this new $\nxn$ matrix $C$. $C$ is orthogonal if, as per the definition, $C^T = C^{-1}$. If this is true, then $C C^T = C C^{-1} = I.$ Writing out the expansion of this product:
 
-$$C C^{-1} = $$
+Let us see if $(A+B) \ (A^T + B^T) = I.$
+
+$$\begin{align}(A+B) \ (A^T + B^T) &= AA^T + AB^T + BA^T + BB^T \\ &= I + AB^T + BA^T + I \\ &= 2I + AB^T + BA^T  \end{align}$$
+
+The final sum can only be equal to the identity matrix if both $AB^T$ and $BA^T$ are equal to $-\frac{1}{2} I.$ As a counterexample, if $A = \bmqty{1&0\\0&-1}$ (a reflection across the x-axis, represented by an otrthogonal matrix)^[1] and $B = \bmqty{\cos\tt&-\sin\tt\\\sin\tt&\cos\tt}$ (a rotation by angle $\tt$, also an orthogonal matrix), we have:
+
+$$\begin{align}(A+B)(A^T + B^T) &= 2I +AB^T + BA^T \\ &= 2I + \bmqty{\cos\tt&0\\0&-\cos\tt}+ \bmqty{\cos\tt&0\\0&-\cos\tt} \\ &= 2I + \bmqty{2\cos\tt&0\\0&-2\cos\tt} \\ &\neq I.\end{align}$$
+
+Therefore, the sum of two orthogonal matrices is not orthogonal in general. The statement is false. 
+
+***
+### 2. 
+
+Let $A$ be an orthogonal $\nxn$ matrix. By definition, orthogonal matrices have $A^T = A^{-1}.$ We wish to determine whether $A^{-1}$ is orthogonal. 
+
+For $A^{-1}$ to be orthogonal, we must have $(A^{-1})^T = (A^{-1})^{-1} = A.$ 
+
+From the definition of orthogonality for $\nxn$ matrices:
+
+$$A^T = A^{-1} $$
+
+If we take the inverse of both sides:
+
+$$(A^T)^{-1} = (A^{-1})^{-1} = A$$
+
+And since $A^T = A^{-1}$, we can rewrite this as:
+
+$$(A^T)^{-1}  = (A^{-1})^T$$
+
+Thus, the inerse of an orthogonal matrix is also orthogonal. QED. 

@@ -6,7 +6,7 @@
       {
         "id": "04b51ec088f9e384",
         "type": "split",
-        "dimension": 27.445755614769702,
+        "dimension": 38.41099163679809,
         "children": [
           {
             "id": "73eda0c50a383d1b",
@@ -37,7 +37,7 @@
       {
         "id": "41c2f0f11b5a09ad",
         "type": "leaf",
-        "dimension": 72.55424438523029,
+        "dimension": 61.58900836320191,
         "state": {
           "type": "markdown",
           "state": {
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Orthogonality/Orthogonal Complements and Projections.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,11 +130,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "73eda0c50a383d1b",
+  "active": "41c2f0f11b5a09ad",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 10.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Orthogonality/Orthogonal Complements and Projections.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Orthogonality/_Orthogonality.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 10.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 7.md",
     "Notes/Mathematics/Linear Algebra Index.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Orthogonality and Orthonormality.md",
