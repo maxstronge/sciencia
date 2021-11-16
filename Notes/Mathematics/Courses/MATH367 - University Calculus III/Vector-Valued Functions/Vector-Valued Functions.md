@@ -4,7 +4,7 @@
 
 To this point, we have exclusively considered real (scalar) valued functions of a vector variable. Now, we expand our focus to **vector-valued** functions of a vector variable, which take this form:
 
-### $$\vec{f}: \RR^n \to \RR^m.$$
+### $$\vec{f}: \Rn \to \Rm$$
 In other words, the function $f$ will now result in a vector (we assume $m>1$). We are now examining functions that assign to each $t\in\RR$ a vector $\vec{f}(t)$
 
 There are three main cases to consider:
@@ -17,9 +17,9 @@ There are three main cases to consider:
 
 Let us begin by examining a common case: 
 
-$$\vec{f}: \RR \to \RRii .$$
+$$\vec{f}: \RR \to \Rii .$$
 
-This function takes a real number as input and returns a point in $\RRii$. For example:
+This function takes a real number as input and returns a point in $\Rii$. For example:
 
 > $$\vec{f}(t) = (\cos t, \sin t). $$
 
