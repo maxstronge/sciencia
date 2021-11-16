@@ -4,9 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "f27c4a44d3224388",
+        "id": "ae1248bea1f0e4fe",
         "type": "leaf",
-        "dimension": 28.535353535353536,
         "state": {
           "type": "markdown",
           "state": {
@@ -14,12 +13,11 @@
             "mode": "source"
           }
         },
-        "group": "0ede0396ce551ae0"
+        "group": "df5d7b7ad5306a6c"
       },
       {
-        "id": "ae1248bea1f0e4fe",
+        "id": "2a972d7fc214e984",
         "type": "leaf",
-        "dimension": 71.46464646464646,
         "state": {
           "type": "markdown",
           "state": {
@@ -27,7 +25,7 @@
             "mode": "preview"
           }
         },
-        "group": "0ede0396ce551ae0"
+        "group": "df5d7b7ad5306a6c"
       }
     ],
     "direction": "vertical"
@@ -112,9 +110,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f27c4a44d3224388",
+  "active": "ae1248bea1f0e4fe",
   "lastOpenFiles": [
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Uncategorized/11.15.2021 MATH367 Lec.md",
+    "Images/stokestheoremsphere.svg",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Differential Forms.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Divergence Theorem.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
@@ -122,7 +121,6 @@
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Wien's Law.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/ASPH_A1_MaxStronge.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Spherical Coordinates and the Equatorial System.md"
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/HomeworkAssignment_1.md"
   ]
 }
