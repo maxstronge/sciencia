@@ -4,24 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "9ea6f8a3119940f1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Vector Fields.md",
-            "mode": "source"
+        "id": "04b51ec088f9e384",
+        "type": "split",
+        "dimension": 27.445755614769702,
+        "children": [
+          {
+            "id": "73eda0c50a383d1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Orthogonality/Orthogonal Complements and Projections.md",
+                "mode": "preview"
+              }
+            }
+          },
+          {
+            "id": "9ea6f8a3119940f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 10.md",
+                "mode": "source"
+              }
+            },
+            "group": "fcec07066f966cdd"
           }
-        },
-        "group": "fcec07066f966cdd"
+        ],
+        "direction": "horizontal"
       },
       {
         "id": "41c2f0f11b5a09ad",
         "type": "leaf",
+        "dimension": 72.55424438523029,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Vector Fields.md",
+            "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 10.md",
             "mode": "preview"
           }
         },
@@ -81,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Vector Fields.md",
+                "file": "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Orthogonality/Orthogonal Complements and Projections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,17 +130,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "41c2f0f11b5a09ad",
+  "active": "73eda0c50a383d1b",
   "lastOpenFiles": [
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Orthogonality/Orthogonal Complements and Projections.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Orthogonality/_Orthogonality.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 10.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 7.md",
+    "Notes/Mathematics/Linear Algebra Index.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Orthogonality and Orthonormality.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Isomorphisms and Inverses/Isomorphisms and Composition.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Vector Fields.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Differential Forms.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/_Multiple Integrals.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Change of Variables.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Extinction and Optical Thickness.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/The Geometry of Partial Derivatives.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Magnitudes.md",
-    "Images/Pasted image 20211112144715.png"
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md"
   ]
 }
