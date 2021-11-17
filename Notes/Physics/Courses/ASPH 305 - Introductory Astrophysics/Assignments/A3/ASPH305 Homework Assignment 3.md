@@ -30,11 +30,11 @@ Which telescope would be better to use for these observations, and why?
 
 Using the plane-parallel atmosphere model, we can determine the distance $ds$ the radiation will travel through the atmosphere in terms of the *zenith angle* $za$ of the radiative source as viewed from the telescope. From trigonometry:
 
-$$ds = H \sec za  \ dz$$
+$$ds =  \sec za  \ dz$$
 
 Since the extinction function is not constant, and depends on distance, we will need to integrate the extinction function $\kappa(z)$ over that distance $ds$:
 
-$$\tau = \int \kappa(z) \ ds = \int \ \kappa_0 \ e^{-\frac{z}{H}}H\sec za \ dz$$
+$$\tau = \int \kappa(z) \ ds = \int \ \kappa_0 \ e^{-\frac{z}{H}}\sec za \ dz$$
 
 The limits of integration for $z$ will be the physical altitude of the telescope for the lower limit, and can be treated as going to infinity:
 
