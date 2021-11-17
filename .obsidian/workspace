@@ -4,42 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "ae1248bea1f0e4fe",
+        "id": "718fd3d9f97ea55b",
         "type": "leaf",
-        "dimension": 32,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Blackbody Radiation.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
             "mode": "source"
           }
         },
-        "group": "df5d7b7ad5306a6c"
+        "group": "165acdc96666d790"
       },
       {
-        "id": "50b5d25406478184",
+        "id": "ec96203b37a61154",
         "type": "leaf",
-        "dimension": 32,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "conflict-files-obsidian-git.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "2a972d7fc214e984",
-        "type": "leaf",
-        "dimension": 36,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Blackbody Radiation.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
             "mode": "preview"
           }
         },
-        "group": "df5d7b7ad5306a6c"
+        "group": "165acdc96666d790"
       }
     ],
     "direction": "vertical"
@@ -66,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "planck function",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,12 +61,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 209.5
+    "width": 246
   },
   "right": {
     "id": "56fe24060d61a7db",
@@ -96,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,17 +110,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "50b5d25406478184",
+  "active": "ec96203b37a61154",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Blackbody Radiation.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.2 - The Photoelectric Effect.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Uncategorized/11.15.2021 MATH367 Lec.md",
-    "Images/stokestheoremsphere.svg",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Differential Forms.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Divergence Theorem.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Flux and Luminosity.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Integral Theorems/Divergence Theorem.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector Fields.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Wien's Law.md"
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 10.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Orthogonality/Orthogonal Complements and Projections.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Orthogonality/_Orthogonality.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 7.md",
+    "Notes/Mathematics/Linear Algebra Index.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Orthogonality and Orthonormality.md"
   ]
 }
