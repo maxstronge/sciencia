@@ -6,7 +6,7 @@
       {
         "id": "ae1248bea1f0e4fe",
         "type": "leaf",
-        "dimension": 30.76923076923077,
+        "dimension": 32,
         "state": {
           "type": "markdown",
           "state": {
@@ -17,9 +17,21 @@
         "group": "df5d7b7ad5306a6c"
       },
       {
+        "id": "50b5d25406478184",
+        "type": "leaf",
+        "dimension": 32,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
         "id": "2a972d7fc214e984",
         "type": "leaf",
-        "dimension": 69.23076923076923,
+        "dimension": 36,
         "state": {
           "type": "markdown",
           "state": {
@@ -84,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Blackbody Radiation.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,8 +125,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2a972d7fc214e984",
+  "active": "50b5d25406478184",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Blackbody Radiation.md",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.2 - The Photoelectric Effect.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Uncategorized/11.15.2021 MATH367 Lec.md",
@@ -123,7 +136,6 @@
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Divergence Theorem.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector Fields.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Wien's Law.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md"
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Wien's Law.md"
   ]
 }
