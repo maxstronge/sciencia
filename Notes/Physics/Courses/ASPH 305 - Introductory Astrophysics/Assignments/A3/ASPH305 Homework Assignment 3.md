@@ -133,3 +133,17 @@ Extreme broadband spectroscopy of a star with a measured parallax of $130.208\te
 
 ![[Pasted image 20211111122414.png|Extreme broadband spectroscopy.]]
 
+Integrating this function (*i.e.* finding the area under the curve) yields a total (*i.e.* bolometric) flux of $2.317185\times10^{-8}\text{ W m}^{-2}$. 
+
+Using this information, calculate the *luminosity* (in $W$ and $L_\Sun$), *temperature* (in $K$ and $T_\Sun$), and *radius* (in $m$ and $R_\Sun$) of this star. 
+
+Use the following constants: 
+
+$$\begin{align}L_\Sun &= 3.828 \times 10^{26} \ W, \\ T_\Sun &= 5772 \ K ,\\ R_\Sun &= 6.963 \times 10^8 \ m. \end{align}$$
+
+***
+***
+
+### 4. 
+
+If you don't have the full spectrum, as in the above question, the stellar temperature can still be obtained by measuring the *ratio* of stellar intensity at two different wavelengths, or, more commonly, in two different
