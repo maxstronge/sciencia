@@ -146,4 +146,22 @@ $$\begin{align}L_\Sun &= 3.828 \times 10^{26} \ W, \\ T_\Sun &= 5772 \ K ,\\ R_\
 
 ### 4. 
 
-If you don't have the full spectrum, as in the above question, the stellar temperature can still be obtained by measuring the *ratio* of stellar intensity at two different wavelengths, or, more commonly, in two different
+If you don't have the full spectrum, as in the above question, the stellar temperature can still be obtained by measuring the *ratio* of stellar intensity at two different wavelengths, or, more commonly, in two different *filters*. 
+
+The Johnson Filter system has the approximate wavelength response shown in the image below (*NB:* oversimplification):
+
+![[Pasted image 20211117102513.png|Johnson Filter wavelength response.]]
+
+Using $B$ and $V$ filters, you measure the apparent $V$ magnitude of the star to be $m_V = 0.50$ and $B-V = 1.32$. Extinction and reddening are negligible. 
+
+
+**a.** Calculate the temperature of the star (to an accuracy of $\pm 5 \ K$). Hint: use the approximation that the ratio of flux in the two bands is equal to the ratio of the 'integrated' Planck function (*i.e.* the ratio of $\ll_{\text{center}}B_{\ll,\text{center}}$). Solve for the temperature numerically. Make sure you account for the relative flux transmission of the two bands. 
+
+***
+
+***
+
+**b.** If the bolometric correction $BC$ of this star (accounting for the flux transmission of the filters) is $7.071$ and the measured parallax $p$ of the star is $5.95 \text{ mas}$, calculate the stellar radius (in $R_\Sun$). You may assume that $T_\Sun = 5772  \ K$ and $M_{\text{bol,}\Sun} = 4.75$.
+
+***
+***
