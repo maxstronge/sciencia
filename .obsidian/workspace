@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Differential Forms.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Differential Forms.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
             "mode": "preview"
           }
         },
@@ -67,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5
+    "width": 247
   },
   "right": {
     "id": "56fe24060d61a7db",
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Differential Forms.md",
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "ae1248bea1f0e4fe",
   "lastOpenFiles": [
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Differential Forms.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A2/ASPH305 Assignment 2.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Differential Forms.md",
     "conflict-files-obsidian-git.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Uncategorized/11.17.2021 MATH367 Lec.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Uncategorized/11.15.2021 MATH367 Lec.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Spherical Coordinates and the Equatorial System.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Blackbody Radiation.md",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.2 - The Photoelectric Effect.md",
-    "Images/stokestheoremsphere.svg",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Divergence Theorem.md"
+    "Images/stokestheoremsphere.svg"
   ]
 }

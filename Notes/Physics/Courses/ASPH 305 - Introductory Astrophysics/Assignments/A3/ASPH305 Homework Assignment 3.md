@@ -11,13 +11,11 @@ Atmospheric extinction changes as a function of the *atmospheric pressure*, whic
 
 ...where $k(z)$ is the extinction at a physical altitude of $z$, $z$ is your physical altitude above sea level, $k_0$ is the extinction at sea level, and $H$ is the scale height of the atmosphere (measured to be $\approx \,8km$).
 
-At $\ll = 10\mu m$, and using $\kappa_0 = 0.262\text{ mag }km^{-1}$, calculate the *opacity* $\tau$ AND *transmission of the atmosphere for both telescopes*, for a source at an altitude of $10\degree$ above the horizon. 
+At $\ll = 10\mu m$, and using $\kappa_0 = 0.262\text{ mag }km^{-1}$, calculate the *opacity* $\tau$ AND *transmission of the atmosphere for both telescopes*, for a source at an altitude of $10\degree$ above the horizon. Which telescope would be better to use for these observations, and why?
 
-**NB**: physical (geographical) altitude $\neq$ astronomical altitude
 
-**NB**: $k$ is not a constant, it varies as the atmosphere varies, so we will need to the opacity equation along the line of sight. 
 
-Which telescope would be better to use for these observations, and why?
+
 ***
 - Physical altitude of VLT telescope: $2635m$
 - Physical altitude of ARCT telescope: $1300m$
@@ -122,9 +120,13 @@ $$m = m_0 + kX$$
 
 We can put our equations into this form by substituting our values for $m_B$ and $m_V$ in for $m$. The magnitude $m_0$ is the magnitude that would be measured without the effects of atmospheric extinction.
 
-The slope of the line, then, will be the extinction coefficient $k$:
+The slope of each line, then, will be the extinction coefficient $k$ for each band:
 
-$$\begin{align} m_B &= m_0 +kX \implies k_B = 0.5187 \\ m_V &= m_0 + kX \implies k_V = 0.2675. \end{align}$$
+$$\begin{align} m_B &= m_0 +kX \implies k_B = 0.5187. \\ m_V &= m_0 + kX \implies k_V = 0.2675. \end{align}$$
+
+The true apparent magnitude for each band can also be found from the graph - since the trendline is of the form $y=mx+b$, we see that the true apparent magnitude in each band is the $y$-intercept of each respective line:
+
+$$\begin{align} m_{0,b} &=  1.7714. \\ m_{0,v} &= 0.3266. \end{align}$$
 
 
 ***
@@ -133,7 +135,17 @@ $$\begin{align} m_B &= m_0 +kX \implies k_B = 0.5187 \\ m_V &= m_0 + kX \implies
 **b.** Spectroscopically, this star is a hot, blue star (known as a B-type star) with known, intrinsic, absolute magnitudes	of $M_{V,0} = -3.7$ and $M_{B,0} = -2.95.$ Calculate the amount of *interstellar extinction* (i.e. $A_V$ and $A_B$) in both bands. 
 
 ***
+We will need to find the distance to the star using the given parallax. The parallax was given in $\text{mas}$, so the distance will be:
 
+$$D \ [pc] = \frac{1}{p \ ["]} = \frac{1}{284.56 \times 10^{-3}} = 3.5142 \text{ pc}.$$
+
+We now have the distance $r$, as well as the absolute and apparent magnitudes. The total extinction $A$ can be found via the equation:
+
+$$m-M = 5 \log \qty(\frac{r}{10\text{ pc}}) + A \implies A = m - M - 5\log\qty(\frac{r}{10\text{ pc}}).$$
+
+Subsituting our derived and given values for $r, \ m,$ and $M$:
+
+$$\begin{align}A_V &=	m_V - M_V - 5 \log \qty(\frac{3.5142\text{ pc}}{10\text{ pc}}) \\ &= 0.3266 + 3.7 - 5\log(0.35142) \\ & = 6.29747. \\[3ex] A_B &= m_B - M_B - 5 \log \qty(\frac{3.5142\text{ pc}}{10\text{ pc}}) \\ &= 1.7714 + 2.95 - 5 \log(0.35142) \\ &= 6.99227.\end{align}$$
 	
 ***
 ### 3.
@@ -151,6 +163,17 @@ Use the following constants:
 $$\begin{align}L_\Sun &= 3.828 \times 10^{26} \ W, \\ T_\Sun &= 5772 \ K ,\\ R_\Sun &= 6.963 \times 10^8 \ m. \end{align}$$
 
 ***
+We have $F_{\text{measured}}=2.31715 \times 10^{-8}\text{ Wm}^{-2}.$
+
+First, using the given parallax, we can find the distance to the star in parsecs:
+
+$$D \ [pc] = \frac{1}{p \ ["]} = \frac{1}{130.208\times 10^{-3}} = 7.68002 \text{ pc}.$$
+
+We can find the bolometric luminosity in $W$ via the following equation:
+
+$$\begin{align} L_{\text{total}} &= 4 \pi D^2 F_{\text{measured}}\\ &= 4\pi (7.68002\text{ pc})^2 \ \cdot 2.31715 \times 10^{-8}\text{ Wm}^{-2} \\ &= 4 \pi (2.36981\times10^{17} \ m)^2 \cdot 2.31715 \times 10^{-8}\text{ Wm}^{-2} \\ &= 1.63527 \times 10^{28} \ W\end{align}$$
+
+
 ***
 
 ### 4. 
