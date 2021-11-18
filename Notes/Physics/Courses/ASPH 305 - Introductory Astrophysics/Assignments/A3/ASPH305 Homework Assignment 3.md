@@ -171,7 +171,13 @@ $$D \ [pc] = \frac{1}{p \ ["]} = \frac{1}{130.208\times 10^{-3}} = 7.68002 \text
 
 We can find the bolometric luminosity in $W$ via the following equation:
 
-$$\begin{align} L_{\text{total}} &= 4 \pi D^2 F_{\text{measured}}\\ &= 4\pi (7.68002\text{ pc})^2 \ \cdot 2.31715 \times 10^{-8}\text{ Wm}^{-2} \\ &= 4 \pi (2.36981\times10^{17} \ m)^2 \cdot 2.31715 \times 10^{-8}\text{ Wm}^{-2} \\ &= 1.63527 \times 10^{28} \ W\end{align}$$
+$$\begin{align} L_{\text{bolometric}} &= 4 \pi D^2 F_{\text{measured}}\\ &= 4\pi (7.68002\text{ pc})^2 \ \cdot 2.31715 \times 10^{-8}\text{ Wm}^{-2} \\ &= 4 \pi (2.36981\times10^{17} \ m)^2 \cdot 2.31715 \times 10^{-8}\text{ Wm}^{-2} \\ &= 1.63527 \times 10^{28} \ W\end{align}$$
+
+With the luminosity found, we can easily find the luminosity in units of $L_\Sun$:
+
+$$L_{\text{[$L_\Sun$]}} = \frac{L_{\text{bolometric}}}{L_\Sun} = \frac{1.63527 \times 10^{28} \ W}{3.828 \times 10^{26} \ W} = 42.7187 \  L_\Sun.$$
+
+The peak 
 
 
 ***
