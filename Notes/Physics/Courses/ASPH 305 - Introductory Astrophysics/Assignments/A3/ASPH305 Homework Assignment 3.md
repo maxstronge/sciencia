@@ -177,7 +177,9 @@ With the luminosity found, we can easily find the luminosity in units of $L_\Sun
 
 $$L_{\text{[$L_\Sun$]}} = \frac{L_{\text{bolometric}}}{L_\Sun} = \frac{1.63527 \times 10^{28} \ W}{3.828 \times 10^{26} \ W} = 42.7187 \  L_\Sun.$$
 
-The peak 
+From the spectrum, we can see that the peak intensity occurs at $\ll_{\text{peak}}=300\text{ nm}.$ From Wien's Law, we find the temperature:
+
+$$\ll_{\text{peak}} = $$
 
 
 ***
