@@ -38,18 +38,18 @@ $$\tau = \int \kappa(z) \ ds = \int \ \kappa_0 \ e^{-\frac{z}{H}}\sec za \ dz$$
 
 The limits of integration for $z$ will be the physical altitude of the telescope for the lower limit, and can be treated as going to infinity:
 
-$$=\kappa_0 \int_{z=z_i}^\infty e^{-\frac{z}{H}}H\sec za \ dz.$$
+$$=\kappa_0 \int_{z=z_i}^\infty e^{-\frac{z}{H}}\sec za \ dz.$$
 
 We can now find the opacity for each source for each telescope. For the VLT telescope, which is at a physical altitude of $2635m$, the first source is at an angle of $75\degree$ above the horizon, which corresponds to a zenith angle of $15\degree$. Then:
 
-$$\begin{align}za = 15\degree &= 0.261799 \text{ rad} \implies \sec za = 1.03528. \\[3ex] \end{align}$$
+$$\begin	{align}za = 15\degree &= 0.261799 \text{ rad} \implies \sec za = 1.03528. \\[3ex] \end{align}$$
 
 So the opacity is:
 
-$$\begin{align} \tau &= \kappa_0 \int_{z_i}^\infty e^{-\frac{z}{H}}H\sec za \ dz \\[2ex] &= 0.262\text{ mag km}^{-1} \int_{2.635}^{\infty} e^{-\frac{z}{8}} (8km) (1.03528) \ dz \\[2ex] &= 12.488 \text{ mag}\end{align}$$
+$$\begin{align} \tau &= \kappa_0 \int_{z_i}^\infty e^{-\frac{z}{H}}\sec za \ dz \\[2ex] &= 0.262\text{ mag km}^{-1} \int_{2.635}^{\infty} e^{-\frac{z}{8}}  (1.03528) \ dz \\[2ex] &= 1.561 \text{ mag.}\end{align}$$
 
 And the transmission is given by:
-$$I_\nu = e^{-\tau} = 3.7715\times 10^{-6}.$$
+$$I_\nu = e^{-\tau} = 0.209927.$$
 
 For the second source at an angle of $10\degree$ above the horizon, corresponding to a zenith angle of $80\degree$:
 
@@ -57,17 +57,17 @@ $$za = 80\degree = \frac{4\pi}{9}\text{ rad} \implies \sec za = 5.75877.$$
 
 So:
 
-$$\begin{align}\tau &= \kappa_0 \int_{z_i}^\infty e^{-\frac{z}{H}}H\sec za \ dz \\[2ex] &= 0.262 \int_{2.635}^\infty e^{-\frac{z}{8}} (8)(5.75877) \ dz \\[2ex] &= 69.4649\text{ mag} \\[3ex] \text{Transmission} &= I_\nu = e^{-\tau} = 6.78873\times10^{-31}. \end{align} $$
+$$\begin{align}\tau &= \kappa_0 \int_{z_i}^\infty e^{-\frac{z}{H}}\sec za \ dz \\[2ex] &= 0.262 \int_{2.635}^\infty e^{-\frac{z}{8}} (5.75877) \ dz \\[2ex] &= 8.68311\text{ mag} \\[3ex] \text{Transmission} &= I_\nu = e^{-\tau} = 1.6943\times10^{-4}. \end{align} $$
 
 The same process applies for the second telescope, the ARCT,  at a physical altitude of $1.3\text{ km}$. The zenith angles will be the same for the second telescope as the first since the astronomical altitudes of the radiative sources are the same relative to the telescope. For the first source ($za = 15\degree$):
 
 
 
-$$\begin{align} \tau &= 0.262 \int_{z=1.3}^\infty e^{-\frac{z}{8}}(8) (1.03528) \ dz \\[2ex] &= 14.7559 \\[2ex] \text{Transmission} &= I_\nu = e^{-\tau} = 3.90469\times10^{-7}.\end{align}$$
+$$\begin{align} \tau &= 0.262 \int_{z=1.3}^\infty e^{-\frac{z}{8}}(8) (1.03528) \ dz \\[2ex] &= 1.84448\text{ mag}. \\[2ex] \text{Transmission} &= I_\nu = e^{-\tau} = 0.158107 .\end{align}$$
 
 And for the second source:
 
-$$\begin{align} \tau &= 0.262 \int_{z=1.3}^\infty e^{-\frac{z}{8}}(8) (5.75877) \ dz \\[2ex] &= 82.0802 \\[2ex] \text{Transmission} &= I_\nu = e^{-\tau} = 2.25446\times10^{-36}.\end{align}$$
+$$\begin{align} \tau &= 0.262 \int_{z=1.3}^\infty e^{-\frac{z}{8}}(8) (5.75877) \ dz \\[2ex] &= 10.26\text{ mag}. \\[2ex] \text{Transmission} &= I_\nu = e^{-\tau} = 3.5005\times10^{-5}.\end{align}$$
 ***
 <table>
 	<tr>
@@ -80,29 +80,29 @@ $$\begin{align} \tau &= 0.262 \int_{z=1.3}^\infty e^{-\frac{z}{8}}(8) (5.75877) 
 		
 			<td>VLT</td>
 			<td>1</td>
-			<td>12.488</td>
-			<td> 3.7715 x 10^(-6) </td>
+			<td>1.561</td>
+			<td> 0.20997 </td>
 	</tr>
 		<tr>
 		
 			<td>VLT</td>
 			<td>2</td>
-			<td> 69.4649</td>
-			<td> 6.78873 x 10^(-31) </td>
+			<td> 8.68311</td>
+			<td> 1.69423 x 10^(-4) </td>
 	</tr>
 		<tr>
 		
 			<td>ARCT</td>
 			<td>1</td>
-			<td> 14.7559</td>
-			<td> 3.90469 x 10^(-7) </td>
+			<td>1.84448</td>
+			<td> 0.158107 </td>
 	</tr>
 	<tr>
 		
 			<td>ARCT</td>
 			<td>2</td>
-			<td> 82.0802</td>
-			<td> 2.25446 x 10^(-36) </td>
+			<td> 10.26</td>
+			<td> 3.5005 x 10^(-5) </td>
 	</tr>
 	
 </table>
@@ -117,6 +117,15 @@ The table below lists the observed V-band ($\ll = 547.5\,nm$) and B-Band ($\ll =
 
 **a.** Plot $m_V$ and $m_B$ versus airmass. From the plot, determine the *atmospheric exctinction coefficients* for both bands, and the *true* V-band and B-band magnitudes for the star (i.e. corrected for extinction).
 ***
+![[HW3 1.png|mv and mb vs. X.]]
+$$m = m_0 + kX$$
+
+We can put our equations into this form by substituting our values for $m_B$ and $m_V$ in for $m$. The magnitude $m_0$ is the magnitude that would be measured without the effects of atmospheric extinction.
+
+The slope of the line, then, will be the extinction coefficient $k$:
+
+$$\begin{align} m_B &= m_0 +kX \implies k_B = 0.5187 \\ m_V &= m_0 + kX \implies k_V = 0.2675. \end{align}$$
+
 
 ***
 	
