@@ -163,24 +163,28 @@ Use the following constants:
 $$\begin{align}L_\Sun &= 3.828 \times 10^{26} \ W, \\ T_\Sun &= 5772 \ K ,\\ R_\Sun &= 6.963 \times 10^8 \ m. \end{align}$$
 
 ***
-We have $F_{\text{measured}}=2.31715 \times 10^{-8}\text{ Wm}^{-2}.$
+We have $F_{\text{ measured}}=2.31715 \times 10^{-8}\text{ Wm}^{-2}.$
 
 First, using the given parallax, we can find the distance to the star in parsecs:
 
 $$D \ [pc] = \frac{1}{p \ ["]} = \frac{1}{130.208\times 10^{-3}} = 7.68002 \text{ pc}.$$
 
-We can find the bolometric luminosity in $W$ via the following equation:
-
-$$\begin{align} L_{\text{bolometric}} &= 4 \pi D^2 F_{\text{measured}}\\ &= 4\pi (7.68002\text{ pc})^2 \ \cdot 2.31715 \times 10^{-8}\text{ Wm}^{-2} \\ &= 4 \pi (2.36981\times10^{17} \ m)^2 \cdot 2.31715 \times 10^{-8}\text{ Wm}^{-2} \\ &= 1.63527 \times 10^{28} \ W\end{align}$$
-
-With the luminosity found, we can easily find the luminosity in units of $L_\Sun$:
-
-$$L_{\text{[$L_\Sun$]}} = \frac{L_{\text{bolometric}}}{L_\Sun} = \frac{1.63527 \times 10^{28} \ W}{3.828 \times 10^{26} \ W} = 42.7187 \  L_\Sun.$$
 
 From the spectrum, we can see that the peak intensity occurs at $\ll_{\text{peak}}=300\text{ nm}.$ From Wien's Law, we find the temperature:
 
-$$\ll_{\text{peak}} = \frac{2.898\times10^{-3}\text{ K $\cdot$ m}}{T} \implies T = \frac{2.898\times10^{-3}\text{ K $\cdot$ m}}{300\times 10^{-9}\text{ m}} =960\text{ K}.$$
+$$\ll_{\text{peak}} = \frac{2.898\times10^{-3}\text{ K $\cdot$ m}}{T} \implies T = \frac{2.898\times10^{-3}\text{ K $\cdot$ m}}{300\times 10^{-9}\text{ m}} =9660\text{ K}.$$
 
+In units of $T_\Sun$:
+
+$$T_{\text{[$T_\Sun$]}}=\frac{9660}{5772} = 1.637 \ T_\Sun.$$
+
+With the distance given from the parallax and the measured flux, we can find the luminosity:
+
+$$\begin{align} F_{\text{ measured}} = \frac{L}{4 \pi D^2}&\implies L = F_{\text{ measured}}   \qty(4 \pi D^2)\\ &= 2.317185\times10^{-8}\text{ W m}^{-2} \cdot \qty(4\pi(7.68002\text{ pc})^2) \\ &= 2.31715\times10^{-8} \qty(4\pi)\qty(5.6198\times10^{34}\text{ m}^2)\end{align} $$
+
+We can use the temperature to find the flux density through the *surface* of the star via the following equation:
+
+$$F_{\text{surface}}=\sigma \ T^4 = 5.67037\times10^{-8} (6440)^4 = 4.93765 \times 10^8 \text{ Wm}^{-2}.$$
 
 
 ***
