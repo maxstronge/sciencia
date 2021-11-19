@@ -4,21 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "2a972d7fc214e984",
+        "id": "ae1248bea1f0e4fe",
         "type": "leaf",
-        "dimension": 34.30962343096235,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Magnitudes.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "790d8a5c8929d2e5",
-        "type": "leaf",
-        "dimension": 21.936640765092648,
+        "dimension": 27.83576896311761,
         "state": {
           "type": "markdown",
           "state": {
@@ -26,12 +14,24 @@
             "mode": "source"
           }
         },
-        "group": "f17dd5f75959448d"
+        "group": "df5d7b7ad5306a6c"
       },
       {
-        "id": "91c41fd486ee2e29",
+        "id": "d4e2dbb595c40816",
         "type": "leaf",
-        "dimension": 43.75373580394501,
+        "dimension": 27.83576896311761,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "2a972d7fc214e984",
+        "type": "leaf",
+        "dimension": 44.32846207376478,
         "state": {
           "type": "markdown",
           "state": {
@@ -39,7 +39,7 @@
             "mode": "preview"
           }
         },
-        "group": "f17dd5f75959448d"
+        "group": "df5d7b7ad5306a6c"
       }
     ],
     "direction": "vertical"
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247
+    "width": 209.5
   },
   "right": {
     "id": "56fe24060d61a7db",
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,17 +124,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "91c41fd486ee2e29",
+  "active": "d4e2dbb595c40816",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Magnitudes.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/The Hydrogen Atom.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Wien's Law.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Radiative Transfer.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Line Profiles.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Uncategorized/11.17.2021 MATH367 Lec.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Uncategorized/11.15.2021 MATH367 Lec.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Spherical Coordinates and the Equatorial System.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Blackbody Radiation.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Electromagnetic Spectrum.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/The Doppler Effect.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/_The Electromagnetic Spectrum and Photometric Concepts.md"
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.2 - The Photoelectric Effect.md",
+    "Images/stokestheoremsphere.svg",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Differential Forms.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Divergence Theorem.md"
   ]
 }
