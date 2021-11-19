@@ -6,7 +6,7 @@
       {
         "id": "ae1248bea1f0e4fe",
         "type": "leaf",
-        "dimension": 27.83576896311761,
+        "dimension": 38.572806171648985,
         "state": {
           "type": "markdown",
           "state": {
@@ -17,21 +17,9 @@
         "group": "df5d7b7ad5306a6c"
       },
       {
-        "id": "d4e2dbb595c40816",
-        "type": "leaf",
-        "dimension": 27.83576896311761,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "conflict-files-obsidian-git.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "2a972d7fc214e984",
         "type": "leaf",
-        "dimension": 44.32846207376478,
+        "dimension": 61.42719382835101,
         "state": {
           "type": "markdown",
           "state": {
@@ -95,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,10 +112,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d4e2dbb595c40816",
+  "active": "ae1248bea1f0e4fe",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
+    "conflict-files-obsidian-git.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Uncategorized/11.17.2021 MATH367 Lec.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Uncategorized/11.15.2021 MATH367 Lec.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Spherical Coordinates and the Equatorial System.md",
