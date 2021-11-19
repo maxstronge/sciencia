@@ -111,6 +111,7 @@ The VLT telescope would yield better results - its higher physical altitude mean
 ### 2.
 
 The table below lists the observed V-band ($\ll = 547.5\,nm$) and B-Band ($\ll =  435.3\,nm$) for some star observed over the course of the night on December 25th, 2021. The time of the observations, altitude, and azimuth of the star are given in the first 5 columns. The star has a parallax of $284.56\text{ mas}$.
+
 ![[Pasted image 20211117101741.png|Table of V-band and B-band values.]]
 
 **a.** Plot $m_V$ and $m_B$ versus airmass. From the plot, determine the *atmospheric exctinction coefficients* for both bands, and the *true* V-band and B-band magnitudes for the star (i.e. corrected for extinction).
@@ -219,7 +220,23 @@ Using $B$ and $V$ filters, you measure the apparent $V$ magnitude of the star to
 **a.** Calculate the temperature of the star (to an accuracy of $\pm 5 \ K$). Hint: use the approximation that the ratio of flux in the two bands is equal to the ratio of the 'integrated' Planck function (*i.e.* the ratio of $\ll_{\text{center}}B_{\ll,\text{center}}$). Solve for the temperature numerically. Make sure you account for the relative flux transmission of the two bands. 
 
 ***
+Using the approximation given, we have:
 
+$$\frac{F_{B\text{, true}}}{F_{V\text{, true}}} = \frac{\ll_{0,B} \ B_{0,\ll}}{\ll_{0,V} \ B_{0,\ll}}$$
+
+...where $\ll_0, \ B_0$ represent the center of the two filters.
+
+We are given $m_V$ and $B-V$ as $0.5$ and $1.32$, respectively. That allows us to solve for $m_B$:
+
+$$B-V = m_B - m_V \implies m_B = B-V + m_V$$
+
+$$m_B = (0.5)+1.32 = 1.82.$$
+
+We can use this to determine the ratio of the flux measured in each band via the following equation:
+
+$$m_B - m_V = -2.5\log\qty(\frac{F_{B\text{, measured}}}{F_{V\text{, measured}}})$$
+
+$$\frac{F_{B\text{, measured}}}{F_{V\text{, measured}}} = 10^{\qty(\frac{B-V}{-2.5})} = $$
 ***
 
 **b.** If the bolometric correction $BC$ of this star (accounting for the flux transmission of the filters) is $7.071$ and the measured parallax $p$ of the star is $5.95 \text{ mas}$, calculate the stellar radius (in $R_\Sun$). You may assume that $T_\Sun = 5772  \ K$ and $M_{\text{bol,}\Sun} = 4.75$.
