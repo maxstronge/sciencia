@@ -179,7 +179,8 @@ $$L_{\text{[$L_\Sun$]}} = \frac{L_{\text{bolometric}}}{L_\Sun} = \frac{1.63527 \
 
 From the spectrum, we can see that the peak intensity occurs at $\ll_{\text{peak}}=300\text{ nm}.$ From Wien's Law, we find the temperature:
 
-$$\ll_{\text{peak}} = \frac{2.898\times10^{-3}\text{ K $\cdot$ m}}{T} \implies T = \frac{2.898\times10^{-3}\text{ K $\cdot$ m}}{}$$
+$$\ll_{\text{peak}} = \frac{2.898\times10^{-3}\text{ K $\cdot$ m}}{T} \implies T = \frac{2.898\times10^{-3}\text{ K $\cdot$ m}}{300\times 10^{-9}\text{ m}} =960\text{ K}.$$
+
 
 
 ***
