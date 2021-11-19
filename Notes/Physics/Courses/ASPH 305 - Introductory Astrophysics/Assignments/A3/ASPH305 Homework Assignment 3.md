@@ -176,15 +176,31 @@ $$\ll_{\text{peak}} = \frac{2.898\times10^{-3}\text{ K $\cdot$ m}}{T} \implies T
 
 In units of $T_\Sun$:
 
-$$T_{\text{[$T_\Sun$]}}=\frac{9660}{5772} = 1.637 \ T_\Sun.$$
+$$\frac{T}{T_\Sun}=\frac{9660}{5772} = 1.637 \ T_\Sun.$$
 
 With the distance given from the parallax and the measured flux, we can find the luminosity:
 
-$$\begin{align} F_{\text{ measured}} = \frac{L}{4 \pi D^2}&\implies L = F_{\text{ measured}}   \qty(4 \pi D^2)\\ &= 2.317185\times10^{-8}\text{ W m}^{-2} \cdot \qty(4\pi(7.68002\text{ pc})^2) \\ &= 2.31715\times10^{-8} \qty(4\pi)\qty(5.6198\times10^{34}\text{ m}^2)\end{align} $$
+$$\begin{align} F_{\text{ measured}} = \frac{L}{4 \pi D^2}&\implies L = F_{\text{ measured}}   \qty(4 \pi D^2)\\ &= 2.317185\times10^{-8}\text{ W m}^{-2} \cdot \qty(4\pi(7.68002\text{ pc})^2) \\ &= 2.31715\times10^{-8} \qty(4\pi)\qty(5.6198\times10^{34}\text{ m}^2) \\ &= 4.00172 \times 10^{28}\text{ W}.\end{align} $$
+
+In terms of solar luminosities, the star's luminosity is:
+
+$$\frac{L}{L_\Sun} = \frac{4.00172 \times 10^{28}}{3.828 \times 10^{26}} = 104.538 \ L_\Sun.$$
 
 We can use the temperature to find the flux density through the *surface* of the star via the following equation:
 
 $$F_{\text{surface}}=\sigma \ T^4 = 5.67037\times10^{-8} (6440)^4 = 4.93765 \times 10^8 \text{ Wm}^{-2}.$$
+
+And finally, using the surface flux just found and the luminosity found above, we can use the following equation to solve for the star's radius:
+
+$$F_{\text{ surface}} = \frac{L}{4\pi R^2} \implies R = \sqrt{\frac{L}{4 \pi F_{\text{ surface}}}}.$$
+
+Subsituting our values:
+
+$$\begin{align}R &= \sqrt{\frac{L}{4 \pi F_{\text{ surface}}}} \\[2ex] &= \sqrt{\frac{4.00172 \times 10^{28} }{4\pi \qty(4.93765 \times 10^8 )}}\\[2ex] &= 2.53956\times10^9\text{ m.} \end{align}$$
+
+In terms of stellar radii:
+
+$$\frac{R}{R_\Sun}=\frac{2.53956\times10^9}{6.963 \times 10^8} = 3.64722 \ R_\Sun.$$
 
 
 ***
