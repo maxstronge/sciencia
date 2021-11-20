@@ -236,7 +236,34 @@ We can use this to determine the ratio of the flux measured in each band via the
 
 $$m_B - m_V = -2.5\log\qty(\frac{F_{B\text{, measured}}}{F_{V\text{, measured}}})$$
 
-$$\frac{F_{B\text{, measured}}}{F_{V\text{, measured}}} = 10^{\qty(\frac{B-V}{-2.5})} = $$
+$$C = 10^{\qty(\frac{B-V}{-2.5})} =0.296483.$$
+
+We need to correct for the transmission to find the true flux ratio:
+
+$$\frac{F_{B\text{, true}}}{F_{V\text{, true}}} = \frac{\%\text{ transmission}_B}{\%\text{ transmission}_V}\cdot \qty(\frac{F_{B\text{, measured}}}{F_{V\text{, measured}}})$$
+
+Noting the percentage transmission for each band, we find:
+
+$$\frac{F_{B\text{, true}}}{F_{V\text{, true}}} = \frac{70}{90}(0.296483) = 0.230598.$$
+
+With the true flux ration, we can return the approximation given above:
+
+
+$$\frac{F_{B\text{, true}}}{F_{V\text{, true}}} = \frac{\ll_{0,B} \ B_{0,\ll_B}}{\ll_{0,V} \ B_{0,\ll_V}}$$
+
+We can rewrite this as:
+
+$$\frac{F_{B\text{, true}}}{F_{V\text{, true}}} = \frac{\ll_b B_{\ll_b}}{\ll_v B_{\ll_v}} = \qty(\frac{\ll_v}{\ll_b})^4 \ \frac{e^{hc/\ll_v \ k \ T}-1}{e^{hc/\ll_b \ k \ T}-1}$$
+
+Using our values for the flux ratio and the central wavlengths:
+
+$$(0.230598) = \qty(\frac{547.5\times10^{-9}\text{ m}}{435.3\times10^{-9}\text{ m}})^4 \ \frac{e^{hc/\ll_v \ k \ T}-1}{e^{hc/\ll_b \ k \ T}-1}$$ 
+
+$$ 0.183341 = \frac{e^{hc/\ll_v \ k \ T}-1}{e^{hc/\ll_b \ k \ T}-1} $$
+
+From here, we have only constants, the respective wavelengths in each band, and the temperature, so we can solve numerically for $T$:
+
+$$T=$$
 ***
 
 **b.** If the bolometric correction $BC$ of this star (accounting for the flux transmission of the filters) is $7.071$ and the measured parallax $p$ of the star is $5.95 \text{ mas}$, calculate the stellar radius (in $R_\Sun$). You may assume that $T_\Sun = 5772  \ K$ and $M_{\text{bol,}\Sun} = 4.75$.
