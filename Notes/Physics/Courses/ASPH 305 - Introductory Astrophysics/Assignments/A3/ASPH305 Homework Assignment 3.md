@@ -177,15 +177,15 @@ $$\ll_{\text{peak}} = \frac{2.898\times10^{-3}\text{ K $\cdot$ m}}{T} \implies T
 
 In units of $T_\Sun$:
 
-$$\frac{T}{T_\Sun}=\frac{9660}{5772} = 1.637 \ T_\Sun.$$
+$$\frac{T}{T_\Sun}=\frac{9660}{5772} = 1.6736 \ T_\Sun.$$
 
 With the distance given from the parallax and the measured flux, we can find the luminosity:
 
-$$\begin{align} F_{\text{ measured}} = \frac{L}{4 \pi D^2}&\implies L = F_{\text{ measured}}   \qty(4 \pi D^2)\\ &= 2.317185\times10^{-8}\text{ W m}^{-2} \cdot \qty(4\pi(7.68002\text{ pc})^2) \\ &= 2.31715\times10^{-8} \qty(4\pi)\qty(5.6198\times10^{34}\text{ m}^2) \\ &= 4.00172 \times 10^{28}\text{ W}.\end{align} $$
+$$\begin{align} F_{\text{ measured}} = \frac{L}{4 \pi D^2}&\implies L = F_{\text{ measured}}   \qty(4 \pi D^2)\\ &= 2.317185\times10^{-8}\text{ W m}^{-2} \cdot \qty(4\pi(7.68002\text{ pc})^2) \\ &= 2.31715\times10^{-8} \qty(4\pi)\qty(5.6198\times10^{34}\text{ m}^2) \\ &= 1.6353 \times 10^{28}\text{ W}.\end{align} $$
 
 In terms of solar luminosities, the star's luminosity is:
 
-$$\frac{L}{L_\Sun} = \frac{4.00172 \times 10^{28}}{3.828 \times 10^{26}} = 104.538 \ L_\Sun.$$
+$$\frac{L}{L_\Sun} = \frac{1.6353 \times 10^{28}}{3.828 \times 10^{26}} = 42.7193 \ L_\Sun.$$
 
 We can use the temperature to find the flux density through the *surface* of the star via the following equation:
 
@@ -197,11 +197,11 @@ $$F_{\text{ surface}} = \frac{L}{4\pi R^2} \implies R = \sqrt{\frac{L}{4 \pi F_{
 
 Subsituting our values:
 
-$$\begin{align}R &= \sqrt{\frac{L}{4 \pi F_{\text{ surface}}}} \\[2ex] &= \sqrt{\frac{4.00172 \times 10^{28} }{4\pi \qty(4.93765 \times 10^8 )}}\\[2ex] &= 2.53956\times10^9\text{ m.} \end{align}$$
+$$\begin{align}R &= \sqrt{\frac{L}{4 \pi F_{\text{ surface}}}} \\[2ex] &= \sqrt{\frac{1.6353 \times 10^{28} }{4\pi \qty(4.93765 \times 10^8 )}}\\[2ex] &= 1.62343\times10^9\text{ m.} \end{align}$$
 
 In terms of stellar radii:
 
-$$\frac{R}{R_\Sun}=\frac{2.53956\times10^9}{6.963 \times 10^8} = 3.64722 \ R_\Sun.$$
+$$\frac{R}{R_\Sun}=\frac{2.53956\times10^9}{6.963 \times 10^8} = 2.33151 \ R_\Sun.$$
 
 
 ***
@@ -226,17 +226,15 @@ $$\frac{F_{B\text{, true}}}{F_{V\text{, true}}} = \frac{\ll_{0,B} \ B_{0,\ll}}{\
 
 ...where $\ll_0, \ B_0$ represent the center of the two filters.
 
-We are given $m_V$ and $B-V$ as $0.5$ and $1.32$, respectively. That allows us to solve for $m_B$:
+The central wavelengths for the $V$ and $B$ bands are $547.5\times10^{-9}m$ and $435.3\times10^{-9}m$, respectively.
 
-$$B-V = m_B - m_V \implies m_B = B-V + m_V$$
-
-$$m_B = (0.5)+1.32 = 1.82.$$
+We are given $m_V$ and $B-V$ as $0.5$ and $1.32$, respectively. 
 
 We can use this to determine the ratio of the flux measured in each band via the following equation:
 
-$$m_B - m_V = -2.5\log\qty(\frac{F_{B\text{, measured}}}{F_{V\text{, measured}}})$$
+$$m_B - m_V =B-V =  -2.5\log\qty(\frac{F_{B\text{, measured}}}{F_{V\text{, measured}}})$$
 
-$$C = 10^{\qty(\frac{B-V}{-2.5})} =0.296483.$$
+$$\frac{F_{B\text{, measured}}}{F_{V\text{, measured}}}= 10^{\qty(\frac{B-V}{-2.5})} =0.296483.$$
 
 We need to correct for the transmission to find the true flux ratio:
 
