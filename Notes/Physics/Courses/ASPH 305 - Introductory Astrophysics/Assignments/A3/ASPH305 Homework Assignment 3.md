@@ -291,7 +291,7 @@ $$\frac{L}{L_\Sun}=10^{M_{\text{bol}}-M_{\text{bol},\Sun}/-2.5} = 10^{(-12.6984 
 
 We can use the given temperature of the sun to find the flux through its surface:
 
-$$F_{\text{surface}}= \sigma \  T^4 = 5.67037\times10^{-8} \ (5772)^4 = 6.29385 \times 10^7 \text{ Wm}^{-2}$$
+$$F_{\text{surface}}= \sigma \  T^4 = 5.67037\times10^{-8f} \ (5772)^4 = 6.29385 \times 10^7 \text{ Wm}^{-2}$$
 
 Doing the same for our unknown star:
 
@@ -299,6 +299,16 @@ $$F_{\text{surface}}= \sigma \  T^4 = 5.67037\times10^{-8} \ (3178.547)^4 = 5.78
 
 With those found, we can set up a ratio of the surface flux in terms of luminosity and stellar radius:
 
-$$\frac{F_{\text{surface}}}{F_{\text{surface,}\Sun}} = \frac{L}{L_\Sun}\frac{4\pi \ R_\Sun^2}{4pi }$$
+$$\frac{F_{\text{surface}}}{F_{\text{surface,}\Sun}} = \frac{L}{L_\Sun}\frac{4\pi \ R_\Sun^2}{4\pi R^2}$$
+
+
+$$\frac{5.78797 \times 10^6 \text{ Wm}^{-2}}{6.29385 \times 10^7 \text{ Wm}^{-2}} = 0.0919622 =  \qty(9.53586 \times 10^6 \ L_\Sun)\frac{4\pi \ R_\Sun^2}{4\pi R^2}$$
+
+Noting that $L_\Sun = 3.846 \times 10^{26}\text{ W},$ and that $R_\Sun^2 = (6.963\times10^8)^2=4.84834\times10^{17}\text{ m}$, we can solve for $R$:
+
+$$\begin{align} 0.0919622 &=  \qty(9.53586 \times 10^6 \ \qty(3.846 \times 10^{26}))\frac{4\pi \ (4.84834\times10^{17})}{4\pi R^2} \\[3ex] R^2 &=\qty(9.53586 \times 10^6 \ \qty(3.846 \times 10^{26}))\frac{4\pi \ (4.84834\times10^{17})}{4\pi \qty(0.0919622)} \\[2ex]R^2 &= 1.93354 \times 10^{52} \text{ m} \\[2ex] R &= 1.39052\times10^{26}\text{ m} = 1.99873\times 10^{17} R_\Sun. \end{align}$$
+
+This is an extraordinarily large star - larger, in fact, than any known star in the universe by many orders of magnitude. This may stem from the fact that the given bolometric correction $BC$ was extremely high - for most solar-type stars, the bolometric correction is very small, and can often be approximated as zero. 
+
 
 ***
