@@ -228,7 +228,7 @@ $$\frac{F_{B\text{, true}}}{F_{V\text{, true}}} = \frac{\ll_{0,B} \ B_{0,\ll}}{\
 
 The central wavelengths for the $V$ and $B$ bands are $547.5\times10^{-9}m$ and $435.3\times10^{-9}m$, respectively.
 
-We are given $m_V$ and $B-V$ as $0.5$ and $1.32$, respectively, and since $B-V$ is positive, $$
+We are given $m_V$ and $B-V$ as $0.5$ and $1.32$, respectively, and since $B-V$ is positive, 
 
 We can use this to determine the ratio of the flux measured in each band via the following equation:
 
@@ -257,14 +257,48 @@ Using our values for the flux ratio and the central wavelengths:
 
 $$(0.230598) = \qty(\frac{547.5\times10^{-9}\text{ m}}{435.3\times10^{-9}\text{ m}})^4 \ \frac{e^{hc/\ll_v \ k \ T}-1}{e^{hc/\ll_b \ k \ T}-1}$$ 
 
-$$ 0.0923149 = \frac{e^{hc/\ll_v \ k \ T}-1}{e^{hc/\ll_b \ k \ T}-1} $$
+$$ 0.11869 = \frac{e^{hc/\ll_v \ k \ T}-1}{e^{hc/\ll_b \ k \ T}-1} $$
 
 From here, we have only constants, the respective wavelengths in each band, and the temperature, so we can solve numerically for $T$:
 
-$$T=2840.876 $$
+$$T=3178.547\text{ K}. $$
 ***
 
 **b.** If the bolometric correction $BC$ of this star (accounting for the flux transmission of the filters) is $7.071$ and the measured parallax $p$ of the star is $5.95 \text{ mas}$, calculate the stellar radius (in $R_\Sun$). You may assume that $T_\Sun = 5772  \ K$ and $M_{\text{bol,}\Sun} = 4.75$.
 
 ***
+The measured parallax of the star is $5.95 \times 10^{-3}\text{ "}$. We can use this value to find the distance to the star in parsecs:
+
+$$D = \frac{1}{p} = \frac{1}{5.95 \times 10^{-3}} = 168.067\text{ pc}.$$
+
+
+We can find the apparent bolometric magnitude $m_{\text{bol}}$ from the bolometric correction and $m_V$:
+
+$$m_{\text{bol}} = m_V - BC = 0.5 - 7.071 = -6.571\text{ mag}.$$
+
+With $m_{\text{bol}}$  and the distance, we can use the distance modulus to find the absolute bolometric magnitude $M_{\text{bol}}$:
+
+$$m-M = 5 \log D - 5 \implies M_{\text{bol}} = m_{\text{bol}}-5\log(168.067)+5= -12.6984\text{ mag}.$$
+
+
+With the bolometric magnitude of the sun and the star known, we can relate their luminosities via the following equation:
+
+$$M_{\text{bol}}-M_{\text{bol},\Sun} = -2.5 \log \qty(\frac{L}{L_\Sun})$$
+
+Rearranging, we find the ratio of the luminosities to be:
+
+$$\frac{L}{L_\Sun}=10^{M_{\text{bol}}-M_{\text{bol},\Sun}/-2.5} = 10^{(-12.6984 - 4.75)/-2.5} = 9.53586 \times 10^6 \ L_\Sun.$$
+
+We can use the given temperature of the sun to find the flux through its surface:
+
+$$F_{\text{surface}}= \sigma \  T^4 = 5.67037\times10^{-8} \ (5772)^4 = 6.29385 \times 10^7 \text{ Wm}^{-2}$$
+
+Doing the same for our unknown star:
+
+$$F_{\text{surface}}= \sigma \  T^4 = 5.67037\times10^{-8} \ (3178.547)^4 = 5.78797 \times 10^6 \text{ Wm}^{-2}.$$
+
+With those found, we can set up a ratio of the surface flux in terms of luminosity and stellar radius:
+
+$$\frac{F_{\text{surface}}}{F_{\text{surface,}\Sun}} = \frac{L}{}$$
+
 ***
