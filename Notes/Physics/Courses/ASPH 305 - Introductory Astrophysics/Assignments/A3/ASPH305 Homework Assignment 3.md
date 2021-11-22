@@ -299,6 +299,6 @@ $$F_{\text{surface}}= \sigma \  T^4 = 5.67037\times10^{-8} \ (3178.547)^4 = 5.78
 
 With those found, we can set up a ratio of the surface flux in terms of luminosity and stellar radius:
 
-$$\frac{F_{\text{surface}}}{F_{\text{surface,}\Sun}} = \frac{L}{}$$
+$$\frac{F_{\text{surface}}}{F_{\text{surface,}\Sun}} = \frac{L}{L_\Sun}\frac{4\pi \ R_\Sun^2}{4pi }$$
 
 ***
