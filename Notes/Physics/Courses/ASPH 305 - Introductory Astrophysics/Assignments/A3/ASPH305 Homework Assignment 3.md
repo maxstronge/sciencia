@@ -189,7 +189,7 @@ $$\frac{L}{L_\Sun} = \frac{1.6353 \times 10^{28}}{3.828 \times 10^{26}} = 42.719
 
 We can use the temperature to find the flux density through the *surface* of the star via the following equation:
 
-$$F_{\text{surface}}=\sigma \ T^4 = 5.67037\times10^{-8} (6440)^4 = 4.93765 \times 10^8 \text{ Wm}^{-2}.$$
+$$F_{\text{surface}}=\sigma \ T^4 = 5.67037\times10^{-8} (9660)^4 = 4.93765 \times 10^8 \text{ Wm}^{-2}.$$
 
 And finally, using the surface flux just found and the luminosity found above, we can use the following equation to solve for the star's radius:
 
