@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "ac3f27ddef6591b1",
+    "id": "1f96a0355d1dc8f5",
     "type": "split",
     "children": [
       {
-        "id": "2ed35ccaa1f8675b",
+        "id": "35cb901bf2ddc20f",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -97,7 +97,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2ed35ccaa1f8675b",
+  "active": "35cb901bf2ddc20f",
   "lastOpenFiles": [
     "Pasted image 20211025124439.png.md",
     "Images/asph_FWHM_diagram.svg",
