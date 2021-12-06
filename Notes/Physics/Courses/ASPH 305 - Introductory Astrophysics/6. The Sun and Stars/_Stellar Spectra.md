@@ -1,0 +1,3 @@
+# Stellar Spectra:
+***
+All of our information about the physical properties of stars (particularly those other than our own Sun) comes more or less directly from the study of their spectra. In particular, by studying the strength of various absorption lines, stellar masses, temperatures, and compositions can be deduced. The line shapes also contain detailed information about atmospheric processes. 

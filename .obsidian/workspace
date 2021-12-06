@@ -4,15 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "5e557d4bbd33a138",
+        "id": "5079e2b25da07430",
         "type": "leaf",
+        "dimension": 43.858381502890175,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Uncategorized/11.15.2021 MATH367 Lec.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
+            "mode": "source"
+          }
+        },
+        "group": "d9754485c58acd5a"
+      },
+      {
+        "id": "a72a4a9416bc94c7",
+        "type": "leaf",
+        "dimension": 56.141618497109825,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "d9754485c58acd5a"
       }
     ],
     "direction": "vertical"
@@ -24,6 +39,7 @@
       {
         "id": "ffc1006b59bacbe4",
         "type": "tabs",
+        "dimension": 67.9718875502008,
         "children": [
           {
             "id": "f5d1bc0b46457da9",
@@ -49,10 +65,25 @@
             }
           }
         ]
+      },
+      {
+        "id": "69cd7adcb6cc6d66",
+        "type": "tabs",
+        "dimension": 32.028112449799195,
+        "children": [
+          {
+            "id": "a73d496c345389a5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 209.5
+    "width": 476
   },
   "right": {
     "id": "56fe24060d61a7db",
@@ -68,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH367 - University Calculus III/Uncategorized/11.15.2021 MATH367 Lec.md",
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5e557d4bbd33a138",
+  "active": "5079e2b25da07430",
   "lastOpenFiles": [
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Uncategorized/11.15.2021 MATH367 Lec.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof-Writing Final Reflection.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 7.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Proof Assignments/Proof Assignment Topic 6.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
-    "Notes/Mathematics/Mathematics Index.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Differential Forms.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Integral Theorems/Divergence Theorem.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Row Space, Column Space, Rank-Nullity, Orthogonality, Similarity, and Diagonalization/Orthogonality and Orthonormality.md"
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Matrix of a Linear Transformation/Matrix of a Linear Transformation.md",
+    "conflict-files-obsidian-git.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Matrix of a Linear Transformation/_Matrix of a General Linear Transformation.md",
+    "Notes/Mathematics/Linear Algebra Index.md",
+    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Operators/_Linear Operators.md",
+    "Physics 10 Study Guide.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Course Intro.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/The Hydrogen Atom.md",
+    "Notes/Physics/Astrophysics Index.md"
   ]
 }

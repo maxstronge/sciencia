@@ -5,64 +5,6 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-<<<<<<< Updated upstream
-  "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:\"Notes/Mathematics/Courses/MATH311 - Linear Methods II\"",
-      "color": {
-        "a": 1,
-        "rgb": 15690720
-      }
-    },
-    {
-      "query": "path:\"Notes/Mathematics/Courses/MATH367 - University Calculus III\"",
-      "color": {
-        "a": 1,
-        "rgb": 13656086
-      }
-    },
-    {
-      "query": "path:\"Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics\"",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
-      }
-    },
-    {
-      "query": "path:\"Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism and Thermal Physics\"",
-      "color": {
-        "a": 1,
-        "rgb": 15589149
-      }
-    },
-    {
-      "query": "path:\"Notes/Physics/Courses/PHYS343 - Classical Mechanics II\"",
-      "color": {
-        "a": 1,
-        "rgb": 11998485
-      }
-    },
-    {
-      "query": "path:\"Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics\"",
-      "color": {
-        "a": 1,
-        "rgb": 16737
-      }
-    }
-  ],
-  "collapse-display": false,
-  "showArrow": true,
-  "textFadeMultiplier": 0.1,
-  "nodeSizeMultiplier": 2.83823529411765,
-  "lineSizeMultiplier": 2.34823529411765,
-  "collapse-forces": false,
-  "centerStrength": 0.494117647058824,
-  "repelStrength": 20,
-  "linkStrength": 0.717647058823529,
-  "linkDistance": 188,
-  "scale": 0.03069902973286654,
-=======
   "collapse-color-groups": true,
   "colorGroups": [],
   "collapse-display": true,
@@ -75,7 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.06699744995282429,
->>>>>>> Stashed changes
-  "close": true
+  "scale": 0.047787637109624595,
+  "close": false
 }
