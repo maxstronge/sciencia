@@ -1,45 +1,18 @@
 {
   "main": {
-    "id": "52aaf8225ccaa27f",
+    "id": "1f96a0355d1dc8f5",
     "type": "split",
     "children": [
       {
-        "id": "5079e2b25da07430",
+        "id": "33befb191a51668c",
         "type": "leaf",
-        "dimension": 21.92919075144509,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
-            "mode": "source"
-          }
-        },
-        "group": "d9754485c58acd5a"
-      },
-      {
-        "id": "fe9f7d24457670de",
-        "type": "leaf",
-        "dimension": 21.92919075144509,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "conflict-files-obsidian-git.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "a72a4a9416bc94c7",
-        "type": "leaf",
-        "dimension": 56.14161849710982,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
             "mode": "preview"
           }
-        },
-        "group": "d9754485c58acd5a"
+        }
       }
     ],
     "direction": "vertical"
@@ -51,7 +24,6 @@
       {
         "id": "ffc1006b59bacbe4",
         "type": "tabs",
-        "dimension": 67.9718875502008,
         "children": [
           {
             "id": "f5d1bc0b46457da9",
@@ -77,25 +49,10 @@
             }
           }
         ]
-      },
-      {
-        "id": "69cd7adcb6cc6d66",
-        "type": "tabs",
-        "dimension": 32.028112449799195,
-        "children": [
-          {
-            "id": "a73d496c345389a5",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 476
+    "width": 200.5
   },
   "right": {
     "id": "56fe24060d61a7db",
@@ -140,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a72a4a9416bc94c7",
+  "active": "33befb191a51668c",
   "lastOpenFiles": [
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
-    "conflict-files-obsidian-git.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Matrix of a Linear Transformation/Matrix of a Linear Transformation.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Matrix of a Linear Transformation/_Matrix of a General Linear Transformation.md",
-    "Notes/Mathematics/Linear Algebra Index.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Operators/_Linear Operators.md",
-    "Physics 10 Study Guide.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
     "Notes/Mathematics/Courses/MATH367 - University Calculus III/Course Intro.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/The Hydrogen Atom.md",
-    "Notes/Physics/Astrophysics Index.md"
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Uncategorized/11.15.2021 MATH367 Lec.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Vector Fields.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Differential Forms.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Integral Theorems/Divergence Theorem.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Surface Integrals.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector Fields.md",
+    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Vector-Valued Functions/Vector-Valued Functions.md"
   ]
 }
