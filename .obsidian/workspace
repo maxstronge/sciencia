@@ -6,7 +6,7 @@
       {
         "id": "5079e2b25da07430",
         "type": "leaf",
-        "dimension": 43.858381502890175,
+        "dimension": 21.92919075144509,
         "state": {
           "type": "markdown",
           "state": {
@@ -17,9 +17,21 @@
         "group": "d9754485c58acd5a"
       },
       {
+        "id": "fe9f7d24457670de",
+        "type": "leaf",
+        "dimension": 21.92919075144509,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
         "id": "a72a4a9416bc94c7",
         "type": "leaf",
-        "dimension": 56.141618497109825,
+        "dimension": 56.14161849710982,
         "state": {
           "type": "markdown",
           "state": {
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,11 +140,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5079e2b25da07430",
+  "active": "fe9f7d24457670de",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Matrix of a Linear Transformation/Matrix of a Linear Transformation.md",
-    "conflict-files-obsidian-git.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Matrix of a Linear Transformation/_Matrix of a General Linear Transformation.md",
     "Notes/Mathematics/Linear Algebra Index.md",
     "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Linear Operators/_Linear Operators.md",
