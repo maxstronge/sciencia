@@ -4,30 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "33befb191a51668c",
+        "id": "671152da81109193",
         "type": "leaf",
-        "dimension": 40.11904761904762,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
-            "mode": "source"
-          }
-        },
-        "group": "6b18cd095a616c48"
-      },
-      {
-        "id": "d1909b8c3a3258e0",
-        "type": "leaf",
-        "dimension": 59.88095238095238,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
-            "mode": "preview"
-          }
-        },
-        "group": "6b18cd095a616c48"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -83,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +93,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d1909b8c3a3258e0",
+  "active": "671152da81109193",
   "lastOpenFiles": [
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/The Hydrogen Atom.md",
