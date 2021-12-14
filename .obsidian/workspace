@@ -1,34 +1,21 @@
 {
   "main": {
-    "id": "52aaf8225ccaa27f",
+    "id": "c10ee4ae2b9e4f4e",
     "type": "split",
     "children": [
       {
-        "id": "a72a4a9416bc94c7",
+        "id": "c96126f5155b6df7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
+            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/7. Celestial Mechanics/Untitled.md",
             "mode": "source"
           }
-        },
-        "group": "e48a71c5b55b581b"
+        }
       },
       {
-        "id": "f2d85ff119b3e77e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
-            "mode": "preview"
-          }
-        },
-        "group": "e48a71c5b55b581b"
-      },
-      {
-        "id": "5760d1b8e2ed6851",
+        "id": "0cf6949cd6657cfc",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -42,16 +29,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7eafc9147eecc12b",
+    "id": "bb96d36b90ab183f",
     "type": "split",
     "children": [
       {
-        "id": "ffc1006b59bacbe4",
+        "id": "d6320656b0127232",
         "type": "tabs",
-        "dimension": 67.9718875502008,
         "children": [
           {
-            "id": "f5d1bc0b46457da9",
+            "id": "abf231c8f3d217da",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -59,7 +45,7 @@
             }
           },
           {
-            "id": "44e3df00e6441047",
+            "id": "7f8bc8315226a487",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -74,41 +60,26 @@
             }
           }
         ]
-      },
-      {
-        "id": "69cd7adcb6cc6d66",
-        "type": "tabs",
-        "dimension": 32.028112449799195,
-        "children": [
-          {
-            "id": "a73d496c345389a5",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 273
+    "width": 602
   },
   "right": {
-    "id": "56fe24060d61a7db",
+    "id": "820095b727b559cd",
     "type": "split",
     "children": [
       {
-        "id": "73126be6d647f07b",
+        "id": "58e3fe594ccfc8b7",
         "type": "tabs",
         "children": [
           {
-            "id": "f1dd2b6bb3bdf84a",
+            "id": "67c4a438a72a7128",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/7. Celestial Mechanics/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +91,7 @@
             }
           },
           {
-            "id": "f7a52dd3fefda7c6",
+            "id": "a4c795e644ca437b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,17 +108,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5760d1b8e2ed6851",
+  "active": "c96126f5155b6df7",
   "lastOpenFiles": [
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/7. Celestial Mechanics/Untitled.md",
     "conflict-files-obsidian-git.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
-    "Images/Pasted image 20211207130236.png",
-    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/Two-Body Central Force Problems/8.2 - Center of Mass, Relative Coordinates, and the Reduced Mass of a System.md",
-    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/Two-Body Central Force Problems/8.1 - Introduction to Two-Body Central Force Problems.md",
-    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/Two-Body Central Force Problems/8.3 -  The Equations of Motion.md",
-    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/Two-Body Central Force Problems/8.4 -  The Equivalent One-Dimensional Problem.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Matrix of a Linear Transformation/Matrix of a Linear Transformation.md",
-    "Notes/Mathematics/Courses/MATH311 - Linear Methods II/Matrix of a Linear Transformation/_Matrix of a General Linear Transformation.md"
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/7. Celestial Mechanics/_Celestial Mechanics.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/6. The Sun and Stars/10.1 - Internal Equilibrium Conditions.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/6. The Sun and Stars/12.1 - Internal Structure of the Sun.md"
   ]
 }
