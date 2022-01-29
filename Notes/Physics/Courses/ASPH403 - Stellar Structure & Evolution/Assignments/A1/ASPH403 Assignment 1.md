@@ -69,7 +69,45 @@ $$\rho(R) = \rho_c \left[ 1- \left(\frac{r}{R}\right)^2 \right]$$
 
 **a)** Derive an equation for the central density of a star as a function of the total mass $M$ and radius $R$, and calculate the central density of the sun. By way of comparison, the atmospheric density at sea level on Earth is $\approx 1.2 \ kg/m^3$. Also, prove that the average density of a star is given by $\overline{\rho}=0.4\rho_c$.
 
+**Solution:**
+
+We can relate a mass element $dm$ to a radius element $dr$ via the following equation:
+
+$$\begin{align}dm &= 4\pi r^2 \rho \ dr \\[2ex] \int_0^M dm &= 4\pi \int_0^R r^2 \rho \ dr \end{align}$$
+
+Since $\rho$ is not constant but varies with radius according to $\rho(r)$, so we can replace that term in the integrand (noting that the integral on the left is the total mass):
+
+$$\begin{align}  \int_0^M dm &= 4\pi \int_0^R r^2 \rho(r) \ dr \\[2ex] M &= 4\pi \int_0^Rr^2\left( \rho_c \left(1-\frac{r^2}{R^2}  \right) \right) \ dr \\[2ex] M &= 4\pi \int_0^R\left( r^2 \rho_c \left( 1-\frac{r^2}{R^2}\right) \right) \ dr \\[2ex] M &= 4\pi \int_0^R\left( r^2\rho_c-\frac{r^4\rho_c}{R^2}\right) \ dr\end{align}$$
+
+Since $\rho_c$ is a constant, we can pull it out of the integral:
+
+$$\begin{align}  M &= 4\pi \rho_c \int_0^R\left( r^2-\frac{r^4}{R^2}\right) \ dr \\[2ex] M &= 4\pi \rho_c \left(\int_0^R r^2 \ dr - \int_0^R \frac{r^4}{R^2} \ dr\right) \\[2ex] M &= 4 \pi \rho_c \left(\frac{R^3}{3} - \frac{R^3}{5}\right) \\[2ex] M&= 4 \pi\rho_c \left(\frac{2R^3}{15}\right)\end{align}$$
+
+We can solve this equation for the central density $\rho_c:$
+
+$$\begin{align}M&= 4 \pi\rho_c \left(\frac{2R^3}{15}\right) \\[2ex] \frac{M}{4\pi} &=\frac{2R^3}{15}\rho_c \dots \end{align}$$
+
+>  $$\rho_c = \frac{15M}{8\pi R^3}.$$
+
+Using $R_\Sun = 6.963 \times 10^8 \ m$ and $M_\Sun = 1.99\times 10^{30} \ kg$, we can find the central density of the Sun:
+
+> $$\rho_{c_\Sun} = \frac{15M_\Sun}{8\pi R_\Sun^3} = \frac{15(1.99\times 10^{30} \ kg)}{8\pi (6.963 \times 10^8 \ m)^3} = 2518.16 \ \frac{kg}{m^3}.$$
+
+This density is $\sim 2930$ times greater than the sea-level atmospheric density on Earth. 
+
+The average density $\bar{\rho}$ is defined as the total mass divided by the total volume:
+
+$$\bar{\rho} = \frac{M}{V} = \frac{M}{\frac{4}{3}\pi R^3}.$$
+
+The total mass $M = m(R) = 4 \pi \rho_c \frac{2 R^3}{15}$, according to the $dm$-$dr$ relationship used earlier. Replacing $M$ in the numerator by $m(R)$:
+
+>$$\bar{\rho} = \frac{M}{V} = \frac{4\pi \rho_c \frac{2R^3}{15}}{\frac{4}{3}\pi R^3} = \frac{6}{15} \rho_c = 0.4 \rho_c.$$
+
 **b)** Derive an equation for the central pressure of a star in terms of its total mass $M$ and radius $R$, and calculate the central pressure of the sun. By way of comparison, the atmospheric pressure at sea level on Earth is $\approx 10^5 \ N/m^2$.
+
+
+
+
 
 ***
 
