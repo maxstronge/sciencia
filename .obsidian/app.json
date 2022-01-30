@@ -21,7 +21,9 @@
     "nonrelativistically",
     "parallactic",
     "parallactic",
-    "luminosities"
+    "luminosities",
+    "integrand",
+    "hydrostatic"
   ],
   "attachmentFolderPath": "Images",
   "pdfExportSettings": {

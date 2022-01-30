@@ -105,8 +105,34 @@ The total mass $M = m(R) = 4 \pi \rho_c \frac{2 R^3}{15}$, according to the $dm$
 
 **b)** Derive an equation for the central pressure of a star in terms of its total mass $M$ and radius $R$, and calculate the central pressure of the sun. By way of comparison, the atmospheric pressure at sea level on Earth is $\approx 10^5 \ N/m^2$.
 
+**Solution:** 
+
+Starting with the assumption of hydrostatic equilibrium, we have:
+
+$$\dv{P}{r} = - \int_0^R\rho(r)\frac{G \ m(r)}{r^2} \ \text{d}r\text{, where }m(r) = 4\pi r^2 \rho(r).$$
+
+Making that substitution, the integral on the RHS becomes:
+
+$$\int_0^R 4\pi G \rho(r)^2 \text{ d}r = 4\pi G\int_0^R \rho(r)^2 \text{ d}r$$
+
+The term on the left of the hydrostatic equilibrium equation becomes: 
+$$P(R)-P(0) = -P_c \ ,$$
+
+because the pressure vanishes at the surface. making this replacement in the *HSE* equation, we have:
+
+$$P_c =  4\pi G\int_0^R \rho(r)^2 \text{ d}r.$$
+
+Our density profile is $\rho(r) = \rho_c \left( 1- \left(\frac{r}{R}\right)^2 \right)$, so the integrand in the above will be:
+
+$$\rho(r)^2 = \rho_c^2 - 2\frac{\rho_c^2r^2}{R^2}+\frac{\rho_c^2 r^4}{R^4} = \rho_c^2 \left( 1-\frac{2r^2}{R^2}+\frac{r^4}{R^4} \right)$$
+
+Thus:
+$$\begin{align} P_c &= 4\pi G \int_0^R \rho_c^2 \left( 1-\frac{2r^2}{R^2}+\frac{r^4}{R^4} \right) \text{ d}r \\[2ex] &= 4 \pi G \rho_c^2 \int_0^R \left( 1-\frac{2r^2}{R^2}+\frac{r^4}{R^4} \right)\text{ d}r \\[2ex] &= 4\pi G \rho_c^2 \left(\frac{8R}{15}\right) \\[2ex] &= \frac{32\pi G R}{15} \ \rho_c^2 \end{align}$$
+
+Recalling that $\rho_c = \frac{15M}{8\pi R^3}$:
 
 
+$$\begin{align} &= \frac{32\pi G R}{15}  \rho_c^2 \\[2ex] &= \frac{32\pi G R}{15} \left(  \frac{15M}{8\pi R^3} \right)^2 \\[2ex] &= \frac{32\pi G R}{15} \ \left(\frac{225 M^2}{64 \pi^2 R^6} \right) \\[2ex] &= \frac{15M}{2\pi R^5}\end{align}$$
 
 
 ***
