@@ -157,7 +157,7 @@ Under these conditions, derive an equation for the rate of contraction of the st
 
 **Solution:**
 
-
+ 
 ***
 
 #### 4.
