@@ -127,13 +127,20 @@ Our density profile is $\rho(r) = \rho_c \left( 1- \left(\frac{r}{R}\right)^2 \r
 $$\rho(r)^2 = \rho_c^2 - 2\frac{\rho_c^2r^2}{R^2}+\frac{\rho_c^2 r^4}{R^4} = \rho_c^2 \left( 1-\frac{2r^2}{R^2}+\frac{r^4}{R^4} \right)$$
 
 Thus:
-$$\begin{align} P_c &= 4\pi G \int_0^R \rho_c^2 \left( 1-\frac{2r^2}{R^2}+\frac{r^4}{R^4} \right) \text{ d}r \\[2ex] &= 4 \pi G \rho_c^2 \int_0^R \left( 1-\frac{2r^2}{R^2}+\frac{r^4}{R^4} \right)\text{ d}r \\[2ex] &= 4\pi G \rho_c^2 \left(\frac{8R}{15}\right) \\[2ex] &= \frac{32\pi G R}{15} \ \rho_c^2 \end{align}$$
+$$\begin{align} P_c &= 4\pi G \int_0^R \rho_c^2 \left( 1-\frac{2r^2}{R^2}+\frac{r^4}{R^4} \right) \text{ d}r \\[2ex] &= 4 \pi G \rho_c^2 \int_0^R \left( 1-\frac{2r^2}{R^2}+\frac{r^4}{R^4} \right)\text{ d}r \\[2ex] &= 4\pi G \rho_c^2 \left(\frac{8R^2}{15}\right) \\[2ex] &= \frac{32\pi G R^2}{15} \ \rho_c^2 \end{align}$$
 
 Recalling that $\rho_c = \frac{15M}{8\pi R^3}$:
 
 
-$$\begin{align} &= \frac{32\pi G R}{15}  \rho_c^2 \\[2ex] &= \frac{32\pi G R}{15} \left(  \frac{15M}{8\pi R^3} \right)^2 \\[2ex] &= \frac{32\pi G R}{15} \ \left(\frac{225 M^2}{64 \pi^2 R^6} \right) \\[2ex] &= \frac{15M}{2\pi R^5}\end{align}$$
+$$\begin{align} &= \frac{32\pi G R^2}{15}  \rho_c^2 \\[2ex] &= \frac{32\pi G R^2}{15} \left(  \frac{15M}{8\pi R^3} \right)^2 \\[2ex] &= \frac{32\pi G R^2}{15} \ \left(\frac{225 M^2}{64 \pi^2 R^6} \right) \\[2ex] \end{align}$$
 
+> $$P_c = \frac{15 G M^2}{2\pi R^4},$$
+
+which has units of Newtons per square meter, as is appropriate for pressure. 
+
+Using the values for the Sun, we find its central pressure to be:
+
+> $$P_{c_\Sun} = \frac{15G M_\Sun^2}{2\pi R_\Sun^4} = 2.684\times10^{15} N/m^2.$$
 
 ***
 
@@ -147,6 +154,8 @@ $$PE = -\aa \frac{GM^2}{R}\text{, where }\aa = 0.71.$$
 $$\dv{E}{t} = - \dv{U}{t} = \dv{(PE/2)}{t}=-L.$$
 
 Under these conditions, derive an equation for the rate of contraction of the star's radius (*i.e*. $\dot{R}=\dv{R}{t}$) in terms of the star's initial radius $R_0$, the time $t$, and the characteristic timescale for thermal collapse $\tau$ (also called the *Kelvin-Helmholtz timescale*). If the Sun were generating its energy in this fashion, as Kelvin & Helmholtz thought, calculate the Sun's rate of collapse at time $t=0$. Also calculate the size of the Sun at time $t=\tau$ (*i.e.* after it has converted all its gravitational potential energy to luminosity).
+
+**Solution:**
 
 
 ***
