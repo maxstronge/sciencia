@@ -136,7 +136,7 @@ $$\begin{align} &= \frac{32\pi G R^2}{15}  \rho_c^2 \\[2ex] &= \frac{32\pi G R^2
 
 > $$P_c = \frac{15 G M^2}{2\pi R^4},$$
 
-which has units of Newtons per square meter, as is appropriate for pressure. 
+which has dimensions of force per unit area, which is appropriate for pressure. 
 
 Using the values for the Sun, we find its central pressure to be:
 

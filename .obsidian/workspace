@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Computer Science/PHYS381 - Computational Physics/newton-raphson algo diagram.md",
+            "file": "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A1/ASPH403 Assignment 1.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Computer Science/PHYS381 - Computational Physics/newton-raphson algo diagram.md",
+            "file": "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A1/ASPH403 Assignment 1.md",
             "mode": "preview"
           }
         },
@@ -67,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286
+    "width": 286,
+    "collapsed": true
   },
   "right": {
     "id": "820095b727b559cd",
@@ -83,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Computer Science/PHYS381 - Computational Physics/newton-raphson algo diagram.md",
+                "file": "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A1/ASPH403 Assignment 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,11 +113,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0690dfd55267064f",
+  "active": "db68d45bf1e427c6",
   "lastOpenFiles": [
+    "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A1/ASPH403 Assignment 1.md",
     "Notes/Computer Science/PHYS381 - Computational Physics/newton-raphson algo diagram.md",
     "Notes/Computer Science/PHYS381 - Computational Physics/bisection diagram.md",
-    "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A1/ASPH403 Assignment 1.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Intro Lecture.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/_Introduction and Coordinate Systems.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
