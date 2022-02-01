@@ -149,6 +149,28 @@ Using the values for the Sun, we find its central pressure to be:
 
 $$PE = -\aa \frac{GM^2}{R}\text{, where }\aa = 0.71.$$
 
+
+**Solution:**
+
+From the Virial Theorem, we have an expression for the potential energy:
+
+$$PE = -\int_0^M\frac{Gm}{r} \text{ d}m.$$
+
+From the above work in **1a**, we can cast mass as a function of radius:
+
+$$\begin{align} m(r) = \int_0^r 4 \pi r^2 \rho(r) \text{ d}r &=4\pi \rho_c \int_0^r  r^2 - \frac{r^4}{R^2}\text{ d}r \\[2ex] &= 4\pi \rho_c\left(\frac{r^3}{3}-\frac{r^5}{5R^2}\right).\end{align}$$
+
+Substituting this expression in for $m$ and changing the integration variable from $dm$ to $dr$, results in the following:
+
+
+$$\begin{align} PE &= -\int_0^M\frac{Gm}{r} \text{ d}m \\[2ex] &= -\int_0^R \frac{G \left(4\pi \rho_c^2\left(\frac{r^3}{3}-\frac{r^5}{5R^2}\right)\right)}{r} 4 \pi r^2 \rho_c\left( 1 - \frac{r^2}{R^2}\right)\text{ d}r  \\[2ex] &= -16\pi^2 G \rho_c^2\int_0^R  \left(\frac{r^3}{3}-\frac{r^5}{5R^2}\right) \left( r - \frac{r^3}{R^2}\right) \text{ d}r \\[2ex] &= -16\pi^2 G \rho_c^2\int_0^R \left(\frac{r^4}{3} - \frac{r^6}{3R^2}-\frac{r^6}{5R^2}+\frac{r^8}{5R^4}  \right) \text{ d}r \\[2ex] &= -16\pi^2 G \rho_c^2 \left(\frac{R^5}{15} - \frac{R^7}{21R^2} - \frac{R^7}{35R^2} + \frac{R^9}{45 R^4} \right) \\[2ex] &= -16\pi^2 G \rho_c^2 \left(\frac{R^5}{15} - \frac{R^5}{21} - \frac{R^5}{35} + \frac{R^5}{45 } \right) \\[2ex] &= -16\pi^2 G \rho_c^2 R^5 \left(\frac{1}{15} - \frac{1}{21} - \frac{1}{35} + \frac{1}{45 } \right) \\[2ex] &= -16\pi^2 G \rho_c^2 R^5 \left(\frac{4}{315}\right) \\[2ex] &= \frac{-64 \pi^2R^5 G}{315} \rho_c^2.\end{align}$$
+
+Recalling that $\rho_c = \frac{15M}{8\pi R^3}$, we can simplify:
+
+> $$\begin{align}&= \frac{-64 \pi^2R^5 G}{315} \ \left(\frac{225 M^2}{64 \pi^2 R^6}\right) \\[2ex] &= -\frac{5}{7} \frac{GM^2}{R} \\[2ex] &= -0.714 \frac{GM^2}{R} \\[2ex] &= -\aa \frac{GM^2}{R}.\end{align}$$
+
+
+
 **b)** In the absence of nuclear energy, a star radiates energy solely via gravitational contraction; changing its size from $r=R_0$ at time $t=0$ to $r=R$ at some time $t$. In the case of pure gravitational contraction, the rate of change of a star's total energy is simply the change in internal energy $U=-PE/2$, which is related to the luminosity:
 
 $$\dv{E}{t} = - \dv{U}{t} = \dv{(PE/2)}{t}=-L.$$
