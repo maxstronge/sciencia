@@ -179,7 +179,16 @@ Under these conditions, derive an equation for the rate of contraction of the st
 
 **Solution:**
 
+ $$\dv{t}\left[\frac{PE}{2} \right] = -L \implies \frac{5 GM^2}{14} \dv{t}\left[\frac{1}{r} \right] = L$$
  
+ Since $r$ is the only time-dependent variable, we can rearrange the above to read:
+ 
+ $$\dv{t}\left[\frac{1}{r(t)} \right] =  \frac{14L}{5G M^2}$$
+ 
+ Integrating with respect to time, with bounds $r(0) = R_0$, $r(t) = R$, we find:
+ 
+ 
+ $$\frac{1}{R} - \frac{1}{R_0} = $$
 ***
 
 #### 4.
