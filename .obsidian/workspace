@@ -1,55 +1,32 @@
 {
   "main": {
-    "id": "6ba470e6092b1335",
+    "id": "5eb192f9efe5a08c",
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "5b146d1412729fca",
-=======
-        "id": "2e7ef783b2c2e6cf",
->>>>>>> df0909a2113bd08da87b9e2685769179d5203053
+        "id": "72ef2c69b845e77a",
         "type": "leaf",
-        "dimension": 42.34449760765549,
-        "state": {
-          "type": "markdown",
-          "state": {
-<<<<<<< HEAD
-            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md",
-=======
-            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
-            "mode": "source"
-          }
-        },
-        "group": "88ca4c6daec9bc2c"
-      },
-      {
-        "id": "eb9e1641ed516dbb",
-        "type": "leaf",
-        "dimension": 57.65550239234451,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
->>>>>>> df0909a2113bd08da87b9e2685769179d5203053
             "mode": "preview"
           }
-        },
-        "group": "88ca4c6daec9bc2c"
+        }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "7eafc9147eecc12b",
+    "id": "b75b2c3746aeff1b",
     "type": "split",
     "children": [
       {
-        "id": "ffc1006b59bacbe4",
+        "id": "70532e3f860112b1",
         "type": "tabs",
         "children": [
           {
-            "id": "f5d1bc0b46457da9",
+            "id": "5ad6b936f1a9b059",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -57,7 +34,7 @@
             }
           },
           {
-            "id": "44e3df00e6441047",
+            "id": "d739271aff6b7b93",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -75,31 +52,23 @@
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 173.5
-=======
-    "width": 286
->>>>>>> df0909a2113bd08da87b9e2685769179d5203053
+    "width": 300
   },
   "right": {
-    "id": "56fe24060d61a7db",
+    "id": "ac11697374e316b9",
     "type": "split",
     "children": [
       {
-        "id": "73126be6d647f07b",
+        "id": "b0626b25c4915191",
         "type": "tabs",
         "children": [
           {
-            "id": "f1dd2b6bb3bdf84a",
+            "id": "c1c3bfefd834132f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md",
-=======
                 "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
->>>>>>> df0909a2113bd08da87b9e2685769179d5203053
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +80,7 @@
             }
           },
           {
-            "id": "f7a52dd3fefda7c6",
+            "id": "be0ca07e460ba956",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -128,32 +97,8 @@
     "width": 300,
     "collapsed": true
   },
-<<<<<<< HEAD
-  "active": "5b146d1412729fca",
+  "active": "72ef2c69b845e77a",
   "lastOpenFiles": [
-    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Vector Fields.md",
-    "conflict-files-obsidian-git.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Multiple Integrals/Line Integrals of Differential Forms.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/The Hydrogen Atom.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Course Intro.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Uncategorized/11.15.2021 MATH367 Lec.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Integral Theorems/Divergence Theorem.md"
-=======
-  "active": "2e7ef783b2c2e6cf",
-  "lastOpenFiles": [
-    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
-    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md",
-    "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A1/ASPH403 Assignment 1.md",
-    "Notes/Computer Science/PHYS381 - Computational Physics/newton-raphson algo diagram.md",
-    "Notes/Computer Science/PHYS381 - Computational Physics/bisection diagram.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Intro Lecture.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/_Introduction and Coordinate Systems.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
-    "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A1.md"
->>>>>>> df0909a2113bd08da87b9e2685769179d5203053
+    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md"
   ]
 }
