@@ -1,34 +1,34 @@
-# Lab 1:
-### Pre-Lab Questions
+## Lab 1 - Pre-Lab Questions:
 ***
 
-1. What is the overall balanced equation obtained when [**1**] and [**2**] are combined?
+1. What is the overall balanced equation obtained when *1* and *2* are combined?
 
-[**1**] : $\text{NaHCO}_{3  \textit{ (aq)}} + \text{HCl}_\textit{ (aq)} \to \text{H}_2\text{CO}_{3 \textit{ (aq)}} + \text{NaCl}_\textit{ (aq)}$ 
 
-[**2**] : $\text{H}_2 \text{CO}_{3 \textit{ (aq)}} \to \text{H}_2\text{O}_{\textit{ (l)}} + \text{CO}_{2 \textit{ (g)}}$
+**Eq. 1**: 	$\ce{NaHCO3 _\aq + HCl _\aq \longrightarrow H2CO3 _\aq + NaCl _\aq}$
 
-Listing all reactants on the left and all products on the right:
+**Eq. 2**: $\ce{H2CO3 _\aq \longrightarrow H2O _\liq + CO2 _\gas }$
 
-$$\text{NaHCO}_{3  \textit{ (aq)}} + \text{HCl}_\textit{ (aq)} + \text{H}_2 \text{CO}_{3 \textit{ (aq)}} \to \text{H}_2\text{CO}_{3 \textit{ (aq)}} + \text{NaCl}_\textit{ (aq)} +\text{H}_2\text{O}_{\textit{ (l)}}+ \text{CO}_{2 \textit{ (g)}} $$
+To combine the equations, we place all the reactants on the left, all the products on the right, and cancel out any species that appear on both sides of the arrow - in this case, $\ce{H2CO3 _\aq}$. The resulting chemical equation is:
 
-Since $\text{H}_2\text{CO}_{3 \textit{ (aq)}}$ appears on both sides of the equation, we can eliminate it:
 
->$$\text{NaHCO}_{3  \textit{ (aq)}} + \text{HCl}_\textit{ (aq)}  \to  \text{NaCl}_\textit{ (aq)} +\text{H}_2\text{O}_{\textit{ (l)}}+ \text{CO}_{2 \textit{ (g)}} $$
- 
-The chemical equation requires no further balancing. 
+>$$\ce{NaHCO3 _\aq + HCl _\aq \longrightarrow NaCl _\aq + H2O _\liq + CO2 _\gas_}$$
+
+The equation requires no further balancing. 
+
+***
+2. Curved Arrow Diagram:
+
+
+>![[prelab_curvedarrows 1.jpg]]
+
 
 ***
 
-2. Curved Arrow Diagram
-
-***
+3. Limiting vs. Excess Reactants:
 
 
-3. Limiting vs. Excess Reagents:
-
->- **C**: The $\text{HCl}_\textit{ (aq)}$ was the excess reagent in the described experiment.
+> **C**: The $\ce{HCl _\aq}$ was the excess reactant in the described experiment. 
 >
->- **E**: The pH of the resulting solution was $2$.
+> **E**: The pH of the resulting solution was $2$. 
 >
->- **R**: The resulting solution's pH indicates that, after the described reaction takes place, the solution was acidic. Because the reaction is an acid-base reaction, this implies that the acid was initially in excess. 
+> **R**: The low pH of the resulting solution implies that after the reaction, the resulting solution was acidic. Therefore, the $\ce{HCl}$, a strong acid, must have been the excess reactant. 
