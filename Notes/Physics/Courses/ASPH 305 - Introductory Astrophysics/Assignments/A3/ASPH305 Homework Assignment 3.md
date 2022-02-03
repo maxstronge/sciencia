@@ -179,7 +179,7 @@ In units of $T_\Sun$:
 
 $$\frac{T}{T_\Sun}=\frac{9660}{5772} = 1.6736 \ T_\Sun.$$
 
-With the distance given from the parallax and the measured flux, we can find the luminosity:
+With the distance given from the parallax and the bolometric flux, we can find the luminosity:
 
 $$\begin{align} F_{\text{ measured}} = \frac{L}{4 \pi D^2}&\implies L = F_{\text{ measured}}   \qty(4 \pi D^2)\\ &= 2.317185\times10^{-8}\text{ W m}^{-2} \cdot \qty(4\pi(7.68002\text{ pc})^2) \\ &= 2.31715\times10^{-8} \qty(4\pi)\qty(5.6198\times10^{34}\text{ m}^2) \\ &= 1.6353 \times 10^{28}\text{ W}.\end{align} $$
 
