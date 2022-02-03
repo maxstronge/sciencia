@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "db68d45bf1e427c6",
+        "id": "2e7ef783b2c2e6cf",
         "type": "leaf",
-        "dimension": 41.36363636363637,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A1/ASPH403 Assignment 1.md",
+            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
             "mode": "source"
           }
         },
-        "group": "9dd101ef46f30549"
+        "group": "88ca4c6daec9bc2c"
       },
       {
-        "id": "0690dfd55267064f",
+        "id": "eb9e1641ed516dbb",
         "type": "leaf",
-        "dimension": 58.63636363636363,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A1/ASPH403 Assignment 1.md",
+            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
             "mode": "preview"
           }
         },
-        "group": "9dd101ef46f30549"
+        "group": "88ca4c6daec9bc2c"
       }
     ],
     "direction": "vertical"
@@ -67,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286,
-    "collapsed": true
+    "width": 286
   },
   "right": {
     "id": "820095b727b559cd",
@@ -84,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A1/ASPH403 Assignment 1.md",
+                "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,8 +110,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0690dfd55267064f",
+  "active": "2e7ef783b2c2e6cf",
   "lastOpenFiles": [
+    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
+    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md",
     "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A1/ASPH403 Assignment 1.md",
     "Notes/Computer Science/PHYS381 - Computational Physics/newton-raphson algo diagram.md",
     "Notes/Computer Science/PHYS381 - Computational Physics/bisection diagram.md",
@@ -122,8 +121,6 @@
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/_Introduction and Coordinate Systems.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
-    "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A1.md",
-    "Notes/Physics/Untitled.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/4. THE ELECTROMAGNETIC SPECTRUM AND PHOTOMETRIC CONCEPTS/Extinction and Optical Thickness.md"
+    "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A1.md"
   ]
 }
