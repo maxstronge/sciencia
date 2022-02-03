@@ -188,32 +188,24 @@ Under these conditions, derive an equation for the rate of contraction of the st
  Integrating with respect to time, with bounds $r(0) = R_0$, $r(t) = R$, we find:
  
  
- $$\frac{1}{R} - \frac{1}{R_0} = $$
-***
-
-#### 4.
-
-**a)** Suppose you have the following fictional nuclear reactions that:
-
-- Create element $W$:
-	-  $A+A\to W\qq{}\text{Reaction Rate }=R_{AAW}\text{ (m}^3\text{s}^{-1})$
-	-   $B+C\to W+F\qq{}\text{Reaction Rate }=R_{BCW}\text{ (m}^3\text{s}^{-1})$
-- Destroy element $W$:
-	- $W+D\to A+B\qq{}\text{Reaction Rate }=R_{WDA}\text{ (m}^3\text{s}^{-1})$
-	- $W+E\to B+B\qq{}\text{Reaction Rate }=R_{WEB}\text{ (m}^3\text{s}^{-1})$
-
-Write an expression that determines the rate of change of the number density (*i.e.* $n_W$ in $m^{-3}$) of element $W$ and for the mass fraction $\bf{X}_W$ of element $W$ in terms of the number density/mass fraction of the other elements and reaction rates. 
-
-**b)** The proton-proton chain drives most of the nuclear processes in the Sun. It can be described by the following reactions (and rates at $T=1.5\times10^7 \ K$):
-
-$$\begin{align}
-p + p \to D + e^+ + \nu \qq{}&\text{Reaction Rate }= R_1 \sim 1.2\times10^{-49} \ (m^{-3}s^{-1})\\[1ex]
-p + D \to \  ^3{He}\qq{}&\text{Reaction Rate }= R_2 \sim 3.1\times10^{-34} \ (m^{-3}s^{-1}) \\[1ex]
-^3He + ^3He \to \  ^4{He}+p+p\qq{}&\text{Reaction Rate }= R_3 \sim 3.2\times10^{-45} \ (m^{-3}s^{-1})
-\end{align}$$
-
-Where $p$ is a proton, $e^+$ is a positron, $\nu$ is a neutrino, $D$ is a deuterium atom $( ^2H)$, $^3He$ is an isotope of helium, and $^4He$ is a normal helium atom.
-
-Derive an equation that determines the time dependence of $n_D$ (*i.e.* the number density of $D$ at any time). You may use the boundary condition $n_D=0$ at $t=0$ to find the constant of integration. Calculate $n_D$ in the Sun after $10^9$ years of fusion. You may use $n_p=\text{constant}\approx2.1\times10^{30} \ m^{-3}$ in the Sun's core. 
-
+ $$\frac{1}{R} - \frac{1}{R_0} = \frac{14 L}{5GM^2}t \implies \dv{t}R = -\frac{R_0 / \tau}{(t/\tau + 1)^2}$$
+ 
+ where $\tau$ is the Kelvin-Helmholtz timescale, equal to:
+ 
+ $$\tau = \frac{5 G M^2}{14 R_0 L}.$$
+ 
+ At time $t=0$, this becomes:
+ 
+ $$\dot{R} = - \frac{R_0}{\tau} =- R_0 \cdot \frac{14 R_0 L}{5 G M^2}$$
+ 
+ For the Sun, the rate of contraction at $t=0$ then becomes (taking $R_0$ to be the current radius):
+ 
+ $$\dot{R} = -R_\Sun^2 \frac{14 L_\Sun}{5 G M_\Sun^2} = -1.9969 \times 10^{-12} \text{ m/s}.$$
+ 
+After time $t = \tau$:
+ 
+ $$\dv{t}R = -\frac{R_0 / \tau}{4} = -4.91479 \times 10^{-13} \text{ m/s}.$$
+ 
+ Clearly we have an issue, as these results seem improbable. Apologies for the confusion. 
+ 
 ***
