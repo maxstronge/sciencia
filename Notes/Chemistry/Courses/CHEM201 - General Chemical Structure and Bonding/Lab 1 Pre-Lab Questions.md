@@ -4,6 +4,9 @@
 1. What is the overall balanced equation obtained when *1* and *2* are combined?
 
 
+$\ce{H2O + C2NO}$
+
+
 **Eq. 1**: 	$\ce{NaHCO3 _\aq + HCl _\aq \longrightarrow H2CO3 _\aq + NaCl _\aq}$
 
 **Eq. 2**: $\ce{H2CO3 _\aq \longrightarrow H2O _\liq + CO2 _\gas }$
