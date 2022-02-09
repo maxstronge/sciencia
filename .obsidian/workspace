@@ -4,30 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "2e7ef783b2c2e6cf",
+        "id": "52a29e3cbd006885",
         "type": "leaf",
-        "dimension": 39.71291866028708,
+        "dimension": 21.690590111642745,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
+            "file": "Notes/Physics/Computational Quantum Neuroscience.md",
             "mode": "source"
           }
         },
-        "group": "88ca4c6daec9bc2c"
+        "group": "9a4168f763f8b8f0"
       },
       {
-        "id": "eb9e1641ed516dbb",
+        "id": "5376634357c511d0",
         "type": "leaf",
-        "dimension": 60.28708133971292,
+        "dimension": 21.690590111642745,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "44cc96dae2a89b70",
+        "type": "leaf",
+        "dimension": 56.61881977671451,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Physics/Computational Quantum Neuroscience.md",
             "mode": "preview"
           }
         },
-        "group": "88ca4c6daec9bc2c"
+        "group": "9a4168f763f8b8f0"
       }
     ],
     "direction": "vertical"
@@ -83,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,8 +124,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "eb9e1641ed516dbb",
+  "active": "5376634357c511d0",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Notes/Physics/Computational Quantum Neuroscience.md",
     "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
     "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Electronic Structure and Periodic Properties of Elements/6.4 - Electronic Structure of Atoms (Electron Configurations).md",
     "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A1/ASPH403 Assignment 1.md",
@@ -121,8 +135,6 @@
     "Notes/Computer Science/PHYS381 - Computational Physics/bisection diagram.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/Intro Lecture.md",
     "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/1. INTRODUCTION AND COORDINATE SYSTEMS/_Introduction and Coordinate Systems.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A4.md",
-    "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A1.md"
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/A3/ASPH305 Homework Assignment 3.md"
   ]
 }
