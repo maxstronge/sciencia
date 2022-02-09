@@ -1,0 +1,1 @@
+$B_\text{ infinite} = \frac{\mu_0 N I}{L} = \mu_0 \ n \  I$, where $n$ is the 
