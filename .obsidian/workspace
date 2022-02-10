@@ -4,30 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "49c9f6dd841fe13b",
+        "id": "6602f91e07a7632f",
         "type": "leaf",
-        "dimension": 41.16883116883117,
+        "dimension": 75.51948051948052,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Lab/Lab Equations.md",
+            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Tutorial 2 PreTut Qs.md",
             "mode": "source"
           }
         },
-        "group": "1ecc7bf54893c8e4"
+        "group": "49d1f8d781893f1c"
       },
       {
-        "id": "252a80df8da7aa5c",
+        "id": "b943f035f5552446",
         "type": "leaf",
-        "dimension": 58.83116883116883,
+        "dimension": 24.48051948051948,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Lab/Lab Equations.md",
+            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Tutorial 2 PreTut Qs.md",
             "mode": "preview"
           }
         },
-        "group": "1ecc7bf54893c8e4"
+        "group": "49d1f8d781893f1c"
       }
     ],
     "direction": "vertical"
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Lab/Lab Equations.md",
+                "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Tutorial 2 PreTut Qs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,8 +113,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "49c9f6dd841fe13b",
+  "active": "6602f91e07a7632f",
   "lastOpenFiles": [
+    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Tutorial 2 PreTut Qs.md",
+    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
     "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Lab/Lab Equations.md",
     "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/the magnetic field/29.3 - Moving Charges as the Source of the Magnetic Field.md",
     "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/the magnetic field/29.2 - The Discovery of the Magnetic Field.md",
@@ -122,8 +124,6 @@
     "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/the magnetic field/_The Magnetic Field.md",
     "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/electromagnetic induction/30.8 - Inductors.md",
     "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/electromagnetic induction/30.4 - Lenz's Law.md",
-    "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/electromagnetic induction/30.2 - Motional EMF.md",
-    "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/electromagnetic induction/30.1 - Induced Currents.md",
-    "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/Electric charges and forces/_Electric Charges and Forces.md"
+    "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/electromagnetic induction/30.2 - Motional EMF.md"
   ]
 }
