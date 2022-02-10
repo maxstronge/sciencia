@@ -1,11 +1,21 @@
-$B_\text{ infinite} = \frac{\mu_0 N I}{L} = \mu_0 \ n \  I$.
+# B2:
 
 
-$$\begin{align}B_\text{ finite} &= \frac{\mu_0 \ I \ n \ L}{2\sqrt{\left(\frac{L}{2}\right)^2 + R ^2}}\\[2ex] n &= \frac{B}{I} \frac{2\sqrt{\left(\frac{L}{2}\right)^2 + R ^2}}{\mu_0 \ L} \\[2ex] &= \text{slope} \cdot \frac{2\sqrt{}}{} \end{align}$$
+$\begin{align}B_\infty &= \frac{\mu_0 N I}{L} = \mu_0 \ n_2 \  I \\[1ex] n_2 &= \frac{B}{I}\frac{1}{\mu_0} \\[1ex] &= \text{slope}\cdot \frac{1}{1.2566\times10^{-6}} \\[1ex] &= \frac{0.0415}{1000}\cdot\frac{1}{1.2566\times10^{-6}} \\[1ex]&= 33.0256 \text{ loops/m.}\end{align}$
 
-$L_2 = 56.528$ cm
 
-$L_1 = 76.108$ cm 
 
-$R_1 = 0.00147$ m
-$R_2 = 0.00280$ m
+										Uncertainty:
+$$u(n_2) = n_2 \times (\frac{\text{slope uncertainty}}{\text{slope}}) =(33.0256) \ \frac{0.00212}{0.0415}= 1.687 $$
+
+
+
+# B1:
+
+$\begin{align}B_\infty &= \frac{\mu_0 N I}{L} = \mu_0 \ n_1 \  I \\[1ex] n_1 &= \frac{B}{I}\frac{1}{\mu_0} \\[1ex] &= \text{slope}\cdot \frac{1}{1.2566\times10^{-6}} \\[1ex] &= \frac{0.09707}{1000}\cdot\frac{1}{1.2566\times10^{-6}} \\[1ex]&= 77.248 \text{ loops/m.}\end{align}$
+
+
+
+										Uncertainty:
+$$u(n_1) = n_1 \times (\frac{\text{slope uncertainty}}{\text{slope}}) = 77.248 \  (\frac{0.00409}{0.09707}) = 3.2548$$
+
