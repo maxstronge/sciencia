@@ -6,6 +6,7 @@
       {
         "id": "49c9f6dd841fe13b",
         "type": "leaf",
+        "dimension": 41.16883116883117,
         "state": {
           "type": "markdown",
           "state": {
@@ -18,6 +19,7 @@
       {
         "id": "252a80df8da7aa5c",
         "type": "leaf",
+        "dimension": 58.83116883116883,
         "state": {
           "type": "markdown",
           "state": {
@@ -65,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 532
+    "width": 532,
+    "collapsed": true
   },
   "right": {
     "id": "820095b727b559cd",
@@ -110,7 +113,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "252a80df8da7aa5c",
+  "active": "49c9f6dd841fe13b",
   "lastOpenFiles": [
     "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Lab/Lab Equations.md",
     "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/the magnetic field/29.3 - Moving Charges as the Source of the Magnetic Field.md",
