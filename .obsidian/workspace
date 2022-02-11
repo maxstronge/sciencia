@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
+            "file": "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A1/ASPH403 Assignment 1.md",
             "mode": "preview"
           }
         }
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 406.0033874511719,
+    "collapsed": true
   },
   "right": {
     "id": "ac11697374e316b9",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
+                "file": "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A1/ASPH403 Assignment 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +100,8 @@
   },
   "active": "72ef2c69b845e77a",
   "lastOpenFiles": [
+    "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A1/ASPH403 Assignment 1.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/ASPH_A1_MaxStronge.md",
     "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md"
   ]
 }
