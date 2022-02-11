@@ -1,56 +1,47 @@
 {
   "main": {
-    "id": "5eb192f9efe5a08c",
+    "id": "c10ee4ae2b9e4f4e",
     "type": "split",
     "children": [
       {
-        "id": "72ef2c69b845e77a",
+        "id": "6602f91e07a7632f",
         "type": "leaf",
-<<<<<<< Updated upstream
-=======
         "dimension": 45.490584737363726,
->>>>>>> Stashed changes
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A1.md",
+            "file": "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A2.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "49d1f8d781893f1c"
       },
       {
-        "id": "0f7e3661e9359a99",
+        "id": "b943f035f5552446",
         "type": "leaf",
-<<<<<<< Updated upstream
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "conflict-files-obsidian-git.md",
-            "mode": "source"
-=======
         "dimension": 54.509415262636274,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A1.md",
+            "file": "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A2.md",
             "mode": "preview"
->>>>>>> Stashed changes
           }
-        }
+        },
+        "group": "49d1f8d781893f1c"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "b75b2c3746aeff1b",
+    "id": "bb96d36b90ab183f",
     "type": "split",
     "children": [
       {
-        "id": "70532e3f860112b1",
+        "id": "d6320656b0127232",
         "type": "tabs",
         "children": [
           {
-            "id": "5ad6b936f1a9b059",
+            "id": "abf231c8f3d217da",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,7 +49,7 @@
             }
           },
           {
-            "id": "d739271aff6b7b93",
+            "id": "7f8bc8315226a487",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -76,31 +67,23 @@
       }
     ],
     "direction": "horizontal",
-<<<<<<< Updated upstream
-    "width": 406.0033874511719
-=======
     "width": 532
->>>>>>> Stashed changes
   },
   "right": {
-    "id": "ac11697374e316b9",
+    "id": "820095b727b559cd",
     "type": "split",
     "children": [
       {
-        "id": "b0626b25c4915191",
+        "id": "58e3fe594ccfc8b7",
         "type": "tabs",
         "children": [
           {
-            "id": "c1c3bfefd834132f",
+            "id": "67c4a438a72a7128",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "conflict-files-obsidian-git.md",
-=======
-                "file": "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A1.md",
->>>>>>> Stashed changes
+                "file": "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +95,7 @@
             }
           },
           {
-            "id": "be0ca07e460ba956",
+            "id": "a4c795e644ca437b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -129,17 +112,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0f7e3661e9359a99",
+  "active": "6602f91e07a7632f",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "conflict-files-obsidian-git.md",
-    "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A1.md",
-    "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A1/ASPH403 Assignment 1.md",
-    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/Assignments/ASPH_A1_MaxStronge.md",
-    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md"
-=======
-    "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A1.md",
     "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A2.md",
+    "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A1.md",
     "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Tutorial 2 PreTut Qs.md",
     "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
     "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Lab/Lab Equations.md",
@@ -148,6 +124,5 @@
     "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/the magnetic field/29.1 - Magnetism.md",
     "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/the magnetic field/_The Magnetic Field.md",
     "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/electromagnetic induction/30.8 - Inductors.md"
->>>>>>> Stashed changes
   ]
 }
