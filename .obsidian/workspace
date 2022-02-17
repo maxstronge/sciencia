@@ -6,28 +6,28 @@
       {
         "id": "6602f91e07a7632f",
         "type": "leaf",
-        "dimension": 45.490584737363726,
+        "dimension": 46.184340931615466,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A2.md",
+            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 2 Pre-Lab Questions.md",
             "mode": "source"
           }
         },
-        "group": "49d1f8d781893f1c"
+        "group": "ae68d9bdb9016bb6"
       },
       {
-        "id": "b943f035f5552446",
+        "id": "9315187f0e9fd84a",
         "type": "leaf",
-        "dimension": 54.509415262636274,
+        "dimension": 53.81565906838454,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A2.md",
+            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 2 Pre-Lab Questions.md",
             "mode": "preview"
           }
         },
-        "group": "49d1f8d781893f1c"
+        "group": "ae68d9bdb9016bb6"
       }
     ],
     "direction": "vertical"
@@ -67,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 532
+    "width": 532,
+    "collapsed": true
   },
   "right": {
     "id": "820095b727b559cd",
@@ -83,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A2.md",
+                "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 2 Pre-Lab Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +115,15 @@
   },
   "active": "6602f91e07a7632f",
   "lastOpenFiles": [
+    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 2 Pre-Lab Questions.md",
+    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
     "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A2.md",
     "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A1.md",
     "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Tutorial 2 PreTut Qs.md",
-    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
     "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Lab/Lab Equations.md",
     "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/the magnetic field/29.3 - Moving Charges as the Source of the Magnetic Field.md",
     "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/the magnetic field/29.2 - The Discovery of the Magnetic Field.md",
     "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/the magnetic field/29.1 - Magnetism.md",
-    "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/the magnetic field/_The Magnetic Field.md",
-    "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/electromagnetic induction/30.8 - Inductors.md"
+    "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/the magnetic field/_The Magnetic Field.md"
   ]
 }
