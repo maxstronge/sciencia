@@ -59,4 +59,4 @@ But the stoichiometric ratios remain unchanged.
 
 5. Curved Arrow Mechanism
 
-The presence of acetylsalicylic and citric acids in the tablet may have an effect on the neutralization reaction between the sodium bicarbonate and the hydrochloric acid. The sodium bicarbonate has more acids to potentially neutralize compared to a solution exclusively containing $\ce{HCl}$ and $\ce{NaHCO3}$ - however, this is unlikely, as the hydrochloric acid is a much stronger acid than either citric or acetylsalicylic acid, and thus is more inclined to lose a proton than the other two compounds mentioned. 
+Curved arrows should be drawn from one of the lone pairs on the oxygen atom to the hydrogen bonded to the indicator, for the formation of $\ce{H2O}$, and another arrow should be drawn from that hydrogen to the indicator, demonstrating that the indicator atom gains two elecrons, becoming a cation.
