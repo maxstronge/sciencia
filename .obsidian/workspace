@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A2.md",
+            "file": "Notes/Computer Science/Julia Sets Report.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A2.md",
+            "file": "Notes/Computer Science/Julia Sets Report.md",
             "mode": "preview"
           }
         },
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A2.md",
+                "file": "Notes/Computer Science/Julia Sets Report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,8 +112,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9315187f0e9fd84a",
+  "active": "6602f91e07a7632f",
   "lastOpenFiles": [
+    "Notes/Computer Science/Julia Sets Report.md",
     "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A2.md",
     "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 2 Pre-Lab Questions.md",
     "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
@@ -122,7 +123,6 @@
     "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Tutorial 2 PreTut Qs.md",
     "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Lab/Lab Equations.md",
     "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/the magnetic field/29.3 - Moving Charges as the Source of the Magnetic Field.md",
-    "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/the magnetic field/29.2 - The Discovery of the Magnetic Field.md",
-    "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/the magnetic field/29.1 - Magnetism.md"
+    "Notes/Physics/Courses/PHYS223 - Introductory Electromagnetism & Thermal Physics/EM/the magnetic field/29.2 - The Discovery of the Magnetic Field.md"
   ]
 }
