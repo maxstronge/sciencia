@@ -81,4 +81,15 @@ The Lorenz system is a mathematical model for describing atmospheric convection.
 The scientist ran the code to produce *phase portraits* projected onto the planes depicted below:
 ![[Pasted image 20220308123357.png|Phase portraits plotted from initial conditions given above. ]]
 
+The scientist then adds a very small random fluctuation (on the order of $10^{-10}$) to the initial conditions and runs the program again, producing the following result:
+
+![[Pasted image 20220308123535.png|Phase portraits with small changes in the initial conditions.]]
+
+Does the scientist have a mistake in their code? Why are the trajectories so different when the initial conditions vary by such a small amount? Is this indicative of a physical phenomenon? 
+
+>**Answer**: 
+> No, there is no mistake in the code (or at least, we cannot conclude that there is no mistake in the code because of the difference in the plots). The differences in the phase portraits *are* indicative of a physical phenomenon: chaos. Chaotic systems are dynamical systems that are extremely sensitive to small fluctuations in their initial conditions - even incredibly minute differences, such as the ones produced by the scientist's $\texttt{random.randn}$ function within $\texttt{numpy}$, can lead to radical changes in the evolution of chaotic systems. Weather and climate are generally chaotic systems (which is why our ability to predict the weather dramatically decreases the further out in time one looks). The Lorentz system itself is a famous example of a chaotic system - so no need to worry! There's nothing wrong with your code - in fact, the changes in the trajectories in phase space after such small changes in initial conditions is a good indicator that your program is working correctly.
+
+
+
 
