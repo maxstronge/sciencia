@@ -6,7 +6,7 @@
       {
         "id": "6602f91e07a7632f",
         "type": "leaf",
-        "dimension": 56.625,
+        "dimension": 55.1875,
         "state": {
           "type": "markdown",
           "state": {
@@ -19,7 +19,7 @@
       {
         "id": "9315187f0e9fd84a",
         "type": "leaf",
-        "dimension": 43.375,
+        "dimension": 44.8125,
         "state": {
           "type": "markdown",
           "state": {
@@ -113,7 +113,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9315187f0e9fd84a",
+  "active": "6602f91e07a7632f",
   "lastOpenFiles": [
     "Notes/Computer Science/PHYS381 - Computational Physics/PHYS381 - Midterm Exam.md",
     "Notes/Computer Science/PHYS381 - Computational Physics/Julia Sets Report.md",

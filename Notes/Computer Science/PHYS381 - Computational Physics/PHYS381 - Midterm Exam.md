@@ -91,5 +91,9 @@ Does the scientist have a mistake in their code? Why are the trajectories so dif
 > No, there is no mistake in the code (or at least, we cannot conclude that there is no mistake in the code because of the difference in the plots). The differences in the phase portraits *are* indicative of a physical phenomenon: chaos. Chaotic systems are dynamical systems that are extremely sensitive to small fluctuations in their initial conditions - even incredibly minute differences, such as the ones produced by the scientist's $\texttt{random.randn}$ function within $\texttt{numpy}$, can lead to radical changes in the evolution of chaotic systems. Weather and climate are generally chaotic systems (which is why our ability to predict the weather dramatically decreases the further out in time one looks). The Lorentz system itself is a famous example of a chaotic system - so no need to worry! There's nothing wrong with your code - in fact, the changes in the trajectories in phase space after such small changes in initial conditions is a good indicator that your program is working correctly.
 
 
+### 3. Rocket Trajectory
 
+Seeded mass values:
+
+![[Pasted image 20220309101412.png|Pseudorandom mass values for rocket, fueled and empty.]]
 
