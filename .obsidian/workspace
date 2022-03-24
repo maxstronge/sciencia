@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Computer Science/PHYS381 - Computational Physics/PHYS381 - Midterm Exam.md",
+            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab3 Expt Worksheet.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Computer Science/PHYS381 - Computational Physics/PHYS381 - Midterm Exam.md",
+            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab3 Expt Worksheet.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Computer Science/PHYS381 - Computational Physics/PHYS381 - Midterm Exam.md",
+                "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab3 Expt Worksheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,8 +110,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "acda0abde396ab1e",
+  "active": "5002059a0d6e98a3",
   "lastOpenFiles": [
+    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab3 Expt Worksheet.md",
     "Notes/Computer Science/PHYS381 - Computational Physics/PHYS381 - Midterm Exam.md",
     "Notes/Computer Science/PHYS381 - Computational Physics/PHYS381 - Midterm Exam Part II.md",
     "Notes/Computer Science/PHYS381 - Computational Physics/Julia Sets Report.md",
@@ -120,7 +121,6 @@
     "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
     "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A2.md",
     "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A1.md",
-    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Tutorial 2 PreTut Qs.md",
-    "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Lab/Lab Equations.md"
+    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Tutorial 2 PreTut Qs.md"
   ]
 }
