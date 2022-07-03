@@ -6,10 +6,11 @@
       {
         "id": "acda0abde396ab1e",
         "type": "leaf",
+        "dimension": 36.2532523850824,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 4 PreLab Qs.md",
+            "file": "Research/Tattoo Project.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "5002059a0d6e98a3",
         "type": "leaf",
+        "dimension": 63.74674761491761,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 4 PreLab Qs.md",
+            "file": "Research/Tattoo Project.md",
             "mode": "preview"
           }
         },
@@ -65,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 532
+    "width": 387
   },
   "right": {
     "id": "820095b727b559cd",
@@ -81,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 4 PreLab Qs.md",
+                "file": "Research/Tattoo Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,15 +114,15 @@
   },
   "active": "5002059a0d6e98a3",
   "lastOpenFiles": [
+    "Research/Tattoo Project.md",
+    "Research/Mathematical Kinesiology.md",
+    "README.md",
+    "conflict-files-obsidian-git.md",
     "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 4 PreLab Qs.md",
     "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab3 Expt Worksheet.md",
     "Notes/Computer Science/PHYS381 - Computational Physics/PHYS381 - Midterm Exam.md",
     "Notes/Computer Science/PHYS381 - Computational Physics/PHYS381 - Midterm Exam Part II.md",
     "Notes/Computer Science/PHYS381 - Computational Physics/Julia Sets Report.md",
-    "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A2.md",
-    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 2 Pre-Lab Questions.md",
-    "Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding/Lab 1 Pre-Lab Questions.md",
-    "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A2.md",
-    "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/Assignments/A1.md"
+    "Notes/Physics/Courses/ASPH403 - Stellar Structure & Evolution/Assignments/A2.md"
   ]
 }
