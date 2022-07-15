@@ -23,7 +23,8 @@
     "parallactic",
     "luminosities",
     "integrand",
-    "hydrostatic"
+    "hydrostatic",
+    "deconvolution"
   ],
   "attachmentFolderPath": "Images",
   "pdfExportSettings": {
