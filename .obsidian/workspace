@@ -8,11 +8,8 @@
         "type": "leaf",
         "dimension": 36.2532523850824,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "The Impossibility of You.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         },
         "group": "f8e3d1672b2c70a4"
       },
@@ -21,11 +18,8 @@
         "type": "leaf",
         "dimension": 63.74674761491761,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "The Impossibility of You.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         },
         "group": "f8e3d1672b2c70a4"
       }
@@ -84,7 +78,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Impossibility of You.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +106,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "acda0abde396ab1e",
+  "active": "5002059a0d6e98a3",
   "lastOpenFiles": [
     "The Impossibility of You.md",
     "Research/Tattoo Project.md",
