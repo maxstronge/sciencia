@@ -4,6 +4,15 @@
 
 In order, best fit to worst
 
+### About Staffing - Draftsperson (CAD)
+
+https://ca.jooble.org/jdp/-1096446338667042305/Draftsperson-(CAD-%2F-BIM)-Calgary%2C-AB?ckey=jump&rgn=1&pos=11&elckey=3906522973430900145&p=1&sid=-5490086144258029435&jobAge=853&relb=100&brelb=100&bscr=22907.96702203608&scr=22907.96702203608&iid=4869283072283712149
+
+About Staffing is not the actual company, they're a hiring firm that will connect you with their client if interested. Urgently hiring a draftsperson to conduct 3D visualization, 2D/3D fabrication design. Reading/interpreting/creating architectural drawings. Needs fluency in AutoCAD, Revit, and SketchUp (!). Plus Office suite, which is a cakewalk. Full salaried position, $65/$75k/yr. Flexible hours, lots of vacation, LOTS of benefits. Not remote, but *super* cool office environment (basketball court, badminton court, full gym, personal trainers provided). Asking for 5-7 years of experience in the industry, but I'm confident we can make a compelling case for you. You do have experience. 
+
+Really like this one but will require some creative resume-writing. Pretty sure we could pull it off.  Urgently hiring!!
+
+
 ### Northern RNA Inc - QC Laboratory Technician
 https://ca.indeed.com/cmp/Northern-Rna-Inc.?attributionid=adwebapp
 
@@ -15,9 +24,6 @@ Company specializes in the production of nucleic acid products that support life
  Requires bachelor's degree in biological or chemical sciences, engineering specifically named. Lots of multidisciplinary work. Wants experience with routine analytical techniques, which you have. All the 'soft skills' they're looking for, you have in spades. Salaried (competetive), plus full health/dental/general illness, plus vacation. Not remote, site is in the SE. I like this one tbh.
 
 
-### About Staffing - Draftsperson (CAD)
-
-About Staffing is not the actual company, they're a hiring firm that will connect you with their client if interested. Urgently hiring a draftsperson to conduct 3D visualization, 2D/3D fabrication design. Reading/interpreting/creating architectural drawings.
 
 
 ### Kuva Systems - Digital Imaging Reviewer
