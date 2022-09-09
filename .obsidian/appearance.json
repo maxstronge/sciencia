@@ -1,6 +1,5 @@
 {
-  "baseFontSize": 15,
   "cssTheme": "Shimmering Focus2",
   "theme": "obsidian",
-  "translucency": false
+  "interfaceFontFamily": "Cambria Math"
 }
