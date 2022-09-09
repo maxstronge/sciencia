@@ -16,7 +16,7 @@
     {
       "name": "textEdit",
       "active": true,
-      "visible": true
+      "visible": false
     },
     {
       "name": "tables",
