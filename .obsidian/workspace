@@ -4,32 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b8738c8eafdf787b",
+        "id": "06ff6d9af5105e26",
         "type": "leaf",
-        "dimension": 50.206100577081614,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Jobhunting.md",
-            "mode": "source",
-            "source": true
-          }
-        },
-        "group": "729f064379c518ac"
-      },
-      {
-        "id": "c2fb6f8974b9f743",
-        "type": "leaf",
-        "dimension": 49.793899422918386,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Jobhunting.md",
-            "mode": "preview",
-            "source": true
-          }
-        },
-        "group": "729f064379c518ac"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -85,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jobhunting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +93,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b8738c8eafdf787b",
+  "active": "06ff6d9af5105e26",
   "lastOpenFiles": [
     "Jobhunting.md",
     "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/Two-Body Central Force Problems/8.2 - Center of Mass, Relative Coordinates, and the Reduced Mass of a System.md",
