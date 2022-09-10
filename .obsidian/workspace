@@ -9,11 +9,25 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Mathematical Review - Problem Bank.md",
+            "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
             "mode": "source",
             "source": true
           }
-        }
+        },
+        "group": "a034a14dc75c58b0"
+      },
+      {
+        "id": "5ba5a2ff2904da1f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
+            "mode": "preview",
+            "source": true
+          }
+        },
+        "group": "a034a14dc75c58b0"
       }
     ],
     "direction": "vertical"
@@ -69,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Mathematical Review - Problem Bank.md",
+                "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,8 +131,8 @@
   },
   "active": "7f5b8f62d97c6242",
   "lastOpenFiles": [
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Mathematical Review - Problem Bank.md",
     "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Course Information.md",
+    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Mathematical Review - Problem Bank.md",
     "conflict-files-obsidian-git.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.6 - Thermodynamic Entropy.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.1 - Thermodynamic Systems & Equilibrium.md",
