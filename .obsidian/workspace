@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "07b0d24f300899be",
+        "id": "7f5b8f62d97c6242",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Mathematical Review - Problem Bank.md",
+            "mode": "source",
+            "source": true
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Mathematical Review - Problem Bank.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +115,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "07b0d24f300899be",
+  "active": "7f5b8f62d97c6242",
   "lastOpenFiles": [
     "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Mathematical Review - Problem Bank.md",
     "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Course Information.md",
