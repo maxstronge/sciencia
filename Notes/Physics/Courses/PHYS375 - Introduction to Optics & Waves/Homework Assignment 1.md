@@ -224,14 +224,23 @@ The situation is pictured below:
 
 At equilibrium, the restorative torque by the solid hoop will seek to keep the hoop at the position in the figure. Say the hoop is initially rotated an amount $\theta_0$ and released. The angle $\theta$ between the center of the ring and a downwards vector (the direction of gravity, which is involved in the torque) will begin to oscillate with a certain frequency $\oo$, which we aim to find. 
 
-If the origin of the coordinate system is the knife-edge, the center of mass of the hoop is at position $\va{r}(r,\theta) = (-a,\frac{3\pi}{4})$ in polar coordinates.  
-
-Newton's second law in rotational form:
+Newton's second law in rotational form is
 
 $$\tau_\text{net} = I\dv[2]{\theta}{t}$$
 
-where $I$ is the moment of inertia . 
+where $I$ is the moment of inertia . Many commonly-used geometric solids have well-known moments of inertia - the moment of inertia for a circle about a point on its diameter is:
 
-The force of gravity on the hoop is simply $mg$, directed straight downwards - thus the torque is dependent on the force, the radius of the ring, and the angle between $\theta$ and the gravitational force:
+$$I = \frac{\pi r^4}{4}$$
 
-$$\tau = -amg$$
+or, in this case, since $r=a$:
+$$I = \frac{ma^2}{2}.$$
+
+
+
+The torque due to gravity is given by $-a m g \sin\theta$, so our rotational equation of motion is:
+
+$$-amg\sin\theta = I\dv[2]{\theta}{t}$$
+
+$$\dv[2]{\theta}{t} = -\frac{amg}{I}\sin\theta$$
+
+$$\dv[2]{\theta}{t} = -\frac{amg}{I}\sin\theta$$
