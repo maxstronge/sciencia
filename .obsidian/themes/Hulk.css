@@ -26,10 +26,8 @@
     /* --blockquote-border: rgba(77, 60, 166, .6); */
     --text-accent: rgb(0, 186, 0);
     --interactive-accent-rgb: var(--green-light);
-    --font-family-editor: "victor mono",
-        inter;
-    --font-family-preview: "victor mono",
-        inter;
+    --font-family-editor: inter;
+    --font-family-preview: inter;
 
     /* Hulk color palette */
     --purple: #3c0a96;
@@ -46,14 +44,11 @@
 .cm-strong,
 strong {
     color: var(--purple-pale);
-    font-family: "Victor Mono" !important;
-    font-weight: normal;
 }
 
 .cm-em,
 em {
     /*color: var(--purple-pale);*/
-    font-family: "Victor Mono" !important;
     font-style: oblique !important;
 }
 
@@ -120,23 +115,6 @@ mark {
     line-height: 1.5em;
     margin: 0 10px;
 }
-
-/* Enlarge image on hover */
-.markdown-preview-view img {
-  display: block;
-  margin-top: 20pt;
-  margin-bottom: 20pt;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%; /*experiment with values*/
-  transition: transform 0.25s ease;
-}
-
-.markdown-preview-view img:hover {
-  -webkit-transform: scale(2); /* experiment with values */
-  transform: scale(2);
-}
-
 
 /***************************************/
 /*               Checkbox              */
@@ -688,3 +666,4 @@ ul ul::before {
 ul .task-list-item ul::before {
     left: 0.15em !important
 }
+

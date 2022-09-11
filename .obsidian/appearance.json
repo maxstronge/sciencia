@@ -1,5 +1,6 @@
 {
-  "cssTheme": "Shimmering Focus2",
+  "cssTheme": "Hulk",
   "theme": "obsidian",
-  "interfaceFontFamily": "Cambria Math"
+  "interfaceFontFamily": "",
+  "translucency": true
 }
