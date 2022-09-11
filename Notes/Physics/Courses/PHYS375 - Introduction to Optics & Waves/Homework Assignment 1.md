@@ -79,3 +79,49 @@ $$\dv[2]{x}{t} = \frac{-k_s}{M} \left( A\sin{\oo t} + B\cos{\oo t}\right)$$
 Which, rearranging the mass and replacing the given expression for $x(t)$, results in:
 
 $$M\dv[2]{x}{t}=-k_s x(t)$$
+
+For c, we will need to employ the chain rule, but the process is the same:
+
+$$\dv{x}{t} = -A\oo \sin(\oo t + \phi)$$
+
+$$\dv[2]{x}{t} = -A\oo^2\cos(\oo t + \phi)$$
+
+$$M\dv[2]{x}{t} = -Ak_s\cos(\oo t + \phi)$$
+
+$$M\dv[2]{x}{t}=-k_s x(t)$$
+
+QED.
+
+***
+
+5. In the mass-spring system setup below:
+
+![[Pasted image 20220910184603.png]]
+
+The mass (1.5 kg) is displaced 10cm to the left and then released. Twenty oscillations are observed in one minute. Find:
+
+- a) the spring constant $k_s$
+- b) the equation describing the oscillation
+- c) the energy associated with the oscillation
+
+*Solution*:
+
+The observed natural frequency $\nu = \frac{20}{60 \text{ s}} = \frac{1}{3\text{ s}}$.
+
+The frequency $\nu$ can be related to the spring constant and the mass by the following relation:
+
+$$\nu = \frac{1}{2\pi}\sqrt{\frac{k_s}{M}}$$
+
+
+which, with some algebra, we can use to find the spring constant:
+
+$$\begin{align}2\pi \nu &= \sqrt{\frac{k_s}{M}} \\ 
+
+4\pi^2\nu^2 &= \frac{k_s}{M} \\ 
+
+4\pi^2(\frac{1}{3})^2 (1.5) &= k_s \\ 
+
+k_s &= 6.57974 \text{ N/m}
+
+\end{align}$$
+
