@@ -217,3 +217,8 @@ $$
 
 
 
+The situation is pictured below:
+
+![[Pasted image 20220911143716.png|Ring balanced on edge of knife]]
+
+
