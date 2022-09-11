@@ -130,10 +130,90 @@ k_s &= 6.57974 \text{ N/m}
 
 The equation describing the oscillation is the equation of motion. The spring force on the mass is given by:
 
-$$F = -k_s s$$
+$$F = -k_s s = -k_s x_0$$
 
-...where $s$ is the displacement from equilibrium, in this case $10$cm to the left. The force on the mass will act to the right, in the positive $\hat{x}$ direction.
+...where $s=x_0$ is the displacement from equilibrium, in this case $10$cm to the left. The force on the mass will act to the right, in the positive $\hat{x}$ direction.
 
-Putting this into Newton's second law, we have:
+The solution to the differential equation that comes from Newton's second law is:
 
-$$M\dv[2]{x}{t} = -k_s s$$
+$$x(t) = A \cos{\oo t}$$
+
+We have enough information to know that the angular frequency $\oo = \sqrt{\frac{k_s}{M}} = \sqrt{\frac{6.57974}{1.5}}$. Since $\cos{\oo t} = 1$, and $x(0) = x_0$, we know that the constant $A$ must be equal to $x_0$, resulting in the equation of motion:
+
+$$
+\begin{align}
+
+x(t) &= x_0\cos{\oo t} \\
+
+\end{align}
+$$
+
+....where $x_0 = 0.1m$ and $\oo = \sqrt{\frac{6.57974}{1.5}}$ with units of inverse time, leaving the final expression with units of distance as expected.
+
+**c)**
+
+At the instant the mass is released, it has no velocity and therefore no kinetic energy - the total energy of the system is stored in the string as potential energy, given by:
+
+
+
+$$\int_0^{x_0}k_sxdx = \frac{1}{2}k_sx_0^2$$
+
+Assuming an isolated system with no external disturbances and no loss of energy via heat from the spring, we can show that this total energy will remain constant throughout the motion, oscillating between kinetic energy of the mass and potential energy in the spring. The kinetic energy is:
+
+$$T = \frac{1}{2}Mv^2$$
+
+....where the instantaneous velocity $v$ can be found by differentiating the position:
+
+$$v = \dv{x}{t} = -\oo x_0\sin{\oo t}$$
+
+Therefore the kinetic energy is:
+
+$$T = \frac{1}{2}M\oo^2x_0^2\sin^2(\oo t)$$
+
+And thus the total energy is
+
+$$E_\text{total} = T + U = \frac{1}{2}M\oo^2x_0^2\sin^2(\oo t) + \frac{1}{2}k_sx_0^2\cos^2(\oo t)$$
+
+However, the frequency of oscillation $\oo$ is
+
+$$\oo = \sqrt{\frac{k_s}{M}}$$
+
+which, after some algebra, allows us to write the energy:
+
+
+$$
+\begin{align}
+E_\text{total} = T + U &= \frac{1}{2}M\oo^2x_0^2\sin^2(\oo t) + \frac{1}{2}k_sx_0^2\cos^2(\oo t)\\
+
+E_\text{total} &= \frac{1}{2}M \frac{k_s}{M} x_0^2\sin^2(\oo t) + \frac{1}{2}k_sx_0^2\cos^2(\oo t) \\
+
+E_\text{total} &= \frac{1}{2}k_sx_0^2 \left( \cos^2 \oo t + \sin^2 \oo t \right) \\ 
+
+E_\text{total} &= \frac{1}{2}k_s x_0^2
+
+
+\end{align}
+$$
+
+It is indeed conserved, and thus the total energy at any instant will be equal to :
+
+$$
+\begin{align}
+E_\text{total} &= \frac{1}{2}k_s x_0^2 \\
+
+E_\text{total} &= \frac{1}{2} (6.57974 \text{ N/m})(0.1\text{ m})^2 \\ 
+
+
+E_\text{total} &= 3.28987 \times 10^{-2} \text{ [J]}
+
+\end{align}
+$$
+
+***
+
+7. A thin circular hoop of radius $a$ is hung over a sharp horizontal knife edge. Show that the hoop oscillates with an oscillation frequency $\oo = \sqrt{\frac{g}{2a}}$.
+
+*Solution* :
+
+
+
