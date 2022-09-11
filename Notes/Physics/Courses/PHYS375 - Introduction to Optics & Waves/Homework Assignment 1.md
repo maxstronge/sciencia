@@ -106,6 +106,7 @@ The mass (1.5 kg) is displaced 10cm to the left and then released. Twenty oscill
 
 *Solution*:
 
+**a)**
 The observed natural frequency $\nu = \frac{20}{60 \text{ s}} = \frac{1}{3\text{ s}}$.
 
 The frequency $\nu$ can be related to the spring constant and the mass by the following relation:
@@ -125,3 +126,14 @@ k_s &= 6.57974 \text{ N/m}
 
 \end{align}$$
 
+**b)**
+
+The equation describing the oscillation is the equation of motion. The spring force on the mass is given by:
+
+$$F = -k_s s$$
+
+...where $s$ is the displacement from equilibrium, in this case $10$cm to the left. The force on the mass will act to the right, in the positive $\hat{x}$ direction.
+
+Putting this into Newton's second law, we have:
+
+$$M\dv[2]{x}{t} = -k_s s$$
