@@ -41,3 +41,41 @@ Eq. 1.7:
 $$M\dv[2]{x}{t}=-k_sx$$
 
 *Solution:*
+
+Begin with a: 
+
+$$x(t) = A \sin{\oo t}$$
+
+We need the second derivative, so we'll differentiate two times:
+
+$$\begin{align} \dv{x}{t} &= A\oo \cos{\oo t} \\ 
+
+\dv[2]{x}{t} &= -A\oo^2\sin{\oo t}
+
+\end{align}$$
+
+Noting that $\oo^2 = \left(\sqrt{\frac{k_s}{M}}\right)^2 = \frac{k_s}{M}$, we can rearrange the equation to have the mass and acceleration on the left hand side:
+
+$$M\dv[2]{x}{t} = -Ak_s\sin{\oo t}$$
+
+...and, recalling that $A\sin{\oo t} = x(t)$ as given, we can replace that term on the right side, yielding:
+
+$$M\dv[2]{x}{t}=-k_s x(t)$$
+
+Similar reasoning for b:
+
+Beginning by differentiating the given expression twice, we have:
+
+$$\begin{align}\dv{x}{t} &= A\oo \cos{\oo t} - B\oo \sin{\oo t} \\
+
+\dv[2]{x}{t} &= -A\oo^2\sin{\oo t} - B\oo^2 \cos{\oo t}
+
+ \end{align}$$
+
+In the second derivative, we can factor the term of $\oo^2$ out of the right-hand side and replace it as before with $\frac{k_s}{M}$:
+
+$$\dv[2]{x}{t} = \frac{-k_s}{M} \left( A\sin{\oo t} + B\cos{\oo t}\right)$$
+
+Which, rearranging the mass and replacing the given expression for $x(t)$, results in:
+
+$$M\dv[2]{x}{t}=-k_s x(t)$$
