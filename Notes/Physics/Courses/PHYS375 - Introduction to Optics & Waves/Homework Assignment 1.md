@@ -30,6 +30,8 @@ $$\va{r}(t) = A \cos{\oo t} + B \sin{\oo t}$$
 
 **Textbook Questions**:
 
+**NB:** all figures created
+
 4. Show that the functions:
 	a. $x=A\sin{\oo t}$
 	b. $x=A\sin{\oo t} + B \cos{\oo t}$

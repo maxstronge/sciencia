@@ -4,32 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "7f5b8f62d97c6242",
+        "id": "450886a5836a432d",
         "type": "leaf",
-        "dimension": 45.43307086614173,
+        "dimension": 43.67396593673966,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
-            "mode": "source",
-            "source": true
+            "mode": "source"
           }
         },
-        "group": "a034a14dc75c58b0"
+        "group": "2f25d9af43f1d611"
       },
       {
-        "id": "5ba5a2ff2904da1f",
+        "id": "d08313e78b3a0b4d",
         "type": "leaf",
-        "dimension": 54.56692913385827,
+        "dimension": 56.326034063260344,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
-            "mode": "preview",
-            "source": true
+            "mode": "preview"
           }
         },
-        "group": "a034a14dc75c58b0"
+        "group": "2f25d9af43f1d611"
       }
     ],
     "direction": "vertical"
@@ -66,10 +64,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "7242f3d482a5ff23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "405b12cb8c8dc50d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 351.5
+    "width": 366.50000190734863
   },
   "right": {
     "id": "ac11697374e316b9",
@@ -131,17 +143,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7f5b8f62d97c6242",
+  "active": "450886a5836a432d",
   "lastOpenFiles": [
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Oscillations/1.4 - Other Mechanical Oscillation Systems.md",
     "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Oscillations/1.2 - Mass-Spring System.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Oscillations/1.3 - Energy Tossing in Mechanical Oscillations.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
     "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Course Information.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Mathematical Review - Problem Bank.md",
     "conflict-files-obsidian-git.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.6 - Thermodynamic Entropy.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.1 - Thermodynamic Systems & Equilibrium.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.5 - Restrictions on Energy Conversion & Efficiency.md"
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.5 - Restrictions on Energy Conversion & Efficiency.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.4 - Simple Thermodynamic Processes.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.3 - Temperature.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.2 - Energy & Energy Transfer.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Course Information.md"
   ]
 }
