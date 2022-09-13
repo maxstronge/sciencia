@@ -11,7 +11,8 @@
           "type": "markdown",
           "state": {
             "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
-            "mode": "source"
+            "mode": "source",
+            "source": true
           }
         },
         "group": "2f25d9af43f1d611"
@@ -19,12 +20,13 @@
       {
         "id": "d08313e78b3a0b4d",
         "type": "leaf",
-        "dimension": 61.18421052631579,
+        "dimension": 61.184210526315795,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
-            "mode": "preview"
+            "mode": "preview",
+            "source": true
           }
         },
         "group": "2f25d9af43f1d611"

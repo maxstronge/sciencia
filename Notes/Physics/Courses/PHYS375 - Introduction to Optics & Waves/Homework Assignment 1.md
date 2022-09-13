@@ -318,13 +318,13 @@ $$\oo = \sqrt{2ga}$$
 
 ![[Pasted image 20220913123229.png]]
 
- a) Write the equation of motion for *each* mass, assigning displacements $x_1(t)$ and $x_2(t)$ for masses $m_1$ and $m_2$, respectively. The springs are identical.
+** a)** Write the equation of motion for *each* mass, assigning displacements $x_1(t)$ and $x_2(t)$ for masses $m_1$ and $m_2$, respectively. The springs are identical.
  
- b) Then, eliminate $x_2(t)$ between the two equations to show that the differential equation for $x_1(t)$ is given by 
+** b) ** Then, eliminate $x_2(t)$ between the two equations to show that the differential equation for $x_1(t)$ is given by 
  
  $$m_1m_2\dv[4]{x_1}{t}+k(m_1+m_2)\dv[2]{x_1}{t} + k_s^2x_1=0$$
  
- c) Show that the oscillation frequency $\oo$ is given as solutions to 
+ *c)* Show that the oscillation frequency $\oo$ is given as solutions to 
  
  $$m_1m_2\oo^4-k(m_1+2m_2)\oo^2+k_s^2=0$$
  
@@ -344,7 +344,16 @@ $$F_2 =-k_s(x_2-x_1)$$
 
 Which allows us to write the equation of motion for $m_2$:
 
-$$m_2 \dv[2]{x_2}{t} = -k_s(x_2-x_1)$$
+$$
+\begin{align}
+m_2 \dv[2]{x_2}{t} &= -k_s(x_2(t)-x_1(t)) \\
+
+\dv[2]{x_2}{t} &= -\frac{k_s}{m_2}(x_2-x_1)
+
+
+
+\end{align}
+$$
 
 The first mass ($m_1$) is slightly more complicated, as it has two springs attached to it - the force associated with the first spring, attaching $m_1$ to the wall, we'll call $F_1$:
 
@@ -366,11 +375,56 @@ $$
 Which allows us to write the equation of motion for $m_1$:
 
 $$
+\begin{align}
 
-m_1 \dv[2]{x_1}{t} = k_s\left(x_2(t)-2x_1(t) \right)
+m_1 \dv[2]{x_1}{t} &= k_s\left(x_2(t)-2x_1(t) \right) \\
 
+\\
+\dv[2]{x_1}{t} &= \frac{k_s}{m_1}\left(x_2(t)-2x_1(t) \right)
+\end{align}
+$$
+
+
+For part **b**, we take the two equations of motion and solve them both for $x_2(t)$, so we can eliminate that term. First, for $m_2$:
 
 $$
+\begin{align}
+
+\dv[2]{x_2}{t} &= -\frac{k_s}{m_2}(x_2-x_1) \\ 
+\\
+\frac{-m_2}{k_s}\dv[2]{x_2}{t}+x_1(t) &= x_2(t)
+
+
+\end{align}
+$$
+
+....and for $m_1$:
+
+$$
+\begin{align}
+
+\dv[2]{x_1}{t} &= \frac{k_s}{m_1}\left(x_2(t)-2x_1(t) \right)\\
+
+\\
+x_2(t) &= \frac{1}{k_s}\left(\dv[2]{x_1}{t}+2k_sx_\right)
+
+\end{align} 
+$$
+
+...such that we can construct an expression for $x_1(t)$:
+
+$$
+\begin{align}
+
+\frac{m_1}{k_s}\dv[2]{x_1}{t} +2x_1(t) &= \frac{-m_2}{k_s}\dv[2]{x_2}{t}+x_1(t) \\
+
+\frac{m_1}{k_s}\dv[2]{x_1}{t} + \frac{m_2}{k_s}\dv[2]{x_2}{t} &= -x_1(t) \\ 
+
+-\frac{1}{k_s}\left(m_1\dv[2]{x_1}{t} + m_2\dv[2]{x_2}{t}  \right) &= x_1(t)
+
+\end{align}
+$$
+
 
 
 ***
