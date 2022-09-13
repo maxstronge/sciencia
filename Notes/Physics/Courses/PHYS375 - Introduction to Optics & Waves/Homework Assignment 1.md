@@ -222,25 +222,60 @@ The situation is pictured below:
 ![[Pasted image 20220911143716.png|Ring balanced on edge of knife]]
 
 
-At equilibrium, the restorative torque by the solid hoop will seek to keep the hoop at the position in the figure. Say the hoop is initially rotated an amount $\theta_0$ and released. The angle $\theta$ between the center of the ring and a downwards vector (the direction of gravity, which is involved in the torque) will begin to oscillate with a certain frequency $\oo$, which we aim to find. 
+At equilibrium, the restorative torque by the solid hoop will seek to keep the hoop at the position in the figure. Say the hoop is initially rotated a small amount $d\theta$ and released. The angle $\theta$ between the center of the ring and a downwards vector (the direction of gravity, which is involved in the torque) will begin to oscillate with a certain frequency $\oo$, which we aim to find. 
 
 Newton's second law in rotational form is
 
-$$\tau_\text{net} = I\dv[2]{\theta}{t}$$
+$$\tau = I\dv[2]{\theta}{t}$$
 
-where $I$ is the moment of inertia . Many commonly-used geometric solids have well-known moments of inertia - the moment of inertia for a circle about a point on its diameter is:
+where $I$ is the moment of inertia and $\tau$ is the net torque. 
 
-$$I = \frac{\pi r^4}{4}$$
+Many commonly-used geometric solids have well-known moments of inertia - the moment of inertia for a loop through its center is:
 
-or, in this case, since $r=a$:
-$$I = \frac{ma^2}{2}.$$
+$$I = ma^2$$
 
+....where $a$ is the radius of the loop in this case. However, this is not the moment of inertia needed for the problem - since the actual axis of rotation is through the perimeter of the loop, not through the center, we need to employ the *parallel axis theorem*, which states that
 
+$$I = I_c + md^2$$
 
-The torque due to gravity is given by $-a m g \sin\theta$, so our rotational equation of motion is:
+...where $I_c$ is the moment of inertia through the center of the body, $m$ is the mass of the body, and $d$ is the perpendicular distance from the central axis. We know that $I_c=ma^2$ - since the axis of rotation is exactly one radius away from the center, we find the moment of inertia:
 
-$$-amg\sin\theta = I\dv[2]{\theta}{t}$$
+$$
+\begin{align}
 
-$$\dv[2]{\theta}{t} = -\frac{amg}{I}\sin\theta$$
+I &= I_c + ma^2 \\ 
 
-$$\dv[2]{\theta}{t} = -\frac{amg}{I}\sin\theta$$
+I &= ma^2 + ma^2 \\
+
+I &= 2ma^2
+
+\end{align}
+$$
+
+The torque on the ring is due to gravity, given by 
+
+$$\tau = -mga\sin\theta$$
+
+And so we have Newton's second law:
+
+$$
+\begin{align}
+I\dv[2]{\theta}{t} &= \tau \\
+
+ 
+\dv[2]{\theta}{t} &= \frac{\tau}{I} \\
+
+\ddot{\theta} &= -\frac{mga}{2ma^2}\sin\theta \\
+
+\ddot{\theta} &= -\frac{g}{2a}\sin\theta 
+
+\end{align}
+$$
+
+From here, we can see from previous work that the $\frac{g}{2a}$term plays the role of $\oo^2$, showing that
+
+$$\oo = \sqrt{\frac{g}{2a}}.$$
+
+***
+
+8. 
