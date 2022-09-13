@@ -392,8 +392,8 @@ $$
 
 \dv[2]{x_2}{t} &= -\frac{k_s}{m_2}(x_2-x_1) \\ 
 \\
-\frac{-m_2}{k_s}\dv[2]{x_2}{t}+x_1(t) &= x_2(t)
 
+\frac{-1}{k_s}
 
 \end{align}
 $$
@@ -406,7 +406,8 @@ $$
 \dv[2]{x_1}{t} &= \frac{k_s}{m_1}\left(x_2(t)-2x_1(t) \right)\\
 
 \\
-x_2(t) &= \frac{1}{k_s}\left(\dv[2]{x_1}{t}+2k_sx_\right)
+
+x_2(t) &= \frac{m_1}{k_s}\dv[2]{x_1}{t} + 2x_1(t)
 
 \end{align} 
 $$
