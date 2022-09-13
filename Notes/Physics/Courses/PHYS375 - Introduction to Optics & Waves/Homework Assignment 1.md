@@ -278,4 +278,42 @@ $$\oo = \sqrt{\frac{g}{2a}}.$$
 
 ***
 
-8. 
+8. A marble thrown into a bowl executes oscillatory motion. Assuming that the inner surface of the bowl is parabolic (y = ax2) and the marble has a mass m, find the oscillation frequency. Neglect friction and assume a small oscillation amplitude.
+
+
+*Solution*:
+
+The geometry of the situation is pictured below:
+
+![[Pasted image 20220912225811.png]]
+
+The driving restorative force behind the marble's oscillations is gravity, which we know to be a conservative force (since we neglect friction, mechanical energy will be conserved). There must therefore be a corresponding gravitational potential energy, dependent on the distance of the object from the zero point. Taking the origin to be zero, the gravitational potential energy of the marble can be written as a function of its horizontal position $x$:
+
+$$U(x)=mgy = mgax^2$$
+
+From this, we can find the force by recalling that force is the negative of the gradient of the potential energy:
+
+$$F(x) = - \nabla U(x) = -2mgax$$
+
+By Newton's 2nd Law, the equation of motion for the marble will  then be:
+
+$$-2mgax=m\dv[2]{x}{t}$$
+
+...which, after rearranging, becomes:
+
+$$\dv[2]{x}{t} = 2gax$$
+
+And, following the same logic in the limit of small displacements $x$ as we did in the small angles $\theta$, the $2ga$ term is playing the role of $\oo^2$ this time, and hence:
+
+$$\oo = \sqrt{2ga}$$
+
+***
+
+11. A capacitor of $5$ μF charged to $1$ kV is discharged through an inductor of $2$ μH. The total resistance in the circuit is $5$ m$\Omega$.
+
+	a) Is this a weakly damped *LCR* circuit?
+	
+	b) Find the time by which one-half the initial energy stored in the capacitor has been dissipated. The time is measured from the instant when discharge is started.
+
+*Solution*:
+
