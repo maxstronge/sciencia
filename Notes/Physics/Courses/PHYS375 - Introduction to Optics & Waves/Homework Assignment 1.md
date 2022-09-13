@@ -311,11 +311,22 @@ $$\oo = \sqrt{2ga}$$
 
 ***
 
-11. A capacitor of $5$ μF charged to $1$ kV is discharged through an inductor of $2$ μH. The total resistance in the circuit is $5$ m$\Omega$.
+15. Consider two cascaded mass-spring systems:
 
-	a) Is this a weakly damped *LCR* circuit?
-	
-	b) Find the time by which one-half the initial energy stored in the capacitor has been dissipated. The time is measured from the instant when discharge is started.
+![[Pasted image 20220913123229.png]]
 
-*Solution*:
-
+ a) Write the equation of motion for *each* mass, assigning displacements $x_1(t)$ and $x_2(t)$ for masses $m_1$ and $m_2$, respectively. The springs are identical.
+ 
+ b) Then, eliminate $x_2(t)$ between the two equations to show that the differential equation for $x_1(t)$ is given by 
+ 
+ $$m_1m_2\dv[4]{x_1}{t}+k(m_1+m_2)\dv[2]{x_1}{t} + k_s^2x_1=0$$
+ 
+ c) Show that the oscillation frequency $\oo$ is given as solutions to 
+ 
+ $$m_1m_2\oo^4-k(m_1+2m_2)\oo^2+k_s^2=0$$
+ 
+ ..which allows two possible solutions for $\oo$. 
+ 
+ *Solution*:
+ 
+   
