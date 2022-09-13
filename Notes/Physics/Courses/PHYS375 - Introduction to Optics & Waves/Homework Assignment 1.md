@@ -273,8 +273,11 @@ I\dv[2]{\theta}{t} &= \tau \\
 
 \end{align}
 $$
+...or, with the small-angle approximation:
 
-From here, we can see from previous work that the $\frac{g}{2a}$term plays the role of $\oo^2$, showing that
+$$\dv[2]{\theta}{t}=-\frac{g}{2a}\theta$$
+
+From here, we have seen several times from previous work that the $\frac{g}{2a}$term plays the role of $\oo^2$, showing that after solving the differential equation we will have 
 
 $$\oo = \sqrt{\frac{g}{2a}}.$$
 
@@ -305,7 +308,7 @@ $$-2mgax=m\dv[2]{x}{t}$$
 
 $$\dv[2]{x}{t} = 2gax$$
 
-And, following the same logic in the limit of small displacements $x$ as we did in the small angles $\theta$, the $2ga$ term is playing the role of $\oo^2$ this time, and hence:
+And, following the same logic, the $2ga$ term is playing the role of $\oo^2$ this time, and hence:
 
 $$\oo = \sqrt{2ga}$$
 
@@ -329,4 +332,49 @@ $$\oo = \sqrt{2ga}$$
  
  *Solution*:
  
-   
+ 
+Only one force acts on $m_2$, provided by the spring between the two masses. This spring's compression or elongation is dependent on the positions of *both* masses - the length of the spring at a time $t$ is given by
+
+$$l(t) = x_2(t)-x_1(t)$$
+
+
+Thus, the force on $m_2$ is given by 
+
+$$F_2 =-k_s(x_2-x_1)$$
+
+Which allows us to write the equation of motion for $m_2$:
+
+$$m_2 \dv[2]{x_2}{t} = -k_s(x_2-x_1)$$
+
+The first mass ($m_1$) is slightly more complicated, as it has two springs attached to it - the force associated with the first spring, attaching $m_1$ to the wall, we'll call $F_1$:
+
+$$F_1 = -k_s x_1(t)$$
+
+But that is not the net force on $m_1$, since there is another spring connecting it and $m_2$. The force by spring 2 acting on $m_1$ is equal and opposite by Newton's 3rd law to the force by spring 2 acting on $m_2$. Thus the total force on $m_1$ is
+
+$$
+\begin{align}
+
+\sum F_\text{on $m_1$} &= F_1 + (-F_2) \\ 
+
+&= -k_s x_1(t)+ k_s(x_2(t) - x_1(t)) \\ 
+
+&= k_s\left(x_2(t)-2x_1 \right)
+
+\end{align}
+$$
+Which allows us to write the equation of motion for $m_1$:
+
+$$
+
+m_1 \dv[2]{x_1}{t} = k_s\left(x_2(t)-2x_1(t) \right)
+
+
+$$
+
+
+***
+for c:
+
+
+$x_1(t) = A\sin\oo t$ where $\oo$ is a big messy function
