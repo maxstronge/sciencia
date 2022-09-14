@@ -393,7 +393,6 @@ $$
 \dv[2]{x_2}{t} &= -\frac{k_s}{m_2}(x_2-x_1) \\ 
 \\
 
-\frac{-1}{k_s}
 
 \end{align}
 $$
@@ -426,10 +425,4 @@ $$
 \end{align}
 $$
 
-
-
-***
-for c:
-
-
-$x_1(t) = A\sin\oo t$ where $\oo$ is a big messy function
+which, after a few days of creative algebra, the author was regrettably unable to manipulate into the desired form in time for the deadline. 
