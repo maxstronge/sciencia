@@ -425,4 +425,6 @@ $$
 \end{align}
 $$
 
-which, after a few days of creative algebra, the author was regrettably unable to manipulate into the desired form in time for the deadline. 
+which, after a few days of creative algebra, the author was regretfully unable to manipulate into the desired form in time for the deadline. 
+
+***
