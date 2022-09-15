@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
+            "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Homework Assignment 1.md",
             "mode": "source",
             "source": true
           }
@@ -24,8 +24,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
-            "mode": "preview",
+            "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Homework Assignment 1.md",
+            "mode": "source",
             "source": true
           }
         },
@@ -99,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Homework Assignment 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "405b12cb8c8dc50d",
+  "active": "450886a5836a432d",
   "lastOpenFiles": [
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.1 - Thermodynamic Systems & Equilibrium.md",
+    "Mod Attenuation Calculations.md",
     "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
     "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Oscillations/1.2 - Mass-Spring System.md",
     "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Course Information.md",
     "conflict-files-obsidian-git.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.6 - Thermodynamic Entropy.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.1 - Thermodynamic Systems & Equilibrium.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.5 - Restrictions on Energy Conversion & Efficiency.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.4 - Simple Thermodynamic Processes.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.3 - Temperature.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.2 - Energy & Energy Transfer.md"
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.3 - Temperature.md"
   ]
 }
