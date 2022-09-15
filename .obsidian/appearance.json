@@ -2,5 +2,6 @@
   "cssTheme": "Hulk",
   "theme": "obsidian",
   "interfaceFontFamily": "",
-  "translucency": true
+  "translucency": true,
+  "baseFontSize": 21
 }

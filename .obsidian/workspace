@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
+            "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Homework Assignment 1.md",
             "mode": "source",
             "source": true
           }
@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
+            "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Homework Assignment 1.md",
             "mode": "preview",
             "source": true
           }
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.50000190734863
+    "width": 181.50000190734863
   },
   "right": {
     "id": "ac11697374e316b9",
@@ -99,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Homework Assignment 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "405b12cb8c8dc50d",
+  "active": "d08313e78b3a0b4d",
   "lastOpenFiles": [
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Oscillations/1.2 - Mass-Spring System.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Course Information.md",
-    "conflict-files-obsidian-git.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.6 - Thermodynamic Entropy.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.1 - Thermodynamic Systems & Equilibrium.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.5 - Restrictions on Energy Conversion & Efficiency.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.4 - Simple Thermodynamic Processes.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.3 - Temperature.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.2 - Energy & Energy Transfer.md"
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.4 - The Compton Effect.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.3 - Thermal Radiation.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.5 - Other Photon Interactions.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.6 - Particles or Waves.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/_The Particle-Like Properties of Electromagnetic Radiation.md",
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.1 - Review of Electromagnetic Waves.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Homework Assignment 1.md",
+    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/The Lagrangian Formalism/_The Lagrangian Formalism.md",
+    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/The Lagrangian Formalism/7.1 - Lagrange's Equations for Unconstrained Motion.md",
+    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md"
   ]
 }
