@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PHYS449
 ## Homework Assignment 1
 ##### Max Stronge (30064749)
@@ -84,3 +85,6 @@ respectively, where $a$ and $b$ are some constants. Determine the equation of st
 
 ***
 
+=======
+# PHYS
+>>>>>>> f6fe5e1514998b83eb3d052248766ec7c5cd68a5
