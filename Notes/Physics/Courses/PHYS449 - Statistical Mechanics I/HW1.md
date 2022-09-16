@@ -62,6 +62,28 @@ Let $x, \ y, \ z$ be thermodynamic coordinates, obeying the following equation o
 $$\left( \pdv{x}{y} \right)_z\left(\pdv{y}{z}\right)_x \left( \pdv{z}{x} \right)_y = -1.$$
 
 
+
+**Solution:**
+
+The  partial derivative on the LHS of the first equation is the partial derivative of $x$ with respect to $y$, holding $z$ constant. For some function $f = f(x,y,z)$, we can make use of the implicit function theorem. In two variables (since $z$ is held constant), say for a function $f=f(x,y)$:
+
+$$\pdv{x}{y} = -\frac{f_y}{f_x}$$
+
+
+...where $f_x$ and $f_y$ are the derivatives of $f$ with respect to $x$ and $y$, respectively.
+
+The inverse also applies:
+
+$$\pdv{y}{x} = -\frac{f_x}{f_y}$$
+
+Since $-\frac{f_x}{f_y} = \left( \frac{f_y}{f_x} \right)^{-1}$, we have: 
+
+$$
+\begin{align}
+
+
+\end{align}
+$$
 ***
 
 **1.3: Non-ideal gas: Equation of state**
@@ -83,8 +105,16 @@ $$
 
 respectively, where $a$ and $b$ are some constants. Determine the equation of state $f(T,p,V)=0$ for this gas. Discuss under which circumstances the equation of state is identical to the case of an ideal gas. 
 
+
+**Solution:**
+
+Given the isothermal compressibility and the isobaric thermal expansion ($\beta$ and $\kappa_T$, respectively), we can use these quantities to set up further relations. 
+
+The isothermal compressibility is defined as the fractional differential change in volume due to a change in pressure, with temperature held constant:
+
+$$\kk_T \equiv -\frac{1}{V}\left( \pdv{V}{p} \right)_T$$
+
+
+So we have 
 ***
 
-=======
-# PHYS
->>>>>>> f6fe5e1514998b83eb3d052248766ec7c5cd68a5

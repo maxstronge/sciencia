@@ -6,7 +6,7 @@
       {
         "id": "450886a5836a432d",
         "type": "leaf",
-        "dimension": 55.92417061611374,
+        "dimension": 34.5945945945946,
         "state": {
           "type": "markdown",
           "state": {
@@ -20,7 +20,7 @@
       {
         "id": "d08313e78b3a0b4d",
         "type": "leaf",
-        "dimension": 44.07582938388625,
+        "dimension": 65.4054054054054,
         "state": {
           "type": "markdown",
           "state": {
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 181.50000190734863
+    "width": 265.50000190734863,
+    "collapsed": true
   },
   "right": {
     "id": "ac11697374e316b9",
@@ -147,15 +148,15 @@
   },
   "active": "450886a5836a432d",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Lab1.md",
+    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW1.md",
+    "conflict-files-obsidian-git.md",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.4 - The Compton Effect.md",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.3 - Thermal Radiation.md",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.5 - Other Photon Interactions.md",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.6 - Particles or Waves.md",
     "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/_The Particle-Like Properties of Electromagnetic Radiation.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.1 - Review of Electromagnetic Waves.md",
-    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/The Lagrangian Formalism/_The Lagrangian Formalism.md",
-    "Notes/Physics/Courses/PHYS343 - Classical Mechanics II/The Lagrangian Formalism/7.1 - Lagrange's Equations for Unconstrained Motion.md"
+    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.1 - Review of Electromagnetic Waves.md"
   ]
 }
