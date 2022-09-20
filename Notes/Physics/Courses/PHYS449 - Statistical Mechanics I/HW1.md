@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-# PHYS449
-## Homework Assignment 1
+
+
+# Homework Assignment 1
 ##### Max Stronge (30064749)
 
 9/16/2022
@@ -49,7 +49,7 @@ p &= \frac{N}{V}k_BT \text{ [N/m}^2] \\
 
 \end{align}$$
 
-However, this is slightly suspect as it is unclear whether the universe has a clearly defined boundary - is there any solid area for the protons to apply a force to?
+However, this feels slightly dubious as it is unclear whether the universe has a clearly defined boundary - is there any solid area for the protons to apply a force to? Can a gas apply pressure to itself if it's the only thing that exists?
 	
 ***
 
@@ -65,12 +65,26 @@ $$\left( \pdv{x}{y} \right)_z\left(\pdv{y}{z}\right)_x \left( \pdv{z}{x} \right)
 
 **Solution:**
 
-The  partial derivative on the LHS of the first equation is the partial derivative of $x$ with respect to $y$, holding $z$ constant. For some function $f = f(x,y,z)$, we can make use of the implicit function theorem. In two variables (since $z$ is held constant), say for a function $f=f(x,y)$:
+The  partial derivative on the LHS of the first equation is the partial derivative of $x$ with respect to $y$, holding $z$ constant. For some function $f = f(x,y,z)$, we can make use of the implicit function theorem. 
 
-$$\pdv{x}{y} = -\frac{f_y}{f_x}$$
+Consider the total differential of $f$:
+
+$$df = f_xdx+f_ydy+f_zdz = 0 $$
+...where $f_x$, $f_y$, and $f_z$ are the derivatives of $f$ with respect to $x$, $y$, and $z$, respectively. Since $dz$ is zero in this case as we're holding it constant, we have:
+
+$$\begin{align}
+f_xdx+f_ydy &= 0 \\ 
+
+f_xdx &= -f_ydy \\ 
+
+\pdv{x}{y} &= -\frac{f_y}{f_x}\\
+
+\end{align}$$
 
 
-...where $f_x$ and $f_y$ are the derivatives of $f$ with respect to $x$ and $y$, respectively.
+
+
+
 
 The inverse also applies:
 
@@ -80,10 +94,77 @@ Since $-\frac{f_x}{f_y} = \left( \frac{f_y}{f_x} \right)^{-1}$, we have:
 
 $$
 \begin{align}
+\left( \pdv{x}{y} \right)_z &= -\frac{f_y}{f_x} \\ 
+
+&= \frac{1}{\left(\pdv{y}{x}\right)_z}
+
 
 
 \end{align}
 $$
+...after the negative signs cancel.
+
+
+For the second equation, we start with 
+
+$$f(x,y,z)=0$$
+
+As in the previous part, we can take any one of these variables to be a function of the other two, *i.e*:
+
+$$
+f=f(x(y,z),y,z) = f(x,y(x,z),z) = f(x,y,z(x,y)).
+
+$$
+
+Taking the third expression, we can write the total differential $dz$ as:
+
+$$dz = \left( \pdv{z}{x}\right)dx + \left( \pdv{z}{y}\right)dy$$
+
+via the chain rule. For the first term, $z$ is held constant, meaning $dz=0$. Thus, we can write $y$ in terms of $x$, and by the chain rule, we have
+
+$$
+\begin{align}
+dy &= \pdv{y}{x}dx
+\end{align}
+$$
+
+...which, subbing this into the earlier equation, yields
+
+$$dz = 0 = \left( \pdv{z}{x}\right)dx+\left(\pdv{z}{y} \right)\left(\pdv{y}{x}\right)dx$$
+
+....which, rearranging, becomes:
+
+$$
+\begin{align}
+
+-\left( \pdv{z}{x}\right)dx &= \left(\pdv{z}{y} \right)\left(\pdv{y}{x}\right)dx \\ 
+
+\\
+
+-\left( \pdv{z}{x}\right) &= \left(\pdv{z}{y} \right)\left(\pdv{y}{x}\right)
+
+
+\end{align}
+$$
+
+The result from the first part of the question will now be quite useful, as we can replace $\left(\pdv{z}{y} \right)$ and $\left(\pdv{y}{x}\right)$ with the inverse of their reciprocals:
+
+$$
+\begin{align}
+-\left( \pdv{z}{x}\right) &= \frac{1}{\left(\pdv{y}{z}\right)}\frac{1}{\left(\pdv{x}{y}\right)}
+
+\end{align}
+$$
+
+Multiplying both sides by the two differentials in the denominator, we have:
+
+$$-\left( \pdv{z}{x}\right)\left(\pdv{y}{z}\right)\left(\pdv{x}{y}\right) = 1$$
+
+or:
+
+$$\left( \pdv{z}{x}\right)\left(\pdv{y}{z}\right)\left(\pdv{x}{y}\right) = -1$$
+
+QED.
 ***
 
 **1.3: Non-ideal gas: Equation of state**
@@ -108,13 +189,73 @@ respectively, where $a$ and $b$ are some constants. Determine the equation of st
 
 **Solution:**
 
-Given the isothermal compressibility and the isobaric thermal expansion ($\beta$ and $\kappa_T$, respectively), we can use these quantities to set up further relations. 
+Recall from part two that for a function $f$ of three variables, the following identity holds:
 
-The isothermal compressibility is defined as the fractional differential change in volume due to a change in pressure, with temperature held constant:
+$$\left( \pdv{z}{x}\right)\left(\pdv{y}{z}\right)\left(\pdv{x}{y}\right) = -1$$
 
-$$\kk_T \equiv -\frac{1}{V}\left( \pdv{V}{p} \right)_T$$
+Our state function $f$ is a function of three variables, so the same relation will hold with our thermodynamic coordinates:
+
+$$\left( \pdv{p}{V}\right)_T\left(\pdv{T}{p}\right)_V\left(\pdv{V}{T}\right)_p = -1$$
+
+From here, we can make some substitutions using the other identity proven in 1.2. Given that $\bb = \frac{1}{V}\left( \pdv{V}{T} \right)_p$, we can see that
+
+$$\bb V = \left( \pdv{V}{T} \right)_p$$
+
+so we can make the substitution 
+
+$$\left( \pdv{p}{V}\right)_T\left(\pdv{T}{p}\right)_V(\bb V) = -1.$$
+We can also make the substitution 
+
+$$\left( \pdv{V}{p} \right)_T =-\kk_TV $$
+
+which, after using the first identity , we can insert into the equation:
 
 
-So we have 
+$$
+\begin{align}
+
+\left(\pdv{T}{p}\right)_V(\bb V) &= - \frac{1}{\left( 
+\pdv{V}{p} \right)} \\ 
+
+\left(\pdv{T}{p}\right)_V(\bb V) &= -  \left( \pdv{V}{p} \right)_T \\ 
+
+\left(\pdv{T}{p}\right)_V(\bb V) &= \kk_TV
+
+
+\end{align}
+$$
+
+Rearranging this equation, we can isolate that last differential:
+
+$$\frac{\bb}{\kk_T} = \left(\pdv{p}{T}\right)_V$$
+
+And after integrating with respect to $T$, we find
+
+
+$$\frac{\bb}{\kk_T}T = p$$
+
+
+
+or 
+
+$$\frac{N k_B}{\kk_T p V}T - p = 0 = f(T,p,V)$$
+which is the equation of state for the non-ideal gas. 
+
+We can see in which circumstances the equation would reduce to an ideal gas by putting the equation into the form of the ideal gas law. Adding $p$ to both sides and multiplying both sides by $V$, we find
+
+
+$$\frac{N k_B T}{p \kk_T} = p V$$
+
+Therefore, the equation will reduce to the ideal gas law if and only if the denominator $p\kk_T=1$, which will occur when:
+
+
+$$\frac{1}{p}=\left( 
+\frac{1}{p} + \frac{a}{V} 
+ + \frac{b}{pV}\right)$$
+
+
+....which obviously will occur only in the case that $a=b=0.$
+
+
 ***
 
