@@ -49,7 +49,7 @@ p &= \frac{N}{V}k_BT \text{ [N/m}^2] \\
 
 \end{align}$$
 
-However, this is slightly suspect as it is unclear whether the universe has a clearly defined boundary - is there any solid area for the protons to apply a force to?
+However, this is slightly suspect as it is unclear whether the universe has a clearly defined boundary - is there any 'wall' for the protons to apply a force to?
 	
 ***
 
@@ -62,6 +62,23 @@ Let $x, \ y, \ z$ be thermodynamic coordinates, obeying the following equation o
 $$\left( \pdv{x}{y} \right)_z\left(\pdv{y}{z}\right)_x \left( \pdv{z}{x} \right)_y = -1.$$
 
 
+
+**Solution:**
+
+For a function $f(x,y,z)$ of three variables, there are three first partial derivatives: 
+
+$$
+\begin{align}
+f_x = \pdv{f}{x} \\ 
+
+f_y = \pdv{f}{y} \\ 
+
+f_z = \pdv{f}{z}
+
+\end{align}
+$$
+
+In situations like this, we can say that (at least very locally) one of the three variables is defined *implicitly* as a function of the other two. 
 ***
 
 **1.3: Non-ideal gas: Equation of state**
@@ -85,6 +102,3 @@ respectively, where $a$ and $b$ are some constants. Determine the equation of st
 
 ***
 
-=======
-# PHYS
->>>>>>> f6fe5e1514998b83eb3d052248766ec7c5cd68a5
