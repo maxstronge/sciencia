@@ -80,4 +80,70 @@ $$\ll = \frac{\cw}{\nu} = \frac{299,792,458\text{ m/s}}{540\times10^3 \text{ s}^
 $$\ll = \frac{\cw}{\nu}$$
 
 
-...and we know the associated frequency is $1$ kHz, or 1000 cycles per second. Thus to give units of length for the wavelength, $\cw$ must have the dimension of velocity, as expected. However, this is not the velocity of the resultant sound wave, as in empty space this velocity will be constant, and not dependent on the distance of the point on the record from the center. We can utilize the given frequency of revolution and the distances $r$ given
+...and we know the associated frequency is $1$ kHz, or 1000 cycles per second. Thus to give units of length for the wavelength, $\cw$ must have the dimension of velocity, as expected. However, this is not the velocity of the resultant sound wave, as in empty space this velocity will be constant, and not dependent on the distance of the point on the record from the center. We can utilize the given frequency of revolution and the distances $r$ given to find the velocity term for the record:
+
+With a frequency of $33\frac{1}{3}$ revolutions per minute, corresponding to $\frac{33\frac{1}{3}\text{ revolutions}}{60s} = \frac{5}{9}$ revolutions per second, the point $r(a)$ travels a distance $2\pi r = 2\pi(0.15)$ meters. The product of these gives a velocity term:
+
+$$\cw = 2\pi (0.15)\text{ m} \left(\frac{5}{9\text{ s}}\right) = 0.523599\text{ m/s}.$$
+
+Dividing this by the given frequency $\nu = 1000\text{ Hz}$ as in the expression above yields a value for $\ll_1$:
+
+$$\ll_1 = \frac{\cw}{\nu} = \frac{0.523599\text{ m/s}}{1000\text{ s}^{-1}} = 0.5236\times10^{-3}\text{ m}.$$
+
+Following an identical calculation with the second point $r(b)=0.1$ m, we have:
+$$\ll_2 = \frac{\cw}{\nu} =  \frac{2\pi (0.1)\text{ m} \left(\frac{5}{9\text{ s}}\right)}{1000 \text{ s}^{-1}} = 0.3491\times10^{-3}\text{ m}.$$
+
+***
+
+7. This question is fairly straightforward partial differentiation:
+
+
+For the function $f(x,y) = \sin(x-2y)$, we have the following first partial derivatives:
+
+$$
+\begin{align}
+f_x = \pdv{f}{x}&=\cos(x-2y)(1) =\cos(x-2y) \\
+\\
+f_y = \pdv{f}{y} &= \cos(x-2y)(-2) = -2\cos(x-2y)
+
+\end{align}
+$$
+
+.....and the following second partial derivatives:
+
+$$
+\begin{align}
+f_{xx} = \pdv{f_x}{x}&=-\sin(x-2y)(1) =-\sin(x-2y) \\
+\\
+f_{yy} = \pdv{f_y}{y} &= -(-2\sin(x-2y)(-2) = -4\sin(x-2y) \\ 
+
+\\
+
+f_{yx} = \pdv{f}{x}{y} = \pdv{f_y}{x} &= 2\sin(x-2y)
+
+\end{align}
+$$
+
+For the second function, $f(x,y)=x^2 + xy + y^2$, we have:
+
+
+$$
+\begin{align}
+f_x &= 2x+y \\
+f_y &= 2y + x \\
+
+\\
+f_{xx} &= 2 \\
+f_{yy} &= 2 \\ 
+
+\\ 
+
+f_{xy} = f_{yx} &= 1
+
+
+
+\end{align}
+$$
+***
+
+11. 
