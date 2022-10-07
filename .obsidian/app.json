@@ -34,5 +34,5 @@
     "downscalePercent": 100
   },
   "livePreview": false,
-  "legacyEditor": false
+  "legacyEditor": true
 }
