@@ -4,30 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "d08313e78b3a0b4d",
+        "id": "081e59ab5ec71ea3",
         "type": "leaf",
+        "dimension": 40.08403361344538,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework2.md",
+            "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW4.md",
             "mode": "source",
             "source": true
           }
         },
-        "group": "8cefa1751127bdb6"
+        "group": "a2fb51a028a1b155"
       },
       {
-        "id": "614b0f4c19f6343c",
+        "id": "865eace304e57a93",
         "type": "leaf",
+        "dimension": 59.91596638655462,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework2.md",
+            "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW4.md",
             "mode": "preview",
             "source": true
           }
         },
-        "group": "8cefa1751127bdb6"
+        "group": "a2fb51a028a1b155"
       }
     ],
     "direction": "vertical"
@@ -97,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework2.md",
+                "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d08313e78b3a0b4d",
+  "active": "081e59ab5ec71ea3",
   "lastOpenFiles": [
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Lab1.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework2.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Course Information.md",
+    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/HW3.md",
     "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
+    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework2.md",
+    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Lab1.md",
+    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Wave Motion/Untitled.md",
+    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Course Information.md",
     "Notes/Physics/Astrophysics Index.md",
     "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Mathematical Background/1.5 - The Dirac Delta Function.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW1.md",
-    "conflict-files-obsidian-git.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.4 - The Compton Effect.md",
-    "Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics/The Particle-Like Properties of Electromagnetic Radiation/3.3 - Thermal Radiation.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
