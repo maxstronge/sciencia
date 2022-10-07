@@ -6,7 +6,7 @@
       {
         "id": "081e59ab5ec71ea3",
         "type": "leaf",
-        "dimension": 40.08403361344538,
+        "dimension": 25.065685759327376,
         "state": {
           "type": "markdown",
           "state": {
@@ -20,7 +20,7 @@
       {
         "id": "865eace304e57a93",
         "type": "leaf",
-        "dimension": 59.91596638655462,
+        "dimension": 74.93431424067262,
         "state": {
           "type": "markdown",
           "state": {
@@ -147,6 +147,8 @@
   },
   "active": "081e59ab5ec71ea3",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW4.md",
     "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/HW3.md",
     "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
     "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework2.md",
@@ -154,8 +156,6 @@
     "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Wave Motion/Untitled.md",
     "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Course Information.md",
     "Notes/Physics/Astrophysics Index.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Mathematical Background/1.5 - The Dirac Delta Function.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW1.md",
-    "conflict-files-obsidian-git.md"
+    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Mathematical Background/1.5 - The Dirac Delta Function.md"
   ]
 }
