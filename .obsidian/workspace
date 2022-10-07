@@ -4,30 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "20f2a1237e2cc488",
+        "id": "7fefacd1086655e7",
         "type": "leaf",
+        "dimension": 44.03225806451613,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework2.md",
-            "mode": "source",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         },
-        "group": "444b699f7b5ea12f"
+        "group": "4060952998628bc4"
       },
       {
-        "id": "1e9910499e067f0f",
+        "id": "8d994869c48d1ca1",
         "type": "leaf",
+        "dimension": 55.96774193548387,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework2.md",
-            "mode": "preview",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         },
-        "group": "444b699f7b5ea12f"
+        "group": "4060952998628bc4"
       }
     ],
     "direction": "vertical"
@@ -83,7 +77,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,15 +105,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "20f2a1237e2cc488",
+  "active": "7fefacd1086655e7",
   "lastOpenFiles": [
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW3.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW1.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW2.md",
+    "Symbolic Math Explorer.md",
+    "Sidious Omi.md",
+    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/Assignment 1.md",
+    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Assignment 1.md",
+    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Mathematical Background/Assignment 1.md",
     "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
-    "conflict-files-obsidian-git.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Wave Motion/1.1 - Introduction.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Wave Motion/1.2 - Waves on a String.md",
-    "PHYS355 Lab 3.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Curvilinear Coordinates.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Mathematical Review - Problem Bank.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW1.md"
+    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Curvilinear Coordinates.md"
   ]
 }
