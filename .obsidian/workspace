@@ -8,8 +8,11 @@
         "type": "leaf",
         "dimension": 44.03225806451613,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW1.md",
+            "mode": "source"
+          }
         },
         "group": "4060952998628bc4"
       },
@@ -18,8 +21,11 @@
         "type": "leaf",
         "dimension": 55.96774193548387,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW1.md",
+            "mode": "source"
+          }
         },
         "group": "4060952998628bc4"
       }
@@ -77,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,6 +114,7 @@
   },
   "active": "7fefacd1086655e7",
   "lastOpenFiles": [
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Course Information.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW3.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW1.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW2.md",
@@ -115,7 +123,6 @@
     "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/Assignment 1.md",
     "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Assignment 1.md",
     "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Mathematical Background/Assignment 1.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Curvilinear Coordinates.md"
+    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md"
   ]
 }
