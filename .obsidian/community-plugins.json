@@ -4,13 +4,11 @@
   "obsidian-discordrpc",
   "obsidian-latex",
   "obsidian-markdown-formatting-assistant-plugin",
-  "obsidian-pandoc",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-plantuml",
   "oz-image-plugin",
-  "obsidian-style-settings",
   "obsidian-contextual-typography",
   "obsidian-citation-plugin",
   "folder-note-plugin",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "obsidian-latex-suite"
 ]

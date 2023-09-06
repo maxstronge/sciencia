@@ -1,7 +1,7 @@
 {
   "fileSortOrder": "alphabetical",
   "promptDelete": false,
-  "foldHeading": false,
+  "foldHeading": true,
   "alwaysUpdateLinks": true,
   "spellcheck": true,
   "spellcheckDictionary": [
@@ -33,6 +33,6 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "livePreview": false,
-  "legacyEditor": true
+  "livePreview": true,
+  "legacyEditor": false
 }

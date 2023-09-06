@@ -4,7 +4,7 @@
   "autoTrigger": true,
   "autoTriggerMinSize": 3,
   "triggerLikeVim": false,
-  "latexProvider": true,
+  "latexProvider": false,
   "flowProvider": true,
   "flowProviderScanCurrent": true,
   "flowProviderTokenizeStrategy": "default",
