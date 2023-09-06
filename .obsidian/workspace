@@ -9,9 +9,14 @@
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< Updated upstream
             "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW5.md",
             "mode": "source",
             "source": true
+=======
+            "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.4 - Simple Thermodynamic Processes.md",
+            "mode": "source"
+>>>>>>> Stashed changes
           }
         },
         "group": "fc00b33ce2d0f1c3"
@@ -22,9 +27,14 @@
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< Updated upstream
             "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW5.md",
             "mode": "preview",
             "source": true
+=======
+            "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.4 - Simple Thermodynamic Processes.md",
+            "mode": "preview"
+>>>>>>> Stashed changes
           }
         },
         "group": "fc00b33ce2d0f1c3"
@@ -98,7 +108,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW5.md",
+=======
+                "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.4 - Simple Thermodynamic Processes.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,6 +160,7 @@
   },
   "active": "f0a9f0609d0ec2f1",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "conflict-files-obsidian-git.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW5.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW4.md",
@@ -156,5 +171,17 @@
     "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Wave Motion/Untitled.md",
     "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Course Information.md",
     "Notes/Physics/Astrophysics Index.md"
+=======
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.2 - The Ideal Gas.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.1 - Thermodynamic Equilibrium.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.4 - Simple Thermodynamic Processes.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.3 - Temperature.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.5 - Restrictions on Energy Conversion & Efficiency.md",
+    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/A2.md",
+    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/Assignment 1.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW4.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW1.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Course Information.md"
+>>>>>>> Stashed changes
   ]
 }

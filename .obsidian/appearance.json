@@ -1,8 +1,6 @@
 {
+  "accentColor": "#7eacdd",
   "cssTheme": "Minimal",
-  "theme": "obsidian",
-  "interfaceFontFamily": "",
-  "translucency": true,
-  "baseFontSize": 21,
-  "accentColor": "#8abfdb"
+  "interfaceFontFamily": "Inter",
+  "theme": "obsidian"
 }

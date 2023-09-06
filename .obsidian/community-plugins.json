@@ -2,13 +2,12 @@
   "obsidian-git",
   "obsidian-autocomplete-plugin",
   "obsidian-discordrpc",
-  "obsidian-latex",
   "obsidian-markdown-formatting-assistant-plugin",
   "cm-editor-syntax-highlight-obsidian",
   "oz-image-plugin",
-  "obsidian-contextual-typography",
   "obsidian-citation-plugin",
   "folder-note-plugin",
   "table-editor-obsidian",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "obsidian-minimal-settings"
 ]

@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "84e4ece775cdaa03",
+        "id": "06ca805f035ff70a",
         "type": "tabs",
         "children": [
           {
-            "id": "f1a175855556f652",
+            "id": "749ae7dc9c155667",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH435 - Mathematical Methods in Physics/Obsidian Math Review.md",
+                "file": "F23/PHYS435/Fourier Series/Fourier Series.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73071ffc69f8a160",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "F23/PHYS455/PHYS455 - Electromagnetic Theory II.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3b657482d1646259",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH435 - Mathematical Methods in Physics/Obsidian Math Review.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Mathematics/Courses/MATH435 - Mathematical Methods in Physics/Obsidian Math Review.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -161,22 +186,50 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "f1a175855556f652",
+  "active": "3b657482d1646259",
   "lastOpenFiles": [
-    "Quantum Social Science.md",
-    "Notes/Mathematics/Courses/MATH435 - Mathematical Methods in Physics/Obsidian Math Review.md",
-    "Notes/Mathematics/Courses/MATH435 - Mathematical Methods in Physics",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Assignment 1.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Mathematical Background/Assignment 1.md",
-    "Equations for Tattoo.md",
-    "Standard Notes Backup.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW5.md",
+    "F23/PHYS455/PHYS455 - Electromagnetic Theory II.md",
     "conflict-files-obsidian-git.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW4.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/HW3.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework2.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Lab1.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Wave Motion/Untitled.md"
+    "Images/Pasted image 20230906131656.png",
+    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Curvilinear Coordinates.md",
+    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Assignment 1.md",
+    "F23/PHYS435/Foundation/4.6 - Taylor Series.md",
+    "Images/Pasted image 20230906125051.png",
+    "F23/PHYS435/Foundation/4.5 - Power Series.md",
+    "F23/PHYS435/Foundation/4.1 - Series.md",
+    "F23/PHYS435/Fourier Series/Fourier Series.md",
+    "F23/PHYS435/Fourier Series/12.1 - The Dirichlet Conditions.md",
+    "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
+    "F23/PHYS435/Foundation",
+    "F23/HTST307/HTST307 - The Contemporary World.md",
+    "F23/PHYS435/Complex Variables",
+    "F23/PHYS435/Integral Transforms",
+    "F23/PHYS435/Fourier Series",
+    "Images/Pasted image 20230906112819.png",
+    "Images/Pasted image 20230906112748.png",
+    "F23/HTST307/history-students-handbook-2019.pdf",
+    "F23/PHYS481/PHYS481 - Computational Physics II.md",
+    "F23/PHYS397/PHYS397 - Applied Physics Laboratory.md",
+    "F23/HTST307/Intro Lecture.md",
+    "Images/Pasted image 20230906105919.png",
+    "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/PHYS355 Lab 3.md",
+    "F23/PHYS397",
+    "F23/PHYS481",
+    "F23/PHYS435",
+    "F23/PHYS455",
+    "F23/HTST307",
+    "Misc/Meeting Notes.md",
+    "Notes/Mathematics/Courses/MATH435 - Mathematical Methods in Physics/Obsidian Math Review.md",
+    "Pasted image 20211025124439.png.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.2 - The Ideal Gas.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.1 - Thermodynamic Equilibrium.md",
+    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/A2.md",
+    "Images/Pasted image 20221013144701.png",
+    "Images/Pasted image 20221013142718.png",
+    "Images/Pasted image 20221007165656.png",
+    "Research/Quantum Social Science.md",
+    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Mathematical Background/Assignment 1.md",
+    "Misc/Equations for Tattoo.md",
+    "Misc/Standard Notes Backup.md"
   ]
 }

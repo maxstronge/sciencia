@@ -1,0 +1,4 @@
+- Each week we'll have intro title cards with a question and a guiding topic
+- First question: *What is Modernity?*
+- First topic: The World circa $1500\text{AD}$ (Friday)
+- 

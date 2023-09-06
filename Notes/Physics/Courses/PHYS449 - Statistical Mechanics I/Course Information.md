@@ -11,5 +11,5 @@
 ### Course Organization:
 
 **Module 1**: Thermodynamics
-- [[1.1 - Thermodynamic Systems & Equilibrium]]
+- [[1.1 - Thermodynamic Equilibrium]]
 - 
