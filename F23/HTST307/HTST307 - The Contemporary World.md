@@ -53,3 +53,5 @@ Registrar scheduled, **not** cumulative, similar to midterm
 10. WWII
 11. The Cold War and Decolonization
 12. Discontent and the New Globalization
+***
+

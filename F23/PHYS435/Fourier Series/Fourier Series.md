@@ -13,5 +13,5 @@ ___
 
 # Topics:
 
-- [[12.1 - The Dirichlet Conditions]]
-- 
+- [[12.1 - The Dirichlet Conditions and the Fourier Series]]
+- [[12.2 - The Fourier Coefficients]]
