@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "64a94a55727a79d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "25ce0144018252ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac941553bdd951d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "F23/PHYS435/Foundation/4.1 - Series.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c7c3d0b0c257e975",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7101ebc69bf7df5",
+        "type": "tabs",
+        "dimension": 77.11538461538461,
+        "children": [
+          {
+            "id": "ca3ba4f1ce758baf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "874c889d5bc7cff1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ee8fedb9d9e7b3e3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "d488a91b00499fef",
+        "type": "tabs",
+        "dimension": 22.88461538461538,
+        "children": [
+          {
+            "id": "a4d12cb68df0ccfa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "29131cb8287cc58b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 330.5
+  },
+  "right": {
+    "id": "a0212107bfe58ebb",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e50f380b14940e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f6334594e8aa49e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "F23/PHYS435/Foundation/4.1 - Series.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "090d93d368b866d0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "obsidian-gallery:Gallery": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "ac941553bdd951d2",
+  "lastOpenFiles": [
+    "F23/PHYS435/Foundation/4.5 - Power Series.md",
+    "F23/PHYS435/Fourier Series/12.1 - The Dirichlet Conditions.md",
+    "F23/PHYS435/Foundation/4.6 - Taylor Series.md",
+    "F23/PHYS435/Fourier Series/Fourier Series.md",
+    "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
+    "Pasted image 20230906112819.png.md",
+    "Pasted image 20230906112748.png.md",
+    "F23/Class Schedule.md",
+    "F23/PHYS481/PHYS481 - Computational Physics II.md",
+    "F23/PHYS481",
+    "F23/PHYS455/PHYS455 - Electromagnetic Theory II.md",
+    "F23/PHYS455",
+    "F23/PHYS435/Fourier Series",
+    "F23/PHYS435/Foundation/4.1 - Series.md",
+    "F23/PHYS435/Foundation",
+    "F23/PHYS435",
+    "F23/PHYS397/PHYS397 - Applied Physics Laboratory.md",
+    "F23/PHYS397",
+    "F23/HTST307/history-students-handbook-2019.pdf",
+    "F23/HTST307/Intro Lecture.md",
+    "F23/HTST307/HTST307 - The Contemporary World.md",
+    "F23/HTST307",
+    "F23",
+    "Images/472f86d937d237c9c904665e6d804abe.png",
+    "A letter to the muse on her birthday.md",
+    "Images/Pasted image 20230906091403.png",
+    "Symbolic Math Explorer.md",
+    "dlnjuu.md",
+    "Images/Pasted image 20230906090236.png",
+    "Images/Pasted image 20230906090230.png",
+    "Images/Pasted image 20230906090219.png",
+    "Images/Pasted image 20230906090211.png",
+    "Images/Pasted image 20230906090158.png",
+    "Images/Pasted image 20230906090147.png",
+    "Images/Pasted image 20230906090136.png",
+    "Images/Pasted image 20230906090128.png",
+    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Electromagnetic Waves/The Wave Equation for an LC Transmission Line.md",
+    "Fall2023",
+    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Electromagnetic Waves/The Poynting Vector.md",
+    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Oscillations/Mass-Spring System.md",
+    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Oscillations/Other Mechanical Oscillation Systems.md",
+    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Oscillations/Energy Tossing in Mechanical Oscillations.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/The Hydrogen Atom.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Radiative Transfer.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/5. Radiation/Line Profiles.md",
+    "Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics/6. The Sun and Stars/_Stellar Spectra.md",
+    "Untitled.canvas"
+  ]
+}

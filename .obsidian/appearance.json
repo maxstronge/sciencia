@@ -1,7 +1,14 @@
 {
-  "cssTheme": "",
+  "cssTheme": "Minimal",
   "theme": "obsidian",
-  "interfaceFontFamily": "",
+  "interfaceFontFamily": "CMU Sans Serif",
   "translucency": true,
-  "baseFontSize": 20
+  "baseFontSize": 19,
+  "accentColor": "#5aa7e2",
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "obsidian"
+  ],
+  "textFontFamily": "Calibri",
+  "monospaceFontFamily": "CMU Sans Serif DemiCondensed"
 }

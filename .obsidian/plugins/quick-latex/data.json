@@ -1,0 +1,22 @@
+{
+  "moveIntoMath_toggle": true,
+  "autoCloseMath_toggle": true,
+  "autoCloseRound_toggle": true,
+  "autoCloseSquare_toggle": true,
+  "autoCloseCurly_toggle": true,
+  "addAlignBlock_toggle": true,
+  "addAlignBlock_parameter": "align*",
+  "autoAlignSymbols": "= > < \\le \\ge \\neq \\approx",
+  "addCasesBlock_toggle": true,
+  "shiftEnter_toggle": true,
+  "addMatrixBlock_toggle": true,
+  "addMatrixBlock_parameter": "bmatrix",
+  "autoFraction_toggle": true,
+  "autoLargeBracket_toggle": true,
+  "autoSumLimit_toggle": true,
+  "autoEncloseSup_toggle": true,
+  "autoEncloseSub_toggle": true,
+  "encloseSelection_toggle": true,
+  "customShorthand_toggle": true,
+  "customShorthand_parameter": "bi:\\binom{#cursor}{#tab};\nsq:\\sqrt{};\nbb:\\mathbb{};\nbf:\\mathbf{};\ncal:\\mathcal{#cursor};\nte:\\text{};\ninf:\\infty;\ncd:\\cdot;\nqu:\\quad;\nti:\\times;\nal:\\alpha;\nbe:\\beta;\ngg:\\gamma;\nGG:\\Gamma;\ndd:\\delta;\nDD:\\Delta;\nee:\\epsilon;\nzz:\\zeta;\net:\\eta;\nth:\\theta;\nTh:\\Theta;\nio:\\iota;\nka:\\kappa;\nll:\\lambda;\nLL:\\Lambda;\nmu:\\mu;\nnu:\\nu;\nxi:\\xi;\nXi:\\Xi;\npi:\\pi;\nPi:\\Pi;\nrh:\\rho;\nsig:\\sigma;\nSig:\\Sigma;\ntt:\\tau;\nup:\\upsilon;\nUp:\\Upsilon;\nph:\\phi;\nPh:\\Phi;\nch:\\chi;\nps:\\psi;\nPs:\\Psi;\nom:\\omega;\nOm:\\Omega;\nthpdv:\\left (\\pdv{#cursor}{#tab} \\right)_{#tab};\npdv:\\pdv{#cursor}{#tab};\npddv:\\pdv[2]{#cursor}{#tab};\nvec:\\vec{#cursor};\ndot:\\dot{};\nmuo:\\mu_{0};\nlag:\\mathcal{L};\ngrad:\\grad;\ndiv:\\div;\ncurl:\\curl;\nmean:\\langle{#cursor}\\rangle;\nqt:\\qty(#cursor);\nsq:\\qty[#cursor];\nkb:k_\\text{B}\n\n\n"
+}

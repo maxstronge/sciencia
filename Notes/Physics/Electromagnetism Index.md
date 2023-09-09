@@ -1,17 +1,10 @@
 # Electromagnetism Index
 
-[[_Electric Charges and Forces]]
 
-[[_The Electric Field]]
+### Electromagnetic Theory II:
 
-[[_The Electric Potential]]
+[[Conductors]]
 
-[[_Electric Potential and Field]]
+[[Dielectrics and Polarization]]
 
-[[_Current and Resistance]]
-
-[[_Fundamentals of Circuits]]
-
-[[_The Magnetic Field]]
-
-[[_Electromagnetic Induction]]
+[[Introduction to the Electric Potential]]

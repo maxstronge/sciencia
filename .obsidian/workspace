@@ -1,57 +1,47 @@
 {
   "main": {
-    "id": "5eb192f9efe5a08c",
+    "id": "64a94a55727a79d8",
     "type": "split",
     "children": [
       {
-        "id": "f0a9f0609d0ec2f1",
+        "id": "7fefacd1086655e7",
         "type": "leaf",
+        "dimension": 44.03225806451613,
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< Updated upstream
             "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW5.md",
-            "mode": "source",
-            "source": true
-=======
-            "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.4 - Simple Thermodynamic Processes.md",
             "mode": "source"
->>>>>>> Stashed changes
           }
         },
-        "group": "fc00b33ce2d0f1c3"
+        "group": "4060952998628bc4"
       },
       {
-        "id": "ea3d188812363327",
+        "id": "8d994869c48d1ca1",
         "type": "leaf",
+        "dimension": 55.96774193548387,
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< Updated upstream
             "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW5.md",
-            "mode": "preview",
-            "source": true
-=======
-            "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.4 - Simple Thermodynamic Processes.md",
             "mode": "preview"
->>>>>>> Stashed changes
           }
         },
-        "group": "fc00b33ce2d0f1c3"
+        "group": "4060952998628bc4"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "b75b2c3746aeff1b",
+    "id": "c7c3d0b0c257e975",
     "type": "split",
     "children": [
       {
-        "id": "70532e3f860112b1",
+        "id": "c7101ebc69bf7df5",
         "type": "tabs",
         "children": [
           {
-            "id": "5ad6b936f1a9b059",
+            "id": "ca3ba4f1ce758baf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -59,7 +49,7 @@
             }
           },
           {
-            "id": "d739271aff6b7b93",
+            "id": "874c889d5bc7cff1",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -74,45 +64,27 @@
             }
           }
         ]
-      },
-      {
-        "id": "7242f3d482a5ff23",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "405b12cb8c8dc50d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 265.50000190734863,
+    "width": 300,
     "collapsed": true
   },
   "right": {
-    "id": "ac11697374e316b9",
+    "id": "a0212107bfe58ebb",
     "type": "split",
     "children": [
       {
-        "id": "b0626b25c4915191",
+        "id": "9e50f380b14940e6",
         "type": "tabs",
         "children": [
           {
-            "id": "c1c3bfefd834132f",
+            "id": "7f6334594e8aa49e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
                 "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW5.md",
-=======
-                "file": "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.4 - Simple Thermodynamic Processes.md",
->>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +96,7 @@
             }
           },
           {
-            "id": "be0ca07e460ba956",
+            "id": "090d93d368b866d0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,48 +105,19 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "b3f9480579da9cd6",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "1b5ddd7e35a33a43",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "f0a9f0609d0ec2f1",
+  "active": "7fefacd1086655e7",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "conflict-files-obsidian-git.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW5.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW4.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/HW3.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework Assignment 1.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Homework2.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Lab1.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Wave Motion/Untitled.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Course Information.md",
-    "Notes/Physics/Astrophysics Index.md"
-=======
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.4 - Simple Thermodynamic Processes.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.2 - The Ideal Gas.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.1 - Thermodynamic Equilibrium.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.4 - Simple Thermodynamic Processes.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.3 - Temperature.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.5 - Restrictions on Energy Conversion & Efficiency.md",
     "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/A2.md",
@@ -182,6 +125,5 @@
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW4.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW1.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Course Information.md"
->>>>>>> Stashed changes
   ]
 }

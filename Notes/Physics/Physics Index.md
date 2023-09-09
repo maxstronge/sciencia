@@ -7,6 +7,9 @@
 
 ## [[Electromagnetism Index|Electromagnetism]]
 
-## [[Thermal Physics Index|Thermal Physics]]
+## [[Thermodynamics and Statistical Mechanics Index|Thermal Physics]]
 
 ## [[Astrophysics Index|Astrophysics]]
+
+
+

@@ -6,17 +6,74 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "colorGroups": [
+    {
+      "query": "path:\"Notes/Physics/Courses/PHYS229 - Introduction to Modern Physics\"",
+      "color": {
+        "a": 1,
+        "rgb": 10565277
+      }
+    },
+    {
+      "query": "path:\"Notes/Physics/Courses/Classical Mechanics II\"",
+      "color": {
+        "a": 1,
+        "rgb": 4548328
+      }
+    },
+    {
+      "query": "path:\"Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I\"",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II\"",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"Notes/Physics/Courses/PHYS449 - Statistical Mechanics I\"",
+      "color": {
+        "a": 1,
+        "rgb": 11931921
+      }
+    },
+    {
+      "query": "path:\"Notes/Physics/Courses/ASPH 305 - Introductory Astrophysics\"",
+      "color": {
+        "a": 1,
+        "rgb": 2171169
+      }
+    },
+    {
+      "query": "path:\"Notes/Chemistry/Courses/CHEM201 - General Chemical Structure and Bonding\"",
+      "color": {
+        "a": 1,
+        "rgb": 1876023
+      }
+    },
+    {
+      "query": "path:Notes/Mathematics/Courses",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -1.8,
+  "nodeSizeMultiplier": 1.26570169491525,
+  "lineSizeMultiplier": 1.4992406779661,
   "collapse-forces": false,
-  "centerStrength": 0.561540173603383,
-  "repelStrength": 10,
+  "centerStrength": 0.363661016949153,
+  "repelStrength": 15.4318644067797,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.14269599724735355,
+  "linkDistance": 78,
+  "scale": 0.013403332141692766,
   "close": true
 }

@@ -1,16 +1,13 @@
 [
   "obsidian-git",
-  "obsidian-autocomplete-plugin",
-  "obsidian-discordrpc",
   "obsidian-latex",
   "obsidian-markdown-formatting-assistant-plugin",
   "obsidian-pandoc",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-plantuml",
-  "oz-image-plugin",
-  "obsidian-style-settings",
-  "obsidian-contextual-typography",
-  "obsidian-citation-plugin",
-  "folder-note-plugin",
-  "table-editor-obsidian"
+  "obsidian-minimal-settings",
+  "obsidian-completr",
+  "obsidian-tikzjax",
+  "quick-latex",
+  "obsidian-jupyter",
+  "obsidian-gallery"
 ]

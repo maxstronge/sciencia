@@ -18,6 +18,12 @@ $$J=ax-bT+cTx$$
 
 **Solution:**
 
+a) We have a generalized force $J=J(T,x)$ representing the tension, and a generalized coordinate $x$ representing the displacement. Starting from the modified 1st law:
+
+$$dU=TdS+Jdx$$
+
+We can 
+
 ***
 
 
