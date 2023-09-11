@@ -10,6 +10,12 @@
 Partial differential equations. Fourier analysis. Laplace Transforms. Special functions and orthogonal polynomials. Complex analysis. Applications in Physics and Astronomy (time permitting)
 ## Course Components:
 
+<<<<<<< HEAD
+=======
+![[Pasted image 20230906112748.png]]
+
+![[Pasted image 20230906112819.png]]
+>>>>>>> origin/main
 ## Topics:
 
 **Fourier series:**

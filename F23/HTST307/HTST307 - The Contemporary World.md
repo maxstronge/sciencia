@@ -52,4 +52,10 @@ Registrar scheduled, **not** cumulative, similar to midterm
 9. WWI / Interwar Period
 10. WWII
 11. The Cold War and Decolonization
+<<<<<<< HEAD
 12. Discontent and the New Globalization
+=======
+12. Discontent and the New Globalization
+***
+
+>>>>>>> origin/main

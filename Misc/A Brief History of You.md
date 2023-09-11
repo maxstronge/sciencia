@@ -1,0 +1,3 @@
+Hello / Bonjour / Marhaba / Guten Tag / Hola / Shalom / Salve /Здравствуйте / 你好 ...
+
+The first problem is that you are sentient. This I can confirm, because only sentience could encounter the unique click in one's consciousness that occurs when one reads the word *you*. 
