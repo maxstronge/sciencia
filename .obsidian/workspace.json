@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7f803d74379b53f1",
+        "id": "c87dcc6501d23426",
         "type": "tabs",
         "children": [
           {
-            "id": "391ef167a39367ba",
+            "id": "0186f52b59d34707",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md",
+                "file": "F23/PHYS397/Lecture 02.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md",
+                "file": "F23/PHYS397/Lecture 02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,77 +137,76 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md"
+                "file": "F23/PHYS397/Lecture 02.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-gallery:Gallery": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "391ef167a39367ba",
+  "active": "0186f52b59d34707",
   "lastOpenFiles": [
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/Sheilding/bkg_nobox_sheild_long.txt",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/Sheilding/bkg_nobox_long.txt",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/Sheilding",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/Angular_Measurement/Slave_90deg.txt",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/Angular_Measurement/Slave_45deg.txt",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/Angular_Measurement/Slave_0deg.txt",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/Angular_Measurement",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/README.txt",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/ExampleiPythonNotebook.ipynb",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/import_data_py3.py",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Pictures/Side view.jpg",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Pictures/PCB Top.png",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Pictures/PCB Bottom.png",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Pictures/Front view.jpg",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Pictures/Detector.png",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Pictures/Bottom view.jpg",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/CAD/SiPM pins.png",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/README.md",
+    "F23/PHYS397/Lecture 02.md",
+    "F23/HTST307/New European Horizons.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Statistical Mechanics/Kinetic Theory of Gases/Review of the Hamiltonian Formalism.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Statistical Mechanics/Kinetic Theory of Gases/Microstates, Macrostates, & Phase Space Density.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.3 - Temperature.md",
+    "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
+    "F23/PHYS435/Fourier Series/Fourier Series.md",
+    "F23/PHYS435/Foundation/4.5 - Power Series.md",
+    "F23/PHYS435/Fourier Series/12.1 - The Dirichlet Conditions and the Fourier Series.md",
+    "F23/PHYS435/Fourier Series/12.2 - The Fourier Coefficients.md",
+    "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md",
+    "F23/PHYS455/Math Review/Vector Calculus/Space Curves.md",
+    "F23/PHYS455/Math Review/Vector Calculus/Vector Calculus.md",
+    "Examples.md",
+    "F23/HTST307/HTST307 - The Contemporary World.md",
+    "F23/HTST307/The Renaissance & the Scientific Revolution.md",
     "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Magnetostatics/The Lorenz Force Law.md",
     "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Magnetostatics/Currents.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Magnetostatics",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamic Potentials/The Maximum Entropy Principle.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamic Potentials/Legendre Transformation.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamic Potentials/Energy and Entropy as Thermodynamic Potentials.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamic Potentials",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Statistical Mechanics/Kinetic Theory of Gases/Microstates, Macrostates, & Phase Space Density.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Statistical Mechanics/Kinetic Theory of Gases/Review of the Hamiltonian Formalism.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Statistical Mechanics/Information and Shannon Entropy/Information & Shannon Entropy.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Statistical Mechanics/Kinetic Theory of Gases",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Statistical Mechanics/Information and Shannon Entropy",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Statistical Mechanics",
     "Tattoo Equations.md",
-    "Reading/Thermodynamics and Statistical Mechanics - Greiner, Neise, Stocker.pdf",
-    "Reading/The Quantum Theory of Fields - Weinberg.pdf",
-    "Reading/Modern Quantum Mechanics - Sakurai.pdf",
-    "Reading/Mathematical Tools for Physics - Nearing.pdf",
-    "Reading/Lectures on Quantum Mechanics - Weinberg.pdf",
     "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Electric Potential/Linear Isotropic Dielectrics.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Electric Potential/Introduction to the Electric Potential.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Electric Potential/Electric Displacement.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Electric Potential/Dielectrics and Polarization.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Electric Potential/Conductors.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Assignment 4.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/A3.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/A8.md",
-    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/Functions of a Complex Variable/Functions of a Complex Variable.md",
-    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/Assignment 4.md",
-    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/A3.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Untitled.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Oscillations/Other Mechanical Oscillation Systems.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Electromagnetic Waves/The Wave Equation for an LC Transmission Line.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Electromagnetic Waves/The Poynting Vector.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Electromagnetic Waves/Plane Electromagnetic Waves in Free Space.md",
-    "Notes/Physics/Courses/PHYS375 - Introduction to Optics & Waves/Electromagnetic Waves/Commentary on Electromagnetic Waves.md",
     "Images/how-to-set-up-a-chessboard-1a.jpg",
     "Images/Simple_gravity_pendulum.svg.png",
-    "Images/Pasted image 20230906091403.png",
-    "Images/Pasted image 20230906090236.png",
-    "Images/Pasted image 20230906090230.png",
-    "Images/Pasted image 20230906090219.png",
-    "Images/Pasted image 20230906090211.png",
-    "Images/Pasted image 20230906090158.png",
-    "Images/Pasted image 20230906090147.png",
-    "Images/Pasted image 20230906090136.png"
+    "Images/Pasted image 20230906091403.png"
   ]
 }
