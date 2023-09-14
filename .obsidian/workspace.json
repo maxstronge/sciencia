@@ -1,43 +1,52 @@
 {
   "main": {
-    "id": "5eb192f9efe5a08c",
+    "id": "64a94a55727a79d8",
     "type": "split",
     "children": [
       {
-        "id": "c87dcc6501d23426",
+        "id": "1d56149765a7c3e5",
         "type": "tabs",
         "children": [
           {
-            "id": "0186f52b59d34707",
+            "id": "b5fece318e91f711",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "F23/PHYS397/Lecture 02.md",
-=======
-                "file": "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md",
->>>>>>> Stashed changes
+                "file": "F23/HTST307/The Military Revolution, War, Trade, & Discovery.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c853a580ec5c308d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "F23/PHYS435/Assignments/A1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "b75b2c3746aeff1b",
+    "id": "c7c3d0b0c257e975",
     "type": "split",
     "children": [
       {
-        "id": "70532e3f860112b1",
+        "id": "c7101ebc69bf7df5",
         "type": "tabs",
         "children": [
           {
-            "id": "5ad6b936f1a9b059",
+            "id": "ca3ba4f1ce758baf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,12 +56,12 @@
             }
           },
           {
-            "id": "d739271aff6b7b93",
+            "id": "874c889d5bc7cff1",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "gradient",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,18 +71,10 @@
             }
           },
           {
-            "id": "98d6cdfca74b0afd",
+            "id": "d708046688fb412e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "405b12cb8c8dc50d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
               "state": {}
             }
           }
@@ -81,27 +82,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.50314712524414
+    "width": 207.50440216064453,
+    "collapsed": true
   },
   "right": {
-    "id": "ac11697374e316b9",
+    "id": "a0212107bfe58ebb",
     "type": "split",
     "children": [
       {
-        "id": "b0626b25c4915191",
+        "id": "9e50f380b14940e6",
         "type": "tabs",
         "children": [
           {
-            "id": "c1c3bfefd834132f",
+            "id": "7f6334594e8aa49e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "F23/PHYS397/Lecture 02.md",
-=======
-                "file": "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md",
->>>>>>> Stashed changes
+                "file": "F23/PHYS435/Assignments/A1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +111,7 @@
             }
           },
           {
-            "id": "be0ca07e460ba956",
+            "id": "090d93d368b866d0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -124,32 +122,22 @@
             }
           },
           {
-            "id": "b3f9480579da9cd6",
+            "id": "c90a1256ac8dcd30",
             "type": "leaf",
             "state": {
-              "type": "side-panel-control-view",
-              "state": {}
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           },
           {
-            "id": "1b5ddd7e35a33a43",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "cae21a3a76a4beff",
+            "id": "f75c796fd05a6281",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< Updated upstream
-                "file": "F23/PHYS397/Lecture 02.md"
-=======
-                "file": "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md"
->>>>>>> Stashed changes
+                "file": "F23/PHYS435/Assignments/A1.md"
               }
             }
           }
@@ -157,116 +145,43 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "obsidian-gallery:Gallery": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "0186f52b59d34707",
+  "active": "c853a580ec5c308d",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/Sheilding/bkg_nobox_sheild_long.txt",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/Sheilding/bkg_nobox_long.txt",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/Sheilding",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/Angular_Measurement/Slave_90deg.txt",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/Angular_Measurement/Slave_45deg.txt",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/Angular_Measurement/Slave_0deg.txt",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/Angular_Measurement",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/README.txt",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots/ExampleiPythonNotebook.ipynb",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/ExamplePlots",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Recording_Data/import_data_py3.py",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Pictures/Side view.jpg",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Pictures/PCB Top.png",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Pictures/PCB Bottom.png",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Pictures/Front view.jpg",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Pictures/Detector.png",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/Pictures/Bottom view.jpg",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/CAD/SiPM pins.png",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master/CosmicWatch-Desktop-Muon-Detector-v2-master/README.md",
-    "F23/PHYS397/Lecture 02.md",
-    "F23/HTST307/New European Horizons.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Statistical Mechanics/Kinetic Theory of Gases/Review of the Hamiltonian Formalism.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Statistical Mechanics/Kinetic Theory of Gases/Microstates, Macrostates, & Phase Space Density.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.3 - Temperature.md",
-    "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
-    "F23/PHYS435/Fourier Series/Fourier Series.md",
-    "F23/PHYS435/Foundation/4.5 - Power Series.md",
-    "F23/PHYS435/Fourier Series/12.1 - The Dirichlet Conditions and the Fourier Series.md",
-    "F23/PHYS435/Fourier Series/12.2 - The Fourier Coefficients.md",
-    "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md",
-    "F23/PHYS455/Math Review/Vector Calculus/Space Curves.md",
-    "F23/PHYS455/Math Review/Vector Calculus/Vector Calculus.md",
-    "Examples.md",
-    "F23/HTST307/HTST307 - The Contemporary World.md",
+    "F23/HTST307/The Military Revolution, War, Trade, & Discovery.md",
+    "F23/PHYS435/Assignments/A1.md",
+    "Pasted image 20230913113044.png",
     "F23/HTST307/The Renaissance & the Scientific Revolution.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Magnetostatics/The Lorenz Force Law.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Magnetostatics/Currents.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamic Potentials/The Maximum Entropy Principle.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamic Potentials/Legendre Transformation.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamic Potentials/Energy and Entropy as Thermodynamic Potentials.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Statistical Mechanics/Information and Shannon Entropy/Information & Shannon Entropy.md",
-    "Tattoo Equations.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Electric Potential/Linear Isotropic Dielectrics.md",
-    "Images/how-to-set-up-a-chessboard-1a.jpg",
-    "Images/Simple_gravity_pendulum.svg.png",
-    "Images/Pasted image 20230906091403.png"
-=======
-    "F23/PHYS455/Math Review/Vector Calculus/Space Curves.md",
-    "F23/PHYS435/Fourier Series/12.2 - The Fourier Coefficients.md",
-    "F23/PHYS481/A1/themisd_NASA_datadump.txt",
-    "F23/PHYS481/A1/SPDF - SSCWeb.txt",
-    "F23/PHYS481/A1/phys481_report_notes.ipynb",
-    "F23/PHYS481/A1/A1.py",
-    "F23/PHYS481/A1/A1.ipynb",
-    "F23/PHYS481/A1",
-    "Images/Pasted image 20230908124921.png",
-    "F23/PHYS435/Fourier Series/12.1 - The Dirichlet Conditions and the Fourier Series.md",
-    "F23/PHYS435/Fourier Series/Fourier Series.md",
-    "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md",
-    "F23/PHYS455/Math Review/Vector Calculus/Vector Calculus.md",
-    "F23/HTST307/HTST307 - The Contemporary World.md",
-    "Notes/Mathematics/Courses/MATH367 - University Calculus III/Partial Derivatives/_Partial Derivatives.md",
-    "F23/PHYS455/PHYS455 - Electromagnetic Theory II.md",
-    "F23/PHYS455/Math Review/Vector Calculus",
-    "F23/PHYS455/Math Review/Untitled.md",
-    "F23/PHYS455/Math Review",
-    "F23/PHYS435/Foundation/4.6 - Taylor Series.md",
-    "F23/PHYS397/PHYS397 - Applied Physics Laboratory.md",
-    "Images/Pasted image 20230906151223.png",
-    "Images/Pasted image 20230906151007.png",
-    "F23/PHYS455/Course Notes/Math for E&M.pdf",
-    "F23/PHYS455/Problem Banks/QB1 - Math for E&M.pdf",
-    "conflict-files-obsidian-git.md",
-    "Images/Pasted image 20230906131656.png",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Curvilinear Coordinates.md",
-    "Notes/Physics/Courses/PHYS455 - Electromagnetic Theory II/Assignment 1.md",
-    "Images/Pasted image 20230906125051.png",
-    "F23/PHYS435/Foundation/4.5 - Power Series.md",
-    "F23/PHYS435/Foundation/4.1 - Series.md",
-    "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
-    "Images/Pasted image 20230906112819.png",
-    "Images/Pasted image 20230906112748.png",
-    "F23/PHYS481/PHYS481 - Computational Physics II.md",
+    "F23/PHYS435/Assignments",
+    "F23/HTST307/New European Horizons.md",
     "F23/HTST307/Intro Lecture.md",
-    "Images/Pasted image 20230906105919.png",
-    "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/PHYS355 Lab 3.md",
-    "Misc/Meeting Notes.md",
-    "Notes/Mathematics/Courses/MATH435 - Mathematical Methods in Physics/Obsidian Math Review.md",
-    "Pasted image 20211025124439.png.md",
+    "F23/PHYS397/Lecture 02.md",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master.zip",
+    "Examples.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW5.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.4 - Simple Thermodynamic Processes.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.2 - The Ideal Gas.md",
-    "Images/Pasted image 20221013144701.png",
-    "Images/Pasted image 20221013142718.png"
->>>>>>> Stashed changes
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.1 - Thermodynamic Equilibrium.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.3 - Temperature.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.5 - Restrictions on Energy Conversion & Efficiency.md",
+    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/A2.md",
+    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/Assignment 1.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW4.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW1.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Course Information.md"
   ]
 }
