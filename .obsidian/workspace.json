@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F23/PHYS435/Foundation/4.1 - Series.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4fbb5b527e3cf29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md"
               }
             }
           }
@@ -175,16 +162,19 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "c4fbb5b527e3cf29",
+  "active": "ac941553bdd951d2",
   "lastOpenFiles": [
+    "F23/PHYS455/Math Review/Vector Calculus/Vector Calculus.md",
+    "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
+    "F23/PHYS435/Fourier Series/12.1 - The Dirichlet Conditions and the Fourier Series.md",
+    "F23/PHYS435/Foundation/4.6 - Taylor Series.md",
+    "F23/PHYS435/Fourier Series/12.2 - The Fourier Coefficients.md",
+    "F23/PHYS435/Fourier Series/12.1 - The Dirichlet Conditions.md",
+    "F23/PHYS435/Foundation/4.5 - Power Series.md",
     "F23/PHYS435/Foundation/4.1 - Series.md",
     "conflict-files-obsidian-git.md",
     "F23/PHYS481/A1/A1.ipynb",
     "F23/PHYS435/Fourier Series/Fourier Series.md",
-    "F23/PHYS435/Foundation/4.6 - Taylor Series.md",
-    "F23/PHYS435/Fourier Series/12.2 - The Fourier Coefficients.md",
-    "F23/PHYS435/Fourier Series/12.1 - The Dirichlet Conditions and the Fourier Series.md",
-    "F23/PHYS435/Foundation/4.5 - Power Series.md",
     "F23/HTST307/Intro Lecture.md",
     "Reading/Lectures on Quantum Mechanics - Weinberg.pdf",
     "Research/Quantum Social Science.md",
@@ -213,10 +203,7 @@
     "F23/PHYS481/A1",
     "F23/PHYS455/Problem Banks/QB1 - Math for E&M.pdf",
     "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md",
-    "F23/PHYS455/Math Review/Vector Calculus/Vector Calculus.md",
     "F23/PHYS455/Math Review/Vector Calculus/Space Curves.md",
-    "F23/PHYS435/Fourier Series/12.1 - The Dirichlet Conditions.md",
-    "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
     "Pasted image 20230906112819.png.md",
     "Pasted image 20230906112748.png.md",
     "F23/Class Schedule.md",
