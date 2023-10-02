@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "25ce0144018252ec",
+        "id": "59face0e456524e1",
         "type": "tabs",
         "children": [
           {
-            "id": "ac941553bdd951d2",
+            "id": "003e1af012c4068d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +45,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lagra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 232.5
   },
   "right": {
     "id": "a0212107bfe58ebb",
@@ -110,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,13 +132,21 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "f76a793bbaad47c7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
               "state": {
-                "file": "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md"
+                "sortOrder": "frequency"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -162,53 +165,53 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "ac941553bdd951d2",
+  "active": "003e1af012c4068d",
   "lastOpenFiles": [
+    "Pasted image 20230922231939.png",
+    "Pasted image 20230927193822.png",
+    "Pasted image 20230922220529.png",
+    "Pasted image 20230922212114.png",
+    "Pasted image 20230917132500.png",
+    "Pasted image 20230917132344.png",
+    "Pasted image 20230913113044.png",
+    "Research/miCASA/Application Overview.md",
+    "Research/miCASA/Feature Roadmap.md",
+    "Research/miCASA/Project Roadmap.md",
+    "Research/miCASA",
+    "F23/PHYS435/Assignments/A1.md",
+    "PHYS397 Pre-Lab Exercises.md",
+    "F23/PHYS397/PHYS397 Pre-Lab Exercises.pdf",
+    "F23/PHYS397/PHYS397 Pre-Lab Exercises Max Stronge.pdf",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW7.md",
+    "F23/PHYS435/MaxStronge_Assignment1_PHYS435.pdf",
+    "F23/PHYS435/Fourier Series/12.2 - The Fourier Coefficients.md",
+    "F23/PHYS435/Fourier Series/Fourier Series.md",
+    "F23/PHYS435/Foundation/4.6 - Taylor Series.md",
+    "F23/PHYS455/Assignments/A1.md",
+    "F23/PHYS455/MaxStronge_PHYS455_A1.pdf",
+    "F23/PHYS455/Assignments",
+    "F23/HTST307/The Renaissance & the Scientific Revolution.md",
+    "F23/HTST307/The Military Revolution, War, Trade, & Discovery.md",
+    "F23/HTST307/New European Horizons.md",
+    "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md",
+    "conflict-files-obsidian-git.md",
+    "F23/PHYS435/Assignments",
+    "F23/PHYS397/Lecture 02.md",
+    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master.zip",
+    "Examples.md",
     "F23/PHYS455/Math Review/Vector Calculus/Vector Calculus.md",
     "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
     "F23/PHYS435/Fourier Series/12.1 - The Dirichlet Conditions and the Fourier Series.md",
-    "F23/PHYS435/Foundation/4.6 - Taylor Series.md",
-    "F23/PHYS435/Fourier Series/12.2 - The Fourier Coefficients.md",
     "F23/PHYS435/Fourier Series/12.1 - The Dirichlet Conditions.md",
     "F23/PHYS435/Foundation/4.5 - Power Series.md",
     "F23/PHYS435/Foundation/4.1 - Series.md",
-    "conflict-files-obsidian-git.md",
     "F23/PHYS481/A1/A1.ipynb",
-    "F23/PHYS435/Fourier Series/Fourier Series.md",
     "F23/HTST307/Intro Lecture.md",
     "Reading/Lectures on Quantum Mechanics - Weinberg.pdf",
     "Research/Quantum Social Science.md",
-    "Notes/Physics/Courses/PHYS355 - Electromagnetic Theory I/PHYS355 Lab 3.md",
-    "Notes/Mathematics/Courses/MATH435 - Mathematical Methods in Physics/Obsidian Math Review.md",
-    "Notes/Mathematics/Courses/MATH435 - Mathematical Methods in Physics",
-    "Misc/Standard Notes Backup.md",
-    "Misc/Symbolic Math Explorer.md",
-    "Misc/Meeting Notes.md",
-    "Misc/LCI User's Guide to Printing on the Peopoly Moai.md",
-    "Misc/A Brief History of You.md",
-    "Misc/Equations for Tattoo.md",
-    "Misc",
     "Images/Pasted image 20230908124921.png",
     "Images/Pasted image 20230906151223.png",
     "Images/Pasted image 20230906151007.png",
-    "Images/Pasted image 20230906131656.png",
-    "Images/Pasted image 20230906125051.png",
-    "Images/Pasted image 20230906112819.png",
-    "Images/Pasted image 20230906112748.png",
-    "Images/Pasted image 20230906105919.png",
-    "F23/PHYS481/A1/themisd_NASA_datadump.txt",
-    "F23/PHYS481/A1/SPDF - SSCWeb.txt",
-    "F23/PHYS481/A1/phys481_report_notes.ipynb",
-    "F23/PHYS481/A1/A1.py",
-    "F23/PHYS481/A1",
-    "F23/PHYS455/Problem Banks/QB1 - Math for E&M.pdf",
-    "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md",
-    "F23/PHYS455/Math Review/Vector Calculus/Space Curves.md",
-    "Pasted image 20230906112819.png.md",
-    "Pasted image 20230906112748.png.md",
-    "F23/Class Schedule.md",
-    "Images/472f86d937d237c9c904665e6d804abe.png",
-    "Images/Pasted image 20230906091403.png",
     "Untitled.canvas"
   ]
 }

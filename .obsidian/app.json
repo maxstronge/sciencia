@@ -1,1 +1,11 @@
-{}
+{
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "showIndentGuide": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 50
+  }
+}
