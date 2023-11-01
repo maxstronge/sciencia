@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1d56149765a7c3e5",
+        "id": "d0e650ded611dd29",
         "type": "tabs",
         "children": [
           {
-            "id": "b5fece318e91f711",
+            "id": "dd2abba6c9ba2bda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F23/HTST307/The Military Revolution, War, Trade, & Discovery.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c853a580ec5c308d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "F23/PHYS435/Assignments/A1.md",
+                "file": "F23/PHYS435/Assignments/A4.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.50440216064453,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a0212107bfe58ebb",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F23/PHYS435/Assignments/A1.md",
+                "file": "F23/PHYS435/Assignments/A4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,15 +123,32 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F23/PHYS435/Assignments/A1.md"
+                "file": "F23/PHYS435/Assignments/A4.md"
               }
             }
+          },
+          {
+            "id": "0978e15625b65f91",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "5b83d2d51143c29f",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -157,31 +160,53 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c853a580ec5c308d",
+  "active": "dd2abba6c9ba2bda",
   "lastOpenFiles": [
-    "F23/HTST307/The Military Revolution, War, Trade, & Discovery.md",
+    "Pasted image 20231101111915.png",
+    "F23/PHYS435/Assignments/A4.md",
+    "F23/PHYS397/Voltage Divider Lab Notes.md",
+    "F23/PHYS397/AC Measurements.md",
+    "F23/PHYS397/Labs/AC Measurements/AC Measurements Lab notebook.pdf",
+    "F23/PHYS397/Labs/AC Measurements",
+    "F23/PHYS397/Labs/New folder",
+    "F23/PHYS397/Labs/2/Voltage Divider Lab Notes.pdf",
+    "F23/PHYS481/PHYS481 Group Project.md",
+    "F23/PHYS481/~$T15_Max_Stronge_Ayesha_Iqbal.pptx",
+    "F23/PHYS481/T15_Max_Stronge_Ayesha_Iqbal.pptx",
     "F23/PHYS435/Assignments/A1.md",
-    "Pasted image 20230913113044.png",
-    "F23/HTST307/The Renaissance & the Scientific Revolution.md",
-    "F23/PHYS435/Assignments",
-    "F23/HTST307/New European Horizons.md",
-    "F23/HTST307/Intro Lecture.md",
-    "F23/PHYS397/Lecture 02.md",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master.zip",
-    "Examples.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW5.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.4 - Simple Thermodynamic Processes.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.2 - The Ideal Gas.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.1 - Thermodynamic Equilibrium.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.3 - Temperature.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Thermodynamics/1.5 - Restrictions on Energy Conversion & Efficiency.md",
-    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/A2.md",
-    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/Assignment 1.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW4.md",
+    "F23/PHYS455/Lec. Oct 16.md",
+    "Notes/Physics/Courses/Classical Mechanics II/Two-Body Central Force Problems/8.1 - Introduction to Two-Body Central Force Problems.md",
+    "F23/PHYS397/Labs/2/DC Circuits Lab Notes.pdf",
+    "F23/PHYS397/Labs/2/Proposal - 397 Presentation.pdf",
+    "F23/PHYS397/Labs/DC Circuits/DC Circuits Lab Notes.md",
+    "F23/PHYS397/Labs/2/Lab 2 - Notes.md",
+    "F23/PHYS397/Labs/2/Lab 2 - Notes.pdf",
+    "F23/PHYS397/Labs/2/6f956886-0249-4b8a-8240-f43cd0e9adf5",
+    "F23/PHYS435/Integral Transforms/Fourier Transform.md",
+    "F23/PHYS435/Integral Transforms/Fraunhofer Diffraction.md",
+    "F23/PHYS435/Foundation/4.1 - Series.md",
+    "F23/PHYS435/Foundation/4.5 - Power Series.md",
+    "F23/PHYS435/Assignments/A2.md",
+    "Pasted image 20231004153304.png",
+    "Research/Information Dynamics/Processing of Information on P-Adic Trees.md",
+    "Misc/miCASA Dialogues/Project Intro.md",
+    "F23/PHYS397/Labs/2/Pendulum Lab Notes.md",
+    "F23/HTST307/Divergent Eurasia.md",
+    "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
+    "F23/PHYS455/PHYS455 - Electromagnetic Theory II.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW2.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW1.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Course Information.md"
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Assignment 6.md",
+    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Assignment 9.md",
+    "F23/PHYS397/Labs/1/output.png",
+    "F23/PHYS397/Labs/1/Events_Set_1__2.png",
+    "F23/PHYS397/Report Writing Notes.md",
+    "Pasted image 20230913113044.png",
+    "images.jpg",
+    "220px-Neuhäusel1680.jpg"
   ]
 }

@@ -2,8 +2,6 @@
 
 - each group will get their own detector
 
-
-
 ## Scintillator Components
 
 - $5x5x1$ cm plastic scintillator - sensitive to radiation, will emit light to be picked up by a sensor

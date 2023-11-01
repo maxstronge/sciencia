@@ -22,7 +22,6 @@ Partial differential equations. Fourier analysis. Laplace Transforms. Special fu
 	12.1 The Dirichlet conditions
 	12.2 The Fourier coefficients
 	12.3 Symmetry considerations
-	12.3 Symmetry considerations
 	12.4 Discontinuous functions
 	12.5 Non-periodic functions
 	12.6 Integration and differentiation

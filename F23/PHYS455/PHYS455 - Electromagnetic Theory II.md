@@ -17,3 +17,6 @@
 
 - Oral components
 	- 20 minute appointment - given a question (individual!) to solve in advance, 10min to explain how to solve the question, methodology, etc. 7 minutes of cross-examination
+
+
+
