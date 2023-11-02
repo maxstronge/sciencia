@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F23/PHYS435/Assignments/A4.md",
+                "file": "F23/PHYS435/Complex Variables/Functions of Complex Variables.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a618929ff48f17bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F23/PHYS435/Assignments/A4.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F23/PHYS435/Assignments/A4.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -164,28 +177,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dd2abba6c9ba2bda",
+  "active": "a618929ff48f17bb",
   "lastOpenFiles": [
-    "Pasted image 20231101111915.png",
+    "F23/PHYS435/Complex Variables/Functions of Complex Variables.md",
+    "conflict-files-obsidian-git.md",
     "F23/PHYS435/Assignments/A4.md",
+    "F23/PHYS435/Untitled",
+    "Research/miCASA/Project Roadmap.md",
+    "Research/miCASA/Feature Roadmap.md",
+    "Research/miCASA/Application Overview.md",
+    "Research/miCASA",
+    "PHYS397 Pre-Lab Exercises.md",
+    "F23/PHYS481/Assignments/A3/PHYS481_Assignment3.ipynb",
+    "F23/PHYS481/Assignments/A3",
+    "F23/PHYS481/Assignments/A2/test.py",
+    "F23/PHYS481/Assignments/A2/q3b_max_attempt.ipynb",
+    "F23/PHYS481/Assignments/A2/peppers.png",
+    "F23/PHYS481/Assignments/A2/mandrill.png",
+    "F23/PHYS481/Assignments/A2/eye.png",
+    "F23/PHYS481/Assignments/A2/Scintillator - Jupyter Template v4.ipynb",
+    "F23/PHYS481/Assignments/A2/PHYS481_Assignment2.ipynb",
+    "F23/PHYS481/Assignments/A1/themisd_NASA_datadump.txt",
+    "F23/PHYS481/Assignments/A1/test.py",
+    "F23/PHYS455/Assignments/A1.md",
+    "Pasted image 20231101111915.png",
     "F23/PHYS397/Voltage Divider Lab Notes.md",
     "F23/PHYS397/AC Measurements.md",
-    "F23/PHYS397/Labs/AC Measurements/AC Measurements Lab notebook.pdf",
-    "F23/PHYS397/Labs/AC Measurements",
-    "F23/PHYS397/Labs/New folder",
-    "F23/PHYS397/Labs/2/Voltage Divider Lab Notes.pdf",
     "F23/PHYS481/PHYS481 Group Project.md",
-    "F23/PHYS481/~$T15_Max_Stronge_Ayesha_Iqbal.pptx",
-    "F23/PHYS481/T15_Max_Stronge_Ayesha_Iqbal.pptx",
     "F23/PHYS435/Assignments/A1.md",
     "F23/PHYS455/Lec. Oct 16.md",
     "Notes/Physics/Courses/Classical Mechanics II/Two-Body Central Force Problems/8.1 - Introduction to Two-Body Central Force Problems.md",
-    "F23/PHYS397/Labs/2/DC Circuits Lab Notes.pdf",
-    "F23/PHYS397/Labs/2/Proposal - 397 Presentation.pdf",
     "F23/PHYS397/Labs/DC Circuits/DC Circuits Lab Notes.md",
     "F23/PHYS397/Labs/2/Lab 2 - Notes.md",
-    "F23/PHYS397/Labs/2/Lab 2 - Notes.pdf",
-    "F23/PHYS397/Labs/2/6f956886-0249-4b8a-8240-f43cd0e9adf5",
     "F23/PHYS435/Integral Transforms/Fourier Transform.md",
     "F23/PHYS435/Integral Transforms/Fraunhofer Diffraction.md",
     "F23/PHYS435/Foundation/4.1 - Series.md",
@@ -197,14 +220,8 @@
     "F23/PHYS397/Labs/2/Pendulum Lab Notes.md",
     "F23/HTST307/Divergent Eurasia.md",
     "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
-    "F23/PHYS455/PHYS455 - Electromagnetic Theory II.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW2.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW1.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Assignment 6.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/Assignment 9.md",
     "F23/PHYS397/Labs/1/output.png",
     "F23/PHYS397/Labs/1/Events_Set_1__2.png",
-    "F23/PHYS397/Report Writing Notes.md",
     "Pasted image 20230913113044.png",
     "images.jpg",
     "220px-Neuhäusel1680.jpg"
