@@ -2,12 +2,15 @@
   "obsidian-git",
   "obsidian-latex",
   "obsidian-markdown-formatting-assistant-plugin",
-  "obsidian-pandoc",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-minimal-settings",
   "obsidian-tikzjax",
-  "quick-latex",
   "obsidian-gallery",
   "obsidian-latex-suite",
+<<<<<<< HEAD
+=======
+  "obsidian-enhancing-export",
+  "obsidian-pandoc",
+>>>>>>> 08b49960622a131e232ba02c5606105d725fbe92
   "table-editor-obsidian"
 ]

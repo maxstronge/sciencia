@@ -1,4 +1,4 @@
-***
+*******
 
 # Course Outline
 
@@ -40,7 +40,7 @@ Partial differential equations. Fourier analysis. Laplace Transforms. Special fu
 	24.5 Multivalued functions and branch cuts
 	24.6 Singularities and zeros of complex functions
 	24.7 Conformal transformations
-	24.8 Complex integrals&
+	24.8 Complex integrals
 	24.9 Cauchy’s theorem
 	24.10 Cauchy’s integral formula
 	24.11 Taylor and Laurent series

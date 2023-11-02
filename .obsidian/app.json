@@ -1,9 +1,14 @@
 {
   "pdfExportSettings": {
-    "pageSize": "Letter",
+    "includeName": false,
+    "pageSize": "A4",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
+<<<<<<< HEAD
   },
   "autoPairMarkdown": false
+=======
+  }
+>>>>>>> 08b49960622a131e232ba02c5606105d725fbe92
 }
