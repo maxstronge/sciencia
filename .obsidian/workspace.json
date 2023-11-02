@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f03b1d715fdee50c",
+        "id": "90811a7ce187c31f",
         "type": "tabs",
         "children": [
           {
-            "id": "696cd092d5541575",
+            "id": "931c9255546012ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F23/PHYS435/Assignments/A1.md",
+                "file": "F23/PHYS435/Assignments/1/A1.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F23/PHYS435/Assignments/A1.md",
+                "file": "F23/PHYS435/Assignments/1/A1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F23/PHYS435/Assignments/A1.md"
+                "file": "F23/PHYS435/Assignments/1/A1.md"
               }
             }
           },
@@ -173,11 +173,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "696cd092d5541575",
+  "active": "ca3ba4f1ce758baf",
   "lastOpenFiles": [
-    "F23/PHYS435/Assignments/A2.md",
-    "F23/PHYS435/Assignments/A2.pdf",
-    "F23/PHYS435/Assignments/PHYS435 Assignment 3.pdf",
+    "F23/PHYS435/Assignments/1",
+    "F23/PHYS435/Assignments/2/A2.md",
+    "F23/PHYS435/Assignments/2",
+    "F23/PHYS435/Assignments/2/A2.pdf",
+    "F23/PHYS435/Assignments/1/A1.md",
+    "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
+    "F23/PHYS435/MaxStronge_Assignment1_PHYS435.pdf",
+    "F23/PHYS435/Assignments/3/PHYS435 Assignment 3.pdf",
     "F23/PHYS435/Assignments/3/PHYS435 Assignment 3.md",
     "F23/PHYS455/Assignments/A2.md",
     "F23/PHYS455/Assignments/A2.pdf",
@@ -194,10 +199,7 @@
     "F23/PHYS435/Assignments/GravityAssist/GravityAssistOptimization.py",
     "F23/PHYS435/Assignments/GravityAssist/VENUS_ephemeris.txt",
     "F23/PHYS435/Assignments/GravityAssist/URANUS_ephemeris.txt",
-    "F23/PHYS435/Assignments/GravityAssist/SOL_ephemeris.txt",
-    "F23/PHYS435/Assignments/GravityAssist/SATURN_ephemeris.txt",
     "F23/PHYS481/PHYS481 - Computational Physics II.md",
-    "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
     "Lab calcs.md",
     "97113330-d4db-4657-a8d6-71776a9e409e.png",
     "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/A2.md",
@@ -212,7 +214,6 @@
     "Research/miCASA/Feature Roadmap.md",
     "Research/miCASA/Project Summary.md",
     "Research/miCASA/Project Roadmap.md",
-    "F23/PHYS435/Assignments/A1.md",
     "PHYS397 Pre-Lab Exercises.md",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW7.md",
     "F23/PHYS435/Fourier Series/12.2 - The Fourier Coefficients.md",
