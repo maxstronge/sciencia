@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "59face0e456524e1",
+        "id": "f03b1d715fdee50c",
         "type": "tabs",
         "children": [
           {
-            "id": "003e1af012c4068d",
+            "id": "696cd092d5541575",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "F23/PHYS435/Assignments/A1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -106,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "F23/PHYS435/Assignments/A1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "F23/PHYS435/Assignments/A1.md"
+              }
             }
           },
           {
@@ -162,56 +169,57 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "003e1af012c4068d",
+  "active": "696cd092d5541575",
   "lastOpenFiles": [
-    "Pasted image 20230922231939.png",
-    "Pasted image 20230927193822.png",
-    "Pasted image 20230922220529.png",
-    "Pasted image 20230922212114.png",
-    "Pasted image 20230917132500.png",
-    "Pasted image 20230917132344.png",
-    "Pasted image 20230913113044.png",
+    "F23/PHYS435/Assignments/A2.md",
+    "F23/PHYS435/Assignments/A2.pdf",
+    "F23/PHYS435/Assignments/PHYS435 Assignment 3.pdf",
+    "F23/PHYS435/Assignments/3/PHYS435 Assignment 3.md",
+    "F23/PHYS455/Assignments/A2.md",
+    "F23/PHYS455/Assignments/A2.pdf",
+    "Pasted image 20231022215808.png",
+    "F23/PHYS435/Assignments/deltaplotting.py",
+    "F23/PHYS435/Assignments/3/Figure_1g.png",
+    "F23/PHYS481/Assignments/PHYS481 Group Project.md",
+    "F23/PHYS435/Assignments/GravityAssist/PHYS481_GravityAssistProject copy.py",
+    "Pasted image 20231015171851.png",
+    "Pasted image 20231015162215.png",
+    "Pasted image 20231015162029.png",
+    "Pasted image 20231015160850.png",
+    "Pasted image 20231015150207.png",
+    "F23/PHYS435/Assignments/GravityAssist/GravityAssistOptimization.py",
+    "F23/PHYS435/Assignments/GravityAssist/VENUS_ephemeris.txt",
+    "F23/PHYS435/Assignments/GravityAssist/URANUS_ephemeris.txt",
+    "F23/PHYS435/Assignments/GravityAssist/SOL_ephemeris.txt",
+    "F23/PHYS435/Assignments/GravityAssist/SATURN_ephemeris.txt",
+    "F23/PHYS481/PHYS481 - Computational Physics II.md",
+    "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
+    "Lab calcs.md",
+    "97113330-d4db-4657-a8d6-71776a9e409e.png",
+    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/A2.md",
+    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/A3.md",
+    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/Assignment 1.md",
+    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/Assignment 4.md",
+    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/Functions of a Complex Variable/Functions of a Complex Variable.md",
+    "198fc2e9-00f9-45ae-9da6-6a025cbeb7e7.png",
+    "Pasted image 20231007183102.png",
+    "F23/PHYS435/Foundation/Trig Sub Guide.md",
     "Research/miCASA/Application Overview.md",
     "Research/miCASA/Feature Roadmap.md",
+    "Research/miCASA/Project Summary.md",
     "Research/miCASA/Project Roadmap.md",
-    "Research/miCASA",
     "F23/PHYS435/Assignments/A1.md",
     "PHYS397 Pre-Lab Exercises.md",
-    "F23/PHYS397/PHYS397 Pre-Lab Exercises.pdf",
-    "F23/PHYS397/PHYS397 Pre-Lab Exercises Max Stronge.pdf",
     "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW7.md",
-    "F23/PHYS435/MaxStronge_Assignment1_PHYS435.pdf",
     "F23/PHYS435/Fourier Series/12.2 - The Fourier Coefficients.md",
     "F23/PHYS435/Fourier Series/Fourier Series.md",
     "F23/PHYS435/Foundation/4.6 - Taylor Series.md",
     "F23/PHYS455/Assignments/A1.md",
-    "F23/PHYS455/MaxStronge_PHYS455_A1.pdf",
-    "F23/PHYS455/Assignments",
     "F23/HTST307/The Renaissance & the Scientific Revolution.md",
-    "F23/HTST307/The Military Revolution, War, Trade, & Discovery.md",
-    "F23/HTST307/New European Horizons.md",
-    "F23/PHYS455/Math Review/Vector Calculus/Vector Operators - Gradient, Divergence, Curl, and Laplacian.md",
-    "conflict-files-obsidian-git.md",
-    "F23/PHYS435/Assignments",
-    "F23/PHYS397/Lecture 02.md",
-    "F23/PHYS397/CosmicWatch-Desktop-Muon-Detector-v2-master.zip",
-    "Examples.md",
-    "F23/PHYS455/Math Review/Vector Calculus/Vector Calculus.md",
-    "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
-    "F23/PHYS435/Fourier Series/12.1 - The Dirichlet Conditions and the Fourier Series.md",
-    "F23/PHYS435/Fourier Series/12.1 - The Dirichlet Conditions.md",
-    "F23/PHYS435/Foundation/4.5 - Power Series.md",
-    "F23/PHYS435/Foundation/4.1 - Series.md",
-    "F23/PHYS481/A1/A1.ipynb",
-    "F23/HTST307/Intro Lecture.md",
-    "Reading/Lectures on Quantum Mechanics - Weinberg.pdf",
-    "Research/Quantum Social Science.md",
-    "Images/Pasted image 20230908124921.png",
-    "Images/Pasted image 20230906151223.png",
-    "Images/Pasted image 20230906151007.png",
     "Untitled.canvas"
   ]
 }

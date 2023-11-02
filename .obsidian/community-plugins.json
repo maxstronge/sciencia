@@ -2,11 +2,12 @@
   "obsidian-git",
   "obsidian-latex",
   "obsidian-markdown-formatting-assistant-plugin",
-  "obsidian-pandoc",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-minimal-settings",
   "obsidian-tikzjax",
-  "quick-latex",
   "obsidian-gallery",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "obsidian-enhancing-export",
+  "obsidian-pandoc",
+  "table-editor-obsidian"
 ]
