@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "90811a7ce187c31f",
+        "id": "fbb522967ee2d94b",
         "type": "tabs",
         "children": [
           {
-            "id": "931c9255546012ee",
+            "id": "d6e9afe1a4d35d21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F23/PHYS435/Assignments/1/A1.md",
+                "file": "F23/PHYS455/Assignments/A3.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F23/PHYS435/Assignments/1/A1.md",
+                "file": "F23/PHYS455/Assignments/A3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F23/PHYS435/Assignments/1/A1.md"
+                "file": "F23/PHYS455/Assignments/A3.md"
               }
             }
           },
@@ -173,20 +173,31 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ca3ba4f1ce758baf",
+  "active": "d6e9afe1a4d35d21",
   "lastOpenFiles": [
+    "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
+    "F23/PHYS455/Assignments/A3.md",
+    "Examples.md",
+    "A letter to the muse on her birthday.md",
+    "Tattoo Equations.md",
+    "README.md",
+    "FigureWork/Thermodynamics and Statistical Mechanics.md",
+    "PHYS397 Pre-Lab Exercises.md",
+    "Pasted image 20231022215808.png",
+    "198fc2e9-00f9-45ae-9da6-6a025cbeb7e7.png",
+    "FigureWork/General.md",
+    "FigureWork/Electromagnetic Theory.md",
+    "F23/Class Schedule.md",
+    "F23/PHYS435/Assignments/1/MaxStronge_Assignment1_PHYS435.pdf",
+    "F23/PHYS435/Assignments/1/A1.md",
     "F23/PHYS435/Assignments/1",
     "F23/PHYS435/Assignments/2/A2.md",
     "F23/PHYS435/Assignments/2",
     "F23/PHYS435/Assignments/2/A2.pdf",
-    "F23/PHYS435/Assignments/1/A1.md",
-    "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
-    "F23/PHYS435/MaxStronge_Assignment1_PHYS435.pdf",
     "F23/PHYS435/Assignments/3/PHYS435 Assignment 3.pdf",
     "F23/PHYS435/Assignments/3/PHYS435 Assignment 3.md",
     "F23/PHYS455/Assignments/A2.md",
     "F23/PHYS455/Assignments/A2.pdf",
-    "Pasted image 20231022215808.png",
     "F23/PHYS435/Assignments/deltaplotting.py",
     "F23/PHYS435/Assignments/3/Figure_1g.png",
     "F23/PHYS481/Assignments/PHYS481 Group Project.md",
@@ -198,7 +209,6 @@
     "Pasted image 20231015150207.png",
     "F23/PHYS435/Assignments/GravityAssist/GravityAssistOptimization.py",
     "F23/PHYS435/Assignments/GravityAssist/VENUS_ephemeris.txt",
-    "F23/PHYS435/Assignments/GravityAssist/URANUS_ephemeris.txt",
     "F23/PHYS481/PHYS481 - Computational Physics II.md",
     "Lab calcs.md",
     "97113330-d4db-4657-a8d6-71776a9e409e.png",
@@ -207,20 +217,10 @@
     "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/Assignment 1.md",
     "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/Assignment 4.md",
     "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/Functions of a Complex Variable/Functions of a Complex Variable.md",
-    "198fc2e9-00f9-45ae-9da6-6a025cbeb7e7.png",
     "Pasted image 20231007183102.png",
     "F23/PHYS435/Foundation/Trig Sub Guide.md",
     "Research/miCASA/Application Overview.md",
     "Research/miCASA/Feature Roadmap.md",
-    "Research/miCASA/Project Summary.md",
-    "Research/miCASA/Project Roadmap.md",
-    "PHYS397 Pre-Lab Exercises.md",
-    "Notes/Physics/Courses/PHYS449 - Statistical Mechanics I/HW7.md",
-    "F23/PHYS435/Fourier Series/12.2 - The Fourier Coefficients.md",
-    "F23/PHYS435/Fourier Series/Fourier Series.md",
-    "F23/PHYS435/Foundation/4.6 - Taylor Series.md",
-    "F23/PHYS455/Assignments/A1.md",
-    "F23/HTST307/The Renaissance & the Scientific Revolution.md",
     "Untitled.canvas"
   ]
 }
