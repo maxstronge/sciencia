@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "fbb522967ee2d94b",
+        "id": "29af4bda7c508094",
         "type": "tabs",
         "children": [
           {
-            "id": "d6e9afe1a4d35d21",
+            "id": "ede92f6781e43adc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F23/PHYS455/Assignments/A3.md",
+                "file": "F23/PHYS435/Complex Variables/Functions of Complex Variables.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5544ba0938349348",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "F23/PHYS435/Assignments/A5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed12859292a0b28a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 382.5
   },
   "right": {
     "id": "a0212107bfe58ebb",
@@ -110,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F23/PHYS455/Assignments/A3.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F23/PHYS455/Assignments/A3.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -151,76 +176,81 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "925764b6fa648968",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-gallery:Gallery": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-gallery:Gallery": false
     }
   },
-  "active": "d6e9afe1a4d35d21",
+  "active": "ed12859292a0b28a",
   "lastOpenFiles": [
-    "F23/PHYS435/PHYS435 - Mathematical Methods in Physics.md",
-    "F23/PHYS455/Assignments/A3.md",
-    "Examples.md",
-    "A letter to the muse on her birthday.md",
-    "Tattoo Equations.md",
-    "README.md",
-    "FigureWork/Thermodynamics and Statistical Mechanics.md",
-    "PHYS397 Pre-Lab Exercises.md",
-    "Pasted image 20231022215808.png",
-    "198fc2e9-00f9-45ae-9da6-6a025cbeb7e7.png",
-    "FigureWork/General.md",
-    "FigureWork/Electromagnetic Theory.md",
-    "F23/Class Schedule.md",
-    "F23/PHYS435/Assignments/1/MaxStronge_Assignment1_PHYS435.pdf",
-    "F23/PHYS435/Assignments/1/A1.md",
-    "F23/PHYS435/Assignments/1",
-    "F23/PHYS435/Assignments/2/A2.md",
-    "F23/PHYS435/Assignments/2",
-    "F23/PHYS435/Assignments/2/A2.pdf",
-    "F23/PHYS435/Assignments/3/PHYS435 Assignment 3.pdf",
-    "F23/PHYS435/Assignments/3/PHYS435 Assignment 3.md",
-    "F23/PHYS455/Assignments/A2.md",
-    "F23/PHYS455/Assignments/A2.pdf",
-    "F23/PHYS435/Assignments/deltaplotting.py",
-    "F23/PHYS435/Assignments/3/Figure_1g.png",
-    "F23/PHYS481/Assignments/PHYS481 Group Project.md",
-    "F23/PHYS435/Assignments/GravityAssist/PHYS481_GravityAssistProject copy.py",
-    "Pasted image 20231015171851.png",
-    "Pasted image 20231015162215.png",
-    "Pasted image 20231015162029.png",
-    "Pasted image 20231015160850.png",
-    "Pasted image 20231015150207.png",
-    "F23/PHYS435/Assignments/GravityAssist/GravityAssistOptimization.py",
-    "F23/PHYS435/Assignments/GravityAssist/VENUS_ephemeris.txt",
-    "F23/PHYS481/PHYS481 - Computational Physics II.md",
-    "Lab calcs.md",
-    "97113330-d4db-4657-a8d6-71776a9e409e.png",
-    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/A2.md",
-    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/A3.md",
-    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/Assignment 1.md",
-    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/Assignment 4.md",
-    "Notes/Physics/Courses/PHYS435 - Mathematical Methods in Physics/Functions of a Complex Variable/Functions of a Complex Variable.md",
-    "Pasted image 20231007183102.png",
-    "F23/PHYS435/Foundation/Trig Sub Guide.md",
-    "Research/miCASA/Application Overview.md",
-    "Research/miCASA/Feature Roadmap.md",
+    "F23/PHYS435/Assignments/A5.md",
+    "conflict-files-obsidian-git.md",
+    "Pasted image 20231125122641.png",
+    "Pasted image 20231125122408.png",
+    "F23/PHYS435/Complex Variables/Functions of Complex Variables.md",
+    "F23/PHYS435/Midterm II Study Guide.md",
+    "Misc/SWGOH Sandbox Mode Documentation.md",
+    "PHYS397 Peer Review.md",
+    "F23/PHYS397/PHYS397PeerReview_MuonMagnetism.pdf",
+    "Pasted image 20231121115006.png",
+    "F23/HTST307/Research Paper - The Explicit Modernity of Fascism.md",
+    "F23/PHYS455/Electric Potential/Procedure for Solving Laplace's Equation in Rectangular Cavity.md",
+    "F23/PHYS455/Midterm II Study Guide.md",
+    "F23/HTST307/1.2 - The Renaissance & the Scientific Revolution.md",
+    "F23/HTST307/1.1 - New European Horizons.md",
+    "F23/HTST307/1.3 - The Military Revolution, War, Trade, & Discovery.md",
+    "F23/HTST307/HTST307 - The Contemporary World.md",
+    "F23/HTST307/Intro Lecture.md",
+    "F23/PHYS455/Electric Potential",
+    "Pasted image 20231112172524.png",
+    "Pasted image 20231111163024.png",
+    "F23/PHYS397/First Draft Research Paper.md",
+    "F23/PHYS397/Labs/muon_data_latex.txt",
+    "F23/PHYS397/Labs/final/output.png",
+    "F23/PHYS397/Labs/final/Nov4_S.TXT",
+    "F23/PHYS397/Labs/final/Scintillator - Jupyter Template v4.ipynb",
+    "F23/PHYS397/Labs/final",
+    "F23/PHYS397/Labs/Scintillator - Jupyter Template v4.ipynb",
+    "5pb3a77f.bmp",
+    "Pasted image 20231104185649.png",
+    "F23/PHYS397/AC Measurements.md",
+    "vce07qu7.bmp",
+    "F23/PHYS435/Assignments/4/A4.md",
+    "F23/PHYS435/Assignments/4/A4.pdf",
+    "Pasted image 20231103213050.png",
+    "F23/PHYS435/Assignments/a3plots.py",
+    "F23/PHYS455/Assignments/A3/A3.md",
+    "F23/PHYS455/Assignments/A3/PHYS455_MaxStronge_A3.pdf",
+    "F23/PHYS455/Electric Field II/Dielectrics, Polarization, and Bound Charge.md",
+    "F23/PHYS455/Assignments/Untitled.md",
+    "F23/PHYS435/Assignments/A4.md",
+    "F23/PHYS455/Math Review/Vectors/Vector Operations.md",
+    "F23/PHYS435/Integral Transforms/Fraunhofer Diffraction.md",
+    "F23/PHYS435/Integral Transforms/Fourier Transform.md",
+    "F23/PHYS397/Labs/DC Circuits/DC Circuits Lab Notes.md",
     "Untitled.canvas"
   ]
 }

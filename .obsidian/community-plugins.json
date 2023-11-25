@@ -1,13 +1,8 @@
 [
-  "obsidian-git",
-  "obsidian-latex",
-  "obsidian-markdown-formatting-assistant-plugin",
-  "cm-editor-syntax-highlight-obsidian",
-  "obsidian-minimal-settings",
-  "obsidian-tikzjax",
-  "obsidian-gallery",
   "obsidian-latex-suite",
-  "obsidian-enhancing-export",
-  "obsidian-pandoc",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "obsidian-git",
+  "obsidian-gallery",
+  "obsidian-latex",
+  "better-word-count"
 ]

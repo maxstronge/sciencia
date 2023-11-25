@@ -45,6 +45,23 @@ $$
 $$
 ...where $\hat{t}$ is the unit vector tangent to the curve at the given point, as discussed in [[Space Curves]].
 
-In general, the rate of change of $\phi$ with respect to a distance $s$ in some particular direction $\hat{a}$
+___
 
+## The Directional Derivative:
+
+Suppose we are working with a function $f$ of $x$ and $y$ only. Consider a vector differential change in position away from some point, given by 
+
+$$
+\vec{dl} = dx \hat{\mathbf{x}} + dy \hat{\mathbf{y}}
+$$
+We can then infer the differential change in $f$, that is, $df=f(x+dx,y+dy) - f(x,y)$, by considering the step in $f$ due to the change in $x$ and the step of $f$ due to the change in $y$:
+
+$$
+df = \frac{ \partial f }{ \partial x } dx + \frac{ \partial f }{ \partial y } dy
+$$
+which can also be represented as the following dot product:
+
+$$
+df = \vec{dl} \cdot \left[ \frac{ \partial f }{ \partial x } \hat{\mathbf{x}} + \frac{ \partial f }{ \partial y } \hat{\mathbf{y}} \right] 
+$$
 
