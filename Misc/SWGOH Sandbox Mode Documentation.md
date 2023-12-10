@@ -240,3 +240,109 @@ Main widget class for the Main Menu. Need to rework a fair bit to accommodate GA
 ## WB_Lobby
 ![[Pasted image 20231112172524.png]]
 
+
+
+
+
+____
+
+
+
+
+# Combat:
+
+
+# Player Controller: 
+
+In the replicated multiplayer version of combat, a lot of stuff had to be done through the local player controller and replicated to the server, so any visual update to the UI needed to be handled through the PC for replication purposes. This can safely be avoided if we're only going to have one player viewing a battle
+
+## Events:
+
+- **BeginPlay:**
+	- Store a reference to self in the Tracer Component
+	- Ensure IsLocalPlayerController (deprecate for single-player combat mode)
+	- Create HUD widget, store reference to it, Set Input Mode Game and UI, Add to Viewport
+	- Setup Log Widget / store reference
+	- Switch on is Host/is Client (this will no longer be necessary for SP)
+		- Based on the above switch, initialize camera with the appropriate transform, set view target
+
+- **Initialize Characters**
+	- Input parameter: 
+		- AllUnits (array of all characters in combat)
+	- Loops through all these characters and calls *InitializeCharacter* function of each one
+
+- **Client_StartUnitTurn**
+	- Input parameter: 
+		- ActiveUnit (BP_Unit), the unit to start the turn with
+	- Check IsLocalPlayerController
+	- Validate the unit (pure func)
+	- If validated, set this Player Controller's ActiveUnit variable to ActiveUnit input parameter
+	- Call **Server_TurnStart** on the unit (event in BP_Unit) - this was being called on the server so both players could see the active unit indicator light up underneath the unit
+	- Change the Current Unit on the WB_HUD with *UpdateCurrentUnit* func
+	- Call *ChangeCurrentUnitVisibility* func on WB_HUD, set Visible? to true 
+	- Set the autotarget (unimplemented, todo)
+
+- **Server_EndUnitTurn**
+	- Checks that the current Active Unit of the PC has the IsMyTurn? flag to True
+		- If yes, call **Multicast_TurnEnd** event of that unit (multicast to turn the active ring off, unnecessary now)
+		- Call PlayerTurnOver event dispatcher
+
+- **Client_UpdateTurnOrderWidget**
+	- Input parameter:
+		- TurnQueue (Array of BP_Units) sorted array in turn order
+	- Get WBC_TurnOrderGraph ref from WB_HUD ref and call *UpdateTurnOrderGraph* function
+
+- **Client_HideCurrentUnit**
+	- Call **Client_ChangeCurrentUnitVisibility** event on WB_HUD ref, Visible? set to false
+
+- **Client_UpdateTargetedUnit**
+	- Input parameter:
+		- SelectedUnit (BP_Unit)
+	- Check if the variable TargetedUnit is already a valid unit:
+		- Yes: Is the SelectedUnit already the targeted unit?
+			- Yes: break
+			- No: Call **ToggleSelectionRing** event on targeted unit to turn red ring off, call **ToggleSelectionRing** selected unit to turn red ring on, set the TargetedUnit reference to the SelectedUnit, and call *UpdateTargetUnit* func in the WB_HUD 
+		- No:
+			- call **ToggleSelectionRing** on selected unit to turn red ring on, set the TargetedUnit reference to the SelectedUnit, and call *UpdateTargetUnit* func in the WB_HUD 
+
+- **Server_ActivateAbility**
+	- Input parameters:
+		- Unit (BP_Unit)
+		- Target (BP_Unit)
+		- Ability (BaseCombatAbility)
+	- Set TM variable of Unit to 0.0
+	- Call **Client_HideCurrentUnit** (self)
+	- Call *ExecuteAbility* (BPI_CombatAbility, overridden by Ability input param) - returns a boolean if the ability executed or not
+		- Executed: 
+			- Bind custom event **Server_EndUnitTurn** (self) to event dispatcher AbilityFinishedExecution
+			- Get variable AbilityTime (float) from AbilityBP, and delay for that time
+			- Call AbilityFinishedExecution
+		- Not Executed:
+			- Print debug string and manually call **Server_EndUnitTurn**
+
+- **Server_StatusTest**
+	- Test event to check application of status effects (deprecated)
+
+
+- **Server_ApplyStatusEffect**
+	- Input parameters:
+		- Applying Unit (BP_Unit)
+		- Receiving Unit (BP_Unit)
+		- Chance to Apply (float)
+		- Status Effect (StatusNameEnum)
+		- Duration (int)
+		- Resistable? (bool)
+		- Dispellable? (bool)
+	- Calls *CalculateDebuffProc?* function from BP_FL_Combat (this shouldn't happen for a buff) - returns Proc? bool
+	- If Proc? yes, call **Server_GainStatusEffect** event on receiving Unit (this creates the status actor, handles creation/updating of the icon, and application logic)
+
+## Functions:
+
+-
+
+
+***
+
+
+# BP_Unit
+

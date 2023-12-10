@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "29af4bda7c508094",
+        "id": "021f0a9de5f782a4",
         "type": "tabs",
         "children": [
           {
-            "id": "ede92f6781e43adc",
+            "id": "c71d5a969c925a49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F23/PHYS435/Complex Variables/Functions of Complex Variables.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5544ba0938349348",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "F23/PHYS435/Assignments/A5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed12859292a0b28a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "F23/PHYS435/Assignments/A6/A6.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 382.5,
+    "collapsed": true
   },
   "right": {
     "id": "a0212107bfe58ebb",
@@ -135,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "F23/PHYS435/Assignments/A6/A6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "F23/PHYS435/Assignments/A6/A6.md"
               }
             }
           },
@@ -190,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,15 +181,20 @@
       "obsidian-gallery:Gallery": false
     }
   },
-  "active": "ed12859292a0b28a",
+  "active": "c71d5a969c925a49",
   "lastOpenFiles": [
+    "Pasted image 20231207185254.png",
+    "Pasted image 20231207185026.png",
+    "Pasted image 20231207185021.png",
+    "F23/PHYS435/Assignments/A6/A6.md",
+    "F23/PHYS435/Assignments/A6",
+    "Misc/SWGOH Sandbox Mode Documentation.md",
     "F23/PHYS435/Assignments/A5.md",
     "conflict-files-obsidian-git.md",
     "Pasted image 20231125122641.png",
     "Pasted image 20231125122408.png",
     "F23/PHYS435/Complex Variables/Functions of Complex Variables.md",
     "F23/PHYS435/Midterm II Study Guide.md",
-    "Misc/SWGOH Sandbox Mode Documentation.md",
     "PHYS397 Peer Review.md",
     "F23/PHYS397/PHYS397PeerReview_MuonMagnetism.pdf",
     "Pasted image 20231121115006.png",
@@ -237,20 +219,16 @@
     "5pb3a77f.bmp",
     "Pasted image 20231104185649.png",
     "F23/PHYS397/AC Measurements.md",
-    "vce07qu7.bmp",
     "F23/PHYS435/Assignments/4/A4.md",
     "F23/PHYS435/Assignments/4/A4.pdf",
-    "Pasted image 20231103213050.png",
     "F23/PHYS435/Assignments/a3plots.py",
     "F23/PHYS455/Assignments/A3/A3.md",
-    "F23/PHYS455/Assignments/A3/PHYS455_MaxStronge_A3.pdf",
     "F23/PHYS455/Electric Field II/Dielectrics, Polarization, and Bound Charge.md",
     "F23/PHYS455/Assignments/Untitled.md",
     "F23/PHYS435/Assignments/A4.md",
     "F23/PHYS455/Math Review/Vectors/Vector Operations.md",
     "F23/PHYS435/Integral Transforms/Fraunhofer Diffraction.md",
     "F23/PHYS435/Integral Transforms/Fourier Transform.md",
-    "F23/PHYS397/Labs/DC Circuits/DC Circuits Lab Notes.md",
     "Untitled.canvas"
   ]
 }
